@@ -1,17 +1,25 @@
+export interface CarVersion {
+  version: string;
+  price: number;
+  transmission: string;
+  traction: string;
+}
+
 export interface Car {
   id: number;
   brand: string;
   model: string;
   year: number;
-  type: 'sedan' | 'suv' | 'pickup' | 'hatchback' | 'commercial';
-  fuel: 'gasolina' | 'diesel' | 'electrico' | 'hibrido';
+  type: 'sedan' | 'suv' | 'pickup' | 'hatchback' | 'minivan' | 'wagon';
+  fuel: 'gasolina' | 'diesel' | 'electrico' | 'hibrido' | 'hibrido_enchufable';
   seats: number;
   price: number;
   transmission: 'manual' | 'automatica';
-  traction: '4x2' | '4x4';
+  traction: '4x2' | '4x4' | 'awd';
   image_url: string;
   description: string;
   origin: string;
+  versions: CarVersion[];
 }
 
 export interface Filters {
@@ -20,7 +28,6 @@ export interface Filters {
   fuel: string[];
   seats: number[];
   priceRange: [number, number];
-  yearRange: [number, number];
   transmission: string[];
   traction: string[];
 }

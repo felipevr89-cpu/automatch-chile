@@ -19,7 +19,7 @@ try {
     app = initializeApp(firebaseConfig);
     authInstance = getAuth(app);
   }
-} catch (e) {
+} catch {
   console.warn('Firebase no configurado. Modo demo activo.');
 }
 

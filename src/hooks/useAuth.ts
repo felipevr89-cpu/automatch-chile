@@ -2,9 +2,12 @@ import { useState, useEffect } from 'react';
 import { auth, googleProvider, isFirebaseConfigured } from '../lib/firebase';
 import { User } from '../types';
 
-let onAuthStateChanged: any = null;
-let signInWithPopup: any = null;
-let signOutFirebase: any = null;
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+let onAuthStateChanged: ((...args: any[]) => any) | null = null;
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+let signInWithPopup: ((...args: any[]) => any) | null = null;
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+let signOutFirebase: ((...args: any[]) => any) | null = null;
 
 if (isFirebaseConfigured && auth) {
   import('firebase/auth').then((mod) => {
@@ -24,7 +27,7 @@ export function useAuth() {
       return;
     }
 
-    const unsubscribe = onAuthStateChanged(auth, (firebaseUser: any) => {
+    const unsubscribe = onAuthStateChanged(auth, (firebaseUser: { uid: string; displayName: string | null; email: string | null; photoURL: string | null }) => {
       if (firebaseUser) {
         setUser({
           uid: firebaseUser.uid,

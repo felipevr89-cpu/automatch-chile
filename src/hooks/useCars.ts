@@ -7,8 +7,7 @@ const defaultFilters: Filters = {
   type: [],
   fuel: [],
   seats: [],
-  priceRange: [0, 50000000],
-  yearRange: [2020, 2026],
+  priceRange: [0, 80000000],
   transmission: [],
   traction: [],
 };
@@ -25,7 +24,6 @@ export function useCars() {
       if (filters.fuel.length > 0 && !filters.fuel.includes(car.fuel)) return false;
       if (filters.seats.length > 0 && !filters.seats.includes(car.seats)) return false;
       if (car.price < filters.priceRange[0] || car.price > filters.priceRange[1]) return false;
-      if (car.year < filters.yearRange[0] || car.year > filters.yearRange[1]) return false;
       if (filters.transmission.length > 0 && !filters.transmission.includes(car.transmission)) return false;
       if (filters.traction.length > 0 && !filters.traction.includes(car.traction)) return false;
       return true;

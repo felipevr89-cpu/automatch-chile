@@ -8,6 +8,7 @@ interface Props {
   onToggleFavorite: (id: number) => void;
   onAddToCompare: (car: Car) => void;
   onRemoveFromCompare: (id: number) => void;
+  onCarClick?: (car: Car) => void;
 }
 
 export function CarGrid({
@@ -17,6 +18,7 @@ export function CarGrid({
   onToggleFavorite,
   onAddToCompare,
   onRemoveFromCompare,
+  onCarClick,
 }: Props) {
   if (cars.length === 0) {
     return (
@@ -39,6 +41,7 @@ export function CarGrid({
           onToggleFavorite={onToggleFavorite}
           onAddToCompare={onAddToCompare}
           onRemoveFromCompare={onRemoveFromCompare}
+          onClick={onCarClick}
         />
       ))}
     </div>

@@ -1,5 +1,8 @@
+import { useState } from 'react';
 import { Filters } from '../../types';
 import { brands, carTypes, fuelTypes, transmissions, tractions, getTypeLabel, getFuelLabel } from '../../data/cars-chile';
+import { MultiSelectDropdown } from './MultiSelectDropdown';
+import { RangeSlider } from './RangeSlider';
 
 interface Props {
   filters: Filters;
@@ -9,180 +12,134 @@ interface Props {
 }
 
 export function FilterPanel({ filters, updateFilter, resetFilters, resultCount }: Props) {
-  const toggleArrayFilter = (key: 'brand' | 'type' | 'fuel' | 'seats' | 'transmission' | 'traction', value: string | number) => {
-    const current = filters[key] as (string | number)[];
-    const updated = current.includes(value)
-      ? current.filter((v) => v !== value)
-      : [...current, value];
-    updateFilter(key, updated as never);
-  };
+  const [isExpanded, setIsExpanded] = useState(true);
+
+  const brandOptions = brands.map(b => ({ value: b, label: b }));
+  const typeOptions = carTypes.map(t => ({ value: t, label: getTypeLabel(t) }));
+  const fuelOptions = fuelTypes.map(f => ({ value: f, label: getFuelLabel(f) }));
+  const transmissionOptions = transmissions.map(t => ({
+    value: t,
+    label: t === 'automatica' ? 'Automática' : 'Manual',
+  }));
+  const tractionOptions = tractions.map(t => ({ value: t, label: t }));
+  const seatsOptions = [
+    { value: '4', label: '4 plazas' },
+    { value: '5', label: '5 plazas' },
+    { value: '7', label: '7 plazas' },
+  ];
+
+  const hasActiveFilters =
+    filters.brand.length > 0 ||
+    filters.type.length > 0 ||
+    filters.fuel.length > 0 ||
+    filters.transmission.length > 0 ||
+    filters.traction.length > 0 ||
+    filters.seats.length > 0 ||
+    filters.priceRange[0] > 5000000 ||
+    filters.priceRange[1] < 80000000;
 
   return (
-    <div className="bg-white rounded-2xl p-6 card-shadow">
-      <div className="flex items-center justify-between mb-6">
-        <h2 className="text-lg font-bold text-gray-900">Filtros</h2>
-        <button
-          onClick={resetFilters}
-          className="text-sm text-blue-600 hover:text-blue-800 font-medium"
-        >
-          Limpiar todo
-        </button>
-      </div>
-
-      <div className="space-y-6">
-        {/* Marcas */}
-        <div>
-          <h3 className="text-sm font-semibold text-gray-700 mb-3">Marca</h3>
-          <div className="flex flex-wrap gap-2">
-            {brands.map((brand) => (
-              <button
-                key={brand}
-                onClick={() => toggleArrayFilter('brand', brand)}
-                className={`px-3 py-1.5 rounded-full text-xs font-medium transition-colors ${
-                  filters.brand.includes(brand)
-                    ? 'bg-blue-600 text-white'
-                    : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-                }`}
-              >
-                {brand}
-              </button>
-            ))}
+    <div className="bg-white rounded-2xl card-shadow overflow-hidden">
+      {/* Header */}
+      <div className="p-4 border-b border-gray-100">
+        <div className="flex items-center justify-between">
+          <div className="flex items-center gap-3">
+            <div className="w-8 h-8 bg-blue-100 rounded-lg flex items-center justify-center">
+              <svg className="w-4 h-4 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.293A1 1 0 013 6.586V4z" />
+              </svg>
+            </div>
+            <div>
+              <h2 className="font-bold text-gray-900">Filtros</h2>
+              <p className="text-xs text-gray-500">{resultCount} resultado{resultCount !== 1 ? 's' : ''}</p>
+            </div>
           </div>
-        </div>
-
-        {/* Tipo de vehículo */}
-        <div>
-          <h3 className="text-sm font-semibold text-gray-700 mb-3">Tipo de Vehículo</h3>
-          <div className="flex flex-wrap gap-2">
-            {carTypes.map((type) => (
+          <div className="flex items-center gap-2">
+            {hasActiveFilters && (
               <button
-                key={type}
-                onClick={() => toggleArrayFilter('type', type)}
-                className={`px-3 py-1.5 rounded-full text-xs font-medium transition-colors ${
-                  filters.type.includes(type)
-                    ? 'bg-blue-600 text-white'
-                    : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-                }`}
+                onClick={resetFilters}
+                className="text-xs text-blue-600 hover:text-blue-800 font-medium"
               >
-                {getTypeLabel(type)}
+                Limpiar
               </button>
-            ))}
-          </div>
-        </div>
-
-        {/* Combustible */}
-        <div>
-          <h3 className="text-sm font-semibold text-gray-700 mb-3">Combustible</h3>
-          <div className="flex flex-wrap gap-2">
-            {fuelTypes.map((fuel) => (
-              <button
-                key={fuel}
-                onClick={() => toggleArrayFilter('fuel', fuel)}
-                className={`px-3 py-1.5 rounded-full text-xs font-medium transition-colors ${
-                  filters.fuel.includes(fuel)
-                    ? 'bg-blue-600 text-white'
-                    : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-                }`}
+            )}
+            <button
+              onClick={() => setIsExpanded(!isExpanded)}
+              className="w-8 h-8 rounded-lg hover:bg-gray-100 flex items-center justify-center transition-colors"
+            >
+              <svg
+                className={`w-4 h-4 text-gray-500 transition-transform ${isExpanded ? 'rotate-180' : ''}`}
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
               >
-                {getFuelLabel(fuel)}
-              </button>
-            ))}
-          </div>
-        </div>
-
-        {/* Rango de precio */}
-        <div>
-          <h3 className="text-sm font-semibold text-gray-700 mb-3">
-            Precio: ${(filters.priceRange[0] / 1000000).toFixed(0)}M - ${(filters.priceRange[1] / 1000000).toFixed(0)}M CLP
-          </h3>
-          <div className="space-y-2">
-            <input
-              type="range"
-              min={5000000}
-              max={50000000}
-              step={1000000}
-              value={filters.priceRange[0]}
-              onChange={(e) => updateFilter('priceRange', [Number(e.target.value), filters.priceRange[1]])}
-              className="w-full"
-            />
-            <input
-              type="range"
-              min={5000000}
-              max={50000000}
-              step={1000000}
-              value={filters.priceRange[1]}
-              onChange={(e) => updateFilter('priceRange', [filters.priceRange[0], Number(e.target.value)])}
-              className="w-full"
-            />
-          </div>
-        </div>
-
-        {/* Transmisión */}
-        <div>
-          <h3 className="text-sm font-semibold text-gray-700 mb-3">Transmisión</h3>
-          <div className="flex flex-wrap gap-2">
-            {transmissions.map((trans) => (
-              <button
-                key={trans}
-                onClick={() => toggleArrayFilter('transmission', trans)}
-                className={`px-3 py-1.5 rounded-full text-xs font-medium capitalize transition-colors ${
-                  filters.transmission.includes(trans)
-                    ? 'bg-blue-600 text-white'
-                    : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-                }`}
-              >
-                {trans === 'automatica' ? 'Automática' : 'Manual'}
-              </button>
-            ))}
-          </div>
-        </div>
-
-        {/* Tracción */}
-        <div>
-          <h3 className="text-sm font-semibold text-gray-700 mb-3">Tracción</h3>
-          <div className="flex flex-wrap gap-2">
-            {tractions.map((trac) => (
-              <button
-                key={trac}
-                onClick={() => toggleArrayFilter('traction', trac)}
-                className={`px-3 py-1.5 rounded-full text-xs font-medium transition-colors ${
-                  filters.traction.includes(trac)
-                    ? 'bg-blue-600 text-white'
-                    : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-                }`}
-              >
-                {trac}
-              </button>
-            ))}
-          </div>
-        </div>
-
-        {/* Plazas */}
-        <div>
-          <h3 className="text-sm font-semibold text-gray-700 mb-3">Plazas</h3>
-          <div className="flex flex-wrap gap-2">
-            {[4, 5, 7].map((seat) => (
-              <button
-                key={seat}
-                onClick={() => toggleArrayFilter('seats', seat)}
-                className={`px-3 py-1.5 rounded-full text-xs font-medium transition-colors ${
-                  filters.seats.includes(seat)
-                    ? 'bg-blue-600 text-white'
-                    : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-                }`}
-              >
-                {seat} plazas
-              </button>
-            ))}
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
           </div>
         </div>
       </div>
 
-      <div className="mt-6 pt-4 border-t border-gray-100">
-        <p className="text-sm text-gray-500">
-          {resultCount} vehículo{resultCount !== 1 ? 's' : ''} encontrado{resultCount !== 1 ? 's' : ''}
-        </p>
-      </div>
+      {/* Filters */}
+      {isExpanded && (
+        <div className="p-4 space-y-4">
+          <MultiSelectDropdown
+            label="Marca"
+            options={brandOptions}
+            selected={filters.brand}
+            onChange={(v) => updateFilter('brand', v)}
+            placeholder="Todas las marcas"
+          />
+
+          <MultiSelectDropdown
+            label="Tipo de vehículo"
+            options={typeOptions}
+            selected={filters.type}
+            onChange={(v) => updateFilter('type', v)}
+            placeholder="Todos los tipos"
+          />
+
+          <MultiSelectDropdown
+            label="Combustible"
+            options={fuelOptions}
+            selected={filters.fuel}
+            onChange={(v) => updateFilter('fuel', v)}
+            placeholder="Todos los combustibles"
+          />
+
+          <RangeSlider
+            label="Rango de precio"
+            min={5000000}
+            max={80000000}
+            value={filters.priceRange}
+            onChange={(v) => updateFilter('priceRange', v)}
+          />
+
+          <MultiSelectDropdown
+            label="Transmisión"
+            options={transmissionOptions}
+            selected={filters.transmission}
+            onChange={(v) => updateFilter('transmission', v)}
+            placeholder="Todas"
+          />
+
+          <MultiSelectDropdown
+            label="Tracción"
+            options={tractionOptions}
+            selected={filters.traction}
+            onChange={(v) => updateFilter('traction', v)}
+            placeholder="Todas"
+          />
+
+          <MultiSelectDropdown
+            label="Plazas"
+            options={seatsOptions}
+            selected={filters.seats.map(String)}
+            onChange={(v) => updateFilter('seats', v.map(Number))}
+            placeholder="Cualquier cantidad"
+          />
+        </div>
+      )}
     </div>
   );
 }
