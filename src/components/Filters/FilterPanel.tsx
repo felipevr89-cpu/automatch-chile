@@ -9,9 +9,13 @@ interface Props {
   updateFilter: <K extends keyof Filters>(key: K, value: Filters[K]) => void;
   resetFilters: () => void;
   resultCount: number;
+  searchQuery: string;
+  onSearchChange: (q: string) => void;
+  sortBy: string;
+  onSortChange: (s: string) => void;
 }
 
-export function FilterPanel({ filters, updateFilter, resetFilters, resultCount }: Props) {
+export function FilterPanel({ filters, updateFilter, resetFilters, resultCount, searchQuery, onSearchChange, sortBy, onSortChange }: Props) {
   const [isExpanded, setIsExpanded] = useState(true);
 
   const brandOptions = brands.map(b => ({ value: b, label: b }));
@@ -83,6 +87,37 @@ export function FilterPanel({ filters, updateFilter, resetFilters, resultCount }
       {/* Filters */}
       {isExpanded && (
         <div className="p-4 space-y-4">
+          {/* Search */}
+          <div>
+            <label className="block text-sm font-medium text-gray-700 mb-1.5">Buscar</label>
+            <div className="relative">
+              <svg className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+              </svg>
+              <input
+                type="text"
+                value={searchQuery}
+                onChange={(e) => onSearchChange(e.target.value)}
+                placeholder="Marca, modelo..."
+                className="w-full pl-10 pr-4 py-2.5 bg-white border border-gray-200 rounded-xl text-sm focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-500/20"
+              />
+            </div>
+          </div>
+
+          {/* Sort */}
+          <div>
+            <label className="block text-sm font-medium text-gray-700 mb-1.5">Ordenar por</label>
+            <select
+              value={sortBy}
+              onChange={(e) => onSortChange(e.target.value)}
+              className="w-full px-4 py-2.5 bg-white border border-gray-200 rounded-xl text-sm focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-500/20"
+            >
+              <option value="price-asc">Menor precio</option>
+              <option value="price-desc">Mayor precio</option>
+              <option value="year-desc">Más reciente</option>
+              <option value="brand">Marca</option>
+            </select>
+          </div>
           <MultiSelectDropdown
             label="Marca"
             options={brandOptions}

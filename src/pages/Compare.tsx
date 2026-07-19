@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { Car } from '../types';
 import { CompareTable } from '../components/Compare/CompareTable';
 
@@ -31,13 +32,13 @@ export function Compare({ compareList, onRemoveFromCompare, onClearCompare }: Pr
 
       {compareList.length > 0 && compareList.length < 3 && (
         <div className="mt-8 text-center">
-          <a
-            href="/"
+          <Link
+            to="/"
             className="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 text-white rounded-xl font-medium hover:bg-blue-700 transition-colors"
           >
             <span>+</span>
             Agregar más vehículos
-          </a>
+          </Link>
         </div>
       )}
     </div>

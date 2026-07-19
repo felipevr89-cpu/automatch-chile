@@ -64,7 +64,7 @@ export const carsData: Car[] = [
     { version: '1.5T GL', price: 20690000, transmission: 'Automática', traction: 'Delantera' },
     { version: '1.5T GLX', price: 24390000, transmission: 'Automática', traction: 'Delantera' }
   ]},
-  { id: 14, brand: 'Hyundai', model: 'Kona', year: 2025, type: 'suv', fuel: 'gasolina', seats: 5, price: 22990000, transmission: 'automatica', traction: '4x2', image_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/2022_Hyundai_Tucson_Limited%2C_Front_8.6.22.jpg/800px-2022_Hyundai_Tucson_Limited%2C_Front_8.6.22.jpg', description: 'SUV crossover con diseño audaz.', origin: 'Corea del Sur', versions: [
+  { id: 14, brand: 'Hyundai', model: 'Kona', year: 2025, type: 'suv', fuel: 'gasolina', seats: 5, price: 22990000, transmission: 'automatica', traction: '4x2', image_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/2021_Hyundai_Kona_%28OX%29_Facelift_1.0T-GDi_sports_wagon_5d_01.jpg/800px-2021_Hyundai_Kona_%28OX%29_Facelift_1.0T-GDi_sports_wagon_5d_01.jpg', description: 'SUV crossover con diseño audaz.', origin: 'Corea del Sur', versions: [
     { version: '2.0L Plus CVT', price: 22990000, transmission: 'CVT', traction: 'Delantera' },
     { version: '1.6T N-Line AWD', price: 35790000, transmission: 'Automática', traction: 'AWD' }
   ]},
@@ -158,25 +158,25 @@ export const carsData: Car[] = [
   { id: 34, brand: 'Nissan', model: 'March', year: 2025, type: 'hatchback', fuel: 'gasolina', seats: 5, price: 6390000, transmission: 'manual', traction: '4x2', image_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/2017_Nissan_March_%28K14%29_1.0_Liter_Front.jpg/800px-2017_Nissan_March_%28K14%29_1.0_Liter_Front.jpg', description: 'Citycar económico ideal para la ciudad.', origin: 'Japón', versions: [
     { version: '1.0 Base', price: 6390000, transmission: 'Manual', traction: 'Delantera' }
   ]},
-  { id: 35, brand: 'Nissan', model: 'Versa', year: 2025, type: 'sedan', fuel: 'gasolina', seats: 5, price: 16375077, transmission: 'manual', traction: '4x2', image_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/2020_Nissan_Versa_SV%2C_Front_8.23.20.jpg/800px-2020_Nissan_Versa_SV%2C_Front_8.23.20.jpg', description: 'Sedán confiable y eficiente.', origin: 'Japón', versions: [
-    { version: '1.6L Sense', price: 16375077, transmission: 'Manual 5V', traction: 'Delantera' },
-    { version: '1.6L Sense CVT', price: 18104034, transmission: 'CVT', traction: 'Delantera' }
+  { id: 35, brand: 'Nissan', model: 'Versa', year: 2025, type: 'sedan', fuel: 'gasolina', seats: 5, price: 16380000, transmission: 'manual', traction: '4x2', image_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/2020_Nissan_Versa_SV%2C_Front_8.23.20.jpg/800px-2020_Nissan_Versa_SV%2C_Front_8.23.20.jpg', description: 'Sedán confiable y eficiente.', origin: 'Japón', versions: [
+    { version: '1.6L Sense', price: 16380000, transmission: 'Manual 5V', traction: 'Delantera' },
+    { version: '1.6L Sense CVT', price: 18100000, transmission: 'CVT', traction: 'Delantera' }
   ]},
-  { id: 36, brand: 'Nissan', model: 'Sentra', year: 2025, type: 'sedan', fuel: 'gasolina', seats: 5, price: 21577746, transmission: 'manual', traction: '4x2', image_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/2020_Nissan_Sentra_SV%2C_Front_12.10.19.jpg/800px-2020_Nissan_Sentra_SV%2C_Front_12.10.19.jpg', description: 'Sedán premium con acabados de lujo.', origin: 'Japón', versions: [
-    { version: '2.0L Sense', price: 21577746, transmission: 'Manual 6V', traction: 'Delantera' },
-    { version: '2.0L Advance CVT', price: 24902649, transmission: 'CVT', traction: 'Delantera' }
+  { id: 36, brand: 'Nissan', model: 'Sentra', year: 2025, type: 'sedan', fuel: 'gasolina', seats: 5, price: 21580000, transmission: 'manual', traction: '4x2', image_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/2020_Nissan_Sentra_SV%2C_Front_12.10.19.jpg/800px-2020_Nissan_Sentra_SV%2C_Front_12.10.19.jpg', description: 'Sedán premium con acabados de lujo.', origin: 'Japón', versions: [
+    { version: '2.0L Sense', price: 21580000, transmission: 'Manual 6V', traction: 'Delantera' },
+    { version: '2.0L Advance CVT', price: 24900000, transmission: 'CVT', traction: 'Delantera' }
   ]},
-  { id: 37, brand: 'Nissan', model: 'Kicks Play', year: 2025, type: 'suv', fuel: 'gasolina', seats: 5, price: 18542617, transmission: 'manual', traction: '4x2', image_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/2022_Nissan_Kicks_SV%2C_Front_9.12.22.jpg/800px-2022_Nissan_Kicks_SV%2C_Front_9.12.22.jpg', description: 'SUV crossover con diseño llamativo.', origin: 'Japón', versions: [
-    { version: '1.6L Sense', price: 18542617, transmission: 'Manual', traction: 'Delantera' },
-    { version: '1.6L Advance CVT', price: 22067289, transmission: 'CVT', traction: 'Delantera' }
+  { id: 37, brand: 'Nissan', model: 'Kicks Play', year: 2025, type: 'suv', fuel: 'gasolina', seats: 5, price: 18540000, transmission: 'manual', traction: '4x2', image_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/2022_Nissan_Kicks_SV%2C_Front_9.12.22.jpg/800px-2022_Nissan_Kicks_SV%2C_Front_9.12.22.jpg', description: 'SUV crossover con diseño llamativo.', origin: 'Japón', versions: [
+    { version: '1.6L Sense', price: 18540000, transmission: 'Manual', traction: 'Delantera' },
+    { version: '1.6L Advance CVT', price: 22070000, transmission: 'CVT', traction: 'Delantera' }
   ]},
-  { id: 38, brand: 'Nissan', model: 'Qashqai', year: 2025, type: 'suv', fuel: 'gasolina', seats: 5, price: 33183697, transmission: 'automatica', traction: '4x2', image_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/2022_Nissan_Qashqai_%28J12%29_1.3L_Techna%2C_Front_3.1.23.jpg/800px-2022_Nissan_Qashqai_%28J12%29_1.3L_Techna%2C_Front_3.1.23.jpg', description: 'SUV crossover premium.', origin: 'Japón', versions: [
-    { version: 'Advance', price: 33183697, transmission: 'CVT', traction: 'Delantera' },
-    { version: 'Exclusive CVT 4x4', price: 35710522, transmission: 'CVT', traction: '4x4' }
+  { id: 38, brand: 'Nissan', model: 'Qashqai', year: 2025, type: 'suv', fuel: 'gasolina', seats: 5, price: 33180000, transmission: 'automatica', traction: '4x2', image_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/2022_Nissan_Qashqai_%28J12%29_1.3L_Techna%2C_Front_3.1.23.jpg/800px-2022_Nissan_Qashqai_%28J12%29_1.3L_Techna%2C_Front_3.1.23.jpg', description: 'SUV crossover premium.', origin: 'Japón', versions: [
+    { version: 'Advance', price: 33180000, transmission: 'CVT', traction: 'Delantera' },
+    { version: 'Exclusive CVT 4x4', price: 35710000, transmission: 'CVT', traction: '4x4' }
   ]},
-  { id: 39, brand: 'Nissan', model: 'X-Trail', year: 2025, type: 'suv', fuel: 'gasolina', seats: 5, price: 32395585, transmission: 'automatica', traction: '4x2', image_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/2022_Nissan_X-Trail_%28T33%29_Techna%2C_Front_10.2.23.jpg/800px-2022_Nissan_X-Trail_%28T33%29_Techna%2C_Front_10.2.23.jpg', description: 'SUV familiar grande y espaciosa.', origin: 'Japón', versions: [
-    { version: '2.5L Sense 2Row', price: 32395585, transmission: 'CVT', traction: 'Delantera' },
-    { version: '2.5L Exclusive 3Row 4x4', price: 38944143, transmission: 'CVT', traction: '4x4' }
+  { id: 39, brand: 'Nissan', model: 'X-Trail', year: 2025, type: 'suv', fuel: 'gasolina', seats: 5, price: 32400000, transmission: 'automatica', traction: '4x2', image_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/2022_Nissan_X-Trail_%28T33%29_Techna%2C_Front_10.2.23.jpg/800px-2022_Nissan_X-Trail_%28T33%29_Techna%2C_Front_10.2.23.jpg', description: 'SUV familiar grande y espaciosa.', origin: 'Japón', versions: [
+    { version: '2.5L Sense 2Row', price: 32400000, transmission: 'CVT', traction: 'Delantera' },
+    { version: '2.5L Exclusive 3Row 4x4', price: 38940000, transmission: 'CVT', traction: '4x4' }
   ]},
 
   // ═══════════════════════════════════════════════════════════════
@@ -470,8 +470,8 @@ export const carsData: Car[] = [
   // ═══════════════════════════════════════════════════════════════
   // KGM (antes SsangYong)
   // ═══════════════════════════════════════════════════════════════
-  { id: 98, brand: 'KGM', model: 'Grand Musso', year: 2025, type: 'pickup', fuel: 'diesel', seats: 5, price: 20990000, transmission: 'automatica', traction: '4x4', image_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/2022_SsangYong_Korando_Premium_1.5_T-GDi_4WD_5-door_SUV_in_%27Creamy_White%27%2C_Front_9.27.22.jpg/800px-2022_SsangYong_Korando_Premium_1.5_T-GDi_4WD_5-door_SUV_in_%27Creamy_White%27%2C_Front_9.27.22.jpg', description: 'Pick-up coreana con acabados premium.', origin: 'Corea del Sur', versions: [
-    { version: '2.2 4x2 Aut', price: 29738100, transmission: 'Automática', traction: '4x2' }
+  { id: 98, brand: 'KGM', model: 'Grand Musso', year: 2025, type: 'pickup', fuel: 'diesel', seats: 5, price: 29740000, transmission: 'automatica', traction: '4x4', image_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/2022_SsangYong_Korando_Premium_1.5_T-GDi_4WD_5-door_SUV_in_%27Creamy_White%27%2C_Front_9.27.22.jpg/800px-2022_SsangYong_Korando_Premium_1.5_T-GDi_4WD_5-door_SUV_in_%27Creamy_White%27%2C_Front_9.27.22.jpg', description: 'Pick-up coreana con acabados premium.', origin: 'Corea del Sur', versions: [
+    { version: '2.2 4x2 Aut', price: 29740000, transmission: 'Automática', traction: '4x2' }
   ]},
 ];
 

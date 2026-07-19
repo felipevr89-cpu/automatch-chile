@@ -1,3 +1,4 @@
+import { lazy, Suspense } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { useAuth } from './hooks/useAuth';
 import { useCars } from './hooks/useCars';
@@ -5,8 +6,17 @@ import { useDocuments } from './hooks/useDocuments';
 import { Navbar } from './components/Layout/Navbar';
 import { SignatureModal } from './components/Documents/SignatureModal';
 import { Home } from './pages/Home';
-import { Compare } from './pages/Compare';
-import { Favorites } from './pages/Favorites';
+
+const Compare = lazy(() => import('./pages/Compare').then(m => ({ default: m.Compare })));
+const Favorites = lazy(() => import('./pages/Favorites').then(m => ({ default: m.Favorites })));
+
+function LoadingSpinner() {
+  return (
+    <div className="min-h-[50vh] flex items-center justify-center">
+      <div className="w-8 h-8 border-4 border-blue-600 border-t-transparent rounded-full animate-spin" />
+    </div>
+  );
+}
 
 function AppContent() {
   const { user, loading: authLoading } = useAuth();
@@ -16,6 +26,10 @@ function AppContent() {
     filters,
     updateFilter,
     resetFilters,
+    searchQuery,
+    setSearchQuery,
+    sortBy,
+    setSortBy,
     compareList,
     addToCompare,
     removeFromCompare,
@@ -68,6 +82,10 @@ function AppContent() {
               filters={filters}
               updateFilter={updateFilter}
               resetFilters={resetFilters}
+              searchQuery={searchQuery}
+              setSearchQuery={setSearchQuery}
+              sortBy={sortBy}
+              setSortBy={setSortBy}
               favorites={favorites}
               compareList={compareList}
               onToggleFavorite={toggleFavorite}
@@ -79,24 +97,28 @@ function AppContent() {
         <Route
           path="/compare"
           element={
-            <Compare
-              compareList={compareList}
-              onRemoveFromCompare={removeFromCompare}
-              onClearCompare={clearCompare}
-            />
+            <Suspense fallback={<LoadingSpinner />}>
+              <Compare
+                compareList={compareList}
+                onRemoveFromCompare={removeFromCompare}
+                onClearCompare={clearCompare}
+              />
+            </Suspense>
           }
         />
         <Route
           path="/favorites"
           element={
-            <Favorites
-              allCars={allCars}
-              favorites={favorites}
-              compareList={compareList}
-              onToggleFavorite={toggleFavorite}
-              onAddToCompare={addToCompare}
-              onRemoveFromCompare={removeFromCompare}
-            />
+            <Suspense fallback={<LoadingSpinner />}>
+              <Favorites
+                allCars={allCars}
+                favorites={favorites}
+                compareList={compareList}
+                onToggleFavorite={toggleFavorite}
+                onAddToCompare={addToCompare}
+                onRemoveFromCompare={removeFromCompare}
+              />
+            </Suspense>
           }
         />
       </Routes>

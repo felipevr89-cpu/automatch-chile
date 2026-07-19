@@ -129,7 +129,7 @@ export function AutoWizard({ onClose, onSelectCar }: Props) {
     } else if (answers.usage === 'family') {
       filtered = filtered.filter(car => car.seats >= 5);
     } else if (answers.usage === 'adventure') {
-      filtered = filtered.filter(car => car.traction === '4x4' || car.traction === 'awd' && (car.type === 'suv' || car.type === 'pickup'));
+      filtered = filtered.filter(car => (car.traction === '4x4' || car.traction === 'awd') && (car.type === 'suv' || car.type === 'pickup'));
     } else if (answers.usage === 'delivery') {
       filtered = filtered.filter(car => car.type === 'pickup' || car.type === 'minivan' || (car.type === 'hatchback' && car.price <= 12000000));
     } else if (answers.usage === 'work') {
@@ -196,7 +196,7 @@ export function AutoWizard({ onClose, onSelectCar }: Props) {
               <div>
                 <h2 className="text-2xl font-bold text-gray-900">¡Encontramos tu auto ideal!</h2>
                 <p className="text-gray-500 mt-1">
-                  Basado en tus respuestas, estos son los mejores options
+                  Basado en tus respuestas, estos son los mejores opciones
                 </p>
               </div>
               <button

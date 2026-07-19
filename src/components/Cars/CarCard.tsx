@@ -1,3 +1,4 @@
+import { useState, memo } from 'react';
 import { Car } from '../../types';
 import { formatPrice, getTypeLabel, getFuelLabel } from '../../data/cars-chile';
 
@@ -11,7 +12,24 @@ interface Props {
   onClick?: (car: Car) => void;
 }
 
-export function CarCard({
+const typeIcons: Record<string, string> = {
+  sedan: '🚗',
+  suv: '🚙',
+  pickup: '🛻',
+  hatchback: '🚘',
+  minivan: '🚐',
+  wagon: '🚃',
+};
+
+const fuelColors: Record<string, string> = {
+  gasolina: 'bg-yellow-100 text-yellow-800',
+  diesel: 'bg-gray-100 text-gray-800',
+  electrico: 'bg-green-100 text-green-800',
+  hibrido: 'bg-blue-100 text-blue-800',
+  hibrido_enchufable: 'bg-indigo-100 text-indigo-800',
+};
+
+export const CarCard = memo(function CarCard({
   car,
   isFavorite,
   isComparing,
@@ -20,22 +38,7 @@ export function CarCard({
   onRemoveFromCompare,
   onClick,
 }: Props) {
-  const fuelColors: Record<string, string> = {
-    gasolina: 'bg-yellow-100 text-yellow-800',
-    diesel: 'bg-gray-100 text-gray-800',
-    electrico: 'bg-green-100 text-green-800',
-    hibrido: 'bg-blue-100 text-blue-800',
-    hibrido_enchufable: 'bg-indigo-100 text-indigo-800',
-  };
-
-  const typeIcons: Record<string, string> = {
-    sedan: '🚗',
-    suv: '🚙',
-    pickup: '🛻',
-    hatchback: '🚘',
-    minivan: '🚐',
-    wagon: '🚃',
-  };
+  const [imgError, setImgError] = useState(false);
 
   return (
     <div 
@@ -43,19 +46,13 @@ export function CarCard({
       onClick={() => onClick?.(car)}
     >
       <div className="relative h-48 bg-gradient-to-br from-gray-50 to-gray-100 flex items-center justify-center overflow-hidden">
-        {car.image_url ? (
+        {car.image_url && !imgError ? (
           <img
             src={car.image_url}
             alt={`${car.brand} ${car.model}`}
+            loading="lazy"
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-            onError={(e) => {
-              const target = e.target as HTMLImageElement;
-              target.style.display = 'none';
-              const parent = target.parentElement;
-              if (parent) {
-                parent.innerHTML = `<span class="text-6xl">${typeIcons[car.type] || '🚗'}</span>`;
-              }
-            }}
+            onError={() => setImgError(true)}
           />
         ) : (
           <span className="text-6xl">{typeIcons[car.type] || '🚗'}</span>
@@ -133,4 +130,4 @@ export function CarCard({
       </div>
     </div>
   );
-}
+});
