@@ -3,60 +3,6 @@
   "brandUrl": "https://www.tesla.com/es_cl",
   "models": [
     {
-      "id": 559,
-      "brand": "Tesla",
-      "model": "Cybertruck",
-      "year": 2026,
-      "type": "pickup",
-      "fuel": "electrico",
-      "seats": 5,
-      "price": 59900000,
-      "transmission": "automatica",
-      "traction": "awd",
-      "image_url": "",
-      "description": "Pick-up eléctrica con diseño radical y exoesqueleto de acero inoxidable.",
-      "origin": "USA",
-      "hp": 600,
-      "torque_nm": 870,
-      "length_mm": 5683,
-      "width_mm": 2200,
-      "height_mm": 1790,
-      "wheelbase_mm": 3810,
-      "ground_clearance_mm": 305,
-      "trunk_liters": 1000,
-      "airbags": 8,
-      "isofix": true,
-      "adas": [
-        "Tesla Autopilot",
-        "Full Self-Driving Capability",
-        "Cámara 360°"
-      ],
-      "latin_ncap_stars": 5,
-      "infotainment": [
-        "Pantalla 18.5\"",
-        "Pantalla trasera 9.4\"",
-        "Tesla Gaming",
-        "Netflix"
-      ],
-      "warranty_years": 4,
-      "warranty_km": 80000,
-      "origin_country": "USA",
-      "versions": [
-        {
-          "version": "Dual Motor AWD",
-          "price": 59900000,
-          "transmission": "automatica",
-          "traction": "awd"
-        },
-        {
-          "version": "Tri Motor Cyberbeast",
-          "price": 79900000,
-          "transmission": "automatica",
-          "traction": "awd"
-        }
-      ]
-    },
-    {
       "id": 560,
       "brand": "Tesla",
       "model": "Model 3",
@@ -64,7 +10,7 @@
       "type": "sedan",
       "fuel": "electrico",
       "seats": 5,
-      "price": 40000000,
+      "price": 37500000,
       "transmission": "automatica",
       "traction": "4x2",
       "image_url": "",
@@ -73,19 +19,19 @@
       "versions": [
         {
           "version": "RWD",
-          "price": 40000000,
+          "price": 37500000,
           "transmission": "automatica",
           "traction": "4x2"
         },
         {
           "version": "Long Range AWD",
-          "price": 45000000,
+          "price": 42000000,
           "transmission": "automatica",
           "traction": "awd"
         },
         {
           "version": "Performance AWD",
-          "price": 50000000,
+          "price": 43000000,
           "transmission": "automatica",
           "traction": "awd"
         }
@@ -112,112 +58,6 @@
       "origin_country": "China"
     },
     {
-      "id": 561,
-      "brand": "Tesla",
-      "model": "Model S",
-      "year": 2026,
-      "type": "sedan",
-      "fuel": "electrico",
-      "seats": 5,
-      "price": 79900000,
-      "transmission": "automatica",
-      "traction": "awd",
-      "image_url": "",
-      "description": "Sedán eléctrico tope de gama con rendimiento y autonomía superlativos.",
-      "origin": "USA",
-      "hp": 670,
-      "torque_nm": 870,
-      "length_mm": 4970,
-      "width_mm": 1964,
-      "height_mm": 1431,
-      "wheelbase_mm": 2960,
-      "ground_clearance_mm": 140,
-      "trunk_liters": 793,
-      "airbags": 8,
-      "isofix": true,
-      "adas": [
-        "Tesla Autopilot",
-        "Full Self-Driving Capability"
-      ],
-      "latin_ncap_stars": 5,
-      "infotainment": [
-        "Pantalla 17\"",
-        "Tesla Gaming",
-        "Netflix",
-        "YouTube"
-      ],
-      "warranty_years": 4,
-      "warranty_km": 80000,
-      "origin_country": "USA",
-      "versions": [
-        {
-          "version": "Dual Motor",
-          "price": 79900000,
-          "transmission": "automatica",
-          "traction": "awd"
-        },
-        {
-          "version": "Plaid",
-          "price": 99900000,
-          "transmission": "automatica",
-          "traction": "awd"
-        }
-      ]
-    },
-    {
-      "id": 562,
-      "brand": "Tesla",
-      "model": "Model X",
-      "year": 2026,
-      "type": "suv",
-      "fuel": "electrico",
-      "seats": 7,
-      "price": 89900000,
-      "transmission": "automatica",
-      "traction": "awd",
-      "image_url": "",
-      "description": "SUV eléctrico de lujo con puertas falcon y capacidad para 7 pasajeros.",
-      "origin": "USA",
-      "hp": 670,
-      "torque_nm": 870,
-      "length_mm": 5037,
-      "width_mm": 2070,
-      "height_mm": 1684,
-      "wheelbase_mm": 2965,
-      "ground_clearance_mm": 180,
-      "trunk_liters": 875,
-      "airbags": 8,
-      "isofix": true,
-      "adas": [
-        "Tesla Autopilot",
-        "Full Self-Driving Capability"
-      ],
-      "latin_ncap_stars": 5,
-      "infotainment": [
-        "Pantalla 17\"",
-        "Tesla Gaming",
-        "Netflix",
-        "YouTube"
-      ],
-      "warranty_years": 4,
-      "warranty_km": 80000,
-      "origin_country": "USA",
-      "versions": [
-        {
-          "version": "Dual Motor",
-          "price": 89900000,
-          "transmission": "automatica",
-          "traction": "awd"
-        },
-        {
-          "version": "Plaid",
-          "price": 109900000,
-          "transmission": "automatica",
-          "traction": "awd"
-        }
-      ]
-    },
-    {
       "id": 563,
       "brand": "Tesla",
       "model": "Model Y",
@@ -225,7 +65,7 @@
       "type": "suv",
       "fuel": "electrico",
       "seats": 5,
-      "price": 42900000,
+      "price": 37000000,
       "transmission": "automatica",
       "traction": "awd",
       "image_url": "",
@@ -234,19 +74,19 @@
       "versions": [
         {
           "version": "RWD",
-          "price": 42900000,
+          "price": 37000000,
           "transmission": "automatica",
           "traction": "4x2"
         },
         {
           "version": "Long Range AWD",
-          "price": 47900000,
+          "price": 42000000,
           "transmission": "automatica",
           "traction": "awd"
         },
         {
           "version": "Performance AWD",
-          "price": 52900000,
+          "price": 47000000,
           "transmission": "automatica",
           "traction": "awd"
         }

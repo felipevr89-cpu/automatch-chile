@@ -69,63 +69,6 @@
       "origin_country": "Sudáfrica"
     },
     {
-      "id": 588,
-      "brand": "Volkswagen",
-      "model": "Atlas",
-      "year": 2026,
-      "type": "suv",
-      "fuel": "gasolina",
-      "seats": 7,
-      "price": 37990000,
-      "transmission": "automatica",
-      "traction": "4x4",
-      "image_url": "",
-      "description": "SUV grande de 7 plazas con amplio espacio y motor potente.",
-      "origin": "Estados Unidos",
-      "hp": 235,
-      "torque_nm": 320,
-      "length_mm": 5036,
-      "width_mm": 1983,
-      "height_mm": 1765,
-      "wheelbase_mm": 2979,
-      "fuel_tank_liters": 70,
-      "ground_clearance_mm": 195,
-      "trunk_liters": 583,
-      "airbags": 7,
-      "isofix": true,
-      "adas": [
-        "Control crucero adaptativo",
-        "Asistente de carril",
-        "Frenado automático",
-        "Cámara 360°"
-      ],
-      "latin_ncap_stars": 5,
-      "infotainment": [
-        "Pantalla 12\"",
-        "Apple CarPlay",
-        "Android Auto",
-        "Sonido Fender"
-      ],
-      "fuel_consumption_mixed_km_l": 10,
-      "warranty_years": 4,
-      "warranty_km": 100000,
-      "origin_country": "Estados Unidos",
-      "versions": [
-        {
-          "version": "SE 4x4",
-          "price": 37990000,
-          "transmission": "automatica",
-          "traction": "4x4"
-        },
-        {
-          "version": "SEL 4x4",
-          "price": 44990000,
-          "transmission": "automatica",
-          "traction": "4x4"
-        }
-      ]
-    },
-    {
       "id": 589,
       "brand": "Volkswagen",
       "model": "ID.4",
@@ -180,62 +123,6 @@
       "warranty_years": 4,
       "warranty_km": 100000,
       "origin_country": "Alemania"
-    },
-    {
-      "id": 590,
-      "brand": "Volkswagen",
-      "model": "ID.Buzz",
-      "year": 2026,
-      "type": "minivan",
-      "fuel": "electrico",
-      "seats": 7,
-      "price": 55990000,
-      "transmission": "automatica",
-      "traction": "awd",
-      "image_url": "",
-      "description": "Minivan eléctrica con diseño retro y tecnología de punta.",
-      "origin": "Alemania",
-      "hp": 340,
-      "torque_nm": 560,
-      "length_mm": 4710,
-      "width_mm": 1980,
-      "height_mm": 1900,
-      "wheelbase_mm": 2990,
-      "ground_clearance_mm": 180,
-      "trunk_liters": 1120,
-      "airbags": 8,
-      "isofix": true,
-      "adas": [
-        "Control crucero adaptativo",
-        "Asistente de carril",
-        "Frenado automático",
-        "Cámara 360°",
-        "Estacionamiento autónomo"
-      ],
-      "latin_ncap_stars": 5,
-      "infotainment": [
-        "Pantalla 12.9\"",
-        "Apple CarPlay",
-        "Android Auto",
-        "Sonido Harman Kardon"
-      ],
-      "warranty_years": 4,
-      "warranty_km": 100000,
-      "origin_country": "Alemania",
-      "versions": [
-        {
-          "version": "Pro awd",
-          "price": 55990000,
-          "transmission": "automática",
-          "traction": "awd"
-        },
-        {
-          "version": "GTX awd",
-          "price": 65990000,
-          "transmission": "automática",
-          "traction": "awd"
-        }
-      ]
     },
     {
       "id": 591,
@@ -418,56 +305,6 @@
       "warranty_years": 3,
       "warranty_km": 100000,
       "origin_country": "Brasil"
-    },
-    {
-      "id": 594,
-      "brand": "Volkswagen",
-      "model": "Saveiro",
-      "year": 2026,
-      "type": "pickup",
-      "fuel": "gasolina",
-      "seats": 5,
-      "price": 13990000,
-      "transmission": "manual",
-      "traction": "4x2",
-      "image_url": "",
-      "description": "Pick-up compacta con cabina doble ideal para trabajo y ciudad.",
-      "origin": "Brasil",
-      "hp": 95,
-      "torque_nm": 128,
-      "length_mm": 4450,
-      "width_mm": 1710,
-      "height_mm": 1540,
-      "wheelbase_mm": 2775,
-      "fuel_tank_liters": 55,
-      "ground_clearance_mm": 190,
-      "trunk_liters": 0,
-      "airbags": 4,
-      "isofix": true,
-      "adas": [],
-      "latin_ncap_stars": 4,
-      "infotainment": [
-        "Bluetooth",
-        "USB"
-      ],
-      "fuel_consumption_mixed_km_l": 13,
-      "warranty_years": 3,
-      "warranty_km": 100000,
-      "origin_country": "Brasil",
-      "versions": [
-        {
-          "version": "Trendline MT",
-          "price": 13990000,
-          "transmission": "manual",
-          "traction": "4x2"
-        },
-        {
-          "version": "Comfortline MT",
-          "price": 15990000,
-          "transmission": "manual",
-          "traction": "4x2"
-        }
-      ]
     },
     {
       "id": 595,

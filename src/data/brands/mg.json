@@ -5,7 +5,7 @@
     {
       "id": 416,
       "brand": "MG",
-      "model": "Cyberster",
+      "model": "MG Cyberster",
       "year": 2025,
       "type": "convertible",
       "fuel": "electrico",
@@ -791,7 +791,7 @@
     {
       "id": 431,
       "brand": "MG",
-      "model": "MG5",
+      "model": "MG 5 Wagon",
       "year": 2025,
       "type": "wagon",
       "fuel": "gasolina",

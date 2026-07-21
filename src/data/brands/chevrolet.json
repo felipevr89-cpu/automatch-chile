@@ -10,7 +10,7 @@
       "type": "suv",
       "fuel": "electrico",
       "seats": 5,
-      "price": 44990000,
+      "price": 64990000,
       "transmission": "automatica",
       "traction": "awd",
       "image_url": "",
@@ -46,13 +46,13 @@
       "versions": [
         {
           "version": "RS AWD",
-          "price": 44990000,
+          "price": 64990000,
           "transmission": "automatica",
           "traction": "awd"
         },
         {
           "version": "SS AWD",
-          "price": 54990000,
+          "price": 74990000,
           "transmission": "automatica",
           "traction": "awd"
         }
@@ -122,7 +122,7 @@
       "type": "suv",
       "fuel": "electrico",
       "seats": 5,
-      "price": 35990000,
+      "price": 27990000,
       "transmission": "automatica",
       "traction": "awd",
       "image_url": "",
@@ -157,13 +157,13 @@
       "versions": [
         {
           "version": "EV LT",
-          "price": 35990000,
+          "price": 27990000,
           "transmission": "automática",
           "traction": "awd"
         },
         {
           "version": "EV Premier",
-          "price": 40990000,
+          "price": 32990000,
           "transmission": "automática",
           "traction": "awd"
         }
@@ -513,7 +513,7 @@
     {
       "id": 115,
       "brand": "Chevrolet",
-      "model": "Joy",
+      "model": "Spark",
       "year": 2026,
       "type": "hatchback",
       "fuel": "gasolina",
@@ -1106,6 +1106,56 @@
       "warranty_years": 5,
       "warranty_km": 100000,
       "origin_country": "Estados Unidos"
+    },
+    {
+      "id": 619,
+      "brand": "Chevrolet",
+      "model": "Onix Sedán",
+      "year": 2025,
+      "type": "sedan",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 11590000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Sedán compacto con excelente relación precio-equipamiento.",
+      "origin": "Brasil",
+      "versions": [
+        {
+          "version": "1.4L MT",
+          "price": 9990000,
+          "transmission": "manual",
+          "traction": "4x2"
+        },
+        {
+          "version": "1.4L AT",
+          "price": 11590000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 105,
+      "torque_nm": 142,
+      "fuel_consumption_mixed_km_l": 14.5,
+      "fuel_tank_liters": 44,
+      "length_mm": 4475,
+      "width_mm": 1730,
+      "height_mm": 1475,
+      "wheelbase_mm": 2600,
+      "ground_clearance_mm": 127,
+      "trunk_liters": 420,
+      "airbags": 4,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 8\"",
+        "MyLink",
+        "Android Auto",
+        "Apple CarPlay"
+      ],
+      "warranty_years": 6,
+      "warranty_km": 150000,
+      "origin_country": "Brasil"
     }
   ]
 }
