@@ -1,0 +1,973 @@
+{
+  "brand": "GWM",
+  "brandUrl": "https://www.gwm.cl",
+  "models": [
+    {
+      "id": 211,
+      "brand": "GWM",
+      "model": "Dargo",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 22990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "SUV todoterreno con diseño robusto y motor 2.0 turbo potente.",
+      "origin": "china",
+      "hp": 211,
+      "torque_nm": 330,
+      "length_mm": 4620,
+      "width_mm": 1910,
+      "height_mm": 1780,
+      "wheelbase_mm": 2738,
+      "fuel_tank_liters": 60,
+      "ground_clearance_mm": 200,
+      "trunk_liters": 430,
+      "airbags": 8,
+      "isofix": true,
+      "adas": [
+        "Control crucero adaptativo",
+        "Frenado automático",
+        "Cámara 360°",
+        "Asistente de carril"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Pantalla táctil 12.3\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "fuel_consumption_mixed_km_l": 10.5,
+      "warranty_years": 6,
+      "warranty_km": 150000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "2.0T AWD",
+          "price": 22990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "2.0T AWD Premium",
+          "price": 26990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ]
+    },
+    {
+      "id": 212,
+      "brand": "GWM",
+      "model": "H6",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 22490000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV mediano con motor 2.0 turbo de 235 hp y equipamiento premium.",
+      "origin": "china",
+      "versions": [
+        {
+          "version": "2.0T Elite 4x2",
+          "price": 22490000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "2.0T Deluxe 4x2",
+          "price": 24790000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "2.0T Deluxe 4x4",
+          "price": 25590000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 235,
+      "torque_nm": 385,
+      "fuel_consumption_city_km_l": 8.5,
+      "fuel_consumption_highway_km_l": 13,
+      "fuel_consumption_mixed_km_l": 10.5,
+      "fuel_tank_liters": 58,
+      "length_mm": 4653,
+      "width_mm": 1886,
+      "height_mm": 1730,
+      "wheelbase_mm": 2738,
+      "ground_clearance_mm": 190,
+      "trunk_liters": 600,
+      "airbags": 7,
+      "adas": [
+        "Control crucero adaptativo",
+        "Frenado de emergencia",
+        "Cámara 360°",
+        "Asistente de carril",
+        "Head-Up Display"
+      ],
+      "isofix": true,
+      "infotainment": [
+        "Pantalla táctil 12.3\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Sonido Harman Kardon"
+      ],
+      "warranty_years": 6,
+      "warranty_km": 150000,
+      "origin_country": "China"
+    },
+    {
+      "id": 213,
+      "brand": "GWM",
+      "model": "H6 Híbrido",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "hibrido",
+      "seats": 5,
+      "price": 28990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV mediano híbrido con sistema DHT y consumo reducido.",
+      "origin": "china",
+      "versions": [
+        {
+          "version": "2.0T DHT Deluxe 4x2",
+          "price": 28990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "2.0T DHT Premium 4x4",
+          "price": 31990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 243,
+      "torque_nm": 375,
+      "fuel_consumption_city_km_l": 18.5,
+      "fuel_consumption_highway_km_l": 20,
+      "fuel_consumption_mixed_km_l": 19.2,
+      "fuel_tank_liters": 55,
+      "length_mm": 4653,
+      "width_mm": 1886,
+      "height_mm": 1730,
+      "wheelbase_mm": 2738,
+      "ground_clearance_mm": 190,
+      "trunk_liters": 600,
+      "airbags": 7,
+      "adas": [
+        "Control crucero adaptativo",
+        "Frenado de emergencia",
+        "Cámara 360°",
+        "Asistente de carril"
+      ],
+      "isofix": true,
+      "infotainment": [
+        "Pantalla táctil 12.3\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 6,
+      "warranty_km": 150000,
+      "origin_country": "China"
+    },
+    {
+      "id": 214,
+      "brand": "GWM",
+      "model": "H6 PHEV",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "hibrido_enchufable",
+      "seats": 5,
+      "price": 34990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "SUV híbrido enchufable con más de 1000 km de autonomía total y 100 km en modo eléctrico.",
+      "origin": "china",
+      "versions": [
+        {
+          "version": "2.0T DHT Deluxe 4x2",
+          "price": 34990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "2.0T DHT Premium 4x4",
+          "price": 37990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 346,
+      "torque_nm": 570,
+      "fuel_consumption_mixed_km_l": 1.2,
+      "fuel_tank_liters": 55,
+      "length_mm": 4653,
+      "width_mm": 1886,
+      "height_mm": 1730,
+      "wheelbase_mm": 2738,
+      "ground_clearance_mm": 190,
+      "trunk_liters": 600,
+      "airbags": 7,
+      "adas": [
+        "Control crucero adaptativo",
+        "Frenado de emergencia",
+        "Cámara 360°",
+        "Asistente de carril",
+        "Head-Up Display"
+      ],
+      "isofix": true,
+      "infotainment": [
+        "Pantalla táctil 12.3\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 6,
+      "warranty_km": 150000,
+      "origin_country": "China"
+    },
+    {
+      "id": 215,
+      "brand": "GWM",
+      "model": "H7",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 21990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV de diseño moderno con motor 1.5 turbo y tecnología de asistencia avanzada.",
+      "origin": "china",
+      "versions": [
+        {
+          "version": "1.5T Elite 4x2",
+          "price": 21990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "1.5T Deluxe 4x2",
+          "price": 23990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 184,
+      "torque_nm": 275,
+      "fuel_consumption_city_km_l": 9,
+      "fuel_consumption_highway_km_l": 14.5,
+      "fuel_consumption_mixed_km_l": 11.5,
+      "fuel_tank_liters": 60,
+      "length_mm": 4700,
+      "width_mm": 1890,
+      "height_mm": 1710,
+      "wheelbase_mm": 2750,
+      "ground_clearance_mm": 195,
+      "trunk_liters": 550,
+      "airbags": 6,
+      "adas": [
+        "Control crucero adaptativo",
+        "Frenado de emergencia",
+        "Cámara 360°"
+      ],
+      "isofix": true,
+      "infotainment": [
+        "Pantalla táctil 12.3\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 6,
+      "warranty_km": 150000,
+      "origin_country": "China"
+    },
+    {
+      "id": 216,
+      "brand": "GWM",
+      "model": "Haval H6 HEV",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "hibrido",
+      "seats": 5,
+      "price": 21990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV mediano híbrido con sistema DHT y bajo consumo de combustible.",
+      "origin": "china",
+      "hp": 243,
+      "torque_nm": 375,
+      "length_mm": 4653,
+      "width_mm": 1886,
+      "height_mm": 1730,
+      "wheelbase_mm": 2738,
+      "fuel_tank_liters": 55,
+      "ground_clearance_mm": 190,
+      "trunk_liters": 600,
+      "airbags": 7,
+      "isofix": true,
+      "adas": [
+        "Control crucero adaptativo",
+        "Frenado automático",
+        "Cámara 360°",
+        "Asistente de carril"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Pantalla táctil 12.3\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "fuel_consumption_mixed_km_l": 19.2,
+      "warranty_years": 6,
+      "warranty_km": 150000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "DHT Deluxe",
+          "price": 21990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "DHT Premium",
+          "price": 25990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 217,
+      "brand": "GWM",
+      "model": "Haval Jolion",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 15990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV compacto con motor 1.5 turbo y excelente relación precio-equipamiento.",
+      "origin": "china",
+      "hp": 147,
+      "torque_nm": 220,
+      "length_mm": 4465,
+      "width_mm": 1845,
+      "height_mm": 1625,
+      "wheelbase_mm": 2650,
+      "fuel_tank_liters": 55,
+      "ground_clearance_mm": 180,
+      "trunk_liters": 390,
+      "airbags": 6,
+      "isofix": true,
+      "adas": [
+        "Control crucero adaptativo",
+        "Frenado automático",
+        "Asistente de carril"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Pantalla táctil 10.25\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "fuel_consumption_mixed_km_l": 12.6,
+      "warranty_years": 6,
+      "warranty_km": 150000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "1.5T AT Elite",
+          "price": 15990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "1.5T AT Deluxe",
+          "price": 17990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 218,
+      "brand": "GWM",
+      "model": "Jolion",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 12490000,
+      "transmission": "manual",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV compacto best-seller de GWM con motor 1.5 turbo y excelente relación precio-equipamiento.",
+      "origin": "china",
+      "versions": [
+        {
+          "version": "4x2 ACTIVE MT",
+          "price": 12490000,
+          "transmission": "manual",
+          "traction": "4x2"
+        },
+        {
+          "version": "4x2 ELITE MT",
+          "price": 13990000,
+          "transmission": "manual",
+          "traction": "4x2"
+        },
+        {
+          "version": "4x2 ELITE AT",
+          "price": 15490000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "4x2 DELUXE AT",
+          "price": 16990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 147,
+      "torque_nm": 220,
+      "fuel_consumption_city_km_l": 9.3,
+      "fuel_consumption_highway_km_l": 15.9,
+      "fuel_consumption_mixed_km_l": 12.6,
+      "fuel_tank_liters": 55,
+      "length_mm": 4465,
+      "width_mm": 1845,
+      "height_mm": 1625,
+      "wheelbase_mm": 2650,
+      "ground_clearance_mm": 180,
+      "trunk_liters": 390,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla táctil 10.25\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 6,
+      "warranty_km": 150000,
+      "origin_country": "China"
+    },
+    {
+      "id": 219,
+      "brand": "GWM",
+      "model": "Jolion Pro",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 21790000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV compacto premium con diseño renovado y mayor equipamiento tecnológico.",
+      "origin": "china",
+      "versions": [
+        {
+          "version": "4x2 DELUXE AT",
+          "price": 21790000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 147,
+      "torque_nm": 220,
+      "fuel_consumption_city_km_l": 9.5,
+      "fuel_consumption_highway_km_l": 15.5,
+      "fuel_consumption_mixed_km_l": 12.3,
+      "fuel_tank_liters": 55,
+      "length_mm": 4520,
+      "width_mm": 1865,
+      "height_mm": 1650,
+      "wheelbase_mm": 2700,
+      "ground_clearance_mm": 185,
+      "trunk_liters": 410,
+      "airbags": 6,
+      "adas": [
+        "Control crucero adaptativo",
+        "Frenado de emergencia",
+        "Asistente de carril"
+      ],
+      "isofix": true,
+      "infotainment": [
+        "Pantalla táctil 12.3\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 6,
+      "warranty_km": 150000,
+      "origin_country": "China"
+    },
+    {
+      "id": 220,
+      "brand": "GWM",
+      "model": "Jolion Pro Híbrido",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "hibrido",
+      "seats": 5,
+      "price": 28490000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV compacto híbrido con tecnología HEV para menor consumo de combustible.",
+      "origin": "china",
+      "versions": [
+        {
+          "version": "4x2 DELUXE HEV",
+          "price": 28490000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 190,
+      "torque_nm": 275,
+      "fuel_consumption_city_km_l": 16.5,
+      "fuel_consumption_highway_km_l": 19,
+      "fuel_consumption_mixed_km_l": 17.8,
+      "fuel_tank_liters": 55,
+      "length_mm": 4520,
+      "width_mm": 1865,
+      "height_mm": 1650,
+      "wheelbase_mm": 2700,
+      "ground_clearance_mm": 185,
+      "trunk_liters": 410,
+      "airbags": 6,
+      "adas": [
+        "Control crucero adaptativo",
+        "Frenado de emergencia",
+        "Asistente de carril",
+        "Cámara 360°"
+      ],
+      "isofix": true,
+      "infotainment": [
+        "Pantalla táctil 12.3\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 6,
+      "warranty_km": 150000,
+      "origin_country": "China"
+    },
+    {
+      "id": 221,
+      "brand": "GWM",
+      "model": "ORA 03",
+      "year": 2026,
+      "type": "hatchback",
+      "fuel": "electrico",
+      "seats": 5,
+      "price": 18490000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Auto eléctrico compacto con diseño retro-futurista y autonomía de hasta 401 km.",
+      "origin": "china",
+      "versions": [
+        {
+          "version": "Comfort",
+          "price": 18490000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 143,
+      "torque_nm": 210,
+      "top_speed_kmh": 150,
+      "length_mm": 4235,
+      "width_mm": 1825,
+      "height_mm": 1596,
+      "wheelbase_mm": 2650,
+      "ground_clearance_mm": 160,
+      "trunk_liters": 330,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla táctil 10.25\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 6,
+      "warranty_km": 150000,
+      "origin_country": "China"
+    },
+    {
+      "id": 222,
+      "brand": "GWM",
+      "model": "Poer",
+      "year": 2026,
+      "type": "pickup",
+      "fuel": "diesel",
+      "seats": 5,
+      "price": 24026000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "Pickup mediana diésel con motor 2.0 turbo y tracción total.",
+      "origin": "china",
+      "versions": [
+        {
+          "version": "2.0T 4x2 AT",
+          "price": 22000000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "2.0T 4x4 AT",
+          "price": 24026000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 163,
+      "torque_nm": 400,
+      "fuel_consumption_city_km_l": 8.5,
+      "fuel_consumption_highway_km_l": 12,
+      "fuel_consumption_mixed_km_l": 10,
+      "fuel_tank_liters": 80,
+      "length_mm": 5364,
+      "width_mm": 1886,
+      "height_mm": 1886,
+      "wheelbase_mm": 3230,
+      "ground_clearance_mm": 232,
+      "trunk_liters": 0,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla táctil 9\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 6,
+      "warranty_km": 150000,
+      "origin_country": "China"
+    },
+    {
+      "id": 223,
+      "brand": "GWM",
+      "model": "Poer P500 Híbrido",
+      "year": 2026,
+      "type": "pickup",
+      "fuel": "hibrido",
+      "seats": 5,
+      "price": 39990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "Pickup premium híbrida con motor 2.0 turbo y sistema DHT.",
+      "origin": "china",
+      "versions": [
+        {
+          "version": "2.0T DHT 4x4",
+          "price": 39990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 350,
+      "torque_nm": 550,
+      "fuel_consumption_city_km_l": 12,
+      "fuel_consumption_highway_km_l": 15,
+      "fuel_consumption_mixed_km_l": 13.5,
+      "fuel_tank_liters": 80,
+      "length_mm": 5450,
+      "width_mm": 1930,
+      "height_mm": 1920,
+      "wheelbase_mm": 3260,
+      "ground_clearance_mm": 240,
+      "trunk_liters": 0,
+      "airbags": 6,
+      "adas": [
+        "Control crucero adaptativo",
+        "Frenado de emergencia",
+        "Cámara 360°"
+      ],
+      "isofix": true,
+      "infotainment": [
+        "Pantalla táctil 12.3\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 6,
+      "warranty_km": 150000,
+      "origin_country": "China"
+    },
+    {
+      "id": 224,
+      "brand": "GWM",
+      "model": "Poer Plus",
+      "year": 2026,
+      "type": "pickup",
+      "fuel": "diesel",
+      "seats": 5,
+      "price": 28905000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "Pickup premium con acabados de lujo y tecnología de punta.",
+      "origin": "china",
+      "versions": [
+        {
+          "version": "2.0T Premium 4x4 AT",
+          "price": 28905000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 204,
+      "torque_nm": 480,
+      "fuel_consumption_city_km_l": 8,
+      "fuel_consumption_highway_km_l": 11.5,
+      "fuel_consumption_mixed_km_l": 9.5,
+      "fuel_tank_liters": 80,
+      "length_mm": 5400,
+      "width_mm": 1900,
+      "height_mm": 1900,
+      "wheelbase_mm": 3260,
+      "ground_clearance_mm": 235,
+      "trunk_liters": 0,
+      "airbags": 6,
+      "adas": [
+        "Control crucero adaptativo",
+        "Frenado de emergencia",
+        "Cámara 360°"
+      ],
+      "isofix": true,
+      "infotainment": [
+        "Pantalla táctil 12.3\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 6,
+      "warranty_km": 150000,
+      "origin_country": "China"
+    },
+    {
+      "id": 225,
+      "brand": "GWM",
+      "model": "Tank 300",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 29990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "Todoterreno robusto con tracción total y diferencial trasero bloqueable.",
+      "origin": "china",
+      "versions": [
+        {
+          "version": "2.0T 4x4 AT",
+          "price": 29990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 211,
+      "torque_nm": 387,
+      "fuel_consumption_city_km_l": 8,
+      "fuel_consumption_highway_km_l": 11.5,
+      "fuel_consumption_mixed_km_l": 9.5,
+      "fuel_tank_liters": 70,
+      "length_mm": 4760,
+      "width_mm": 1930,
+      "height_mm": 1903,
+      "wheelbase_mm": 2750,
+      "ground_clearance_mm": 224,
+      "trunk_liters": 580,
+      "airbags": 6,
+      "adas": [
+        "Control crucero adaptativo",
+        "Frenado de emergencia"
+      ],
+      "isofix": true,
+      "infotainment": [
+        "Pantalla táctil 12.3\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 6,
+      "warranty_km": 150000,
+      "origin_country": "China"
+    },
+    {
+      "id": 226,
+      "brand": "GWM",
+      "model": "Tank 500",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 44990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "SUV de lujo todoterreno con imponente presencia y motor V6 turbo.",
+      "origin": "china",
+      "hp": 354,
+      "torque_nm": 500,
+      "length_mm": 4880,
+      "width_mm": 1940,
+      "height_mm": 1900,
+      "wheelbase_mm": 2850,
+      "fuel_tank_liters": 80,
+      "ground_clearance_mm": 225,
+      "trunk_liters": 500,
+      "airbags": 8,
+      "isofix": true,
+      "adas": [
+        "Control crucero adaptativo",
+        "Asistente de carril",
+        "Frenado automático",
+        "Cámara 360°",
+        "Monitor de punto ciego"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Pantalla táctil 14.6\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Sonido premium"
+      ],
+      "fuel_consumption_mixed_km_l": 8.5,
+      "warranty_years": 6,
+      "warranty_km": 150000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "3.0T V6 AWD",
+          "price": 44990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "3.0T V6 AWD Luxury",
+          "price": 54990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ]
+    },
+    {
+      "id": 227,
+      "brand": "GWM",
+      "model": "Wingle 5",
+      "year": 2025,
+      "type": "pickup",
+      "fuel": "diesel",
+      "seats": 5,
+      "price": 15990000,
+      "transmission": "manual",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "Pickup compacta diésel con doble cabina y tracción 4x4.",
+      "origin": "china",
+      "hp": 143,
+      "torque_nm": 330,
+      "length_mm": 5300,
+      "width_mm": 1860,
+      "height_mm": 1790,
+      "wheelbase_mm": 3050,
+      "fuel_tank_liters": 70,
+      "ground_clearance_mm": 220,
+      "trunk_liters": 0,
+      "airbags": 2,
+      "isofix": true,
+      "adas": [],
+      "latin_ncap_stars": 4,
+      "infotainment": [
+        "Radio",
+        "Bluetooth",
+        "USB"
+      ],
+      "fuel_consumption_mixed_km_l": 10.5,
+      "warranty_years": 6,
+      "warranty_km": 150000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "2.0T 4x4 MT",
+          "price": 15990000,
+          "transmission": "manual",
+          "traction": "4x4"
+        },
+        {
+          "version": "2.0T 4x4 MT Premium",
+          "price": 17990000,
+          "transmission": "manual",
+          "traction": "4x4"
+        }
+      ]
+    },
+    {
+      "id": 228,
+      "brand": "GWM",
+      "model": "Wingle 7",
+      "year": 2026,
+      "type": "pickup",
+      "fuel": "diesel",
+      "seats": 5,
+      "price": 17243000,
+      "transmission": "manual",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "Pickup mediana de doble cabina con motor diésel 2.0 turbo y caja manual.",
+      "origin": "china",
+      "versions": [
+        {
+          "version": "2.0T 4x2 MT",
+          "price": 15243000,
+          "transmission": "manual",
+          "traction": "4x2"
+        },
+        {
+          "version": "2.0T 4x4 MT",
+          "price": 17243000,
+          "transmission": "manual",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 163,
+      "torque_nm": 400,
+      "fuel_consumption_city_km_l": 8.5,
+      "fuel_consumption_highway_km_l": 12,
+      "fuel_consumption_mixed_km_l": 10,
+      "fuel_tank_liters": 70,
+      "length_mm": 5330,
+      "width_mm": 1880,
+      "height_mm": 1860,
+      "wheelbase_mm": 3050,
+      "ground_clearance_mm": 225,
+      "trunk_liters": 0,
+      "airbags": 2,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla táctil 7\"",
+        "Bluetooth",
+        "USB"
+      ],
+      "warranty_years": 6,
+      "warranty_km": 150000,
+      "origin_country": "China"
+    }
+  ]
+}

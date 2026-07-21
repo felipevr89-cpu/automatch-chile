@@ -1,0 +1,55 @@
+{
+  "brand": "Cadillac",
+  "brandUrl": "#",
+  "models": [
+    {
+      "id": 76,
+      "brand": "Cadillac",
+      "model": "Escalade",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 7,
+      "price": 93137850,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "SUV de lujo con motor V8 6.2L de 420 hp, tecnología Super Cruise y acabados premium.",
+      "origin": "Estados Unidos",
+      "versions": [
+        {
+          "version": "Luxury V8 4WD",
+          "price": 93137850,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "Premium Luxury V8 4WD",
+          "price": 107766570,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 420,
+      "torque_nm": 624,
+      "fuel_consumption_mixed_km_l": 7.7,
+      "fuel_tank_liters": 118,
+      "length_mm": 5766,
+      "width_mm": 2059,
+      "height_mm": 1933,
+      "wheelbase_mm": 3071,
+      "ground_clearance_mm": 195,
+      "trunk_liters": 311,
+      "airbags": 7,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 16.9\"",
+        "AKG 36 parlantes",
+        "Super Cruise"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 80000,
+      "origin_country": "Estados Unidos"
+    }
+  ]
+}

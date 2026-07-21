@@ -4,11 +4,14 @@ import { useAuth } from './hooks/useAuth';
 import { useCars } from './hooks/useCars';
 import { useDocuments } from './hooks/useDocuments';
 import { Navbar } from './components/Layout/Navbar';
+import { Footer } from './components/Footer';
+import { SEO } from './components/SEO';
 import { SignatureModal } from './components/Documents/SignatureModal';
 import { Home } from './pages/Home';
 
 const Compare = lazy(() => import('./pages/Compare').then(m => ({ default: m.Compare })));
 const Favorites = lazy(() => import('./pages/Favorites').then(m => ({ default: m.Favorites })));
+const Estadisticas = lazy(() => import('./pages/Estadisticas').then(m => ({ default: m.Estadisticas })));
 
 function LoadingSpinner() {
   return (
@@ -22,6 +25,10 @@ function AppContent() {
   const { user, loading: authLoading } = useAuth();
   const {
     cars,
+    allCarsCount,
+    totalPages,
+    currentPage,
+    setCurrentPage,
     allCars,
     filters,
     updateFilter,
@@ -61,6 +68,7 @@ function AppContent() {
 
   return (
     <div className="min-h-screen bg-gray-50">
+      <a href="#main" className="skip-link">Saltar al contenido</a>
       <Navbar />
 
       {showModal && (
@@ -73,12 +81,19 @@ function AppContent() {
         />
       )}
 
+      <main id="main">
       <Routes>
         <Route
           path="/"
           element={
-            <Home
+            <>
+              <SEO />
+              <Home
               cars={cars}
+              allCarsCount={allCarsCount}
+              totalPages={totalPages}
+              currentPage={currentPage}
+              setCurrentPage={setCurrentPage}
               filters={filters}
               updateFilter={updateFilter}
               resetFilters={resetFilters}
@@ -92,12 +107,14 @@ function AppContent() {
               onAddToCompare={addToCompare}
               onRemoveFromCompare={removeFromCompare}
             />
+            </>
           }
         />
         <Route
           path="/compare"
           element={
             <Suspense fallback={<LoadingSpinner />}>
+              <SEO title="Comparar" description="Compara hasta 3 vehículos lado a lado en el mercado chileno." />
               <Compare
                 compareList={compareList}
                 onRemoveFromCompare={removeFromCompare}
@@ -110,6 +127,7 @@ function AppContent() {
           path="/favorites"
           element={
             <Suspense fallback={<LoadingSpinner />}>
+              <SEO title="Favoritos" description="Tus vehículos favoritos guardados en un solo lugar." />
               <Favorites
                 allCars={allCars}
                 favorites={favorites}
@@ -121,7 +139,19 @@ function AppContent() {
             </Suspense>
           }
         />
+        <Route
+          path="/estadisticas"
+          element={
+            <Suspense fallback={<LoadingSpinner />}>
+              <SEO title="Estadísticas" description="Estadísticas del mercado automotriz chileno." />
+              <Estadisticas />
+            </Suspense>
+          }
+        />
       </Routes>
+      </main>
+
+      <Footer />
     </div>
   );
 }

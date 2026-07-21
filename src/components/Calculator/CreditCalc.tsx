@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { formatPrice } from '../../data/cars-chile';
+import { formatPrice } from '../../data/brands';
 
 interface Props {
   price: number;

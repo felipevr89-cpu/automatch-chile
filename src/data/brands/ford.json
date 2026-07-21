@@ -1,0 +1,824 @@
+{
+  "brand": "Ford",
+  "brandUrl": "https://www.ford.cl",
+  "models": [
+    {
+      "id": 174,
+      "brand": "Ford",
+      "model": "Bronco",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 63990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "SUV todoterreno icónica con motor EcoBoost 2.3L de 300 hp y capacidad off-road extrema.",
+      "origin": "Estados Unidos",
+      "versions": [
+        {
+          "version": "2.3L Wildtrak 4x4",
+          "price": 63990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 300,
+      "torque_nm": 440,
+      "fuel_consumption_mixed_km_l": 10.8,
+      "fuel_tank_liters": 80,
+      "length_mm": 4800,
+      "width_mm": 1928,
+      "height_mm": 1826,
+      "wheelbase_mm": 2949,
+      "ground_clearance_mm": 237,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 12\"",
+        "SYNC 4",
+        "B&O Sound System"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "Estados Unidos"
+    },
+    {
+      "id": 175,
+      "brand": "Ford",
+      "model": "Bronco Sport",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 31990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "SUV off-road compacta con ADN Bronco, motor EcoBoost 2.0L turbo de 250 hp y sistema de tracción integral.",
+      "origin": "Estados Unidos",
+      "versions": [
+        {
+          "version": "Big Bend 2.0T 4x4",
+          "price": 31990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "Outer Banks 2.0T 4x4",
+          "price": 36990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "Badlands 2.0T 4x4",
+          "price": 40990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 250,
+      "torque_nm": 380,
+      "fuel_consumption_mixed_km_l": 12.5,
+      "fuel_tank_liters": 60,
+      "length_mm": 4387,
+      "width_mm": 1812,
+      "height_mm": 1683,
+      "wheelbase_mm": 2670,
+      "ground_clearance_mm": 219,
+      "trunk_liters": 866,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 8\"",
+        "SYNC 4",
+        "Android Auto",
+        "Apple CarPlay"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "Estados Unidos"
+    },
+    {
+      "id": 176,
+      "brand": "Ford",
+      "model": "Edge",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 35990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "SUV mediano con motor potente y amplio equipamiento tecnológico.",
+      "origin": "USA",
+      "hp": 335,
+      "torque_nm": 475,
+      "length_mm": 4800,
+      "width_mm": 1920,
+      "height_mm": 1730,
+      "wheelbase_mm": 2850,
+      "fuel_tank_liters": 68,
+      "ground_clearance_mm": 200,
+      "trunk_liters": 600,
+      "airbags": 8,
+      "isofix": true,
+      "adas": [
+        "Control crucero adaptativo",
+        "Asistente de carril",
+        "Frenado automático",
+        "Cámara 360°"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Pantalla 12\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "SYNC 4",
+        "Sonido Bang & Olufsen"
+      ],
+      "fuel_consumption_mixed_km_l": 9,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "USA",
+      "versions": [
+        {
+          "version": "SE 4x4",
+          "price": 35990000,
+          "transmission": "automática",
+          "traction": "4x4"
+        },
+        {
+          "version": "Titanium 4x4",
+          "price": 42990000,
+          "transmission": "automática",
+          "traction": "4x4"
+        }
+      ]
+    },
+    {
+      "id": 177,
+      "brand": "Ford",
+      "model": "Escape",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 25990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "SUV familiar con motor EcoBoost 2.0L turbo de 253 hp, transmisión automática de 8 velocidades y tracción AWD.",
+      "origin": "Estados Unidos",
+      "versions": [
+        {
+          "version": "Ambiente 2.0T 4x4",
+          "price": 25990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "Trend 2.0T 4x4",
+          "price": 29490000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "Titanium 2.0T AWD",
+          "price": 34990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ],
+      "hp": 253,
+      "torque_nm": 387,
+      "fuel_consumption_mixed_km_l": 11.9,
+      "fuel_tank_liters": 57,
+      "length_mm": 4614,
+      "width_mm": 1883,
+      "height_mm": 1678,
+      "wheelbase_mm": 2711,
+      "ground_clearance_mm": 189,
+      "trunk_liters": 825,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 8\"",
+        "SYNC 3",
+        "Android Auto",
+        "Apple CarPlay"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "Estados Unidos"
+    },
+    {
+      "id": 178,
+      "brand": "Ford",
+      "model": "Expedition",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 7,
+      "price": 74190000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "SUV full-size con motor V6 3.5L EcoBoost de 400 hp, tres filas de asientos y capacidad de remolque.",
+      "origin": "Estados Unidos",
+      "versions": [
+        {
+          "version": "Limited 3.5L EB 4x4",
+          "price": 74190000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 400,
+      "torque_nm": 651,
+      "fuel_consumption_mixed_km_l": 8.9,
+      "fuel_tank_liters": 88,
+      "length_mm": 5334,
+      "width_mm": 2029,
+      "height_mm": 1941,
+      "wheelbase_mm": 3112,
+      "ground_clearance_mm": 223,
+      "trunk_liters": 567,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 15.5\"",
+        "SYNC 4A",
+        "B&O Sound System"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "Estados Unidos"
+    },
+    {
+      "id": 179,
+      "brand": "Ford",
+      "model": "Explorer",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 7,
+      "price": 42990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "SUV mediana con tres filas de asientos, motor EcoBoost 2.3L de 300 hp y tracción AWD.",
+      "origin": "Estados Unidos",
+      "versions": [
+        {
+          "version": "2.3L Active 4x4",
+          "price": 42990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "2.3L Active AWD",
+          "price": 48290000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "2.3L Platinum AWD",
+          "price": 53290000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ],
+      "hp": 300,
+      "torque_nm": 420,
+      "fuel_consumption_mixed_km_l": 10.2,
+      "fuel_tank_liters": 70,
+      "length_mm": 5049,
+      "width_mm": 2004,
+      "height_mm": 1775,
+      "wheelbase_mm": 3025,
+      "ground_clearance_mm": 207,
+      "trunk_liters": 560,
+      "airbags": 7,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 10.1\"",
+        "SYNC 4",
+        "Android Auto",
+        "Apple CarPlay"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "Estados Unidos"
+    },
+    {
+      "id": 180,
+      "brand": "Ford",
+      "model": "Explorer ST",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 7,
+      "price": 60790000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "Versión deportiva del Explorer con motor EcoBoost 3.0L V6 twin-turbo de 400 hp.",
+      "origin": "Estados Unidos",
+      "versions": [
+        {
+          "version": "3.0L Ecoboost AWD",
+          "price": 60790000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ],
+      "hp": 400,
+      "torque_nm": 563,
+      "fuel_consumption_mixed_km_l": 9.4,
+      "fuel_tank_liters": 70,
+      "length_mm": 5049,
+      "width_mm": 2004,
+      "height_mm": 1775,
+      "wheelbase_mm": 3025,
+      "ground_clearance_mm": 207,
+      "airbags": 7,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 10.1\"",
+        "SYNC 4",
+        "B&O Sound System"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "Estados Unidos"
+    },
+    {
+      "id": 181,
+      "brand": "Ford",
+      "model": "F-150",
+      "year": 2025,
+      "type": "pickup",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 57703100,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "Pick-up full-size más vendida de Norteamérica, con motor V8 5.0L de 400 hp y caja automática de 10 velocidades.",
+      "origin": "Estados Unidos",
+      "versions": [
+        {
+          "version": "XLT 5.0L V8 4x4",
+          "price": 57703100,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "Lariat Black 5.0L 4x4",
+          "price": 66152100,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "Lariat Luxury 5.0L 4x4",
+          "price": 70793100,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "Platinum 3.5L EB 4x4",
+          "price": 82812100,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 400,
+      "torque_nm": 542,
+      "fuel_consumption_mixed_km_l": 8.5,
+      "fuel_tank_liters": 93,
+      "length_mm": 5933,
+      "width_mm": 2029,
+      "height_mm": 1918,
+      "wheelbase_mm": 3683,
+      "ground_clearance_mm": 241,
+      "trunk_liters": 0,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 12\"",
+        "SYNC 4",
+        "B&O Sound System"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "Estados Unidos"
+    },
+    {
+      "id": 182,
+      "brand": "Ford",
+      "model": "F-150 Raptor",
+      "year": 2025,
+      "type": "pickup",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 106017100,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "Pick-up off-road de alto rendimiento con motor V6 3.5L EcoBoost twin-turbo de 456 hp.",
+      "origin": "Estados Unidos",
+      "versions": [
+        {
+          "version": "3.5L V6 EcoBoost 4x4",
+          "price": 106017100,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 456,
+      "torque_nm": 691,
+      "fuel_consumption_mixed_km_l": 7.5,
+      "fuel_tank_liters": 93,
+      "length_mm": 5933,
+      "width_mm": 2029,
+      "height_mm": 1992,
+      "wheelbase_mm": 3683,
+      "ground_clearance_mm": 298,
+      "trunk_liters": 0,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 12\"",
+        "SYNC 4A",
+        "B&O Sound System 18 parlantes"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "Estados Unidos"
+    },
+    {
+      "id": 183,
+      "brand": "Ford",
+      "model": "Maverick",
+      "year": 2025,
+      "type": "pickup",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 31285100,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Pick-up compacta con motor EcoBoost 2.0L de 253 hp, diseño unibody y gran eficiencia.",
+      "origin": "México",
+      "versions": [
+        {
+          "version": "EcoBoost 2.0L FWD",
+          "price": 31285100,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "EcoBoost 2.0L AWD",
+          "price": 35490000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "Hybrid FWD",
+          "price": 39615100,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 253,
+      "torque_nm": 387,
+      "fuel_consumption_mixed_km_l": 13.5,
+      "fuel_tank_liters": 52,
+      "length_mm": 5072,
+      "width_mm": 1844,
+      "height_mm": 1684,
+      "wheelbase_mm": 3076,
+      "ground_clearance_mm": 203,
+      "trunk_liters": 0,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 8\"",
+        "SYNC 4",
+        "Android Auto",
+        "Apple CarPlay"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "México"
+    },
+    {
+      "id": 184,
+      "brand": "Ford",
+      "model": "Mustang",
+      "year": 2025,
+      "type": "coupe",
+      "fuel": "gasolina",
+      "seats": 4,
+      "price": 54990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Muscle car icónica con motor V8 5.0L Coyote de 486 hp y tracción trasera.",
+      "origin": "Estados Unidos",
+      "versions": [
+        {
+          "version": "GT 5.0L V8 10AT",
+          "price": 54990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 486,
+      "torque_nm": 569,
+      "fuel_consumption_mixed_km_l": 7.7,
+      "fuel_tank_liters": 59,
+      "length_mm": 4810,
+      "width_mm": 1916,
+      "height_mm": 1397,
+      "wheelbase_mm": 2720,
+      "ground_clearance_mm": 137,
+      "trunk_liters": 382,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 13.2\"",
+        "SYNC 4",
+        "B&O Sound System"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 60000,
+      "origin_country": "Estados Unidos"
+    },
+    {
+      "id": 185,
+      "brand": "Ford",
+      "model": "Mustang Dark Horse",
+      "year": 2025,
+      "type": "coupe",
+      "fuel": "gasolina",
+      "seats": 4,
+      "price": 60490000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Versión de alto rendimiento de la Mustang con motor V8 5.0L de 500 hp y componentes de pista.",
+      "origin": "Estados Unidos",
+      "versions": [
+        {
+          "version": "Dark Horse Premium 5.0L V8",
+          "price": 60490000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 500,
+      "torque_nm": 569,
+      "fuel_consumption_mixed_km_l": 7.3,
+      "fuel_tank_liters": 59,
+      "length_mm": 4810,
+      "width_mm": 1916,
+      "height_mm": 1397,
+      "wheelbase_mm": 2720,
+      "ground_clearance_mm": 137,
+      "trunk_liters": 382,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 13.2\"",
+        "SYNC 4",
+        "B&O Sound System 12 parlantes"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 60000,
+      "origin_country": "Estados Unidos"
+    },
+    {
+      "id": 186,
+      "brand": "Ford",
+      "model": "Ranger",
+      "year": 2025,
+      "type": "pickup",
+      "fuel": "diesel",
+      "seats": 5,
+      "price": 33665100,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "Pick-up mediana con motor Bi-Turbo 2.0L de 213 hp, caja automática de 10 velocidades.",
+      "origin": "Argentina",
+      "versions": [
+        {
+          "version": "XLS 2.0L MT 4x2",
+          "price": 27834100,
+          "transmission": "manual",
+          "traction": "4x2"
+        },
+        {
+          "version": "XL 2.0L MT 4x4",
+          "price": 32594100,
+          "transmission": "manual",
+          "traction": "4x4"
+        },
+        {
+          "version": "XLS 2.0L AT 4x4",
+          "price": 35490000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "XLT 2.0L AT 4x4",
+          "price": 40290000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "Limited 2.0L AT 4x4",
+          "price": 47990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 213,
+      "torque_nm": 500,
+      "fuel_consumption_mixed_km_l": 12.5,
+      "fuel_tank_liters": 80,
+      "length_mm": 5370,
+      "width_mm": 1918,
+      "height_mm": 1884,
+      "wheelbase_mm": 3270,
+      "ground_clearance_mm": 237,
+      "trunk_liters": 0,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 10\"",
+        "SYNC 4A",
+        "Android Auto",
+        "Apple CarPlay"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "Argentina"
+    },
+    {
+      "id": 187,
+      "brand": "Ford",
+      "model": "Ranger Raptor",
+      "year": 2025,
+      "type": "pickup",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 60440100,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "Pick-up de alto rendimiento off-road con motor EcoBoost 3.0L V6 Bi-Turbo de 288 hp.",
+      "origin": "Tailandia",
+      "versions": [
+        {
+          "version": "3.0L V6 Bi-Turbo 4x4",
+          "price": 60440100,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 288,
+      "torque_nm": 491,
+      "fuel_consumption_mixed_km_l": 9.8,
+      "fuel_tank_liters": 82,
+      "length_mm": 5381,
+      "width_mm": 1918,
+      "height_mm": 1922,
+      "wheelbase_mm": 3270,
+      "ground_clearance_mm": 265,
+      "trunk_liters": 0,
+      "airbags": 7,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 12\"",
+        "SYNC 4A",
+        "B&O Sound System"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "Tailandia"
+    },
+    {
+      "id": 188,
+      "brand": "Ford",
+      "model": "Territory",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 22290000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV compacta de Ford, equipada con motor EcoBoost 1.5L turbo de 170 hp, ideal para la ciudad y viajes familiares.",
+      "origin": "China",
+      "versions": [
+        {
+          "version": "Trend 1.5T EcoBoost AT",
+          "price": 22290000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Titanium 1.5T EcoBoost AT",
+          "price": 25490000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Titanium Hybrid",
+          "price": 32590000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 170,
+      "torque_nm": 258,
+      "fuel_consumption_mixed_km_l": 14.5,
+      "fuel_tank_liters": 52,
+      "length_mm": 4630,
+      "width_mm": 1815,
+      "height_mm": 1660,
+      "wheelbase_mm": 2720,
+      "ground_clearance_mm": 190,
+      "trunk_liters": 520,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 10.1\"",
+        "Android Auto",
+        "Apple CarPlay"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "China"
+    },
+    {
+      "id": 189,
+      "brand": "Ford",
+      "model": "Transit",
+      "year": 2026,
+      "type": "minivan",
+      "fuel": "diesel",
+      "seats": 5,
+      "price": 29990000,
+      "transmission": "manual",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Furgón de carga versátil con gran capacidad y motor diésel eficiente.",
+      "origin": "Turquía",
+      "hp": 170,
+      "torque_nm": 390,
+      "length_mm": 5530,
+      "width_mm": 2050,
+      "height_mm": 2100,
+      "wheelbase_mm": 3300,
+      "fuel_tank_liters": 70,
+      "ground_clearance_mm": 170,
+      "trunk_liters": 2500,
+      "airbags": 4,
+      "isofix": false,
+      "adas": [
+        "Control crucero",
+        "Cámara de retroceso"
+      ],
+      "latin_ncap_stars": 4,
+      "infotainment": [
+        "Pantalla 4.2\"",
+        "Radio Bluetooth"
+      ],
+      "fuel_consumption_mixed_km_l": 10,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Turquía",
+      "versions": [
+        {
+          "version": "2.0T Diesel MT",
+          "price": 29990000,
+          "transmission": "manual",
+          "traction": "4x2"
+        },
+        {
+          "version": "2.0T Diesel AT",
+          "price": 32990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ]
+    }
+  ]
+}

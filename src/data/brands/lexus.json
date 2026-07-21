@@ -1,0 +1,593 @@
+{
+  "brand": "Lexus",
+  "brandUrl": "https://www.lexus.cl",
+  "models": [
+    {
+      "id": 352,
+      "brand": "Lexus",
+      "model": "ES",
+      "year": 2025,
+      "type": "sedan",
+      "fuel": "hibrido",
+      "seats": 5,
+      "price": 49990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "Sedán ejecutivo de lujo con conducción ultrasilenciosa",
+      "origin": "Japón",
+      "origin_country": "Japón",
+      "versions": [
+        {
+          "version": "300h",
+          "price": 49990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "350 F-Sport",
+          "price": 54990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "300h Luxury",
+          "price": 59990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ],
+      "hp": 218,
+      "torque_nm": 221,
+      "fuel_consumption_mixed_km_l": 21,
+      "fuel_tank_liters": 50,
+      "length_mm": 4975,
+      "width_mm": 1865,
+      "height_mm": 1445,
+      "wheelbase_mm": 2870,
+      "ground_clearance_mm": 145,
+      "trunk_liters": 540,
+      "airbags": 10,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 12.3\"",
+        "Mark Levinson",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "adas": [
+        "Lexus Safety System+",
+        "Frenado automático",
+        "Lane Keep Assist",
+        "Control crucero adaptativo"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 100000
+    },
+    {
+      "id": 353,
+      "brand": "Lexus",
+      "model": "GX",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 7,
+      "price": 85990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "SUV grande de 7 plazas con capacidad todoterreno y lujo Lexus.",
+      "origin": "Japón",
+      "hp": 349,
+      "torque_nm": 649,
+      "length_mm": 5005,
+      "width_mm": 1980,
+      "height_mm": 1865,
+      "wheelbase_mm": 2850,
+      "fuel_tank_liters": 80,
+      "ground_clearance_mm": 240,
+      "trunk_liters": 510,
+      "airbags": 8,
+      "isofix": true,
+      "adas": [
+        "Lexus Safety System+",
+        "Frenado automático",
+        "Lane Keep Assist",
+        "Control crucero adaptativo",
+        "Cámara 360°",
+        "Monitoreo punto ciego"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Pantalla 14\"",
+        "Mark Levinson",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "fuel_consumption_mixed_km_l": 8.5,
+      "warranty_years": 4,
+      "warranty_km": 100000,
+      "origin_country": "Japón",
+      "versions": [
+        {
+          "version": "GX 550",
+          "price": 85990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "GX 550 Luxury",
+          "price": 95990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ]
+    },
+    {
+      "id": 354,
+      "brand": "Lexus",
+      "model": "IS",
+      "year": 2025,
+      "type": "sedan",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 42990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "Sedán deportivo de lujo con motor turbo",
+      "origin": "Japón",
+      "origin_country": "Japón",
+      "versions": [
+        {
+          "version": "300",
+          "price": 42990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "350 F-Sport",
+          "price": 48990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ],
+      "hp": 245,
+      "torque_nm": 350,
+      "fuel_consumption_mixed_km_l": 14,
+      "fuel_tank_liters": 50,
+      "length_mm": 4710,
+      "width_mm": 1840,
+      "height_mm": 1430,
+      "wheelbase_mm": 2800,
+      "ground_clearance_mm": 135,
+      "trunk_liters": 450,
+      "airbags": 10,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 10.3\"",
+        "Mark Levinson",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "adas": [
+        "Lexus Safety System+",
+        "Frenado automático",
+        "Lane Keep Assist"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 100000
+    },
+    {
+      "id": 355,
+      "brand": "Lexus",
+      "model": "LBX",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "hibrido",
+      "seats": 5,
+      "price": 32990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV compacto híbrido de acceso a la gama Lexus con eficiencia y diseño.",
+      "origin": "Japón",
+      "hp": 136,
+      "torque_nm": 185,
+      "length_mm": 4190,
+      "width_mm": 1825,
+      "height_mm": 1545,
+      "wheelbase_mm": 2580,
+      "fuel_tank_liters": 36,
+      "ground_clearance_mm": 170,
+      "trunk_liters": 332,
+      "airbags": 8,
+      "isofix": true,
+      "adas": [
+        "Lexus Safety System+",
+        "Frenado automático",
+        "Lane Keep Assist",
+        "Control crucero adaptativo"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Pantalla 9.8\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "fuel_consumption_mixed_km_l": 20,
+      "warranty_years": 4,
+      "warranty_km": 100000,
+      "origin_country": "Japón",
+      "versions": [
+        {
+          "version": "LBX Hybrid",
+          "price": 32990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "LBX Hybrid Cool",
+          "price": 36990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 356,
+      "brand": "Lexus",
+      "model": "LM",
+      "year": 2026,
+      "type": "minivan",
+      "fuel": "hibrido",
+      "seats": 7,
+      "price": 99990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Minivan de lujo con espacio VIP para 7 pasajeros y máximo confort.",
+      "origin": "Japón",
+      "hp": 250,
+      "torque_nm": 350,
+      "length_mm": 5130,
+      "width_mm": 1890,
+      "height_mm": 1945,
+      "wheelbase_mm": 3000,
+      "fuel_tank_liters": 58,
+      "ground_clearance_mm": 165,
+      "trunk_liters": 0,
+      "airbags": 8,
+      "isofix": true,
+      "adas": [
+        "Lexus Safety System+",
+        "Frenado automático",
+        "Lane Keep Assist",
+        "Control crucero adaptativo",
+        "Cámara 360°"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Pantalla 14\"",
+        "Mark Levinson",
+        "Apple CarPlay",
+        "Android Auto",
+        "Pantalla trasera"
+      ],
+      "fuel_consumption_mixed_km_l": 13,
+      "warranty_years": 4,
+      "warranty_km": 100000,
+      "origin_country": "Japón",
+      "versions": [
+        {
+          "version": "LM 350h",
+          "price": 99990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "LM 500h",
+          "price": 119990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 357,
+      "brand": "Lexus",
+      "model": "LX",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "diesel",
+      "seats": 7,
+      "price": 95990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "SUV todoterreno de lujo con capacidad extrema y refinamiento Lexus.",
+      "origin": "Japón",
+      "hp": 300,
+      "torque_nm": 650,
+      "length_mm": 5100,
+      "width_mm": 1990,
+      "height_mm": 1895,
+      "wheelbase_mm": 2850,
+      "fuel_tank_liters": 80,
+      "ground_clearance_mm": 230,
+      "trunk_liters": 420,
+      "airbags": 8,
+      "isofix": true,
+      "adas": [
+        "Lexus Safety System+",
+        "Frenado automático",
+        "Lane Keep Assist",
+        "Control crucero adaptativo",
+        "Cámara 360°",
+        "Monitoreo punto ciego"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Pantalla 12.3\"",
+        "Mark Levinson",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "fuel_consumption_mixed_km_l": 8,
+      "warranty_years": 4,
+      "warranty_km": 100000,
+      "origin_country": "Japón",
+      "versions": [
+        {
+          "version": "LX 500d",
+          "price": 95990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "LX 600",
+          "price": 109990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ]
+    },
+    {
+      "id": 358,
+      "brand": "Lexus",
+      "model": "NX",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 45990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "SUV premium mediano con tecnología avanzada",
+      "origin": "Japón",
+      "origin_country": "Japón",
+      "versions": [
+        {
+          "version": "250",
+          "price": 45990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "350h",
+          "price": 52990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "450h+",
+          "price": 62990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ],
+      "hp": 238,
+      "torque_nm": 350,
+      "fuel_consumption_mixed_km_l": 15,
+      "fuel_tank_liters": 55,
+      "length_mm": 4660,
+      "width_mm": 1865,
+      "height_mm": 1670,
+      "wheelbase_mm": 2690,
+      "ground_clearance_mm": 190,
+      "trunk_liters": 545,
+      "airbags": 10,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 14\"",
+        "Mark Levinson",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "adas": [
+        "Lexus Safety System+",
+        "Frenado automático",
+        "Lane Keep Assist",
+        "Control crucero adaptativo"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 100000
+    },
+    {
+      "id": 359,
+      "brand": "Lexus",
+      "model": "RX",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "hibrido",
+      "seats": 5,
+      "price": 55990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "SUV premium de lujo con plataforma global",
+      "origin": "Japón",
+      "origin_country": "Japón",
+      "versions": [
+        {
+          "version": "350",
+          "price": 55990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "350h",
+          "price": 61990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "450h+ F-Sport",
+          "price": 74990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ],
+      "hp": 366,
+      "torque_nm": 460,
+      "fuel_consumption_mixed_km_l": 18,
+      "fuel_tank_liters": 65,
+      "length_mm": 4890,
+      "width_mm": 1920,
+      "height_mm": 1695,
+      "wheelbase_mm": 2850,
+      "ground_clearance_mm": 195,
+      "trunk_liters": 612,
+      "airbags": 10,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 14\"",
+        "Mark Levinson",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "adas": [
+        "Lexus Safety System+ 3.0",
+        "Frenado automático",
+        "Lane Keep Assist",
+        "Control crucero adaptativo",
+        "Parking Assist"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 100000
+    },
+    {
+      "id": 360,
+      "brand": "Lexus",
+      "model": "RZ",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "electrico",
+      "seats": 5,
+      "price": 65990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "SUV 100% eléctrico con dirección by-wire y diseño vanguardista.",
+      "origin": "Japón",
+      "hp": 313,
+      "torque_nm": 435,
+      "length_mm": 4805,
+      "width_mm": 1895,
+      "height_mm": 1635,
+      "wheelbase_mm": 2850,
+      "ground_clearance_mm": 180,
+      "trunk_liters": 522,
+      "airbags": 8,
+      "isofix": true,
+      "adas": [
+        "Lexus Safety System+",
+        "Frenado automático",
+        "Lane Keep Assist",
+        "Control crucero adaptativo",
+        "Cámara 360°"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Pantalla 14\"",
+        "Mark Levinson",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 100000,
+      "origin_country": "Japón",
+      "versions": [
+        {
+          "version": "RZ 450e AWD",
+          "price": 65990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "RZ 450e Luxury",
+          "price": 72990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ]
+    },
+    {
+      "id": 361,
+      "brand": "Lexus",
+      "model": "UX",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 36990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "SUV crossover premium compacto con diseño audaz",
+      "origin": "Japón",
+      "origin_country": "Japón",
+      "versions": [
+        {
+          "version": "200",
+          "price": 36990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "250h F-Sport",
+          "price": 42990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ],
+      "hp": 184,
+      "torque_nm": 205,
+      "fuel_consumption_mixed_km_l": 16.5,
+      "fuel_tank_liters": 43,
+      "length_mm": 4495,
+      "width_mm": 1840,
+      "height_mm": 1520,
+      "wheelbase_mm": 2640,
+      "ground_clearance_mm": 158,
+      "trunk_liters": 320,
+      "airbags": 10,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 12.3\"",
+        "Mark Levinson",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "adas": [
+        "Lexus Safety System+",
+        "Frenado automático",
+        "Lane Keep Assist",
+        "Control crucero adaptativo"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 100000
+    }
+  ]
+}

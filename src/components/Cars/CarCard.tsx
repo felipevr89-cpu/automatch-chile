@@ -1,6 +1,7 @@
-import { useState, memo } from 'react';
+import { memo } from 'react';
 import { Car } from '../../types';
-import { formatPrice, getTypeLabel, getFuelLabel } from '../../data/cars-chile';
+import { formatPrice, getTypeLabel, getFuelLabel } from '../../data/brands';
+import { CarImage } from './CarImage';
 
 interface Props {
   car: Car;
@@ -11,15 +12,6 @@ interface Props {
   onRemoveFromCompare: (id: number) => void;
   onClick?: (car: Car) => void;
 }
-
-const typeIcons: Record<string, string> = {
-  sedan: '🚗',
-  suv: '🚙',
-  pickup: '🛻',
-  hatchback: '🚘',
-  minivan: '🚐',
-  wagon: '🚃',
-};
 
 const fuelColors: Record<string, string> = {
   gasolina: 'bg-yellow-100 text-yellow-800',
@@ -38,25 +30,19 @@ export const CarCard = memo(function CarCard({
   onRemoveFromCompare,
   onClick,
 }: Props) {
-  const [imgError, setImgError] = useState(false);
-
   return (
     <div 
       className="bg-white rounded-2xl overflow-hidden card-shadow hover:shadow-xl transition-all duration-300 cursor-pointer group"
       onClick={() => onClick?.(car)}
     >
-      <div className="relative h-48 bg-gradient-to-br from-gray-50 to-gray-100 flex items-center justify-center overflow-hidden">
-        {car.image_url && !imgError ? (
-          <img
-            src={car.image_url}
-            alt={`${car.brand} ${car.model}`}
-            loading="lazy"
-            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-            onError={() => setImgError(true)}
-          />
-        ) : (
-          <span className="text-6xl">{typeIcons[car.type] || '🚗'}</span>
-        )}
+      <div className="relative h-48 overflow-hidden">
+        <CarImage
+          carId={car.id}
+          brand={car.brand}
+          model={car.model}
+          type={car.type}
+          className="w-full h-full group-hover:scale-105 transition-transform duration-300"
+        />
         
         <button
           onClick={(e) => {

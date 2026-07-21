@@ -1,0 +1,186 @@
+{
+  "brand": "Mahindra",
+  "brandUrl": "https://www.mahindra.cl",
+  "models": [
+    {
+      "id": 371,
+      "brand": "Mahindra",
+      "model": "Scorpio N",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "diesel",
+      "seats": 7,
+      "price": 27990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "SUV todoterreno body-on-frame con motor 2.2L diésel y tracción 4x4.",
+      "origin": "India",
+      "hp": 175,
+      "torque_nm": 400,
+      "length_mm": 4662,
+      "width_mm": 1917,
+      "height_mm": 1857,
+      "wheelbase_mm": 2750,
+      "fuel_tank_liters": 57,
+      "ground_clearance_mm": 227,
+      "airbags": 6,
+      "isofix": true,
+      "adas": [
+        "Frenado automático AEB",
+        "Control crucero adaptativo"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Pantalla 8\"",
+        "Android Auto"
+      ],
+      "fuel_consumption_mixed_km_l": 13,
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "India",
+      "versions": [
+        {
+          "version": "Z8 Diesel AT 4x4",
+          "price": 27990000,
+          "transmission": "Automática 6V",
+          "traction": "4x4"
+        },
+        {
+          "version": "Z8L Diesel AT 4x4",
+          "price": 31990000,
+          "transmission": "Automática 6V",
+          "traction": "4x4"
+        }
+      ]
+    },
+    {
+      "id": 372,
+      "brand": "Mahindra",
+      "model": "XUV700",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 7,
+      "price": 22990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV familiar de siete plazas con motor 2.0T turbo, ADAS y 5 estrellas NCAP.",
+      "origin": "India",
+      "hp": 200,
+      "torque_nm": 380,
+      "length_mm": 4695,
+      "width_mm": 1890,
+      "height_mm": 1755,
+      "wheelbase_mm": 2750,
+      "fuel_tank_liters": 60,
+      "ground_clearance_mm": 196,
+      "airbags": 6,
+      "isofix": true,
+      "adas": [
+        "Frenado automático AEB",
+        "Control crucero adaptativo",
+        "Asistencia de carril",
+        "Monitoreo de punto ciego"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Pantalla 10.25\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Audio 12 parlantes"
+      ],
+      "fuel_consumption_mixed_km_l": 13,
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "India",
+      "versions": [
+        {
+          "version": "MX Petrol AT 7Str",
+          "price": 19990000,
+          "transmission": "Automática 6V",
+          "traction": "4x2"
+        },
+        {
+          "version": "AX5 Petrol AT 7Str",
+          "price": 22990000,
+          "transmission": "Automática 6V",
+          "traction": "4x2"
+        },
+        {
+          "version": "AX7 Petrol AT 7Str",
+          "price": 26990000,
+          "transmission": "Automática 6V",
+          "traction": "4x2"
+        },
+        {
+          "version": "AX7L Petrol AT 7Str",
+          "price": 29990000,
+          "transmission": "Automática 6V",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 373,
+      "brand": "Mahindra",
+      "model": "XUV700 Diesel",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "diesel",
+      "seats": 7,
+      "price": 24990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Versión diésel del XUV700 con motor 2.2L CRDi y mayor torque.",
+      "origin": "India",
+      "hp": 185,
+      "torque_nm": 450,
+      "length_mm": 4695,
+      "width_mm": 1890,
+      "height_mm": 1755,
+      "wheelbase_mm": 2750,
+      "fuel_tank_liters": 60,
+      "ground_clearance_mm": 196,
+      "airbags": 6,
+      "isofix": true,
+      "adas": [
+        "Frenado automático AEB",
+        "Control crucero adaptativo",
+        "Asistencia de carril"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Pantalla 10.25\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "fuel_consumption_mixed_km_l": 15,
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "India",
+      "versions": [
+        {
+          "version": "MX Diesel AT 7Str",
+          "price": 21990000,
+          "transmission": "Automática 6V",
+          "traction": "4x2"
+        },
+        {
+          "version": "AX5 Diesel AT 7Str",
+          "price": 24990000,
+          "transmission": "Automática 6V",
+          "traction": "4x2"
+        },
+        {
+          "version": "AX7 Diesel AT AWD",
+          "price": 28990000,
+          "transmission": "Automática 6V",
+          "traction": "awd"
+        }
+      ]
+    }
+  ]
+}

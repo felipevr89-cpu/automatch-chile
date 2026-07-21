@@ -1,0 +1,50 @@
+{
+  "brand": "Chrysler",
+  "brandUrl": "#",
+  "models": [
+    {
+      "id": 127,
+      "brand": "Chrysler",
+      "model": "Voyager",
+      "year": 2025,
+      "type": "minivan",
+      "fuel": "gasolina",
+      "seats": 7,
+      "price": 45000000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Minivan familiar con motor V6 3.6L Pentastar de 287 hp, versatilidad y confort.",
+      "origin": "Estados Unidos",
+      "versions": [
+        {
+          "version": "LXi V6",
+          "price": 45000000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 287,
+      "torque_nm": 353,
+      "fuel_consumption_mixed_km_l": 9.8,
+      "fuel_tank_liters": 72,
+      "length_mm": 5188,
+      "width_mm": 2022,
+      "height_mm": 1777,
+      "wheelbase_mm": 3089,
+      "ground_clearance_mm": 136,
+      "trunk_liters": 906,
+      "airbags": 7,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 7\"",
+        "U-Connect",
+        "Android Auto",
+        "Apple CarPlay"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "Estados Unidos"
+    }
+  ]
+}

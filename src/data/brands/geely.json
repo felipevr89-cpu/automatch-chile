@@ -1,0 +1,538 @@
+{
+  "brand": "Geely",
+  "brandUrl": "https://www.geely.cl",
+  "models": [
+    {
+      "id": 198,
+      "brand": "Geely",
+      "model": "Azkarra",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 17990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV mediano con motor 1.5 turbo y diseño elegante.",
+      "origin": "china",
+      "hp": 175,
+      "torque_nm": 255,
+      "length_mm": 4544,
+      "width_mm": 1831,
+      "height_mm": 1670,
+      "wheelbase_mm": 2661,
+      "fuel_tank_liters": 55,
+      "ground_clearance_mm": 195,
+      "trunk_liters": 415,
+      "airbags": 6,
+      "isofix": true,
+      "adas": [
+        "Control crucero adaptativo",
+        "Frenado automático",
+        "Cámara 360°"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Pantalla táctil 12.3\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "fuel_consumption_mixed_km_l": 11.5,
+      "warranty_years": 6,
+      "warranty_km": 150000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "1.5T AT",
+          "price": 17990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "1.5T AT Luxury",
+          "price": 20990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 199,
+      "brand": "Geely",
+      "model": "Cityray",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 15890000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV compacto de 4.5 metros con motor 1.5 turbo de tres cilindros y caja DCT.",
+      "origin": "china",
+      "versions": [
+        {
+          "version": "1.5T Comfort DCT",
+          "price": 17890000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "1.5T Exclusive DCT",
+          "price": 19490000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "1.5T Signature DCT",
+          "price": 20890000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 172,
+      "torque_nm": 255,
+      "fuel_consumption_city_km_l": 10,
+      "fuel_consumption_highway_km_l": 14,
+      "fuel_consumption_mixed_km_l": 12,
+      "fuel_tank_liters": 50,
+      "length_mm": 4500,
+      "width_mm": 1830,
+      "height_mm": 1680,
+      "wheelbase_mm": 2680,
+      "ground_clearance_mm": 190,
+      "trunk_liters": 440,
+      "airbags": 6,
+      "adas": [
+        "Control crucero adaptativo",
+        "Frenado de emergencia",
+        "Asistente de carril"
+      ],
+      "isofix": true,
+      "infotainment": [
+        "Pantalla táctil 10\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 6,
+      "warranty_km": 120000,
+      "origin_country": "China"
+    },
+    {
+      "id": 200,
+      "brand": "Geely",
+      "model": "Coolray Lite",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 10490000,
+      "transmission": "manual",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV subcompacto accesible con motor 1.5 turbo y caja manual.",
+      "origin": "china",
+      "versions": [
+        {
+          "version": "1.5T Comfort MT",
+          "price": 10490000,
+          "transmission": "manual",
+          "traction": "4x2"
+        },
+        {
+          "version": "1.5T Elite AT",
+          "price": 12990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 150,
+      "torque_nm": 230,
+      "fuel_consumption_city_km_l": 10.5,
+      "fuel_consumption_highway_km_l": 15,
+      "fuel_consumption_mixed_km_l": 12.5,
+      "fuel_tank_liters": 45,
+      "length_mm": 4330,
+      "width_mm": 1800,
+      "height_mm": 1610,
+      "wheelbase_mm": 2600,
+      "ground_clearance_mm": 190,
+      "trunk_liters": 370,
+      "airbags": 2,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla táctil 10\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 6,
+      "warranty_km": 120000,
+      "origin_country": "China"
+    },
+    {
+      "id": 201,
+      "brand": "Geely",
+      "model": "EX2",
+      "year": 2026,
+      "type": "hatchback",
+      "fuel": "electrico",
+      "seats": 4,
+      "price": 17490000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Citycar eléctrico urbano con autonomía de hasta 320 km.",
+      "origin": "china",
+      "versions": [
+        {
+          "version": "Comfort",
+          "price": 17490000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 109,
+      "torque_nm": 180,
+      "top_speed_kmh": 140,
+      "length_mm": 3620,
+      "width_mm": 1650,
+      "height_mm": 1590,
+      "wheelbase_mm": 2400,
+      "ground_clearance_mm": 140,
+      "trunk_liters": 280,
+      "airbags": 2,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla táctil 8\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 6,
+      "warranty_km": 120000,
+      "origin_country": "China"
+    },
+    {
+      "id": 202,
+      "brand": "Geely",
+      "model": "EX5 EM-i",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "hibrido_enchufable",
+      "seats": 5,
+      "price": 22490000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV híbrido enchufable con autonomía eléctrica de hasta 100 km.",
+      "origin": "china",
+      "versions": [
+        {
+          "version": "1.5T EM-i Deluxe",
+          "price": 22490000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 218,
+      "torque_nm": 350,
+      "fuel_consumption_mixed_km_l": 1.5,
+      "fuel_tank_liters": 50,
+      "length_mm": 4600,
+      "width_mm": 1860,
+      "height_mm": 1700,
+      "wheelbase_mm": 2720,
+      "ground_clearance_mm": 185,
+      "trunk_liters": 480,
+      "airbags": 6,
+      "adas": [
+        "Control crucero adaptativo",
+        "Frenado de emergencia",
+        "Cámara 360°"
+      ],
+      "isofix": true,
+      "infotainment": [
+        "Pantalla táctil 12.3\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 6,
+      "warranty_km": 120000,
+      "origin_country": "China"
+    },
+    {
+      "id": 203,
+      "brand": "Geely",
+      "model": "Geometry C",
+      "year": 2025,
+      "type": "sedan",
+      "fuel": "electrico",
+      "seats": 5,
+      "price": 24990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Sedán eléctrico compacto con batería NMC y autonomía de hasta 450 km.",
+      "origin": "china",
+      "hp": 204,
+      "torque_nm": 310,
+      "length_mm": 4752,
+      "width_mm": 1804,
+      "height_mm": 1503,
+      "wheelbase_mm": 2700,
+      "ground_clearance_mm": 150,
+      "trunk_liters": 480,
+      "airbags": 6,
+      "isofix": true,
+      "adas": [
+        "Control crucero adaptativo",
+        "Frenado automático",
+        "Cámara 360°"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Pantalla táctil 12.3\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 6,
+      "warranty_km": 150000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "EV",
+          "price": 24990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "EV Luxury",
+          "price": 27990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 204,
+      "brand": "Geely",
+      "model": "Monjaro",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 24990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "SUV premium con motor 2.0 turbo y tracción integral.",
+      "origin": "china",
+      "hp": 235,
+      "torque_nm": 380,
+      "length_mm": 4770,
+      "width_mm": 1895,
+      "height_mm": 1690,
+      "wheelbase_mm": 2845,
+      "fuel_tank_liters": 65,
+      "ground_clearance_mm": 200,
+      "trunk_liters": 560,
+      "airbags": 7,
+      "isofix": true,
+      "adas": [
+        "Control crucero adaptativo",
+        "Asistente de carril",
+        "Frenado automático",
+        "Cámara 360°"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Pantalla táctil 12.3\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Sonido Bose"
+      ],
+      "fuel_consumption_mixed_km_l": 9,
+      "warranty_years": 6,
+      "warranty_km": 150000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "2.0T AT 4x4",
+          "price": 24990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "2.0T AT Luxury 4x4",
+          "price": 28990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ]
+    },
+    {
+      "id": 205,
+      "brand": "Geely",
+      "model": "New Coolray",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 13990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV compacto con motor 1.5 turbo de 174 hp y transmisión DCT de 7 velocidades.",
+      "origin": "china",
+      "versions": [
+        {
+          "version": "1.5T Comfort DCT",
+          "price": 13990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "1.5T Elite DCT",
+          "price": 15490000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "1.5T Luxury DCT",
+          "price": 17990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 174,
+      "torque_nm": 255,
+      "fuel_consumption_city_km_l": 10,
+      "fuel_consumption_highway_km_l": 14.5,
+      "fuel_consumption_mixed_km_l": 12,
+      "fuel_tank_liters": 50,
+      "length_mm": 4380,
+      "width_mm": 1815,
+      "height_mm": 1630,
+      "wheelbase_mm": 2640,
+      "ground_clearance_mm": 190,
+      "trunk_liters": 410,
+      "airbags": 4,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla táctil 10.25\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 6,
+      "warranty_km": 120000,
+      "origin_country": "China"
+    },
+    {
+      "id": 206,
+      "brand": "Geely",
+      "model": "Okavango",
+      "year": 2026,
+      "type": "minivan",
+      "fuel": "gasolina",
+      "seats": 7,
+      "price": 20690000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Minivan familiar con motor 1.5 turbo y espacio para siete pasajeros.",
+      "origin": "china",
+      "versions": [
+        {
+          "version": "1.5T Comfort DCT",
+          "price": 20690000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "1.5T Luxury DCT",
+          "price": 22990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 177,
+      "torque_nm": 255,
+      "fuel_consumption_city_km_l": 9.5,
+      "fuel_consumption_highway_km_l": 13.5,
+      "fuel_consumption_mixed_km_l": 11.2,
+      "fuel_tank_liters": 55,
+      "length_mm": 4700,
+      "width_mm": 1900,
+      "height_mm": 1690,
+      "wheelbase_mm": 2805,
+      "ground_clearance_mm": 190,
+      "trunk_liters": 380,
+      "airbags": 4,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla táctil 10.25\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 6,
+      "warranty_km": 120000,
+      "origin_country": "China"
+    },
+    {
+      "id": 207,
+      "brand": "Geely",
+      "model": "Starray",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 19990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV mediano con motor 2.0 turbo y acabados premium.",
+      "origin": "china",
+      "versions": [
+        {
+          "version": "2.0T Comfort DCT",
+          "price": 19990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "2.0T Luxury DCT",
+          "price": 22490000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 218,
+      "torque_nm": 325,
+      "fuel_consumption_city_km_l": 9.5,
+      "fuel_consumption_highway_km_l": 13.5,
+      "fuel_consumption_mixed_km_l": 11.2,
+      "fuel_tank_liters": 58,
+      "length_mm": 4680,
+      "width_mm": 1880,
+      "height_mm": 1710,
+      "wheelbase_mm": 2730,
+      "ground_clearance_mm": 195,
+      "trunk_liters": 530,
+      "airbags": 6,
+      "adas": [
+        "Control crucero adaptativo",
+        "Frenado de emergencia",
+        "Cámara 360°"
+      ],
+      "isofix": true,
+      "infotainment": [
+        "Pantalla táctil 12.3\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 6,
+      "warranty_km": 120000,
+      "origin_country": "China"
+    }
+  ]
+}

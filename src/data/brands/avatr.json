@@ -1,0 +1,60 @@
+{
+  "brand": "Avatr",
+  "brandUrl": "https://www.avatr.cl",
+  "models": [
+    {
+      "id": 25,
+      "brand": "Avatr",
+      "model": "11",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "electrico",
+      "seats": 5,
+      "price": 49990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "SUV coupé eléctrico premium fruto de Changan-Huawei-CATL, con diseño futurista, gran autonomía y tecnología de punta.",
+      "origin": "China",
+      "versions": [
+        {
+          "version": "Long Range AWD",
+          "price": 49990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ],
+      "hp": 578,
+      "torque_nm": 650,
+      "top_speed_kmh": 200,
+      "electric_range_km": 555,
+      "battery_kwh": 90,
+      "length_mm": 4880,
+      "width_mm": 1970,
+      "height_mm": 1601,
+      "wheelbase_mm": 2975,
+      "ground_clearance_mm": 165,
+      "trunk_liters": 450,
+      "airbags": 8,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "alerta de punto ciego",
+        "estacionamiento automático",
+        "conducción autónoma Huawei"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "pantalla 15.6\"",
+        "HarmonyOS",
+        "cuadro digital",
+        "Bluetooth"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 150000,
+      "origin_country": "China"
+    }
+  ]
+}

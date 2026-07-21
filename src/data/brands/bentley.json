@@ -1,0 +1,200 @@
+{
+  "brand": "Bentley",
+  "brandUrl": "https://www.bentleymotors.com",
+  "models": [
+    {
+      "id": 33,
+      "brand": "Bentley",
+      "model": "Bentayga",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 179990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "SUV de lujo definitivo con prestaciones excepcionales.",
+      "origin": "Reino Unido",
+      "versions": [
+        {
+          "version": "Bentayga",
+          "price": 179990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "Bentayga EWB",
+          "price": 209990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "Bentayga Speed",
+          "price": 239990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ],
+      "hp": 542,
+      "torque_nm": 770,
+      "top_speed_kmh": 306,
+      "fuel_consumption_city_km_l": 6,
+      "fuel_consumption_highway_km_l": 10,
+      "fuel_consumption_mixed_km_l": 8,
+      "fuel_tank_liters": 90,
+      "length_mm": 5140,
+      "width_mm": 1998,
+      "height_mm": 1742,
+      "wheelbase_mm": 2995,
+      "ground_clearance_mm": 218,
+      "trunk_liters": 594,
+      "airbags": 8,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "cámara 360°",
+        "asistente de estacionamiento",
+        "asistente de conducción en autopista"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "pantalla 10.9\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "sonido Naim",
+        "pantalla trasera"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Reino Unido"
+    },
+    {
+      "id": 34,
+      "brand": "Bentley",
+      "model": "Continental GT",
+      "year": 2025,
+      "type": "coupe",
+      "fuel": "gasolina",
+      "seats": 4,
+      "price": 189990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "Grand touring de lujo absoluto con motor W12.",
+      "origin": "Reino Unido",
+      "versions": [
+        {
+          "version": "Continental GT",
+          "price": 189990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "Continental GT Speed",
+          "price": 229990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ],
+      "hp": 659,
+      "torque_nm": 900,
+      "top_speed_kmh": 333,
+      "fuel_consumption_city_km_l": 6,
+      "fuel_consumption_highway_km_l": 10,
+      "fuel_consumption_mixed_km_l": 8,
+      "fuel_tank_liters": 90,
+      "length_mm": 4807,
+      "width_mm": 1953,
+      "height_mm": 1405,
+      "wheelbase_mm": 2805,
+      "ground_clearance_mm": 130,
+      "trunk_liters": 358,
+      "airbags": 8,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "cámara 360°",
+        "asistente de estacionamiento"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "pantalla 12.3\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "sonido Naim"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Reino Unido"
+    },
+    {
+      "id": 35,
+      "brand": "Bentley",
+      "model": "Flying Spur",
+      "year": 2025,
+      "type": "sedan",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 199990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "Sedán de lujo de cuatro puertas con motor W12.",
+      "origin": "Reino Unido",
+      "versions": [
+        {
+          "version": "Flying Spur",
+          "price": 199990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "Flying Spur Speed",
+          "price": 249990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ],
+      "hp": 635,
+      "torque_nm": 900,
+      "top_speed_kmh": 333,
+      "fuel_consumption_city_km_l": 6,
+      "fuel_consumption_highway_km_l": 10,
+      "fuel_consumption_mixed_km_l": 8,
+      "fuel_tank_liters": 90,
+      "length_mm": 5316,
+      "width_mm": 1978,
+      "height_mm": 1488,
+      "wheelbase_mm": 3194,
+      "ground_clearance_mm": 145,
+      "trunk_liters": 479,
+      "airbags": 8,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "cámara 360°",
+        "asistente de estacionamiento",
+        "asistente de conducción en autopista"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "pantalla 12.3\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "sonido Naim",
+        "pantalla trasera",
+        "asiento de masaje"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Reino Unido"
+    }
+  ]
+}

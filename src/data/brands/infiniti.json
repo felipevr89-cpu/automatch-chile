@@ -1,0 +1,119 @@
+{
+  "brand": "Infiniti",
+  "brandUrl": "https://www.infiniti.cl",
+  "models": [
+    {
+      "id": 261,
+      "brand": "Infiniti",
+      "model": "QX50",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 47990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "SUV premium japonés con motor turbo de compresión variable, interior lujoso y tracción total.",
+      "origin": "México",
+      "versions": [
+        {
+          "version": "Sensory AWD",
+          "price": 47990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ],
+      "hp": 268,
+      "torque_nm": 380,
+      "top_speed_kmh": 220,
+      "fuel_consumption_city_km_l": 9,
+      "fuel_consumption_highway_km_l": 13,
+      "fuel_consumption_mixed_km_l": 11,
+      "fuel_tank_liters": 60,
+      "length_mm": 4693,
+      "width_mm": 1903,
+      "height_mm": 1679,
+      "wheelbase_mm": 2800,
+      "ground_clearance_mm": 202,
+      "trunk_liters": 565,
+      "airbags": 8,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "alerta de punto ciego",
+        "estacionamiento automático"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "pantalla dual 8\" + 7\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Bluetooth",
+        "audio Bose"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "México"
+    },
+    {
+      "id": 262,
+      "brand": "Infiniti",
+      "model": "QX60",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 7,
+      "price": 58990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "SUV de lujo de 7 plazas con motor V6, amplio espacio y equipamiento premium para toda la familia.",
+      "origin": "Estados Unidos",
+      "versions": [
+        {
+          "version": "Sensory AWD",
+          "price": 58990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ],
+      "hp": 295,
+      "torque_nm": 366,
+      "top_speed_kmh": 210,
+      "fuel_consumption_city_km_l": 7,
+      "fuel_consumption_highway_km_l": 11,
+      "fuel_consumption_mixed_km_l": 9,
+      "fuel_tank_liters": 71,
+      "length_mm": 5033,
+      "width_mm": 1981,
+      "height_mm": 1778,
+      "wheelbase_mm": 2900,
+      "ground_clearance_mm": 201,
+      "trunk_liters": 405,
+      "airbags": 8,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "alerta de punto ciego",
+        "estacionamiento automático"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "pantalla 12.3\"",
+        "cuadro digital",
+        "Apple CarPlay",
+        "Android Auto",
+        "Bluetooth",
+        "audio Bose"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Estados Unidos"
+    }
+  ]
+}

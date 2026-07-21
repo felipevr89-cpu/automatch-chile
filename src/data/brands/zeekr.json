@@ -1,0 +1,120 @@
+{
+  "brand": "Zeekr",
+  "brandUrl": "https://www.zeekr.cl",
+  "models": [
+    {
+      "id": 612,
+      "brand": "Zeekr",
+      "model": "X",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "electrico",
+      "seats": 5,
+      "price": 34990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV compacto eléctrico premium de Geely con diseño vanguardista, buena autonomía y equipamiento de lujo.",
+      "origin": "China",
+      "versions": [
+        {
+          "version": "RWD",
+          "price": 34990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Privilege AWD",
+          "price": 39990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ],
+      "hp": 272,
+      "torque_nm": 343,
+      "top_speed_kmh": 180,
+      "electric_range_km": 445,
+      "battery_kwh": 66,
+      "length_mm": 4432,
+      "width_mm": 1836,
+      "height_mm": 1566,
+      "wheelbase_mm": 2750,
+      "ground_clearance_mm": 160,
+      "trunk_liters": 362,
+      "airbags": 7,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "alerta de punto ciego",
+        "estacionamiento automático"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "pantalla 14.6\"",
+        "cuadro digital",
+        "Apple CarPlay",
+        "Android Auto",
+        "Bluetooth"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 150000,
+      "origin_country": "China"
+    },
+    {
+      "id": 613,
+      "brand": "Zeekr",
+      "model": "001",
+      "year": 2025,
+      "type": "wagon",
+      "fuel": "electrico",
+      "seats": 5,
+      "price": 49990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "Shooting brake eléctrico premium con gran autonomía, altas prestaciones y tecnología de punta.",
+      "origin": "China",
+      "versions": [
+        {
+          "version": "Long Range AWD",
+          "price": 49990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ],
+      "hp": 544,
+      "torque_nm": 686,
+      "top_speed_kmh": 200,
+      "electric_range_km": 620,
+      "battery_kwh": 100,
+      "length_mm": 4977,
+      "width_mm": 1999,
+      "height_mm": 1545,
+      "wheelbase_mm": 3005,
+      "ground_clearance_mm": 155,
+      "trunk_liters": 539,
+      "airbags": 8,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "alerta de punto ciego",
+        "estacionamiento automático"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "pantalla 15.4\"",
+        "cuadro digital",
+        "Apple CarPlay",
+        "Android Auto",
+        "Bluetooth"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 150000,
+      "origin_country": "China"
+    }
+  ]
+}

@@ -1,0 +1,1066 @@
+{
+  "brand": "MG",
+  "brandUrl": "https://www.mgmotor.cl",
+  "models": [
+    {
+      "id": 416,
+      "brand": "MG",
+      "model": "Cyberster",
+      "year": 2025,
+      "type": "convertible",
+      "fuel": "electrico",
+      "seats": 2,
+      "price": 44990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "Deportivo eléctrico convertible con diseño clásico y prestaciones de superdeportivo.",
+      "origin": "china",
+      "hp": 544,
+      "torque_nm": 725,
+      "length_mm": 4535,
+      "width_mm": 1913,
+      "height_mm": 1329,
+      "wheelbase_mm": 2690,
+      "ground_clearance_mm": 120,
+      "trunk_liters": 249,
+      "airbags": 4,
+      "isofix": false,
+      "adas": [
+        "Control crucero adaptativo",
+        "Frenado automático",
+        "Cámara 360°"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Pantalla táctil 10.25\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 7,
+      "warranty_km": 105000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "AWD",
+          "price": 44990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "AWD GT",
+          "price": 54990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ]
+    },
+    {
+      "id": 417,
+      "brand": "MG",
+      "model": "Marvel R",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "electrico",
+      "seats": 5,
+      "price": 34990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "SUV eléctrico con doble motor, tracción integral y autonomía de hasta 400 km.",
+      "origin": "china",
+      "hp": 288,
+      "torque_nm": 665,
+      "length_mm": 4674,
+      "width_mm": 1919,
+      "height_mm": 1618,
+      "wheelbase_mm": 2800,
+      "ground_clearance_mm": 180,
+      "trunk_liters": 450,
+      "airbags": 6,
+      "isofix": true,
+      "adas": [
+        "Control crucero adaptativo",
+        "Frenado automático",
+        "Cámara 360°",
+        "Asistente de carril"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Pantalla táctil 19.4\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 7,
+      "warranty_km": 105000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "AWD",
+          "price": 34990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "AWD Luxury",
+          "price": 39990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ]
+    },
+    {
+      "id": 418,
+      "brand": "MG",
+      "model": "MG 3",
+      "year": 2025,
+      "type": "hatchback",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 8490000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Hatchback compacto económico con motor 1.5 litros y transmisión CVT.",
+      "origin": "china",
+      "versions": [
+        {
+          "version": "1.5 STD CVT",
+          "price": 8490000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "1.5 Com CVT",
+          "price": 9490000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 106,
+      "torque_nm": 142,
+      "fuel_consumption_city_km_l": 13.5,
+      "fuel_consumption_highway_km_l": 19,
+      "fuel_consumption_mixed_km_l": 16,
+      "fuel_tank_liters": 42,
+      "length_mm": 4055,
+      "width_mm": 1720,
+      "height_mm": 1500,
+      "wheelbase_mm": 2520,
+      "ground_clearance_mm": 135,
+      "trunk_liters": 288,
+      "airbags": 2,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla táctil 8\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 7,
+      "warranty_km": 105000,
+      "origin_country": "China"
+    },
+    {
+      "id": 419,
+      "brand": "MG",
+      "model": "MG 3 Hybrid",
+      "year": 2026,
+      "type": "hatchback",
+      "fuel": "hibrido",
+      "seats": 5,
+      "price": 14490000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Hatchback híbrido autorrecargable con sistema híbrido de nueva generación.",
+      "origin": "china",
+      "versions": [
+        {
+          "version": "1.5 Hybrid Com",
+          "price": 14490000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 190,
+      "torque_nm": 250,
+      "fuel_consumption_city_km_l": 22,
+      "fuel_consumption_highway_km_l": 26,
+      "fuel_consumption_mixed_km_l": 24,
+      "fuel_tank_liters": 42,
+      "length_mm": 4090,
+      "width_mm": 1730,
+      "height_mm": 1510,
+      "wheelbase_mm": 2560,
+      "ground_clearance_mm": 140,
+      "trunk_liters": 300,
+      "airbags": 4,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla táctil 10.25\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 7,
+      "warranty_km": 105000,
+      "origin_country": "China"
+    },
+    {
+      "id": 420,
+      "brand": "MG",
+      "model": "MG 4 EV",
+      "year": 2026,
+      "type": "hatchback",
+      "fuel": "electrico",
+      "seats": 5,
+      "price": 20990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Hatchback eléctrico 100% con plataforma modular de nueva generación.",
+      "origin": "china",
+      "versions": [
+        {
+          "version": "Standard Range",
+          "price": 20990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Long Range",
+          "price": 24990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 170,
+      "torque_nm": 250,
+      "top_speed_kmh": 160,
+      "length_mm": 4287,
+      "width_mm": 1836,
+      "height_mm": 1516,
+      "wheelbase_mm": 2705,
+      "ground_clearance_mm": 150,
+      "trunk_liters": 363,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla táctil 10.25\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 7,
+      "warranty_km": 105000,
+      "origin_country": "China"
+    },
+    {
+      "id": 421,
+      "brand": "MG",
+      "model": "MG 4 XPOWER",
+      "year": 2026,
+      "type": "hatchback",
+      "fuel": "electrico",
+      "seats": 5,
+      "price": 32990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "Hatchback eléctrico deportivo con tracción total y 0 a 100 km/h en 3,8 segundos.",
+      "origin": "china",
+      "versions": [
+        {
+          "version": "XPOWER AWD",
+          "price": 32990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ],
+      "hp": 435,
+      "torque_nm": 600,
+      "top_speed_kmh": 200,
+      "length_mm": 4287,
+      "width_mm": 1836,
+      "height_mm": 1516,
+      "wheelbase_mm": 2705,
+      "ground_clearance_mm": 150,
+      "trunk_liters": 363,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla táctil 10.25\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 7,
+      "warranty_km": 105000,
+      "origin_country": "China"
+    },
+    {
+      "id": 422,
+      "brand": "MG",
+      "model": "MG 5",
+      "year": 2025,
+      "type": "sedan",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 9790000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Sedán compacto con diseño deportivo y equipamiento generoso.",
+      "origin": "china",
+      "versions": [
+        {
+          "version": "1.5 STD CVT",
+          "price": 9790000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "1.5 Com CVT",
+          "price": 10790000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 112,
+      "torque_nm": 150,
+      "fuel_consumption_city_km_l": 13,
+      "fuel_consumption_highway_km_l": 18.5,
+      "fuel_consumption_mixed_km_l": 15.5,
+      "fuel_tank_liters": 48,
+      "length_mm": 4601,
+      "width_mm": 1818,
+      "height_mm": 1490,
+      "wheelbase_mm": 2680,
+      "ground_clearance_mm": 145,
+      "trunk_liters": 512,
+      "airbags": 4,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla táctil 10.25\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 7,
+      "warranty_km": 105000,
+      "origin_country": "China"
+    },
+    {
+      "id": 423,
+      "brand": "MG",
+      "model": "MG Cyberster",
+      "year": 2026,
+      "type": "convertible",
+      "fuel": "electrico",
+      "seats": 2,
+      "price": 59990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "Deportivo eléctrico convertible con diseño clásico y prestaciones de superdeportivo.",
+      "origin": "china",
+      "versions": [
+        {
+          "version": "AWD",
+          "price": 59990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ],
+      "hp": 544,
+      "torque_nm": 725,
+      "top_speed_kmh": 200,
+      "length_mm": 4535,
+      "width_mm": 1913,
+      "height_mm": 1329,
+      "wheelbase_mm": 2690,
+      "ground_clearance_mm": 120,
+      "trunk_liters": 249,
+      "airbags": 4,
+      "isofix": false,
+      "infotainment": [
+        "Pantalla táctil 10.25\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 7,
+      "warranty_km": 105000,
+      "origin_country": "China"
+    },
+    {
+      "id": 424,
+      "brand": "MG",
+      "model": "MG GT",
+      "year": 2026,
+      "type": "coupe",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 10490000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Sedán deportivo con motor 1.5 turbo y diseño agresivo.",
+      "origin": "china",
+      "versions": [
+        {
+          "version": "1.5T STD DCT",
+          "price": 10490000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "1.5T Com DCT",
+          "price": 11490000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 169,
+      "torque_nm": 250,
+      "fuel_consumption_city_km_l": 11.5,
+      "fuel_consumption_highway_km_l": 16,
+      "fuel_consumption_mixed_km_l": 13.5,
+      "fuel_tank_liters": 48,
+      "length_mm": 4650,
+      "width_mm": 1840,
+      "height_mm": 1470,
+      "wheelbase_mm": 2680,
+      "ground_clearance_mm": 145,
+      "trunk_liters": 460,
+      "airbags": 4,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla táctil 10.25\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 7,
+      "warranty_km": 105000,
+      "origin_country": "China"
+    },
+    {
+      "id": 425,
+      "brand": "MG",
+      "model": "MG HS",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 14790000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV mediano con motor 1.5 turbo y acabados premium.",
+      "origin": "china",
+      "versions": [
+        {
+          "version": "1.5T Com DCT",
+          "price": 14790000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "1.5T Luxury DCT",
+          "price": 16490000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "2.0T Trophy DCT AWD",
+          "price": 19990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ],
+      "hp": 162,
+      "torque_nm": 250,
+      "fuel_consumption_city_km_l": 11,
+      "fuel_consumption_highway_km_l": 15.5,
+      "fuel_consumption_mixed_km_l": 13,
+      "fuel_tank_liters": 55,
+      "length_mm": 4575,
+      "width_mm": 1875,
+      "height_mm": 1690,
+      "wheelbase_mm": 2720,
+      "ground_clearance_mm": 185,
+      "trunk_liters": 500,
+      "airbags": 6,
+      "adas": [
+        "MG Pilot",
+        "Control crucero adaptativo",
+        "Frenado de emergencia",
+        "Cámara 360°"
+      ],
+      "isofix": true,
+      "infotainment": [
+        "Pantalla táctil 10.1\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 7,
+      "warranty_km": 105000,
+      "origin_country": "China"
+    },
+    {
+      "id": 426,
+      "brand": "MG",
+      "model": "MG ONE",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 12490000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV con diseño futurista y tecnología de última generación.",
+      "origin": "china",
+      "versions": [
+        {
+          "version": "1.5T STD CVT",
+          "price": 12490000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "1.5T Luxury CVT",
+          "price": 14490000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 181,
+      "torque_nm": 285,
+      "fuel_consumption_city_km_l": 11,
+      "fuel_consumption_highway_km_l": 16,
+      "fuel_consumption_mixed_km_l": 13.2,
+      "fuel_tank_liters": 55,
+      "length_mm": 4550,
+      "width_mm": 1860,
+      "height_mm": 1690,
+      "wheelbase_mm": 2700,
+      "ground_clearance_mm": 185,
+      "trunk_liters": 480,
+      "airbags": 6,
+      "adas": [
+        "MG Pilot",
+        "Control crucero adaptativo",
+        "Frenado de emergencia"
+      ],
+      "isofix": true,
+      "infotainment": [
+        "Pantalla táctil 12.3\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 7,
+      "warranty_km": 105000,
+      "origin_country": "China"
+    },
+    {
+      "id": 427,
+      "brand": "MG",
+      "model": "MG ZS",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 10390000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV compacto con motor 1.5 turbo de 168 hp y sistema ADAS MG Pilot.",
+      "origin": "china",
+      "versions": [
+        {
+          "version": "1.5T STD CVT",
+          "price": 10390000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "1.5T Com CVT",
+          "price": 11890000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "1.5T Luxury CVT",
+          "price": 13290000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 168,
+      "torque_nm": 265,
+      "fuel_consumption_city_km_l": 12.5,
+      "fuel_consumption_highway_km_l": 17.6,
+      "fuel_consumption_mixed_km_l": 14.8,
+      "fuel_tank_liters": 48,
+      "length_mm": 4360,
+      "width_mm": 1810,
+      "height_mm": 1630,
+      "wheelbase_mm": 2590,
+      "ground_clearance_mm": 175,
+      "trunk_liters": 385,
+      "airbags": 6,
+      "adas": [
+        "MG Pilot",
+        "Control crucero adaptativo",
+        "Frenado de emergencia",
+        "Cámara 360°"
+      ],
+      "isofix": true,
+      "infotainment": [
+        "Pantalla táctil 12.3\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 7,
+      "warranty_km": 105000,
+      "origin_country": "China"
+    },
+    {
+      "id": 428,
+      "brand": "MG",
+      "model": "MG ZS EV",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "electrico",
+      "seats": 5,
+      "price": 26990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV eléctrico con autonomía de hasta 440 km y carga rápida.",
+      "origin": "china",
+      "versions": [
+        {
+          "version": "Standard Range",
+          "price": 26990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Long Range",
+          "price": 29990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 177,
+      "torque_nm": 280,
+      "top_speed_kmh": 140,
+      "length_mm": 4323,
+      "width_mm": 1809,
+      "height_mm": 1655,
+      "wheelbase_mm": 2585,
+      "ground_clearance_mm": 175,
+      "trunk_liters": 359,
+      "airbags": 6,
+      "adas": [
+        "MG Pilot",
+        "Control crucero adaptativo",
+        "Frenado de emergencia"
+      ],
+      "isofix": true,
+      "infotainment": [
+        "Pantalla táctil 10.25\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 7,
+      "warranty_km": 105000,
+      "origin_country": "China"
+    },
+    {
+      "id": 429,
+      "brand": "MG",
+      "model": "MG ZS Hybrid",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "hibrido",
+      "seats": 5,
+      "price": 16490000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV compacto híbrido autorrecargable con menor consumo y emisiones.",
+      "origin": "china",
+      "versions": [
+        {
+          "version": "1.5 Hybrid Com",
+          "price": 16490000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "1.5 Hybrid Luxury",
+          "price": 17990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 190,
+      "torque_nm": 250,
+      "fuel_consumption_city_km_l": 20,
+      "fuel_consumption_highway_km_l": 24,
+      "fuel_consumption_mixed_km_l": 22,
+      "fuel_tank_liters": 48,
+      "length_mm": 4360,
+      "width_mm": 1810,
+      "height_mm": 1630,
+      "wheelbase_mm": 2590,
+      "ground_clearance_mm": 175,
+      "trunk_liters": 385,
+      "airbags": 6,
+      "adas": [
+        "MG Pilot",
+        "Control crucero adaptativo",
+        "Frenado de emergencia",
+        "Cámara 360°"
+      ],
+      "isofix": true,
+      "infotainment": [
+        "Pantalla táctil 12.3\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 7,
+      "warranty_km": 105000,
+      "origin_country": "China"
+    },
+    {
+      "id": 430,
+      "brand": "MG",
+      "model": "MG ZX",
+      "year": 2026,
+      "type": "hatchback",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 8490000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Crossover hatchback con motor 1.3 turbo y diseño deportivo.",
+      "origin": "china",
+      "versions": [
+        {
+          "version": "1.3T STD CVT",
+          "price": 8490000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "1.3T DLX CVT",
+          "price": 9990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "1.3T Trophy CVT",
+          "price": 11490000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 163,
+      "torque_nm": 230,
+      "fuel_consumption_city_km_l": 12,
+      "fuel_consumption_highway_km_l": 17.5,
+      "fuel_consumption_mixed_km_l": 14.5,
+      "fuel_tank_liters": 48,
+      "length_mm": 4335,
+      "width_mm": 1805,
+      "height_mm": 1515,
+      "wheelbase_mm": 2600,
+      "ground_clearance_mm": 175,
+      "trunk_liters": 380,
+      "airbags": 4,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla táctil 8\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 7,
+      "warranty_km": 105000,
+      "origin_country": "China"
+    },
+    {
+      "id": 431,
+      "brand": "MG",
+      "model": "MG5",
+      "year": 2025,
+      "type": "wagon",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 13990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Station wagon compacta con motor 1.5 y amplio espacio de carga.",
+      "origin": "china",
+      "hp": 112,
+      "torque_nm": 150,
+      "length_mm": 4600,
+      "width_mm": 1818,
+      "height_mm": 1478,
+      "wheelbase_mm": 2650,
+      "fuel_tank_liters": 50,
+      "ground_clearance_mm": 160,
+      "trunk_liters": 575,
+      "airbags": 4,
+      "isofix": true,
+      "adas": [
+        "Frenado automático"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Pantalla táctil 10.25\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "fuel_consumption_mixed_km_l": 13.5,
+      "warranty_years": 7,
+      "warranty_km": 105000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "1.5 AT",
+          "price": 13990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "1.5 AT Luxury",
+          "price": 15990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 432,
+      "brand": "MG",
+      "model": "RX5",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 16790000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV compacto con diseño moderno y buen equipamiento de serie.",
+      "origin": "china",
+      "hp": 173,
+      "torque_nm": 275,
+      "length_mm": 4655,
+      "width_mm": 1890,
+      "height_mm": 1720,
+      "wheelbase_mm": 2765,
+      "fuel_tank_liters": 55,
+      "ground_clearance_mm": 185,
+      "trunk_liters": 470,
+      "airbags": 6,
+      "isofix": true,
+      "adas": [
+        "Control crucero adaptativo",
+        "Frenado automático",
+        "Cámara 360°"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Pantalla táctil 12.3\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "fuel_consumption_mixed_km_l": 12,
+      "warranty_years": 7,
+      "warranty_km": 105000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "1.5T AT",
+          "price": 16790000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "1.5T AT Luxury",
+          "price": 19990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 433,
+      "brand": "MG",
+      "model": "RX8",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 7,
+      "price": 24990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "SUV grande de 7 plazas con motor 2.0 turbo y tracción 4x4.",
+      "origin": "china",
+      "hp": 220,
+      "torque_nm": 360,
+      "length_mm": 4923,
+      "width_mm": 1930,
+      "height_mm": 1840,
+      "wheelbase_mm": 2850,
+      "fuel_tank_liters": 70,
+      "ground_clearance_mm": 210,
+      "trunk_liters": 650,
+      "airbags": 7,
+      "isofix": true,
+      "adas": [
+        "Control crucero adaptativo",
+        "Frenado automático",
+        "Cámara 360°"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Pantalla táctil 10\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "fuel_consumption_mixed_km_l": 9,
+      "warranty_years": 7,
+      "warranty_km": 105000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "2.0T AT 4x4",
+          "price": 24990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "2.0T AT Luxury 4x4",
+          "price": 28990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ]
+    },
+    {
+      "id": 434,
+      "brand": "MG",
+      "model": "RX9",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 7,
+      "price": 25990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "SUV grande de 7 plazas con motor 2.0 turbo y tracción integral.",
+      "origin": "china",
+      "hp": 234,
+      "torque_nm": 360,
+      "length_mm": 4983,
+      "width_mm": 1967,
+      "height_mm": 1786,
+      "wheelbase_mm": 2915,
+      "fuel_tank_liters": 70,
+      "ground_clearance_mm": 195,
+      "trunk_liters": 570,
+      "airbags": 8,
+      "isofix": true,
+      "adas": [
+        "Control crucero adaptativo",
+        "Frenado automático",
+        "Cámara 360°",
+        "Asistente de carril"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Pantalla táctil 12.3\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Sonido Bose"
+      ],
+      "fuel_consumption_mixed_km_l": 9.5,
+      "warranty_years": 7,
+      "warranty_km": 105000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "2.0T AT 4x4",
+          "price": 25990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "2.0T AT Luxury 4x4",
+          "price": 29990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ]
+    },
+    {
+      "id": 435,
+      "brand": "MG",
+      "model": "S5 EV",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "electrico",
+      "seats": 5,
+      "price": 25990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "SUV eléctrico con doble motor y tracción integral para máxima eficiencia.",
+      "origin": "china",
+      "hp": 214,
+      "torque_nm": 350,
+      "length_mm": 4670,
+      "width_mm": 1920,
+      "height_mm": 1620,
+      "wheelbase_mm": 2750,
+      "ground_clearance_mm": 170,
+      "trunk_liters": 420,
+      "airbags": 6,
+      "isofix": true,
+      "adas": [
+        "Control crucero adaptativo",
+        "Frenado automático",
+        "Cámara 360°",
+        "Asistente de carril"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Pantalla táctil 12.3\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 7,
+      "warranty_km": 105000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "AWD",
+          "price": 25990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "AWD Luxury",
+          "price": 29990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ]
+    }
+  ]
+}

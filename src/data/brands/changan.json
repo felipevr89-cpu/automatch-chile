@@ -1,0 +1,811 @@
+{
+  "brand": "Changan",
+  "brandUrl": "https://www.changan.cl",
+  "models": [
+    {
+      "id": 77,
+      "brand": "Changan",
+      "model": "Alsvin",
+      "year": 2026,
+      "type": "sedan",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 10990000,
+      "transmission": "manual",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Sedán compacto económico con motor 1.5 y caja manual de cinco velocidades.",
+      "origin": "china",
+      "versions": [
+        {
+          "version": "1.5 MT",
+          "price": 10990000,
+          "transmission": "manual",
+          "traction": "4x2"
+        },
+        {
+          "version": "1.5 AT",
+          "price": 11990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 107,
+      "torque_nm": 145,
+      "fuel_consumption_city_km_l": 12.5,
+      "fuel_consumption_highway_km_l": 17.8,
+      "fuel_consumption_mixed_km_l": 14.8,
+      "fuel_tank_liters": 42,
+      "length_mm": 4390,
+      "width_mm": 1725,
+      "height_mm": 1515,
+      "wheelbase_mm": 2560,
+      "ground_clearance_mm": 160,
+      "trunk_liters": 484,
+      "airbags": 2,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla táctil 7\"",
+        "Bluetooth",
+        "USB"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 150000,
+      "origin_country": "China"
+    },
+    {
+      "id": 78,
+      "brand": "Changan",
+      "model": "CS15",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 9990000,
+      "transmission": "manual",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV subcompacto accesible con motor 1.4 y buen equipamiento de serie.",
+      "origin": "china",
+      "hp": 100,
+      "torque_nm": 135,
+      "length_mm": 4135,
+      "width_mm": 1740,
+      "height_mm": 1630,
+      "wheelbase_mm": 2520,
+      "fuel_tank_liters": 45,
+      "ground_clearance_mm": 180,
+      "trunk_liters": 300,
+      "airbags": 2,
+      "isofix": true,
+      "adas": [],
+      "latin_ncap_stars": 4,
+      "infotainment": [
+        "Pantalla táctil 7\"",
+        "Bluetooth",
+        "USB"
+      ],
+      "fuel_consumption_mixed_km_l": 13.5,
+      "warranty_years": 5,
+      "warranty_km": 150000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "1.4 MT",
+          "price": 9990000,
+          "transmission": "manual",
+          "traction": "4x2"
+        },
+        {
+          "version": "1.4 MT Comfort",
+          "price": 10990000,
+          "transmission": "manual",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "brand": "Changan",
+      "model": "CS35 Max",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 14190000,
+      "transmission": "manual",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV compacto con motor 1.5 natural o turbo, ideal para ciudad y viajes cortos.",
+      "origin": "china",
+      "versions": [
+        {
+          "version": "1.5 COMFORT MT",
+          "price": 14190000,
+          "transmission": "manual",
+          "traction": "4x2"
+        },
+        {
+          "version": "1.5T COMFORT AT",
+          "price": 16390000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "1.5T ELITE AT",
+          "price": 18890000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 181,
+      "torque_nm": 260,
+      "fuel_consumption_city_km_l": 10.2,
+      "fuel_consumption_highway_km_l": 15.3,
+      "fuel_consumption_mixed_km_l": 12.9,
+      "fuel_tank_liters": 50,
+      "length_mm": 4390,
+      "width_mm": 1860,
+      "height_mm": 1670,
+      "wheelbase_mm": 2650,
+      "ground_clearance_mm": 190,
+      "trunk_liters": 430,
+      "airbags": 4,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla táctil 10\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 150000,
+      "origin_country": "China"
+    },
+    {
+      "id": 80,
+      "brand": "Changan",
+      "model": "CS35 Plus",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 16890000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV subcompacto con diseño renovado y motor eficiente.",
+      "origin": "china",
+      "hp": 128,
+      "torque_nm": 161,
+      "length_mm": 4330,
+      "width_mm": 1825,
+      "height_mm": 1660,
+      "wheelbase_mm": 2600,
+      "fuel_tank_liters": 48,
+      "ground_clearance_mm": 175,
+      "trunk_liters": 400,
+      "airbags": 6,
+      "isofix": true,
+      "adas": [
+        "Frenado automático",
+        "Cámara de retroceso"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Pantalla táctil 10.25\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "fuel_consumption_mixed_km_l": 13,
+      "warranty_years": 5,
+      "warranty_km": 150000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "1.6L AT",
+          "price": 16890000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "1.6L AT Luxury",
+          "price": 18890000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "brand": "Changan",
+      "model": "CS55 Plus",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 18590000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV mediano con motor 1.5 turbo de 188 hp y equipamiento tecnológico completo.",
+      "origin": "china",
+      "versions": [
+        {
+          "version": "1.5T COMFORT AT",
+          "price": 18590000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "1.5T LUXURY AT",
+          "price": 19590000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "1.5T ELITE AT",
+          "price": 21590000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 188,
+      "torque_nm": 300,
+      "fuel_consumption_city_km_l": 9.5,
+      "fuel_consumption_highway_km_l": 14.2,
+      "fuel_consumption_mixed_km_l": 11.8,
+      "fuel_tank_liters": 55,
+      "length_mm": 4530,
+      "width_mm": 1865,
+      "height_mm": 1690,
+      "wheelbase_mm": 2680,
+      "ground_clearance_mm": 195,
+      "trunk_liters": 510,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla táctil 12.3\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Cámara 360°"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 150000,
+      "origin_country": "China"
+    },
+    {
+      "id": 82,
+      "brand": "Changan",
+      "model": "CS75 Plus",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 19990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV compacto con motor turbo y amplio equipamiento tecnológico.",
+      "origin": "china",
+      "hp": 180,
+      "torque_nm": 300,
+      "length_mm": 4700,
+      "width_mm": 1865,
+      "height_mm": 1710,
+      "wheelbase_mm": 2710,
+      "fuel_tank_liters": 58,
+      "ground_clearance_mm": 190,
+      "trunk_liters": 450,
+      "airbags": 6,
+      "isofix": true,
+      "adas": [
+        "Control crucero adaptativo",
+        "Frenado automático",
+        "Cámara 360°"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Pantalla táctil 12.3\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "fuel_consumption_mixed_km_l": 11.5,
+      "warranty_years": 5,
+      "warranty_km": 150000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "1.5T AT",
+          "price": 19990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "1.5T AT Luxury",
+          "price": 22990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "brand": "Changan",
+      "model": "Eado Plus",
+      "year": 2025,
+      "type": "sedan",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 12990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Sedán compacto con motor 1.6 litros y transmisión automática.",
+      "origin": "china",
+      "hp": 128,
+      "torque_nm": 161,
+      "length_mm": 4650,
+      "width_mm": 1820,
+      "height_mm": 1505,
+      "wheelbase_mm": 2700,
+      "fuel_tank_liters": 52,
+      "ground_clearance_mm": 165,
+      "trunk_liters": 500,
+      "airbags": 4,
+      "isofix": true,
+      "adas": [
+        "Frenado automático"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Pantalla táctil 10.25\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "fuel_consumption_mixed_km_l": 13,
+      "warranty_years": 5,
+      "warranty_km": 150000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "1.6 AT Comfort",
+          "price": 12990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "1.6 AT Luxury",
+          "price": 14990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "brand": "Changan",
+      "model": "Hunter",
+      "year": 2026,
+      "type": "pickup",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 21990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "Pickup mediana con motor 2.0 turbo y tracción total, versión REEV disponible.",
+      "origin": "china",
+      "versions": [
+        {
+          "version": "2.0T 4x2 MT",
+          "price": 19990000,
+          "transmission": "manual",
+          "traction": "4x2"
+        },
+        {
+          "version": "2.0T 4x4 AT",
+          "price": 21990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "REEV 4x4 AT",
+          "price": 27990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 222,
+      "torque_nm": 390,
+      "fuel_consumption_city_km_l": 8,
+      "fuel_consumption_highway_km_l": 11.5,
+      "fuel_consumption_mixed_km_l": 9.5,
+      "fuel_tank_liters": 70,
+      "length_mm": 5360,
+      "width_mm": 1930,
+      "height_mm": 1880,
+      "wheelbase_mm": 3120,
+      "ground_clearance_mm": 230,
+      "trunk_liters": 0,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla táctil 10.25\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 150000,
+      "origin_country": "China"
+    },
+    {
+      "id": 85,
+      "brand": "Changan",
+      "model": "Hunter REEV",
+      "year": 2025,
+      "type": "pickup",
+      "fuel": "electrico",
+      "seats": 5,
+      "price": 34990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "Pickup eléctrica con extensor de autonomía (REEV) y doble motor.",
+      "origin": "china",
+      "hp": 272,
+      "torque_nm": 420,
+      "length_mm": 5400,
+      "width_mm": 1960,
+      "height_mm": 1890,
+      "wheelbase_mm": 3230,
+      "ground_clearance_mm": 230,
+      "trunk_liters": 0,
+      "airbags": 6,
+      "isofix": true,
+      "adas": [
+        "Control crucero adaptativo",
+        "Frenado automático",
+        "Cámara 360°"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Pantalla táctil 12.3\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 150000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "REEV AWD",
+          "price": 34990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "REEV AWD Premium",
+          "price": 39990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "brand": "Changan",
+      "model": "Lumin",
+      "year": 2026,
+      "type": "hatchback",
+      "fuel": "electrico",
+      "seats": 5,
+      "price": 13990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Hatchback eléctrico urbano compacto con cero emisiones.",
+      "origin": "china",
+      "hp": 50,
+      "torque_nm": 100,
+      "length_mm": 3500,
+      "width_mm": 1700,
+      "height_mm": 1540,
+      "wheelbase_mm": 2410,
+      "ground_clearance_mm": 140,
+      "trunk_liters": 150,
+      "airbags": 4,
+      "isofix": true,
+      "adas": [
+        "Cámara de retroceso"
+      ],
+      "latin_ncap_stars": 4,
+      "infotainment": [
+        "Pantalla táctil 7\"",
+        "Bluetooth",
+        "USB"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 150000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "EV",
+          "price": 13990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "EV Comfort",
+          "price": 15990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "brand": "Changan",
+      "model": "MD201",
+      "year": 2026,
+      "type": "pickup",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 8794100,
+      "transmission": "manual",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Pickup compacta de trabajo con gran capacidad de carga.",
+      "origin": "china",
+      "hp": 100,
+      "torque_nm": 135,
+      "length_mm": 5080,
+      "width_mm": 1760,
+      "height_mm": 1870,
+      "wheelbase_mm": 3025,
+      "fuel_tank_liters": 60,
+      "ground_clearance_mm": 200,
+      "trunk_liters": 0,
+      "airbags": 2,
+      "isofix": false,
+      "adas": [],
+      "latin_ncap_stars": 3,
+      "infotainment": [
+        "Radio",
+        "Bluetooth",
+        "USB"
+      ],
+      "fuel_consumption_mixed_km_l": 11,
+      "warranty_years": 5,
+      "warranty_km": 150000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "1.5L MT",
+          "price": 8794100,
+          "transmission": "manual",
+          "traction": "4x2"
+        },
+        {
+          "version": "1.5L MT Plus",
+          "price": 9890000,
+          "transmission": "manual",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "brand": "Changan",
+      "model": "Star Truck",
+      "year": 2026,
+      "type": "pickup",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 13197100,
+      "transmission": "manual",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Pickup mediana con amplia capacidad de carga y motor robusto.",
+      "origin": "china",
+      "hp": 120,
+      "torque_nm": 170,
+      "length_mm": 5250,
+      "width_mm": 1880,
+      "height_mm": 1920,
+      "wheelbase_mm": 3200,
+      "fuel_tank_liters": 60,
+      "ground_clearance_mm": 205,
+      "trunk_liters": 0,
+      "airbags": 2,
+      "isofix": false,
+      "adas": [],
+      "latin_ncap_stars": 3,
+      "infotainment": [
+        "Radio",
+        "Bluetooth",
+        "USB"
+      ],
+      "fuel_consumption_mixed_km_l": 10.5,
+      "warranty_years": 5,
+      "warranty_km": 150000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "1.8L MT",
+          "price": 13197100,
+          "transmission": "manual",
+          "traction": "4x2"
+        },
+        {
+          "version": "1.8L MT Plus",
+          "price": 14990000,
+          "transmission": "manual",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "brand": "Changan",
+      "model": "UNI-K",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 21990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "SUV mediano con motor 2.0 turbo y tracción 4x4.",
+      "origin": "china",
+      "hp": 233,
+      "torque_nm": 390,
+      "length_mm": 4865,
+      "width_mm": 1948,
+      "height_mm": 1700,
+      "wheelbase_mm": 2890,
+      "fuel_tank_liters": 70,
+      "ground_clearance_mm": 200,
+      "trunk_liters": 580,
+      "airbags": 7,
+      "isofix": true,
+      "adas": [
+        "Control crucero adaptativo",
+        "Asistente de carril",
+        "Frenado automático",
+        "Cámara 360°"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Pantalla táctil 12.3\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Sonido Sony"
+      ],
+      "fuel_consumption_mixed_km_l": 9.5,
+      "warranty_years": 5,
+      "warranty_km": 150000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "2.0T AT 4x4",
+          "price": 21990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "2.0T AT Luxury 4x4",
+          "price": 25990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "brand": "Changan",
+      "model": "UNI-T",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 17990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV coupé con diseño futurista y motor 1.5 turbo.",
+      "origin": "china",
+      "hp": 180,
+      "torque_nm": 300,
+      "length_mm": 4515,
+      "width_mm": 1870,
+      "height_mm": 1565,
+      "wheelbase_mm": 2710,
+      "fuel_tank_liters": 55,
+      "ground_clearance_mm": 185,
+      "trunk_liters": 420,
+      "airbags": 6,
+      "isofix": true,
+      "adas": [
+        "Control crucero adaptativo",
+        "Frenado automático",
+        "Cámara 360°"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Pantalla táctil 10.25\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "fuel_consumption_mixed_km_l": 11.5,
+      "warranty_years": 5,
+      "warranty_km": 150000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "1.5T AT Elite",
+          "price": 17990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "1.5T AT Luxury",
+          "price": 20990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 91,
+      "brand": "Changan",
+      "model": "X7 Plus",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 7,
+      "price": 18990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV de tres filas con motor 2.0 turbo y espacio para siete pasajeros.",
+      "origin": "china",
+      "versions": [
+        {
+          "version": "2.0T COMFORT AT",
+          "price": 18990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "2.0T ELITE AT",
+          "price": 19990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 218,
+      "torque_nm": 350,
+      "fuel_consumption_city_km_l": 8.5,
+      "fuel_consumption_highway_km_l": 12.8,
+      "fuel_consumption_mixed_km_l": 10.5,
+      "fuel_tank_liters": 60,
+      "length_mm": 4780,
+      "width_mm": 1875,
+      "height_mm": 1730,
+      "wheelbase_mm": 2780,
+      "ground_clearance_mm": 200,
+      "trunk_liters": 350,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla táctil 12.3\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 150000,
+      "origin_country": "China"
+    }
+  ]
+}

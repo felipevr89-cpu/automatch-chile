@@ -1,0 +1,162 @@
+{
+  "brand": "Exeed",
+  "brandUrl": "https://www.exeedbornformore.cl",
+  "models": [
+    {
+      "id": 156,
+      "brand": "Exeed",
+      "model": "LX",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 15990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV compacta premium con motor 1.6T turbo y diseño sofisticado.",
+      "origin": "China",
+      "hp": 197,
+      "torque_nm": 290,
+      "length_mm": 4572,
+      "width_mm": 1865,
+      "height_mm": 1685,
+      "wheelbase_mm": 2700,
+      "fuel_tank_liters": 55,
+      "airbags": 6,
+      "isofix": true,
+      "adas": [
+        "Frenado automático AEB",
+        "Control crucero adaptativo",
+        "Alerta de punto ciego"
+      ],
+      "infotainment": [
+        "Pantalla 12.3\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "fuel_consumption_mixed_km_l": 12.5,
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "Advanced 1.6T DCT",
+          "price": 15990000,
+          "transmission": "DCT 7V",
+          "traction": "4x2"
+        },
+        {
+          "version": "Unlimited 1.6T DCT",
+          "price": 18990000,
+          "transmission": "DCT 7V",
+          "traction": "4x2"
+        },
+        {
+          "version": "Unlimited AWD 1.6T DCT",
+          "price": 21990000,
+          "transmission": "DCT 7V",
+          "traction": "awd"
+        }
+      ]
+    },
+    {
+      "id": 157,
+      "brand": "Exeed",
+      "model": "RX",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 23990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV deportiva premium con motor 2.0T turbo y rendimiento destacado.",
+      "origin": "China",
+      "hp": 261,
+      "torque_nm": 400,
+      "length_mm": 4720,
+      "width_mm": 1900,
+      "height_mm": 1700,
+      "wheelbase_mm": 2790,
+      "fuel_tank_liters": 57,
+      "airbags": 7,
+      "isofix": true,
+      "adas": [
+        "Frenado automático AEB",
+        "Control crucero adaptativo",
+        "Cámara 360°"
+      ],
+      "infotainment": [
+        "Pantalla 14.6\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "fuel_consumption_mixed_km_l": 11.5,
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "Prestige 2.0T DCT",
+          "price": 23990000,
+          "transmission": "DCT 7V",
+          "traction": "4x2"
+        },
+        {
+          "version": "Ultimate 2.0T AWD",
+          "price": 27990000,
+          "transmission": "DCT 7V",
+          "traction": "awd"
+        }
+      ]
+    },
+    {
+      "id": 158,
+      "brand": "Exeed",
+      "model": "VX",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 7,
+      "price": 33990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "SUV insignia de tres filas con motor 2.0T, equipamiento lujoso y tracción integral.",
+      "origin": "China",
+      "hp": 261,
+      "torque_nm": 400,
+      "length_mm": 4970,
+      "width_mm": 1950,
+      "height_mm": 1790,
+      "wheelbase_mm": 2900,
+      "fuel_tank_liters": 70,
+      "airbags": 8,
+      "isofix": true,
+      "adas": [
+        "Frenado automático AEB",
+        "Control crucero adaptativo",
+        "Cámara 360°"
+      ],
+      "infotainment": [
+        "Pantalla 15.6\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "fuel_consumption_mixed_km_l": 11,
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "Luxury 2.0T AWD",
+          "price": 33990000,
+          "transmission": "DCT 7V",
+          "traction": "awd"
+        }
+      ]
+    }
+  ]
+}

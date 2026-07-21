@@ -1,0 +1,94 @@
+{
+  "brand": "ZNA",
+  "brandUrl": "https://www.zna.cl",
+  "models": [
+    {
+      "id": 614,
+      "brand": "ZNA",
+      "model": "Pickup 4x2",
+      "year": 2026,
+      "type": "pickup",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 11990000,
+      "transmission": "manual",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Pick-up de trabajo robusta y confiable con motor de origen Nissan, representado por CIDEF.",
+      "origin": "China",
+      "hp": 118,
+      "torque_nm": 160,
+      "length_mm": 4900,
+      "width_mm": 1720,
+      "height_mm": 1740,
+      "wheelbase_mm": 2840,
+      "fuel_tank_liters": 50,
+      "ground_clearance_mm": 195,
+      "trunk_liters": 0,
+      "airbags": 2,
+      "isofix": false,
+      "adas": [],
+      "latin_ncap_stars": 2,
+      "infotainment": [
+        "Radio",
+        "Bluetooth"
+      ],
+      "fuel_consumption_mixed_km_l": 11,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "1.6L MT 4x2",
+          "price": 11990000,
+          "transmission": "manual",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 615,
+      "brand": "ZNA",
+      "model": "Pickup 4x4",
+      "year": 2026,
+      "type": "pickup",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 14990000,
+      "transmission": "manual",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "Pick-up 4x4 con capacidad off-road y motor potente.",
+      "origin": "China",
+      "hp": 140,
+      "torque_nm": 180,
+      "length_mm": 4900,
+      "width_mm": 1720,
+      "height_mm": 1740,
+      "wheelbase_mm": 2840,
+      "fuel_tank_liters": 50,
+      "ground_clearance_mm": 220,
+      "trunk_liters": 0,
+      "airbags": 2,
+      "isofix": false,
+      "adas": [],
+      "latin_ncap_stars": 2,
+      "infotainment": [
+        "Radio",
+        "Bluetooth"
+      ],
+      "fuel_consumption_mixed_km_l": 10.5,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "1.6L MT 4x4",
+          "price": 14990000,
+          "transmission": "manual",
+          "traction": "4x4"
+        }
+      ]
+    }
+  ]
+}

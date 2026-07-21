@@ -1,0 +1,191 @@
+{
+  "brand": "DS",
+  "brandUrl": "https://www.dsautomobiles.cl",
+  "models": [
+    {
+      "id": 153,
+      "brand": "DS",
+      "model": "DS 3",
+      "year": 2025,
+      "type": "hatchback",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 21990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Hatchback premium con diseño francés exclusivo.",
+      "origin": "Francia",
+      "versions": [
+        {
+          "version": "Performance Line",
+          "price": 21990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Rivoli",
+          "price": 26990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 130,
+      "torque_nm": 230,
+      "top_speed_kmh": 195,
+      "fuel_consumption_city_km_l": 13,
+      "fuel_consumption_highway_km_l": 18,
+      "fuel_consumption_mixed_km_l": 15,
+      "fuel_tank_liters": 44,
+      "length_mm": 4118,
+      "width_mm": 1791,
+      "height_mm": 1534,
+      "wheelbase_mm": 2558,
+      "ground_clearance_mm": 155,
+      "trunk_liters": 350,
+      "airbags": 6,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "DS Connect",
+        "pantalla 10.3\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "sonido Focal Electra"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Francia"
+    },
+    {
+      "id": 154,
+      "brand": "DS",
+      "model": "DS 4",
+      "year": 2025,
+      "type": "hatchback",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 26990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Coupé crossover premium con diseño innovador.",
+      "origin": "Francia",
+      "versions": [
+        {
+          "version": "Performance Line",
+          "price": 26990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Rivoli",
+          "price": 31990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 180,
+      "torque_nm": 250,
+      "top_speed_kmh": 215,
+      "fuel_consumption_city_km_l": 12,
+      "fuel_consumption_highway_km_l": 17,
+      "fuel_consumption_mixed_km_l": 14,
+      "fuel_tank_liters": 50,
+      "length_mm": 4400,
+      "width_mm": 1830,
+      "height_mm": 1480,
+      "wheelbase_mm": 2680,
+      "ground_clearance_mm": 160,
+      "trunk_liters": 420,
+      "airbags": 7,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "cámara 360°",
+        "asistente de estacionamiento"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "DS Connect",
+        "pantalla 10.3\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "sonido Focal Electra"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Francia"
+    },
+    {
+      "id": 155,
+      "brand": "DS",
+      "model": "DS 7",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 32990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "SUV premium de lujo con acabados refinados.",
+      "origin": "Francia",
+      "versions": [
+        {
+          "version": "Performance Line",
+          "price": 32990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Rivoli",
+          "price": 39990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 225,
+      "torque_nm": 300,
+      "top_speed_kmh": 220,
+      "fuel_consumption_city_km_l": 11,
+      "fuel_consumption_highway_km_l": 16,
+      "fuel_consumption_mixed_km_l": 13,
+      "fuel_tank_liters": 53,
+      "length_mm": 4573,
+      "width_mm": 1891,
+      "height_mm": 1626,
+      "wheelbase_mm": 2738,
+      "ground_clearance_mm": 190,
+      "trunk_liters": 555,
+      "airbags": 7,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "cámara 360°",
+        "asistente de estacionamiento",
+        "asistente de conducción en autopista"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "DS Connect",
+        "pantalla 12\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "sonido Focal Electra"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Francia"
+    }
+  ]
+}

@@ -1,0 +1,470 @@
+{
+  "brand": "Land Rover",
+  "brandUrl": "https://www.landrover.cl",
+  "models": [
+    {
+      "id": 343,
+      "brand": "Land Rover",
+      "model": "Defender",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 57990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "SUV todoterreno icónico y robusto.",
+      "origin": "Reino Unido",
+      "versions": [
+        {
+          "version": "Defender 90",
+          "price": 57990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "Defender 110",
+          "price": 62990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "Defender V8",
+          "price": 89990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 300,
+      "torque_nm": 400,
+      "top_speed_kmh": 200,
+      "fuel_consumption_city_km_l": 9,
+      "fuel_consumption_highway_km_l": 13,
+      "fuel_consumption_mixed_km_l": 11,
+      "fuel_tank_liters": 90,
+      "length_mm": 4758,
+      "width_mm": 2008,
+      "height_mm": 1967,
+      "wheelbase_mm": 3022,
+      "ground_clearance_mm": 293,
+      "trunk_liters": 786,
+      "airbags": 8,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "cámara 360°",
+        "asistente de estacionamiento",
+        "Terrain Response 2"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "Pivi Pro",
+        "pantalla 11.4\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "sonido Meridian"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "Reino Unido"
+    },
+    {
+      "id": 344,
+      "brand": "Land Rover",
+      "model": "Discovery",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 7,
+      "price": 62990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "SUV familiar de 7 plazas con capacidad off-road.",
+      "origin": "Reino Unido",
+      "versions": [
+        {
+          "version": "Discovery",
+          "price": 62990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "Discovery R-Dynamic",
+          "price": 70990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 300,
+      "torque_nm": 400,
+      "top_speed_kmh": 200,
+      "fuel_consumption_city_km_l": 9,
+      "fuel_consumption_highway_km_l": 13,
+      "fuel_consumption_mixed_km_l": 11,
+      "fuel_tank_liters": 90,
+      "length_mm": 4956,
+      "width_mm": 2073,
+      "height_mm": 1888,
+      "wheelbase_mm": 2923,
+      "ground_clearance_mm": 283,
+      "trunk_liters": 1137,
+      "airbags": 8,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "cámara 360°",
+        "asistente de estacionamiento",
+        "Terrain Response 2"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "Pivi Pro",
+        "pantalla 11.4\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "sonido Meridian",
+        "pantalla trasera"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "Reino Unido"
+    },
+    {
+      "id": 345,
+      "brand": "Land Rover",
+      "model": "Discovery Sport",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 7,
+      "price": 42990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "SUV compacto de 7 plazas con versatilidad.",
+      "origin": "Reino Unido",
+      "versions": [
+        {
+          "version": "Discovery Sport",
+          "price": 42990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "Discovery Sport R-Dynamic",
+          "price": 48990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 200,
+      "torque_nm": 320,
+      "top_speed_kmh": 200,
+      "fuel_consumption_city_km_l": 11,
+      "fuel_consumption_highway_km_l": 16,
+      "fuel_consumption_mixed_km_l": 13,
+      "fuel_tank_liters": 65,
+      "length_mm": 4597,
+      "width_mm": 1904,
+      "height_mm": 1718,
+      "wheelbase_mm": 2741,
+      "ground_clearance_mm": 212,
+      "trunk_liters": 840,
+      "airbags": 7,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "cámara 360°",
+        "asistente de estacionamiento",
+        "Terrain Response 2"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "Pivi Pro",
+        "pantalla 10\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "sonido Meridian"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "Reino Unido"
+    },
+    {
+      "id": 346,
+      "brand": "Land Rover",
+      "model": "Range Rover",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 99990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "El SUV de lujo definitivo, tope de gama.",
+      "origin": "Reino Unido",
+      "versions": [
+        {
+          "version": "Range Rover",
+          "price": 99990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "Range Rover Autobiography",
+          "price": 129990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "Range Rover SV",
+          "price": 169990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 395,
+      "torque_nm": 550,
+      "top_speed_kmh": 250,
+      "fuel_consumption_city_km_l": 8,
+      "fuel_consumption_highway_km_l": 12,
+      "fuel_consumption_mixed_km_l": 10,
+      "fuel_tank_liters": 90,
+      "length_mm": 5252,
+      "width_mm": 2047,
+      "height_mm": 1870,
+      "wheelbase_mm": 3197,
+      "ground_clearance_mm": 294,
+      "trunk_liters": 818,
+      "airbags": 10,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "cámara 360°",
+        "asistente de estacionamiento",
+        "Terrain Response 2",
+        "asistente de conducción en autopista",
+        "sistema de susp neumática",
+        "asiento de masaje"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "Pivi Pro",
+        "pantalla 13.1\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "sonido Meridian Signature"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "Reino Unido"
+    },
+    {
+      "id": 347,
+      "brand": "Land Rover",
+      "model": "Range Rover Evoque",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 42990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "SUV premium compacto con diseño icónico.",
+      "origin": "Reino Unido",
+      "versions": [
+        {
+          "version": "Evoque",
+          "price": 42990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "Evoque R-Dynamic",
+          "price": 48990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 200,
+      "torque_nm": 320,
+      "top_speed_kmh": 215,
+      "fuel_consumption_city_km_l": 11,
+      "fuel_consumption_highway_km_l": 16,
+      "fuel_consumption_mixed_km_l": 13,
+      "fuel_tank_liters": 65,
+      "length_mm": 4371,
+      "width_mm": 1904,
+      "height_mm": 1649,
+      "wheelbase_mm": 2681,
+      "ground_clearance_mm": 210,
+      "trunk_liters": 577,
+      "airbags": 6,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "cámara 360°",
+        "asistente de estacionamiento",
+        "Terrain Response 2"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "Pivi Pro",
+        "pantalla 11.4\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "sonido Meridian"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "Reino Unido"
+    },
+    {
+      "id": 348,
+      "brand": "Land Rover",
+      "model": "Range Rover Sport",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 69990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "SUV deportivo de lujo con prestaciones excepcionales.",
+      "origin": "Reino Unido",
+      "versions": [
+        {
+          "version": "Sport",
+          "price": 69990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "Sport R-Dynamic",
+          "price": 79990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "Sport SVR",
+          "price": 109990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 300,
+      "torque_nm": 400,
+      "top_speed_kmh": 245,
+      "fuel_consumption_city_km_l": 9,
+      "fuel_consumption_highway_km_l": 14,
+      "fuel_consumption_mixed_km_l": 11,
+      "fuel_tank_liters": 90,
+      "length_mm": 4782,
+      "width_mm": 1980,
+      "height_mm": 1803,
+      "wheelbase_mm": 2874,
+      "ground_clearance_mm": 216,
+      "trunk_liters": 793,
+      "airbags": 8,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "cámara 360°",
+        "asistente de estacionamiento",
+        "Terrain Response 2",
+        "asistente de conducción en autopista"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "Pivi Pro",
+        "pantalla 13.1\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "sonido Meridian"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "Reino Unido"
+    },
+    {
+      "id": 349,
+      "brand": "Land Rover",
+      "model": "Range Rover Velar",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 52990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "SUV mediano de lujo con diseño minimalista.",
+      "origin": "Reino Unido",
+      "versions": [
+        {
+          "version": "Velar",
+          "price": 52990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "Velar R-Dynamic",
+          "price": 60990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 250,
+      "torque_nm": 365,
+      "top_speed_kmh": 230,
+      "fuel_consumption_city_km_l": 10,
+      "fuel_consumption_highway_km_l": 15,
+      "fuel_consumption_mixed_km_l": 12,
+      "fuel_tank_liters": 82,
+      "length_mm": 4803,
+      "width_mm": 1930,
+      "height_mm": 1665,
+      "wheelbase_mm": 2874,
+      "ground_clearance_mm": 205,
+      "trunk_liters": 673,
+      "airbags": 8,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "cámara 360°",
+        "asistente de estacionamiento",
+        "Terrain Response 2"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "Pivi Pro",
+        "pantalla 11.4\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "sonido Meridian"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "Reino Unido"
+    }
+  ]
+}

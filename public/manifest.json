@@ -1,0 +1,20 @@
+{
+  "name": "AutoMatch Chile",
+  "short_name": "AutoMatch",
+  "description": "Comparador de autos del mercado chileno",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "lang": "es-CL",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "icons": [
+    {
+      "src": "/vite.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

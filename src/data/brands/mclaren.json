@@ -1,0 +1,166 @@
+{
+  "brand": "McLaren",
+  "brandUrl": "https://cars.mclaren.com",
+  "models": [
+    {
+      "id": 394,
+      "brand": "McLaren",
+      "model": "720S",
+      "year": 2025,
+      "type": "sedan",
+      "fuel": "gasolina",
+      "seats": 2,
+      "price": 219990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Superdeportivo con motor V8 biturbo de 720 CV.",
+      "origin": "Reino Unido",
+      "versions": [
+        {
+          "version": "720S Coupe",
+          "price": 219990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "720S Spider",
+          "price": 239990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 720,
+      "torque_nm": 770,
+      "top_speed_kmh": 341,
+      "fuel_consumption_city_km_l": 8,
+      "fuel_consumption_highway_km_l": 12,
+      "fuel_consumption_mixed_km_l": 10,
+      "fuel_tank_liters": 72,
+      "length_mm": 4543,
+      "width_mm": 1930,
+      "height_mm": 1196,
+      "wheelbase_mm": 2670,
+      "ground_clearance_mm": 119,
+      "trunk_liters": 210,
+      "airbags": 4,
+      "adas": [
+        "control de crucero adaptativo",
+        "frenado automático de emergencia",
+        "cámara 360°"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": false,
+      "infotainment": [
+        "pantalla 8\"",
+        "Apple CarPlay"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Reino Unido"
+    },
+    {
+      "id": 395,
+      "brand": "McLaren",
+      "model": "Artura",
+      "year": 2025,
+      "type": "sedan",
+      "fuel": "hibrido_enchufable",
+      "seats": 2,
+      "price": 169990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "Superdeportivo híbrido enchufable con motor V6.",
+      "origin": "Reino Unido",
+      "versions": [
+        {
+          "version": "Artura",
+          "price": 169990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ],
+      "hp": 680,
+      "torque_nm": 720,
+      "top_speed_kmh": 330,
+      "fuel_consumption_city_km_l": 18,
+      "fuel_consumption_highway_km_l": 14,
+      "fuel_consumption_mixed_km_l": 16,
+      "fuel_tank_liters": 60,
+      "length_mm": 4539,
+      "width_mm": 1913,
+      "height_mm": 1196,
+      "wheelbase_mm": 2640,
+      "ground_clearance_mm": 115,
+      "trunk_liters": 160,
+      "airbags": 4,
+      "adas": [
+        "control de crucero adaptativo",
+        "frenado automático de emergencia",
+        "cámara 360°"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": false,
+      "infotainment": [
+        "pantalla 8\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Reino Unido"
+    },
+    {
+      "id": 396,
+      "brand": "McLaren",
+      "model": "GT",
+      "year": 2025,
+      "type": "coupe",
+      "fuel": "gasolina",
+      "seats": 2,
+      "price": 169990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Gran turismo deportivo con motor V8 biturbo.",
+      "origin": "Reino Unido",
+      "versions": [
+        {
+          "version": "GT",
+          "price": 169990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 620,
+      "torque_nm": 630,
+      "top_speed_kmh": 326,
+      "fuel_consumption_city_km_l": 9,
+      "fuel_consumption_highway_km_l": 14,
+      "fuel_consumption_mixed_km_l": 11,
+      "fuel_tank_liters": 72,
+      "length_mm": 4683,
+      "width_mm": 1900,
+      "height_mm": 1303,
+      "wheelbase_mm": 2670,
+      "ground_clearance_mm": 130,
+      "trunk_liters": 570,
+      "airbags": 4,
+      "adas": [
+        "control de crucero adaptativo",
+        "frenado automático de emergencia",
+        "cámara 360°"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": false,
+      "infotainment": [
+        "pantalla 8\"",
+        "Apple CarPlay"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Reino Unido"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "brand": "Ineos",
+  "brandUrl": "#",
+  "models": [
+    {
+      "id": 260,
+      "brand": "Ineos",
+      "model": "Grenadier",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "diesel",
+      "seats": 5,
+      "price": 52990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "SUV todoterreno robusto y funcional.",
+      "origin": "Francia",
+      "versions": [
+        {
+          "version": "Utility Wagon",
+          "price": 52990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "Fieldmaster",
+          "price": 59990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "Inscription",
+          "price": 64990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 249,
+      "torque_nm": 550,
+      "top_speed_kmh": 170,
+      "fuel_consumption_city_km_l": 10,
+      "fuel_consumption_highway_km_l": 14,
+      "fuel_consumption_mixed_km_l": 12,
+      "fuel_tank_liters": 80,
+      "length_mm": 4856,
+      "width_mm": 1930,
+      "height_mm": 2025,
+      "wheelbase_mm": 2922,
+      "ground_clearance_mm": 264,
+      "trunk_liters": 1140,
+      "airbags": 6,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "cámara 360°"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "pantalla 12.3\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 120000,
+      "origin_country": "Francia"
+    }
+  ]
+}

@@ -1,0 +1,256 @@
+{
+  "brand": "Rolls-Royce",
+  "brandUrl": "#",
+  "models": [
+    {
+      "id": 517,
+      "brand": "Rolls-Royce",
+      "model": "Cullinan",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 349990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "SUV de lujo absoluto, tope de gama de la marca.",
+      "origin": "Reino Unido",
+      "versions": [
+        {
+          "version": "Cullinan",
+          "price": 349990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "Cullinan Black Badge",
+          "price": 399990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ],
+      "hp": 571,
+      "torque_nm": 850,
+      "top_speed_kmh": 250,
+      "fuel_consumption_city_km_l": 6,
+      "fuel_consumption_highway_km_l": 10,
+      "fuel_consumption_mixed_km_l": 8,
+      "fuel_tank_liters": 100,
+      "length_mm": 5341,
+      "width_mm": 2000,
+      "height_mm": 1835,
+      "wheelbase_mm": 3295,
+      "ground_clearance_mm": 247,
+      "trunk_liters": 560,
+      "airbags": 8,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "cámara 360°",
+        "asistente de estacionamiento",
+        "asistente de conducción en autopista",
+        "sistema de susp neumática"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "pantalla 12.3\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "sonido Bespoke Audio",
+        "pantalla trasera",
+        "asiento de masaje",
+        "refrigerador"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 100000,
+      "origin_country": "Reino Unido"
+    },
+    {
+      "id": 518,
+      "brand": "Rolls-Royce",
+      "model": "Ghost",
+      "year": 2025,
+      "type": "sedan",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 279990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "Sedán de lujo absoluto con motor V12.",
+      "origin": "Reino Unido",
+      "versions": [
+        {
+          "version": "Ghost",
+          "price": 279990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "Ghost EWB",
+          "price": 309990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ],
+      "hp": 571,
+      "torque_nm": 850,
+      "top_speed_kmh": 250,
+      "fuel_consumption_city_km_l": 6,
+      "fuel_consumption_highway_km_l": 10,
+      "fuel_consumption_mixed_km_l": 8,
+      "fuel_tank_liters": 100,
+      "length_mm": 5546,
+      "width_mm": 1978,
+      "height_mm": 1546,
+      "wheelbase_mm": 3295,
+      "ground_clearance_mm": 150,
+      "trunk_liters": 500,
+      "airbags": 8,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "cámara 360°",
+        "asistente de estacionamiento",
+        "asistente de conducción en autopista"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "pantalla 12.3\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "sonido Bespoke Audio",
+        "pantalla trasera",
+        "asiento de masaje",
+        "refrigerador"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 100000,
+      "origin_country": "Reino Unido"
+    },
+    {
+      "id": 519,
+      "brand": "Rolls-Royce",
+      "model": "Phantom",
+      "year": 2025,
+      "type": "sedan",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 379990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "El sedán de lujo más exclusivo del mundo.",
+      "origin": "Reino Unido",
+      "versions": [
+        {
+          "version": "Phantom",
+          "price": 379990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "Phantom EWB",
+          "price": 409990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ],
+      "hp": 571,
+      "torque_nm": 900,
+      "top_speed_kmh": 250,
+      "fuel_consumption_city_km_l": 5,
+      "fuel_consumption_highway_km_l": 9,
+      "fuel_consumption_mixed_km_l": 7,
+      "fuel_tank_liters": 100,
+      "length_mm": 5762,
+      "width_mm": 2018,
+      "height_mm": 1656,
+      "wheelbase_mm": 3552,
+      "ground_clearance_mm": 160,
+      "trunk_liters": 548,
+      "airbags": 8,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "cámara 360°",
+        "asistente de estacionamiento",
+        "asistente de conducción en autopista"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "pantalla 12.3\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "sonido Bespoke Audio",
+        "pantalla trasera",
+        "asiento de masaje",
+        "refrigerador"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 100000,
+      "origin_country": "Reino Unido"
+    },
+    {
+      "id": 520,
+      "brand": "Rolls-Royce",
+      "model": "Spectre",
+      "year": 2025,
+      "type": "sedan",
+      "fuel": "electrico",
+      "seats": 4,
+      "price": 429990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "Primer eléctrico de Rolls-Royce, coupé de lujo.",
+      "origin": "Reino Unido",
+      "versions": [
+        {
+          "version": "Spectre",
+          "price": 429990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ],
+      "hp": 585,
+      "torque_nm": 900,
+      "top_speed_kmh": 250,
+      "length_mm": 5453,
+      "width_mm": 2080,
+      "height_mm": 1559,
+      "wheelbase_mm": 3210,
+      "ground_clearance_mm": 160,
+      "trunk_liters": 380,
+      "airbags": 8,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "cámara 360°",
+        "asistente de estacionamiento",
+        "asistente de conducción en autopista"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "pantalla 15\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "sonido Bespoke Audio",
+        "pantalla trasera",
+        "asiento de masaje"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 100000,
+      "origin_country": "Reino Unido"
+    }
+  ]
+}

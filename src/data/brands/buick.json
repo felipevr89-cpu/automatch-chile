@@ -1,0 +1,61 @@
+{
+  "brand": "Buick",
+  "brandUrl": "https://www.buick.cl",
+  "models": [
+    {
+      "id": 62,
+      "brand": "Buick",
+      "model": "Envision",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 34990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV mediano con estilo refinado, motor turbo, interior silencioso y buen equipamiento premium accesible.",
+      "origin": "China",
+      "versions": [
+        {
+          "version": "Essence AT",
+          "price": 34990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 228,
+      "torque_nm": 350,
+      "top_speed_kmh": 200,
+      "fuel_consumption_city_km_l": 9,
+      "fuel_consumption_highway_km_l": 14,
+      "fuel_consumption_mixed_km_l": 11,
+      "fuel_tank_liters": 58,
+      "length_mm": 4681,
+      "width_mm": 1861,
+      "height_mm": 1667,
+      "wheelbase_mm": 2779,
+      "ground_clearance_mm": 190,
+      "trunk_liters": 480,
+      "airbags": 6,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "alerta de punto ciego"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "pantalla 10.2\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Bluetooth",
+        "audio Bose"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "China"
+    }
+  ]
+}

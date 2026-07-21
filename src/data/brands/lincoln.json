@@ -1,0 +1,119 @@
+{
+  "brand": "Lincoln",
+  "brandUrl": "https://www.lincoln.cl",
+  "models": [
+    {
+      "id": 362,
+      "brand": "Lincoln",
+      "model": "Corsair",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 49990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "SUV compacto de lujo estadounidense con interior refinado, motor turbo y tecnología premium.",
+      "origin": "Estados Unidos",
+      "versions": [
+        {
+          "version": "Reserve AWD",
+          "price": 49990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ],
+      "hp": 250,
+      "torque_nm": 373,
+      "top_speed_kmh": 210,
+      "fuel_consumption_city_km_l": 9,
+      "fuel_consumption_highway_km_l": 13,
+      "fuel_consumption_mixed_km_l": 11,
+      "fuel_tank_liters": 64,
+      "length_mm": 4589,
+      "width_mm": 1887,
+      "height_mm": 1626,
+      "wheelbase_mm": 2711,
+      "ground_clearance_mm": 200,
+      "trunk_liters": 745,
+      "airbags": 8,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "alerta de punto ciego",
+        "estacionamiento automático"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "pantalla 13.2\"",
+        "cuadro digital",
+        "Apple CarPlay",
+        "Android Auto",
+        "Bluetooth",
+        "audio Revel"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Estados Unidos"
+    },
+    {
+      "id": 363,
+      "brand": "Lincoln",
+      "model": "Nautilus",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 62990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "SUV mediano de lujo con enorme pantalla panorámica, gran confort y equipamiento tope de gama.",
+      "origin": "Estados Unidos",
+      "versions": [
+        {
+          "version": "Reserve AWD",
+          "price": 62990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ],
+      "hp": 250,
+      "torque_nm": 373,
+      "top_speed_kmh": 210,
+      "fuel_consumption_city_km_l": 8,
+      "fuel_consumption_highway_km_l": 12,
+      "fuel_consumption_mixed_km_l": 10,
+      "fuel_tank_liters": 70,
+      "length_mm": 4859,
+      "width_mm": 1963,
+      "height_mm": 1697,
+      "wheelbase_mm": 2900,
+      "ground_clearance_mm": 200,
+      "trunk_liters": 800,
+      "airbags": 8,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "alerta de punto ciego",
+        "estacionamiento automático"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "pantalla panorámica 48\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Bluetooth",
+        "audio Revel"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Estados Unidos"
+    }
+  ]
+}

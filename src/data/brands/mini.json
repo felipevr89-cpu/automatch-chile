@@ -1,0 +1,343 @@
+{
+  "brand": "MINI",
+  "brandUrl": "https://www.mini.cl",
+  "models": [
+    {
+      "id": 436,
+      "brand": "MINI",
+      "model": "Aceman",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "electrico",
+      "seats": 5,
+      "price": 42990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV eléctrico compacto con el icónico estilo MINI en formato crossover.",
+      "origin": "China",
+      "hp": 218,
+      "torque_nm": 330,
+      "length_mm": 4090,
+      "width_mm": 1786,
+      "height_mm": 1576,
+      "wheelbase_mm": 2606,
+      "ground_clearance_mm": 170,
+      "trunk_liters": 300,
+      "airbags": 6,
+      "isofix": true,
+      "adas": [
+        "Control crucero adaptativo",
+        "Asistente de carril",
+        "Frenado automático"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "MINI Connected",
+        "Pantalla 9.4\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "SE",
+          "price": 42990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "SE John Cooper Works",
+          "price": 47990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 437,
+      "brand": "MINI",
+      "model": "Clubman",
+      "year": 2026,
+      "type": "wagon",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 25990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Wagon compacto con puertas asimétricas y espacio extra.",
+      "origin": "Reino Unido",
+      "hp": 136,
+      "torque_nm": 220,
+      "length_mm": 4253,
+      "width_mm": 1800,
+      "height_mm": 1441,
+      "wheelbase_mm": 2670,
+      "fuel_tank_liters": 48,
+      "ground_clearance_mm": 135,
+      "trunk_liters": 360,
+      "airbags": 6,
+      "isofix": true,
+      "adas": [
+        "Control crucero adaptativo",
+        "Asistente de carril",
+        "Frenado automático"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "MINI Connected",
+        "Pantalla 8.8\"",
+        "Apple CarPlay"
+      ],
+      "fuel_consumption_mixed_km_l": 14.5,
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "Reino Unido",
+      "versions": [
+        {
+          "version": "Cooper",
+          "price": 25990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Cooper S",
+          "price": 29990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 438,
+      "brand": "MINI",
+      "model": "Convertible",
+      "year": 2026,
+      "type": "hatchback",
+      "fuel": "gasolina",
+      "seats": 4,
+      "price": 26990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Descapotable compacto con techo de lona, el placer de conducir al aire libre.",
+      "origin": "Reino Unido",
+      "hp": 136,
+      "torque_nm": 220,
+      "length_mm": 3850,
+      "width_mm": 1727,
+      "height_mm": 1415,
+      "wheelbase_mm": 2495,
+      "fuel_tank_liters": 44,
+      "ground_clearance_mm": 130,
+      "trunk_liters": 160,
+      "airbags": 6,
+      "isofix": true,
+      "adas": [
+        "Control crucero adaptativo",
+        "Frenado automático"
+      ],
+      "latin_ncap_stars": 4,
+      "infotainment": [
+        "MINI Connected",
+        "Pantalla 8.8\"",
+        "Apple CarPlay"
+      ],
+      "fuel_consumption_mixed_km_l": 14,
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "Reino Unido",
+      "versions": [
+        {
+          "version": "Cooper",
+          "price": 26990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Cooper S",
+          "price": 31990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 439,
+      "brand": "MINI",
+      "model": "Cooper",
+      "year": 2025,
+      "type": "hatchback",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 22990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Hatchback británico con diseño icónico.",
+      "origin": "Reino Unido",
+      "versions": [
+        {
+          "version": "Cooper",
+          "price": 22990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Cooper S",
+          "price": 27990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "John Cooper Works",
+          "price": 35990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 136,
+      "torque_nm": 220,
+      "top_speed_kmh": 210,
+      "fuel_consumption_city_km_l": 13,
+      "fuel_consumption_highway_km_l": 18,
+      "fuel_consumption_mixed_km_l": 15,
+      "fuel_tank_liters": 44,
+      "length_mm": 3850,
+      "width_mm": 1727,
+      "height_mm": 1414,
+      "wheelbase_mm": 2495,
+      "ground_clearance_mm": 133,
+      "trunk_liters": 210,
+      "airbags": 6,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "MINI Connected",
+        "pantalla 8.8\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "sonido Harman Kardon"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "Reino Unido"
+    },
+    {
+      "id": 440,
+      "brand": "MINI",
+      "model": "Countryman",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 27990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "SUV compacto con estilo MINI y versatilidad.",
+      "origin": "Alemania",
+      "versions": [
+        {
+          "version": "Cooper",
+          "price": 27990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Cooper S ALL4",
+          "price": 33990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 178,
+      "torque_nm": 280,
+      "top_speed_kmh": 220,
+      "fuel_consumption_city_km_l": 12,
+      "fuel_consumption_highway_km_l": 17,
+      "fuel_consumption_mixed_km_l": 14,
+      "fuel_tank_liters": 51,
+      "length_mm": 4314,
+      "width_mm": 1822,
+      "height_mm": 1613,
+      "wheelbase_mm": 2670,
+      "ground_clearance_mm": 173,
+      "trunk_liters": 450,
+      "airbags": 6,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "cámara 360°"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "MINI Connected",
+        "pantalla 8.8\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "sonido Harman Kardon"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "Alemania"
+    },
+    {
+      "id": 441,
+      "brand": "MINI",
+      "model": "Electric",
+      "year": 2026,
+      "type": "hatchback",
+      "fuel": "electrico",
+      "seats": 4,
+      "price": 29990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "MINI 100% eléctrico con diseño icónico y cero emisiones.",
+      "origin": "China",
+      "hp": 184,
+      "torque_nm": 270,
+      "length_mm": 3845,
+      "width_mm": 1727,
+      "height_mm": 1414,
+      "wheelbase_mm": 2495,
+      "ground_clearance_mm": 128,
+      "trunk_liters": 180,
+      "airbags": 6,
+      "isofix": true,
+      "adas": [
+        "Control crucero adaptativo",
+        "Asistente de carril",
+        "Frenado automático"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "MINI Connected",
+        "Pantalla 8.8\"",
+        "Apple CarPlay"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "SE",
+          "price": 29990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ]
+    }
+  ]
+}

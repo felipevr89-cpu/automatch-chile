@@ -1,0 +1,149 @@
+{
+  "brand": "Deepal",
+  "brandUrl": "#",
+  "models": [
+    {
+      "id": 140,
+      "brand": "Deepal",
+      "model": "G318",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "hibrido_enchufable",
+      "seats": 5,
+      "price": 41990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "SUV todoterreno con tecnología REEV y capacidades off-road serias.",
+      "origin": "China",
+      "hp": 252,
+      "torque_nm": 500,
+      "length_mm": 4900,
+      "width_mm": 1975,
+      "height_mm": 1900,
+      "wheelbase_mm": 2880,
+      "fuel_tank_liters": 55,
+      "ground_clearance_mm": 220,
+      "airbags": 6,
+      "isofix": true,
+      "adas": [
+        "Frenado automático AEB",
+        "Control crucero adaptativo",
+        "Cámara 360°"
+      ],
+      "infotainment": [
+        "Pantalla 15.6\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "RE4WD",
+          "price": 41990000,
+          "transmission": "Automática",
+          "traction": "4x4"
+        }
+      ]
+    },
+    {
+      "id": 141,
+      "brand": "Deepal",
+      "model": "S05",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 25990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV compacta con motor REEV de rango extendido, diseño futurista.",
+      "origin": "China",
+      "hp": 218,
+      "torque_nm": 320,
+      "length_mm": 4539,
+      "width_mm": 1865,
+      "height_mm": 1680,
+      "wheelbase_mm": 2730,
+      "fuel_tank_liters": 45,
+      "airbags": 6,
+      "isofix": true,
+      "adas": [
+        "Frenado automático AEB",
+        "Control crucero adaptativo",
+        "Alerta de punto ciego"
+      ],
+      "infotainment": [
+        "Pantalla 13.2\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "fuel_consumption_mixed_km_l": 18,
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "REEV Standard",
+          "price": 25990000,
+          "transmission": "Automática",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 142,
+      "brand": "Deepal",
+      "model": "S07",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "hibrido_enchufable",
+      "seats": 5,
+      "price": 29990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV mediana con tecnología REEV o 100% eléctrica, diseño audaz.",
+      "origin": "China",
+      "hp": 218,
+      "torque_nm": 320,
+      "length_mm": 4750,
+      "width_mm": 1930,
+      "height_mm": 1625,
+      "wheelbase_mm": 2900,
+      "fuel_tank_liters": 45,
+      "airbags": 6,
+      "isofix": true,
+      "adas": [
+        "Frenado automático AEB",
+        "Control crucero adaptativo",
+        "Cámara 360°"
+      ],
+      "infotainment": [
+        "Pantalla 15.6\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "REEV Standard",
+          "price": 29990000,
+          "transmission": "Automática",
+          "traction": "4x2"
+        },
+        {
+          "version": "BEV 66kWh",
+          "price": 33990000,
+          "transmission": "Automática",
+          "traction": "4x2"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "brand": "Dongfeng",
+  "brandUrl": "https://www.dongfeng.cl",
+  "models": [
+    {
+      "id": 149,
+      "brand": "Dongfeng",
+      "model": "Aeolus",
+      "year": 2026,
+      "type": "sedan",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 10990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Sedán compacto económico con motor 1.5 litros.",
+      "origin": "china",
+      "versions": [
+        {
+          "version": "1.5 STD CVT",
+          "price": 10990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "1.5 Com CVT",
+          "price": 12490000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 112,
+      "torque_nm": 145,
+      "fuel_consumption_city_km_l": 12.5,
+      "fuel_consumption_highway_km_l": 17,
+      "fuel_consumption_mixed_km_l": 14.5,
+      "fuel_tank_liters": 47,
+      "length_mm": 4610,
+      "width_mm": 1810,
+      "height_mm": 1490,
+      "wheelbase_mm": 2680,
+      "ground_clearance_mm": 150,
+      "trunk_liters": 480,
+      "airbags": 2,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla táctil 8\"",
+        "Bluetooth",
+        "USB"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "China"
+    },
+    {
+      "id": 150,
+      "brand": "Dongfeng",
+      "model": "MAGE",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 17990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV mediano con motor 1.5 turbo y equipamiento tecnológico completo.",
+      "origin": "china",
+      "versions": [
+        {
+          "version": "1.5T Luxury CVT",
+          "price": 17990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 190,
+      "torque_nm": 300,
+      "fuel_consumption_city_km_l": 9,
+      "fuel_consumption_highway_km_l": 13.5,
+      "fuel_consumption_mixed_km_l": 11,
+      "fuel_tank_liters": 58,
+      "length_mm": 4685,
+      "width_mm": 1885,
+      "height_mm": 1710,
+      "wheelbase_mm": 2745,
+      "ground_clearance_mm": 195,
+      "trunk_liters": 520,
+      "airbags": 6,
+      "adas": [
+        "Control crucero adaptativo",
+        "Frenado de emergencia"
+      ],
+      "isofix": true,
+      "infotainment": [
+        "Pantalla táctil 12.3\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "China"
+    },
+    {
+      "id": 151,
+      "brand": "Dongfeng",
+      "model": "Rich",
+      "year": 2026,
+      "type": "pickup",
+      "fuel": "diesel",
+      "seats": 5,
+      "price": 19990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "Pickup mediana diésel con motor 2.0 turbo y tracción total.",
+      "origin": "china",
+      "versions": [
+        {
+          "version": "2.0T 4x2 MT",
+          "price": 17990000,
+          "transmission": "manual",
+          "traction": "4x2"
+        },
+        {
+          "version": "2.0T 4x4 AT",
+          "price": 19990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 163,
+      "torque_nm": 400,
+      "fuel_consumption_city_km_l": 8.5,
+      "fuel_consumption_highway_km_l": 12,
+      "fuel_consumption_mixed_km_l": 10,
+      "fuel_tank_liters": 70,
+      "length_mm": 5365,
+      "width_mm": 1890,
+      "height_mm": 1870,
+      "wheelbase_mm": 3120,
+      "ground_clearance_mm": 230,
+      "trunk_liters": 0,
+      "airbags": 2,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla táctil 7\"",
+        "Bluetooth",
+        "USB"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "China"
+    },
+    {
+      "id": 152,
+      "brand": "Dongfeng",
+      "model": "T5 Evo",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 15990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV compacto con motor 1.5 turbo de 197 hp y diseño deportivo.",
+      "origin": "china",
+      "versions": [
+        {
+          "version": "1.5T Luxury CVT",
+          "price": 15990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 197,
+      "torque_nm": 285,
+      "fuel_consumption_city_km_l": 9.5,
+      "fuel_consumption_highway_km_l": 14,
+      "fuel_consumption_mixed_km_l": 11.5,
+      "fuel_tank_liters": 55,
+      "length_mm": 4570,
+      "width_mm": 1860,
+      "height_mm": 1690,
+      "wheelbase_mm": 2715,
+      "ground_clearance_mm": 195,
+      "trunk_liters": 480,
+      "airbags": 4,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla táctil 10.25\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "China"
+    }
+  ]
+}

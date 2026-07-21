@@ -1,0 +1,115 @@
+{
+  "brand": "Hongqi",
+  "brandUrl": "https://www.hongqi.cl",
+  "models": [
+    {
+      "id": 239,
+      "brand": "Hongqi",
+      "model": "HS5",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 28990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "SUV premium chino de la marca de lujo de FAW, con diseño elegante, motor turbo y equipamiento sofisticado.",
+      "origin": "China",
+      "versions": [
+        {
+          "version": "Deluxe AWD AT",
+          "price": 28990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ],
+      "hp": 224,
+      "torque_nm": 340,
+      "top_speed_kmh": 200,
+      "fuel_consumption_city_km_l": 9,
+      "fuel_consumption_highway_km_l": 14,
+      "fuel_consumption_mixed_km_l": 11,
+      "fuel_tank_liters": 58,
+      "length_mm": 4760,
+      "width_mm": 1907,
+      "height_mm": 1700,
+      "wheelbase_mm": 2870,
+      "ground_clearance_mm": 190,
+      "trunk_liters": 450,
+      "airbags": 6,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "alerta de punto ciego"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "pantalla 12.6\"",
+        "cuadro digital",
+        "Apple CarPlay",
+        "Android Auto",
+        "Bluetooth"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 150000,
+      "origin_country": "China"
+    },
+    {
+      "id": 240,
+      "brand": "Hongqi",
+      "model": "E-HS9",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "electrico",
+      "seats": 7,
+      "price": 64990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "SUV eléctrico full-size de lujo con 7 plazas, imponente presencia, gran autonomía y máximo confort.",
+      "origin": "China",
+      "versions": [
+        {
+          "version": "Executive AWD",
+          "price": 64990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ],
+      "hp": 551,
+      "torque_nm": 750,
+      "top_speed_kmh": 200,
+      "electric_range_km": 460,
+      "battery_kwh": 99,
+      "length_mm": 5209,
+      "width_mm": 2010,
+      "height_mm": 1731,
+      "wheelbase_mm": 3110,
+      "ground_clearance_mm": 200,
+      "trunk_liters": 400,
+      "airbags": 8,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "alerta de punto ciego",
+        "estacionamiento automático"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "pantalla dual 12.8\"",
+        "cuadro digital",
+        "Apple CarPlay",
+        "Android Auto",
+        "Bluetooth"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 150000,
+      "origin_country": "China"
+    }
+  ]
+}

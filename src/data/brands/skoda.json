@@ -1,0 +1,437 @@
+{
+  "brand": "Škoda",
+  "brandUrl": "https://www.skoda.cl",
+  "models": [
+    {
+      "id": 331,
+      "brand": "Škoda",
+      "model": "Enyaq",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "electrico",
+      "seats": 5,
+      "price": 37990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "SUV eléctrico con autonomía de hasta 520 km.",
+      "origin": "República Checa",
+      "versions": [
+        {
+          "version": "iV 60",
+          "price": 37990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "iV 80",
+          "price": 42990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ],
+      "hp": 204,
+      "torque_nm": 310,
+      "top_speed_kmh": 160,
+      "length_mm": 4649,
+      "width_mm": 1877,
+      "height_mm": 1618,
+      "wheelbase_mm": 2765,
+      "ground_clearance_mm": 187,
+      "trunk_liters": 585,
+      "airbags": 8,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "cámara 360°",
+        "asistente de estacionamiento"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "pantalla 13\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Canton Sound System"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 100000,
+      "origin_country": "República Checa"
+    },
+    {
+      "id": 332,
+      "brand": "Škoda",
+      "model": "Fabia",
+      "year": 2025,
+      "type": "hatchback",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 14490000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Hatchback subcompacto con excelente relación precio-calidad.",
+      "origin": "República Checa",
+      "versions": [
+        {
+          "version": "Active",
+          "price": 14490000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Ambition",
+          "price": 16490000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Style",
+          "price": 18490000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 110,
+      "torque_nm": 175,
+      "top_speed_kmh": 195,
+      "fuel_consumption_city_km_l": 14,
+      "fuel_consumption_highway_km_l": 19,
+      "fuel_consumption_mixed_km_l": 16,
+      "fuel_tank_liters": 40,
+      "length_mm": 4108,
+      "width_mm": 1780,
+      "height_mm": 1458,
+      "wheelbase_mm": 2564,
+      "ground_clearance_mm": 153,
+      "trunk_liters": 355,
+      "airbags": 6,
+      "adas": [
+        "frenado automático de emergencia",
+        "asistente de carril"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "pantalla 8\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Bluetooth"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "República Checa"
+    },
+    {
+      "id": 333,
+      "brand": "Škoda",
+      "model": "Kamiq",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 18990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV subcompacto con versatilidad y tecnología.",
+      "origin": "República Checa",
+      "versions": [
+        {
+          "version": "Ambition",
+          "price": 18990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Style",
+          "price": 21990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 150,
+      "torque_nm": 250,
+      "top_speed_kmh": 200,
+      "fuel_consumption_city_km_l": 13,
+      "fuel_consumption_highway_km_l": 18,
+      "fuel_consumption_mixed_km_l": 15,
+      "fuel_tank_liters": 50,
+      "length_mm": 4241,
+      "width_mm": 1793,
+      "height_mm": 1554,
+      "wheelbase_mm": 2639,
+      "ground_clearance_mm": 180,
+      "trunk_liters": 400,
+      "airbags": 6,
+      "adas": [
+        "frenado automático de emergencia",
+        "asistente de carril",
+        "asistente de estacionamiento"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "pantalla 8\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Bluetooth"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "República Checa"
+    },
+    {
+      "id": 334,
+      "brand": "Škoda",
+      "model": "Karoq",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 22990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "SUV compacto con amplio espacio.",
+      "origin": "República Checa",
+      "versions": [
+        {
+          "version": "Ambition",
+          "price": 22990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Style 4x4",
+          "price": 27990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 150,
+      "torque_nm": 250,
+      "top_speed_kmh": 200,
+      "fuel_consumption_city_km_l": 13,
+      "fuel_consumption_highway_km_l": 18,
+      "fuel_consumption_mixed_km_l": 15,
+      "fuel_tank_liters": 55,
+      "length_mm": 4390,
+      "width_mm": 1849,
+      "height_mm": 1603,
+      "wheelbase_mm": 2638,
+      "ground_clearance_mm": 185,
+      "trunk_liters": 521,
+      "airbags": 7,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "cámara 360°",
+        "asistente de estacionamiento"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "pantalla 8\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Bluetooth"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "República Checa"
+    },
+    {
+      "id": 335,
+      "brand": "Škoda",
+      "model": "Kodiaq",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 7,
+      "price": 27990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "SUV grande de 7 plazas con versatilidad.",
+      "origin": "República Checa",
+      "versions": [
+        {
+          "version": "Ambition 4x2",
+          "price": 27990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Style 4x4",
+          "price": 32990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "Laurin & Klement 4x4",
+          "price": 37990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 186,
+      "torque_nm": 320,
+      "top_speed_kmh": 200,
+      "fuel_consumption_city_km_l": 11,
+      "fuel_consumption_highway_km_l": 16,
+      "fuel_consumption_mixed_km_l": 13,
+      "fuel_tank_liters": 60,
+      "length_mm": 4701,
+      "width_mm": 1882,
+      "height_mm": 1676,
+      "wheelbase_mm": 2791,
+      "ground_clearance_mm": 188,
+      "trunk_liters": 720,
+      "airbags": 7,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "cámara 360°",
+        "asistente de estacionamiento"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "pantalla 8\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Bluetooth"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "República Checa"
+    },
+    {
+      "id": 336,
+      "brand": "Škoda",
+      "model": "Octavia",
+      "year": 2025,
+      "type": "sedan",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 19990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Sedán compacto con amplio equipamiento.",
+      "origin": "República Checa",
+      "versions": [
+        {
+          "version": "Ambition",
+          "price": 19990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Style",
+          "price": 23990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Monte Carlo",
+          "price": 26990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 150,
+      "torque_nm": 250,
+      "top_speed_kmh": 215,
+      "fuel_consumption_city_km_l": 13,
+      "fuel_consumption_highway_km_l": 18,
+      "fuel_consumption_mixed_km_l": 15,
+      "fuel_tank_liters": 50,
+      "length_mm": 4689,
+      "width_mm": 1829,
+      "height_mm": 1468,
+      "wheelbase_mm": 2686,
+      "ground_clearance_mm": 143,
+      "trunk_liters": 600,
+      "airbags": 7,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "cámara 360°",
+        "asistente de estacionamiento"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "pantalla 8\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Bluetooth"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "República Checa"
+    },
+    {
+      "id": 337,
+      "brand": "Škoda",
+      "model": "Rapid",
+      "year": 2025,
+      "type": "sedan",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 15490000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Sedán subcompacto con espacio interior generoso.",
+      "origin": "República Checa",
+      "versions": [
+        {
+          "version": "Active",
+          "price": 15490000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Ambition",
+          "price": 17490000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 110,
+      "torque_nm": 175,
+      "top_speed_kmh": 195,
+      "fuel_consumption_city_km_l": 14,
+      "fuel_consumption_highway_km_l": 19,
+      "fuel_consumption_mixed_km_l": 16,
+      "fuel_tank_liters": 50,
+      "length_mm": 4483,
+      "width_mm": 1706,
+      "height_mm": 1461,
+      "wheelbase_mm": 2602,
+      "ground_clearance_mm": 172,
+      "trunk_liters": 510,
+      "airbags": 4,
+      "adas": [
+        "frenado automático de emergencia"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "pantalla 6.5\"",
+        "Bluetooth",
+        "USB"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "República Checa"
+    }
+  ]
+}

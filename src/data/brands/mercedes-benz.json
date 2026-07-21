@@ -1,0 +1,1153 @@
+{
+  "brand": "Mercedes-Benz",
+  "brandUrl": "https://www.mercedes-benz.cl",
+  "models": [
+    {
+      "id": 397,
+      "brand": "Mercedes-Benz",
+      "model": "AMG GT",
+      "year": 2026,
+      "type": "coupe",
+      "fuel": "gasolina",
+      "seats": 4,
+      "price": 120990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "Deportivo de altas prestaciones con motor V8 biturbo y tracción integral.",
+      "origin": "Alemania",
+      "hp": 577,
+      "torque_nm": 800,
+      "length_mm": 4739,
+      "width_mm": 1956,
+      "height_mm": 1414,
+      "wheelbase_mm": 2701,
+      "fuel_tank_liters": 65,
+      "ground_clearance_mm": 125,
+      "trunk_liters": 390,
+      "airbags": 8,
+      "isofix": false,
+      "adas": [
+        "Control crucero adaptativo",
+        "Frenado automático",
+        "Cámara 360°",
+        "Asistente de estacionamiento"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "MBUX",
+        "Pantalla 12.3\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Sonido Burmester"
+      ],
+      "fuel_consumption_mixed_km_l": 9,
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "Alemania",
+      "versions": [
+        {
+          "version": "GT 63 4MATIC+",
+          "price": 120990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "GT 63 S 4MATIC+",
+          "price": 139990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ]
+    },
+    {
+      "id": 398,
+      "brand": "Mercedes-Benz",
+      "model": "Clase A",
+      "year": 2025,
+      "type": "sedan",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 22990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Sedán compacto premium con tecnología MBUX.",
+      "origin": "Alemania",
+      "versions": [
+        {
+          "version": "A 200",
+          "price": 22990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "A 250 AMG Line",
+          "price": 28990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 163,
+      "torque_nm": 250,
+      "top_speed_kmh": 230,
+      "fuel_consumption_city_km_l": 14,
+      "fuel_consumption_highway_km_l": 19,
+      "fuel_consumption_mixed_km_l": 16,
+      "fuel_tank_liters": 51,
+      "length_mm": 4419,
+      "width_mm": 1796,
+      "height_mm": 1432,
+      "wheelbase_mm": 2729,
+      "ground_clearance_mm": 135,
+      "trunk_liters": 370,
+      "airbags": 7,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "cámara 360°"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "MBUX",
+        "pantalla 10.25\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "asistente de voz Hey Mercedes"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "Alemania"
+    },
+    {
+      "id": 399,
+      "brand": "Mercedes-Benz",
+      "model": "Clase C",
+      "year": 2025,
+      "type": "sedan",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 32990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Sedán ejecutivo con tecnología de última generación.",
+      "origin": "Alemania",
+      "versions": [
+        {
+          "version": "C 200",
+          "price": 32990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "C 300 AMG Line",
+          "price": 40990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "AMG C 43 4MATIC",
+          "price": 52990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 258,
+      "torque_nm": 400,
+      "top_speed_kmh": 250,
+      "fuel_consumption_city_km_l": 11,
+      "fuel_consumption_highway_km_l": 16,
+      "fuel_consumption_mixed_km_l": 13,
+      "fuel_tank_liters": 66,
+      "length_mm": 4751,
+      "width_mm": 1820,
+      "height_mm": 1438,
+      "wheelbase_mm": 2865,
+      "ground_clearance_mm": 138,
+      "trunk_liters": 455,
+      "airbags": 8,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "cámara 360°",
+        "asistente de estacionamiento",
+        "asistente de conducción en autopista"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "MBUX",
+        "pantalla 11.9\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "asistente de voz Hey Mercedes",
+        "sonido Burmester"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "Alemania"
+    },
+    {
+      "id": 400,
+      "brand": "Mercedes-Benz",
+      "model": "Clase E",
+      "year": 2025,
+      "type": "sedan",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 45990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Sedán de lujo ejecutivo con tecnología MBUX.",
+      "origin": "Alemania",
+      "versions": [
+        {
+          "version": "E 300",
+          "price": 45990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "E 450 4MATIC",
+          "price": 58990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 258,
+      "torque_nm": 400,
+      "top_speed_kmh": 250,
+      "fuel_consumption_city_km_l": 10,
+      "fuel_consumption_highway_km_l": 15,
+      "fuel_consumption_mixed_km_l": 12,
+      "fuel_tank_liters": 72,
+      "length_mm": 4949,
+      "width_mm": 1880,
+      "height_mm": 1467,
+      "wheelbase_mm": 2961,
+      "ground_clearance_mm": 142,
+      "trunk_liters": 540,
+      "airbags": 10,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "cámara 360°",
+        "asistente de estacionamiento",
+        "asistente de conducción en autopista"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "MBUX",
+        "pantalla 14.4\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "asistente de voz Hey Mercedes",
+        "sonido Burmester",
+        "pantalla trasera"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "Alemania"
+    },
+    {
+      "id": 401,
+      "brand": "Mercedes-Benz",
+      "model": "Clase G",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 179990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "SUV todoterreno de lujo icónico con diseño inconfundible.",
+      "origin": "Alemania",
+      "hp": 577,
+      "torque_nm": 850,
+      "length_mm": 4817,
+      "width_mm": 1984,
+      "height_mm": 1970,
+      "wheelbase_mm": 2890,
+      "fuel_tank_liters": 100,
+      "ground_clearance_mm": 242,
+      "trunk_liters": 454,
+      "airbags": 8,
+      "isofix": true,
+      "adas": [
+        "Control crucero adaptativo",
+        "Asistente de carril",
+        "Frenado automático",
+        "Cámara 360°"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "MBUX",
+        "Pantalla 12.3\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Sonido Burmester"
+      ],
+      "fuel_consumption_mixed_km_l": 7.5,
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "Alemania",
+      "versions": [
+        {
+          "version": "G 63 AMG",
+          "price": 179990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "G 500",
+          "price": 159990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ]
+    },
+    {
+      "id": 402,
+      "brand": "Mercedes-Benz",
+      "model": "Clase S",
+      "year": 2025,
+      "type": "sedan",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 92990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "Sedán de lujo absoluto, referente de la marca.",
+      "origin": "Alemania",
+      "versions": [
+        {
+          "version": "S 450 4MATIC",
+          "price": 92990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "S 580 4MATIC",
+          "price": 119990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 496,
+      "torque_nm": 700,
+      "top_speed_kmh": 250,
+      "fuel_consumption_city_km_l": 8,
+      "fuel_consumption_highway_km_l": 12,
+      "fuel_consumption_mixed_km_l": 10,
+      "fuel_tank_liters": 80,
+      "length_mm": 5289,
+      "width_mm": 1921,
+      "height_mm": 1503,
+      "wheelbase_mm": 3216,
+      "ground_clearance_mm": 150,
+      "trunk_liters": 550,
+      "airbags": 10,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "cámara 360°",
+        "asistente de estacionamiento",
+        "asistente de conducción en autopista",
+        "asistente de estacionamiento automatizado"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "MBUX",
+        "pantalla 12.8\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "asistente de voz Hey Mercedes",
+        "sonido Burmester 4D",
+        "pantalla trasera",
+        "asiento de masaje"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "Alemania"
+    },
+    {
+      "id": 403,
+      "brand": "Mercedes-Benz",
+      "model": "Clase V",
+      "year": 2026,
+      "type": "minivan",
+      "fuel": "diesel",
+      "seats": 7,
+      "price": 55990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Minivan de lujo con gran espacio interior para 7 pasajeros.",
+      "origin": "Alemania",
+      "hp": 163,
+      "torque_nm": 380,
+      "length_mm": 5140,
+      "width_mm": 1928,
+      "height_mm": 1880,
+      "wheelbase_mm": 3200,
+      "fuel_tank_liters": 70,
+      "ground_clearance_mm": 170,
+      "trunk_liters": 0,
+      "airbags": 8,
+      "isofix": true,
+      "adas": [
+        "Control crucero adaptativo",
+        "Asistente de carril",
+        "Frenado automático",
+        "Cámara 360°"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "MBUX",
+        "Pantalla 12.3\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Asistente de voz Hey Mercedes"
+      ],
+      "fuel_consumption_mixed_km_l": 11,
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "Alemania",
+      "versions": [
+        {
+          "version": "V 300 d",
+          "price": 55990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "V 300 d Larga",
+          "price": 62990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 404,
+      "brand": "Mercedes-Benz",
+      "model": "EQA",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "electrico",
+      "seats": 5,
+      "price": 42990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "SUV eléctrico compacto con autonomía de hasta 400 km.",
+      "origin": "Alemania",
+      "versions": [
+        {
+          "version": "EQA 250+",
+          "price": 42990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "EQA 350 4MATIC",
+          "price": 52990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ],
+      "hp": 286,
+      "torque_nm": 390,
+      "top_speed_kmh": 177,
+      "length_mm": 4463,
+      "width_mm": 1834,
+      "height_mm": 1619,
+      "wheelbase_mm": 2729,
+      "ground_clearance_mm": 170,
+      "trunk_liters": 340,
+      "airbags": 7,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "cámara 360°",
+        "asistente de estacionamiento"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "MBUX",
+        "pantalla 10.25\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "asistente de voz Hey Mercedes"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "Alemania"
+    },
+    {
+      "id": 405,
+      "brand": "Mercedes-Benz",
+      "model": "EQB",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "electrico",
+      "seats": 7,
+      "price": 41990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "SUV eléctrico de 7 plazas con espacio familiar y cero emisiones.",
+      "origin": "Alemania",
+      "hp": 292,
+      "torque_nm": 520,
+      "length_mm": 4684,
+      "width_mm": 1834,
+      "height_mm": 1663,
+      "wheelbase_mm": 2829,
+      "ground_clearance_mm": 177,
+      "trunk_liters": 495,
+      "airbags": 7,
+      "isofix": true,
+      "adas": [
+        "Control crucero adaptativo",
+        "Asistente de carril",
+        "Frenado automático",
+        "Cámara 360°"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "MBUX",
+        "Pantalla 10.25\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Asistente de voz Hey Mercedes"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "Alemania",
+      "versions": [
+        {
+          "version": "EQB 300 4MATIC",
+          "price": 41990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "EQB 350 4MATIC",
+          "price": 47990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ]
+    },
+    {
+      "id": 406,
+      "brand": "Mercedes-Benz",
+      "model": "EQE",
+      "year": 2026,
+      "type": "sedan",
+      "fuel": "electrico",
+      "seats": 5,
+      "price": 64990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "Sedán ejecutivo 100% eléctrico con tecnología MBUX Hyperscreen.",
+      "origin": "Alemania",
+      "hp": 292,
+      "torque_nm": 570,
+      "length_mm": 4934,
+      "width_mm": 1954,
+      "height_mm": 1513,
+      "wheelbase_mm": 3120,
+      "ground_clearance_mm": 140,
+      "trunk_liters": 430,
+      "airbags": 8,
+      "isofix": true,
+      "adas": [
+        "Control crucero adaptativo",
+        "Asistente de carril",
+        "Frenado automático",
+        "Cámara 360°",
+        "Asistente de estacionamiento"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "MBUX Hyperscreen",
+        "Pantalla 12.3\"",
+        "Pantalla central 17.7\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Sonido Burmester"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "Alemania",
+      "versions": [
+        {
+          "version": "EQE 350+",
+          "price": 64990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "AMG EQE 43 4MATIC",
+          "price": 84990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ]
+    },
+    {
+      "id": 407,
+      "brand": "Mercedes-Benz",
+      "model": "EQG",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "electrico",
+      "seats": 5,
+      "price": 130990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "SUV todoterreno eléctrico de lujo con diseño clásico y tecnología cero emisiones.",
+      "origin": "Alemania",
+      "hp": 585,
+      "torque_nm": 863,
+      "length_mm": 4817,
+      "width_mm": 1984,
+      "height_mm": 1970,
+      "wheelbase_mm": 2890,
+      "ground_clearance_mm": 242,
+      "trunk_liters": 454,
+      "airbags": 8,
+      "isofix": true,
+      "adas": [
+        "Control crucero adaptativo",
+        "Asistente de carril",
+        "Frenado automático",
+        "Cámara 360°"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "MBUX",
+        "Pantalla 12.3\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Sonido Burmester"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "Alemania",
+      "versions": [
+        {
+          "version": "EQG 580",
+          "price": 130990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "EQG 580 Edition",
+          "price": 149990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ]
+    },
+    {
+      "id": 408,
+      "brand": "Mercedes-Benz",
+      "model": "EQS",
+      "year": 2026,
+      "type": "sedan",
+      "fuel": "electrico",
+      "seats": 5,
+      "price": 99990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "Sedán eléctrico tope de gama con lujo excepcional y autonomía récord.",
+      "origin": "Alemania",
+      "hp": 536,
+      "torque_nm": 828,
+      "length_mm": 5265,
+      "width_mm": 1959,
+      "height_mm": 1513,
+      "wheelbase_mm": 3210,
+      "ground_clearance_mm": 146,
+      "trunk_liters": 610,
+      "airbags": 8,
+      "isofix": true,
+      "adas": [
+        "Control crucero adaptativo",
+        "Asistente de carril",
+        "Frenado automático",
+        "Cámara 360°",
+        "Asistente de estacionamiento",
+        "Conducción autopista"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "MBUX Hyperscreen",
+        "Pantalla 56\" OLED",
+        "Apple CarPlay",
+        "Android Auto",
+        "Sonido Burmester 4D",
+        "Pantalla trasera"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "Alemania",
+      "versions": [
+        {
+          "version": "EQS 450+",
+          "price": 99990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "EQS 580 4MATIC",
+          "price": 129990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ]
+    },
+    {
+      "id": 409,
+      "brand": "Mercedes-Benz",
+      "model": "EQV",
+      "year": 2026,
+      "type": "minivan",
+      "fuel": "electrico",
+      "seats": 7,
+      "price": 75990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Minivan 100% eléctrica con lujo y espacio para 7 pasajeros.",
+      "origin": "Alemania",
+      "hp": 204,
+      "torque_nm": 365,
+      "length_mm": 5140,
+      "width_mm": 1928,
+      "height_mm": 1880,
+      "wheelbase_mm": 3200,
+      "ground_clearance_mm": 170,
+      "trunk_liters": 0,
+      "airbags": 8,
+      "isofix": true,
+      "adas": [
+        "Control crucero adaptativo",
+        "Asistente de carril",
+        "Frenado automático",
+        "Cámara 360°"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "MBUX",
+        "Pantalla 10.25\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Asistente de voz Hey Mercedes"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "Alemania",
+      "versions": [
+        {
+          "version": "EQV 300",
+          "price": 75990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "EQV 300 Larga",
+          "price": 82990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 410,
+      "brand": "Mercedes-Benz",
+      "model": "GLA",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 24990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV compacto con diseño coupé.",
+      "origin": "Alemania",
+      "versions": [
+        {
+          "version": "GLA 200",
+          "price": 24990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "GLA 250 4MATIC",
+          "price": 33990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 163,
+      "torque_nm": 250,
+      "top_speed_kmh": 210,
+      "fuel_consumption_city_km_l": 13,
+      "fuel_consumption_highway_km_l": 18,
+      "fuel_consumption_mixed_km_l": 15,
+      "fuel_tank_liters": 51,
+      "length_mm": 4417,
+      "width_mm": 1834,
+      "height_mm": 1611,
+      "wheelbase_mm": 2729,
+      "ground_clearance_mm": 163,
+      "trunk_liters": 435,
+      "airbags": 7,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "cámara 360°"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "MBUX",
+        "pantalla 10.25\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "asistente de voz Hey Mercedes"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "Alemania"
+    },
+    {
+      "id": 411,
+      "brand": "Mercedes-Benz",
+      "model": "GLB",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 34990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "SUV compacto con espacio para 7 plazas opcional y diseño robusto.",
+      "origin": "Alemania",
+      "hp": 163,
+      "torque_nm": 250,
+      "length_mm": 4634,
+      "width_mm": 1834,
+      "height_mm": 1658,
+      "wheelbase_mm": 2829,
+      "fuel_tank_liters": 52,
+      "ground_clearance_mm": 175,
+      "trunk_liters": 570,
+      "airbags": 7,
+      "isofix": true,
+      "adas": [
+        "Control crucero adaptativo",
+        "Asistente de carril",
+        "Frenado automático",
+        "Cámara 360°"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "MBUX",
+        "Pantalla 10.25\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Asistente de voz Hey Mercedes"
+      ],
+      "fuel_consumption_mixed_km_l": 13.5,
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "Alemania",
+      "versions": [
+        {
+          "version": "GLB 200",
+          "price": 34990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "GLB 250 4MATIC",
+          "price": 41990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ]
+    },
+    {
+      "id": 412,
+      "brand": "Mercedes-Benz",
+      "model": "GLC",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 36990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "SUV mediano con equilibrio entre confort y deportividad.",
+      "origin": "Alemania",
+      "versions": [
+        {
+          "version": "GLC 300 4MATIC",
+          "price": 36990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "GLC 300 AMG Line",
+          "price": 42990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 258,
+      "torque_nm": 400,
+      "top_speed_kmh": 240,
+      "fuel_consumption_city_km_l": 11,
+      "fuel_consumption_highway_km_l": 16,
+      "fuel_consumption_mixed_km_l": 13,
+      "fuel_tank_liters": 66,
+      "length_mm": 4716,
+      "width_mm": 1890,
+      "height_mm": 1644,
+      "wheelbase_mm": 2888,
+      "ground_clearance_mm": 201,
+      "trunk_liters": 550,
+      "airbags": 8,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "cámara 360°",
+        "asistente de estacionamiento",
+        "asistente de conducción en autopista"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "MBUX",
+        "pantalla 11.9\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "asistente de voz Hey Mercedes",
+        "sonido Burmester"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "Alemania"
+    },
+    {
+      "id": 413,
+      "brand": "Mercedes-Benz",
+      "model": "GLE",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 52990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "SUV grande de lujo con prestaciones excepcionales.",
+      "origin": "Alemania",
+      "versions": [
+        {
+          "version": "GLE 450 4MATIC",
+          "price": 52990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "AMG GLE 53",
+          "price": 67990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 367,
+      "torque_nm": 500,
+      "top_speed_kmh": 250,
+      "fuel_consumption_city_km_l": 9,
+      "fuel_consumption_highway_km_l": 13,
+      "fuel_consumption_mixed_km_l": 11,
+      "fuel_tank_liters": 85,
+      "length_mm": 4924,
+      "width_mm": 2010,
+      "height_mm": 1764,
+      "wheelbase_mm": 2995,
+      "ground_clearance_mm": 210,
+      "trunk_liters": 630,
+      "airbags": 8,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "cámara 360°",
+        "asistente de estacionamiento",
+        "asistente de conducción en autopista"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "MBUX",
+        "pantalla 12.3\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "asistente de voz Hey Mercedes",
+        "sonido Burmester",
+        "pantalla trasera"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "Alemania"
+    },
+    {
+      "id": 414,
+      "brand": "Mercedes-Benz",
+      "model": "GLS",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 7,
+      "price": 72990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "SUV de lujo de 7 plazas, tope de gama.",
+      "origin": "Alemania",
+      "versions": [
+        {
+          "version": "GLS 450 4MATIC",
+          "price": 72990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "GLS 580 4MATIC",
+          "price": 92990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 367,
+      "torque_nm": 500,
+      "top_speed_kmh": 250,
+      "fuel_consumption_city_km_l": 8,
+      "fuel_consumption_highway_km_l": 12,
+      "fuel_consumption_mixed_km_l": 10,
+      "fuel_tank_liters": 100,
+      "length_mm": 5207,
+      "width_mm": 2030,
+      "height_mm": 1823,
+      "wheelbase_mm": 3135,
+      "ground_clearance_mm": 230,
+      "trunk_liters": 890,
+      "airbags": 9,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "cámara 360°",
+        "asistente de estacionamiento",
+        "asistente de conducción en autopista"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "MBUX",
+        "pantalla 12.3\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "sonido Burmester",
+        "pantalla trasera",
+        "asiento de masaje"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "Alemania"
+    },
+    {
+      "id": 415,
+      "brand": "Mercedes-Benz",
+      "model": "Sprinter",
+      "year": 2026,
+      "type": "minivan",
+      "fuel": "diesel",
+      "seats": 5,
+      "price": 35990000,
+      "transmission": "manual",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Furgón multiusos con gran capacidad de carga y fiabilidad.",
+      "origin": "Alemania",
+      "hp": 165,
+      "torque_nm": 350,
+      "length_mm": 5250,
+      "width_mm": 1993,
+      "height_mm": 2350,
+      "wheelbase_mm": 3250,
+      "fuel_tank_liters": 71,
+      "ground_clearance_mm": 185,
+      "trunk_liters": 0,
+      "airbags": 4,
+      "isofix": false,
+      "adas": [
+        "Frenado automático",
+        "Control de estabilidad",
+        "Asistente de carril"
+      ],
+      "latin_ncap_stars": 3,
+      "infotainment": [
+        "Bluetooth",
+        "USB"
+      ],
+      "fuel_consumption_mixed_km_l": 11,
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "Alemania",
+      "versions": [
+        {
+          "version": "316 CDI",
+          "price": 35990000,
+          "transmission": "manual",
+          "traction": "4x2"
+        },
+        {
+          "version": "419 CDI",
+          "price": 42990000,
+          "transmission": "manual",
+          "traction": "4x2"
+        }
+      ]
+    }
+  ]
+}

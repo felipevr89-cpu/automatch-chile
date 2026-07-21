@@ -1,0 +1,306 @@
+{
+  "brand": "BAIC",
+  "brandUrl": "https://www.baic.cl",
+  "models": [
+    {
+      "id": 26,
+      "brand": "BAIC",
+      "model": "BJ30",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 25990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV de estilo off-road con diseño robusto y motor 1.5T turbo.",
+      "origin": "China",
+      "hp": 188,
+      "torque_nm": 275,
+      "length_mm": 4510,
+      "width_mm": 1900,
+      "height_mm": 1730,
+      "wheelbase_mm": 2700,
+      "fuel_tank_liters": 55,
+      "ground_clearance_mm": 215,
+      "airbags": 4,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 10.25\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "fuel_consumption_mixed_km_l": 12,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "LV3 1.5T 2WD",
+          "price": 25990000,
+          "transmission": "DCT 7V",
+          "traction": "4x2"
+        },
+        {
+          "version": "HEV 1.5T 2WD",
+          "price": 27990000,
+          "transmission": "DHT",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "brand": "BAIC",
+      "model": "BJ40",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 30490000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "Todoterreno genuino con chasis en escalera y motor 2.0T.",
+      "origin": "China",
+      "hp": 224,
+      "torque_nm": 380,
+      "length_mm": 4630,
+      "width_mm": 1925,
+      "height_mm": 1871,
+      "wheelbase_mm": 2745,
+      "fuel_tank_liters": 75,
+      "ground_clearance_mm": 220,
+      "airbags": 4,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 12.3\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "fuel_consumption_mixed_km_l": 10.5,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "2.0T 4x4 Automático",
+          "price": 30490000,
+          "transmission": "Automática 8V",
+          "traction": "4x4"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "brand": "BAIC",
+      "model": "BJ60",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 7,
+      "price": 41490000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "SUV todoterreno de tres filas, con motor 2.0T y capacidades off-road avanzadas.",
+      "origin": "China",
+      "hp": 267,
+      "torque_nm": 406,
+      "length_mm": 4970,
+      "width_mm": 1960,
+      "height_mm": 1930,
+      "wheelbase_mm": 2800,
+      "fuel_tank_liters": 80,
+      "ground_clearance_mm": 230,
+      "airbags": 6,
+      "isofix": true,
+      "adas": [
+        "Frenado automático AEB",
+        "Control crucero adaptativo"
+      ],
+      "infotainment": [
+        "Pantalla 12.8\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "fuel_consumption_mixed_km_l": 10,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "2.0T 4x4 AT",
+          "price": 41490000,
+          "transmission": "Automática 8V",
+          "traction": "4x4"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "brand": "BAIC",
+      "model": "U5 Plus",
+      "year": 2025,
+      "type": "sedan",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 12990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Sedán compacta accesible con motor 1.5L y buena relación precio-equipamiento.",
+      "origin": "China",
+      "hp": 113,
+      "torque_nm": 142,
+      "length_mm": 4660,
+      "width_mm": 1800,
+      "height_mm": 1480,
+      "wheelbase_mm": 2670,
+      "fuel_tank_liters": 48,
+      "airbags": 2,
+      "infotainment": [
+        "Pantalla 8\"",
+        "Bluetooth"
+      ],
+      "fuel_consumption_mixed_km_l": 14,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "1.5L CVT",
+          "price": 12990000,
+          "transmission": "CVT",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "brand": "BAIC",
+      "model": "X35",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 13090000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV subcompacta con diseño moderno y motor 1.5L.",
+      "origin": "China",
+      "hp": 113,
+      "torque_nm": 142,
+      "length_mm": 4160,
+      "width_mm": 1810,
+      "height_mm": 1640,
+      "wheelbase_mm": 2560,
+      "fuel_tank_liters": 48,
+      "airbags": 2,
+      "infotainment": [
+        "Pantalla 8\"",
+        "Bluetooth"
+      ],
+      "fuel_consumption_mixed_km_l": 13.5,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "1.5L CVT",
+          "price": 13090000,
+          "transmission": "CVT",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "brand": "BAIC",
+      "model": "X55",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 18490000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV compacta con motor 1.5T turbo y equipamiento más completo.",
+      "origin": "China",
+      "hp": 150,
+      "torque_nm": 210,
+      "length_mm": 4480,
+      "width_mm": 1835,
+      "height_mm": 1690,
+      "wheelbase_mm": 2665,
+      "fuel_tank_liters": 55,
+      "airbags": 4,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 10.25\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "fuel_consumption_mixed_km_l": 12.5,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "1.5T CVT",
+          "price": 18490000,
+          "transmission": "CVT",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "brand": "BAIC",
+      "model": "X7",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 23990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV mediana premium con motor 1.5T y tecnología avanzada.",
+      "origin": "China",
+      "hp": 188,
+      "torque_nm": 275,
+      "length_mm": 4710,
+      "width_mm": 1885,
+      "height_mm": 1720,
+      "wheelbase_mm": 2810,
+      "fuel_tank_liters": 60,
+      "airbags": 6,
+      "isofix": true,
+      "adas": [
+        "Frenado automático AEB",
+        "Control crucero adaptativo"
+      ],
+      "infotainment": [
+        "Pantalla 12.3\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "fuel_consumption_mixed_km_l": 11.5,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "1.5T 7DCT",
+          "price": 23990000,
+          "transmission": "DCT 7V",
+          "traction": "4x2"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,691 @@
+{
+  "brand": "Nissan",
+  "brandUrl": "https://www.nissan.cl",
+  "models": [
+    {
+      "id": 454,
+      "brand": "Nissan",
+      "model": "Kicks",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 17990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV crossover urbana con estilo personalizado",
+      "origin": "México",
+      "origin_country": "Japón",
+      "versions": [
+        {
+          "version": "Sense",
+          "price": 17990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Advance",
+          "price": 20990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Exclusive",
+          "price": 23490000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 118,
+      "torque_nm": 149,
+      "fuel_consumption_mixed_km_l": 17.5,
+      "fuel_tank_liters": 46,
+      "length_mm": 4305,
+      "width_mm": 1760,
+      "height_mm": 1615,
+      "wheelbase_mm": 2620,
+      "ground_clearance_mm": 187,
+      "trunk_liters": 428,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 8\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "adas": [
+        "Nissan Safety Shield 360",
+        "Frenado automático"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000
+    },
+    {
+      "id": 455,
+      "brand": "Nissan",
+      "model": "Leaf",
+      "year": 2026,
+      "type": "hatchback",
+      "fuel": "electrico",
+      "seats": 5,
+      "price": 30990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Hatchback 100% eléctrico pionero con autonomía y confiabilidad.",
+      "origin": "Japón",
+      "hp": 150,
+      "torque_nm": 320,
+      "length_mm": 4480,
+      "width_mm": 1790,
+      "height_mm": 1540,
+      "wheelbase_mm": 2700,
+      "ground_clearance_mm": 145,
+      "trunk_liters": 405,
+      "airbags": 6,
+      "isofix": true,
+      "adas": [
+        "Control crucero adaptativo",
+        "Frenado automático",
+        "Asistente de carril"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Pantalla 8\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Nissan Connect"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Japón",
+      "versions": [
+        {
+          "version": "e+",
+          "price": 30990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "e+ Tekna",
+          "price": 34990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 456,
+      "brand": "Nissan",
+      "model": "March",
+      "year": 2025,
+      "type": "hatchback",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 12490000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "City car ágil y económica para la ciudad",
+      "origin": "México",
+      "origin_country": "Japón",
+      "versions": [
+        {
+          "version": "Sense",
+          "price": 12490000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Advance",
+          "price": 14490000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 82,
+      "torque_nm": 104,
+      "fuel_consumption_mixed_km_l": 20,
+      "fuel_tank_liters": 41,
+      "length_mm": 3780,
+      "width_mm": 1665,
+      "height_mm": 1530,
+      "wheelbase_mm": 2450,
+      "ground_clearance_mm": 150,
+      "trunk_liters": 251,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 7\"",
+        "Bluetooth",
+        "USB"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000
+    },
+    {
+      "id": 457,
+      "brand": "Nissan",
+      "model": "Navara",
+      "year": 2025,
+      "type": "pickup",
+      "fuel": "diesel",
+      "seats": 5,
+      "price": 25990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "Pickup robusta con confort de cabina premium",
+      "origin": "Tailandia",
+      "origin_country": "Japón",
+      "versions": [
+        {
+          "version": "RX 4x2",
+          "price": 23990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "RX 4x4",
+          "price": 27990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "Pro-4X",
+          "price": 31990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 190,
+      "torque_nm": 450,
+      "fuel_consumption_mixed_km_l": 12,
+      "fuel_tank_liters": 80,
+      "length_mm": 5260,
+      "width_mm": 1850,
+      "height_mm": 1810,
+      "wheelbase_mm": 3150,
+      "ground_clearance_mm": 230,
+      "trunk_liters": 0,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 8\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "adas": [
+        "Frenado automático",
+        "Alerta de punto ciego"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000
+    },
+    {
+      "id": 458,
+      "brand": "Nissan",
+      "model": "Pathfinder",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 7,
+      "price": 37990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "SUV de 7 plazas con capacidad todoterreno y tecnología Nissan Safety Shield.",
+      "origin": "USA",
+      "hp": 284,
+      "torque_nm": 351,
+      "length_mm": 5022,
+      "width_mm": 1979,
+      "height_mm": 1796,
+      "wheelbase_mm": 2901,
+      "fuel_tank_liters": 70,
+      "ground_clearance_mm": 185,
+      "trunk_liters": 470,
+      "airbags": 8,
+      "isofix": true,
+      "adas": [
+        "Control crucero adaptativo",
+        "Asistente de carril",
+        "Frenado automático",
+        "Cámara 360°"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Pantalla 12.3\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Sonido Bose"
+      ],
+      "fuel_consumption_mixed_km_l": 9,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "USA",
+      "versions": [
+        {
+          "version": "3.5L V6 AT 4x4",
+          "price": 37990000,
+          "transmission": "automática",
+          "traction": "4x4"
+        },
+        {
+          "version": "3.5L V6 AT 4x4 Platinum",
+          "price": 45990000,
+          "transmission": "automática",
+          "traction": "4x4"
+        }
+      ]
+    },
+    {
+      "id": 459,
+      "brand": "Nissan",
+      "model": "Patrol",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 7,
+      "price": 49990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "SUV de lujo con capacidades off-road excepcionales",
+      "origin": "Emiratos Árabes Unidos",
+      "origin_country": "Japón",
+      "versions": [
+        {
+          "version": "SE",
+          "price": 49990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "Platinum",
+          "price": 59990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 400,
+      "torque_nm": 560,
+      "fuel_consumption_mixed_km_l": 8.5,
+      "fuel_tank_liters": 140,
+      "length_mm": 5165,
+      "width_mm": 1995,
+      "height_mm": 1940,
+      "wheelbase_mm": 3075,
+      "ground_clearance_mm": 272,
+      "trunk_liters": 550,
+      "airbags": 12,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 12.3\"",
+        "Bose",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "adas": [
+        "ProPILOT",
+        "Frenado automático",
+        "Monitor 360°",
+        "Control crucero adaptativo"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000
+    },
+    {
+      "id": 460,
+      "brand": "Nissan",
+      "model": "Qashqai",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 22990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Crossover premium con diseño V-Motion y tecnología ProPILOT",
+      "origin": "Japón",
+      "origin_country": "Japón",
+      "versions": [
+        {
+          "version": "Sense",
+          "price": 22990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Advance",
+          "price": 25990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Exclusive",
+          "price": 28990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 158,
+      "torque_nm": 270,
+      "fuel_consumption_mixed_km_l": 16,
+      "fuel_tank_liters": 55,
+      "length_mm": 4425,
+      "width_mm": 1835,
+      "height_mm": 1625,
+      "wheelbase_mm": 2665,
+      "ground_clearance_mm": 180,
+      "trunk_liters": 504,
+      "airbags": 10,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 9\"",
+        "Bose",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "adas": [
+        "Nissan Safety Shield 360",
+        "ProPILOT",
+        "Frenado automático",
+        "Lane Keep Assist"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000
+    },
+    {
+      "id": 461,
+      "brand": "Nissan",
+      "model": "Sentra",
+      "year": 2025,
+      "type": "sedan",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 18990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Sedán compacto con diseño elegante y tecnología",
+      "origin": "México",
+      "origin_country": "Japón",
+      "versions": [
+        {
+          "version": "Sense",
+          "price": 18990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Advance",
+          "price": 21990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Exclusive",
+          "price": 24990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 145,
+      "torque_nm": 197,
+      "fuel_consumption_mixed_km_l": 17,
+      "fuel_tank_liters": 50,
+      "length_mm": 4641,
+      "width_mm": 1815,
+      "height_mm": 1450,
+      "wheelbase_mm": 2712,
+      "ground_clearance_mm": 153,
+      "trunk_liters": 490,
+      "airbags": 10,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 8\"",
+        "Bose",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "adas": [
+        "Nissan Safety Shield 360",
+        "Frenado automático",
+        "Lane Keep Assist"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000
+    },
+    {
+      "id": 462,
+      "brand": "Nissan",
+      "model": "Townstar",
+      "year": 2026,
+      "type": "minivan",
+      "fuel": "electrico",
+      "seats": 5,
+      "price": 28990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Furgón eléctrico versátil ideal para carga urbana sostenible.",
+      "origin": "Francia",
+      "hp": 120,
+      "torque_nm": 250,
+      "length_mm": 4480,
+      "width_mm": 1860,
+      "height_mm": 1820,
+      "wheelbase_mm": 2715,
+      "ground_clearance_mm": 160,
+      "trunk_liters": 0,
+      "airbags": 6,
+      "isofix": true,
+      "adas": [
+        "Frenado automático",
+        "Control crucero adaptativo"
+      ],
+      "latin_ncap_stars": 4,
+      "infotainment": [
+        "Pantalla 8\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Francia",
+      "versions": [
+        {
+          "version": "Cargo",
+          "price": 28990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Combi",
+          "price": 30990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 463,
+      "brand": "Nissan",
+      "model": "Versa",
+      "year": 2025,
+      "type": "sedan",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 13990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Sedán subcompacto con excelente relación precio-calidad",
+      "origin": "México",
+      "origin_country": "Japón",
+      "versions": [
+        {
+          "version": "Sense",
+          "price": 13990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Advance",
+          "price": 15990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Exclusive",
+          "price": 17490000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 118,
+      "torque_nm": 149,
+      "fuel_consumption_mixed_km_l": 18.5,
+      "fuel_tank_liters": 41,
+      "length_mm": 4453,
+      "width_mm": 1728,
+      "height_mm": 1518,
+      "wheelbase_mm": 2620,
+      "ground_clearance_mm": 152,
+      "trunk_liters": 482,
+      "airbags": 10,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 8\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "adas": [
+        "Frenado automático",
+        "Alerta de punto ciego"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000
+    },
+    {
+      "id": 464,
+      "brand": "Nissan",
+      "model": "X-Trail",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 7,
+      "price": 25990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV mediano familiar con tercera fila de asientos",
+      "origin": "Japón",
+      "origin_country": "Japón",
+      "versions": [
+        {
+          "version": "Sense",
+          "price": 25990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Advance",
+          "price": 28990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Exclusive 4WD",
+          "price": 32990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ],
+      "hp": 181,
+      "torque_nm": 244,
+      "fuel_consumption_mixed_km_l": 15.5,
+      "fuel_tank_liters": 55,
+      "length_mm": 4680,
+      "width_mm": 1840,
+      "height_mm": 1735,
+      "wheelbase_mm": 2705,
+      "ground_clearance_mm": 210,
+      "trunk_liters": 565,
+      "airbags": 10,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 9\"",
+        "Bose",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "adas": [
+        "Nissan Safety Shield 360",
+        "ProPILOT",
+        "Frenado automático",
+        "Lane Keep Assist"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000
+    },
+    {
+      "id": 465,
+      "brand": "Nissan",
+      "model": "Z",
+      "year": 2026,
+      "type": "hatchback",
+      "fuel": "gasolina",
+      "seats": 2,
+      "price": 44990000,
+      "transmission": "manual",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Deportivo biplaza con motor V6 biturbo y diseño retro moderno.",
+      "origin": "Japón",
+      "hp": 400,
+      "torque_nm": 475,
+      "length_mm": 4380,
+      "width_mm": 1845,
+      "height_mm": 1315,
+      "wheelbase_mm": 2550,
+      "fuel_tank_liters": 50,
+      "ground_clearance_mm": 120,
+      "trunk_liters": 240,
+      "airbags": 6,
+      "isofix": false,
+      "adas": [
+        "Control crucero adaptativo",
+        "Frenado automático"
+      ],
+      "latin_ncap_stars": 4,
+      "infotainment": [
+        "Pantalla 8\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Sonido Bose"
+      ],
+      "fuel_consumption_mixed_km_l": 9.5,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Japón",
+      "versions": [
+        {
+          "version": "3.0T V6 MT",
+          "price": 44990000,
+          "transmission": "manual",
+          "traction": "4x2"
+        },
+        {
+          "version": "3.0T V6 AT",
+          "price": 46990000,
+          "transmission": "automática",
+          "traction": "4x2"
+        }
+      ]
+    }
+  ]
+}

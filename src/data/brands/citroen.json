@@ -1,0 +1,402 @@
+{
+  "brand": "Citroën",
+  "brandUrl": "https://www.citroen.cl",
+  "models": [
+    {
+      "id": 128,
+      "brand": "Citroën",
+      "model": "Ami",
+      "year": 2026,
+      "type": "hatchback",
+      "fuel": "electrico",
+      "seats": 2,
+      "price": 8990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Microcoche eléctrico urbano de 2 plazas con diseño divertido.",
+      "origin": "Francia",
+      "hp": 8,
+      "torque_nm": 40,
+      "length_mm": 2410,
+      "width_mm": 1390,
+      "height_mm": 1520,
+      "wheelbase_mm": 1720,
+      "ground_clearance_mm": 140,
+      "trunk_liters": 63,
+      "airbags": 2,
+      "isofix": false,
+      "adas": [],
+      "latin_ncap_stars": 2,
+      "infotainment": [
+        "Bluetooth"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 50000,
+      "origin_country": "Francia",
+      "versions": [
+        {
+          "version": "Ami",
+          "price": 8990000,
+          "transmission": "automática",
+          "traction": "4x2"
+        },
+        {
+          "version": "Ami Tonic",
+          "price": 9490000,
+          "transmission": "automática",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 129,
+      "brand": "Citroën",
+      "model": "Berlingo",
+      "year": 2025,
+      "type": "minivan",
+      "fuel": "gasolina",
+      "seats": 7,
+      "price": 19990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Monovolumen familiar con máximo espacio.",
+      "origin": "Francia",
+      "versions": [
+        {
+          "version": "Feel M 7 plazas",
+          "price": 19990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Shine M 7 plazas",
+          "price": 23990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 130,
+      "torque_nm": 230,
+      "top_speed_kmh": 180,
+      "fuel_consumption_city_km_l": 12,
+      "fuel_consumption_highway_km_l": 17,
+      "fuel_consumption_mixed_km_l": 14,
+      "fuel_tank_liters": 53,
+      "length_mm": 4753,
+      "width_mm": 1810,
+      "height_mm": 1818,
+      "wheelbase_mm": 2785,
+      "ground_clearance_mm": 160,
+      "trunk_liters": 775,
+      "airbags": 6,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "cámara 360°"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "pantalla 8\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Francia"
+    },
+    {
+      "id": 130,
+      "brand": "Citroën",
+      "model": "C3",
+      "year": 2025,
+      "type": "hatchback",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 13490000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Hatchback subcompacto con diseño alegre.",
+      "origin": "Brasil",
+      "versions": [
+        {
+          "version": "Live",
+          "price": 13490000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Feel",
+          "price": 15490000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 82,
+      "torque_nm": 120,
+      "top_speed_kmh": 170,
+      "fuel_consumption_city_km_l": 15,
+      "fuel_consumption_highway_km_l": 20,
+      "fuel_consumption_mixed_km_l": 17,
+      "fuel_tank_liters": 40,
+      "length_mm": 3981,
+      "width_mm": 1733,
+      "height_mm": 1587,
+      "wheelbase_mm": 2539,
+      "ground_clearance_mm": 177,
+      "trunk_liters": 300,
+      "airbags": 2,
+      "adas": [],
+      "latin_ncap_stars": 3,
+      "isofix": true,
+      "infotainment": [
+        "pantalla 7\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Bluetooth"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Brasil"
+    },
+    {
+      "id": 131,
+      "brand": "Citroën",
+      "model": "C3 Aircross",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 15490000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV subcompacto con suspensión confortable.",
+      "origin": "Brasil",
+      "versions": [
+        {
+          "version": "Live",
+          "price": 15490000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Feel",
+          "price": 17990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 110,
+      "torque_nm": 150,
+      "top_speed_kmh": 180,
+      "fuel_consumption_city_km_l": 14,
+      "fuel_consumption_highway_km_l": 19,
+      "fuel_consumption_mixed_km_l": 16,
+      "fuel_tank_liters": 45,
+      "length_mm": 4154,
+      "width_mm": 1755,
+      "height_mm": 1637,
+      "wheelbase_mm": 2552,
+      "ground_clearance_mm": 193,
+      "trunk_liters": 420,
+      "airbags": 4,
+      "adas": [
+        "frenado automático de emergencia"
+      ],
+      "latin_ncap_stars": 4,
+      "isofix": true,
+      "infotainment": [
+        "pantalla 7\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Bluetooth"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Brasil"
+    },
+    {
+      "id": 132,
+      "brand": "Citroën",
+      "model": "C4",
+      "year": 2025,
+      "type": "hatchback",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 18990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Coupé crossover con diseño único.",
+      "origin": "Francia",
+      "versions": [
+        {
+          "version": "Feel",
+          "price": 18990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Shine",
+          "price": 22990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 130,
+      "torque_nm": 230,
+      "top_speed_kmh": 200,
+      "fuel_consumption_city_km_l": 13,
+      "fuel_consumption_highway_km_l": 18,
+      "fuel_consumption_mixed_km_l": 15,
+      "fuel_tank_liters": 50,
+      "length_mm": 4360,
+      "width_mm": 1834,
+      "height_mm": 1525,
+      "wheelbase_mm": 2670,
+      "ground_clearance_mm": 165,
+      "trunk_liters": 380,
+      "airbags": 6,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "cámara 360°"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "pantalla 10\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Francia"
+    },
+    {
+      "id": 133,
+      "brand": "Citroën",
+      "model": "C5 Aircross",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 25990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "SUV mediano con suspensión Advanced Comfort.",
+      "origin": "Francia",
+      "versions": [
+        {
+          "version": "Feel",
+          "price": 25990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Shine",
+          "price": 29990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Shine Pack 4x4",
+          "price": 34990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 180,
+      "torque_nm": 250,
+      "top_speed_kmh": 200,
+      "fuel_consumption_city_km_l": 11,
+      "fuel_consumption_highway_km_l": 16,
+      "fuel_consumption_mixed_km_l": 13,
+      "fuel_tank_liters": 53,
+      "length_mm": 4500,
+      "width_mm": 1858,
+      "height_mm": 1669,
+      "wheelbase_mm": 2730,
+      "ground_clearance_mm": 192,
+      "trunk_liters": 580,
+      "airbags": 7,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "cámara 360°",
+        "asistente de estacionamiento"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "pantalla 8\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Francia"
+    },
+    {
+      "id": 134,
+      "brand": "Citroën",
+      "model": "Jumpy",
+      "year": 2026,
+      "type": "minivan",
+      "fuel": "diesel",
+      "seats": 5,
+      "price": 28990000,
+      "transmission": "manual",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Furgón mediano con gran capacidad de carga y motor diésel eficiente.",
+      "origin": "Francia",
+      "hp": 110,
+      "torque_nm": 220,
+      "length_mm": 4600,
+      "width_mm": 1920,
+      "height_mm": 1900,
+      "wheelbase_mm": 2925,
+      "fuel_tank_liters": 70,
+      "ground_clearance_mm": 170,
+      "trunk_liters": 0,
+      "airbags": 4,
+      "isofix": false,
+      "adas": [
+        "Frenado automático",
+        "Control de estabilidad"
+      ],
+      "latin_ncap_stars": 4,
+      "infotainment": [
+        "Bluetooth",
+        "USB"
+      ],
+      "fuel_consumption_mixed_km_l": 12,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Francia",
+      "versions": [
+        {
+          "version": "MT",
+          "price": 28990000,
+          "transmission": "manual",
+          "traction": "4x2"
+        },
+        {
+          "version": "MT Largo",
+          "price": 30990000,
+          "transmission": "manual",
+          "traction": "4x2"
+        }
+      ]
+    }
+  ]
+}

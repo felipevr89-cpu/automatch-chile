@@ -1,0 +1,253 @@
+{
+  "brand": "Jaguar",
+  "brandUrl": "https://www.jaguar.cl",
+  "models": [
+    {
+      "id": 275,
+      "brand": "Jaguar",
+      "model": "E-Pace",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 32990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "SUV compacto deportivo con diseño británico.",
+      "origin": "Reino Unido",
+      "versions": [
+        {
+          "version": "E-Pace",
+          "price": 32990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "E-Pace R-Dynamic",
+          "price": 38990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 200,
+      "torque_nm": 320,
+      "top_speed_kmh": 220,
+      "fuel_consumption_city_km_l": 11,
+      "fuel_consumption_highway_km_l": 16,
+      "fuel_consumption_mixed_km_l": 13,
+      "fuel_tank_liters": 65,
+      "length_mm": 4395,
+      "width_mm": 1984,
+      "height_mm": 1648,
+      "wheelbase_mm": 2681,
+      "ground_clearance_mm": 187,
+      "trunk_liters": 577,
+      "airbags": 6,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "cámara 360°",
+        "asistente de estacionamiento"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "Pivi Pro",
+        "pantalla 11.4\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "sonido Meridian"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "Reino Unido"
+    },
+    {
+      "id": 276,
+      "brand": "Jaguar",
+      "model": "F-Pace",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 44990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "SUV mediano deportivo con prestaciones premium.",
+      "origin": "Reino Unido",
+      "versions": [
+        {
+          "version": "F-Pace",
+          "price": 44990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "F-Pace R-Dynamic",
+          "price": 52990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "F-Pace SVR",
+          "price": 79990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 250,
+      "torque_nm": 365,
+      "top_speed_kmh": 240,
+      "fuel_consumption_city_km_l": 10,
+      "fuel_consumption_highway_km_l": 15,
+      "fuel_consumption_mixed_km_l": 12,
+      "fuel_tank_liters": 82,
+      "length_mm": 4731,
+      "width_mm": 1936,
+      "height_mm": 1667,
+      "wheelbase_mm": 2874,
+      "ground_clearance_mm": 205,
+      "trunk_liters": 650,
+      "airbags": 8,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "cámara 360°",
+        "asistente de estacionamiento",
+        "asistente de conducción en autopista"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "Pivi Pro",
+        "pantalla 11.4\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "sonido Meridian"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "Reino Unido"
+    },
+    {
+      "id": 277,
+      "brand": "Jaguar",
+      "model": "F-Type",
+      "year": 2026,
+      "type": "sedan",
+      "fuel": "gasolina",
+      "seats": 2,
+      "price": 85990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "Deportivo biplaza británico con motor V8 y diseño elegante.",
+      "origin": "Reino Unido",
+      "hp": 450,
+      "torque_nm": 580,
+      "length_mm": 4470,
+      "width_mm": 1923,
+      "height_mm": 1308,
+      "wheelbase_mm": 2622,
+      "fuel_tank_liters": 62,
+      "ground_clearance_mm": 120,
+      "trunk_liters": 290,
+      "airbags": 6,
+      "isofix": false,
+      "adas": [
+        "Control crucero adaptativo",
+        "Frenado automático",
+        "Cámara 360°"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Pivi Pro",
+        "Pantalla 11.4\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Sonido Meridian"
+      ],
+      "fuel_consumption_mixed_km_l": 9.5,
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "Reino Unido",
+      "versions": [
+        {
+          "version": "P450 RWD",
+          "price": 85990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "P575 AWD SVR",
+          "price": 109990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ]
+    },
+    {
+      "id": 278,
+      "brand": "Jaguar",
+      "model": "I-Pace",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "electrico",
+      "seats": 5,
+      "price": 72990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "SUV 100% eléctrico con autonomía de hasta 470 km.",
+      "origin": "Reino Unido",
+      "versions": [
+        {
+          "version": "I-Pace",
+          "price": 72990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "I-Pace HSE",
+          "price": 82990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ],
+      "hp": 400,
+      "torque_nm": 696,
+      "top_speed_kmh": 200,
+      "length_mm": 4682,
+      "width_mm": 1967,
+      "height_mm": 1562,
+      "wheelbase_mm": 2990,
+      "ground_clearance_mm": 174,
+      "trunk_liters": 656,
+      "airbags": 8,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "cámara 360°",
+        "asistente de estacionamiento",
+        "asistente de conducción en autopista"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "Pivi Pro",
+        "pantalla 11.4\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "sonido Meridian"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "Reino Unido"
+    }
+  ]
+}

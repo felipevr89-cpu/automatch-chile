@@ -1,0 +1,323 @@
+{
+  "brand": "KGM",
+  "brandUrl": "https://www.kgm.cl",
+  "models": [
+    {
+      "id": 304,
+      "brand": "KGM",
+      "model": "Actyon",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "diesel",
+      "seats": 5,
+      "price": 36390000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "SUV deportiva de alto rendimiento con motor biturbo y diseño agresivo.",
+      "origin": "Corea del Sur",
+      "hp": 222,
+      "torque_nm": 500,
+      "length_mm": 4630,
+      "width_mm": 1870,
+      "height_mm": 1675,
+      "wheelbase_mm": 2765,
+      "fuel_tank_liters": 55,
+      "airbags": 6,
+      "isofix": true,
+      "adas": [
+        "Frenado automático AEB",
+        "Control crucero adaptativo"
+      ],
+      "infotainment": [
+        "Pantalla 12.3\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "fuel_consumption_mixed_km_l": 11,
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "Corea del Sur",
+      "versions": [
+        {
+          "version": "S 2.2TD AWD",
+          "price": 36390000,
+          "transmission": "Automática 8V",
+          "traction": "awd"
+        },
+        {
+          "version": "Limited 2.2TD AWD",
+          "price": 41990000,
+          "transmission": "Automática 8V",
+          "traction": "awd"
+        }
+      ]
+    },
+    {
+      "id": 305,
+      "brand": "KGM",
+      "model": "Musso",
+      "year": 2025,
+      "type": "pickup",
+      "fuel": "diesel",
+      "seats": 5,
+      "price": 29738100,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "Pick-up mediana con motor 2.2 turbodiésel y capacidad de carga de 1 tonelada.",
+      "origin": "Corea del Sur",
+      "hp": 202,
+      "torque_nm": 441,
+      "length_mm": 5400,
+      "width_mm": 1950,
+      "height_mm": 1840,
+      "wheelbase_mm": 3100,
+      "fuel_tank_liters": 65,
+      "ground_clearance_mm": 220,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 9.2\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "fuel_consumption_mixed_km_l": 10,
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "Corea del Sur",
+      "versions": [
+        {
+          "version": "LX 2.2TD 4x4 AT",
+          "price": 29738100,
+          "transmission": "Automática 6V",
+          "traction": "4x4"
+        }
+      ]
+    },
+    {
+      "id": 306,
+      "brand": "KGM",
+      "model": "Musso Grand",
+      "year": 2025,
+      "type": "pickup",
+      "fuel": "diesel",
+      "seats": 5,
+      "price": 32990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "Pick-up grande con cabina extendida y mayor capacidad de carga.",
+      "origin": "Corea del Sur",
+      "hp": 202,
+      "torque_nm": 441,
+      "length_mm": 5495,
+      "width_mm": 1950,
+      "height_mm": 1840,
+      "wheelbase_mm": 3210,
+      "fuel_tank_liters": 75,
+      "ground_clearance_mm": 220,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 9.2\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "fuel_consumption_mixed_km_l": 9.5,
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "Corea del Sur",
+      "versions": [
+        {
+          "version": "Adventure 2.2TD 4x4 AT",
+          "price": 32990000,
+          "transmission": "Automática 6V",
+          "traction": "4x4"
+        },
+        {
+          "version": "Prestige 2.2TD 4x4 AT",
+          "price": 36990000,
+          "transmission": "Automática 6V",
+          "traction": "4x4"
+        }
+      ]
+    },
+    {
+      "id": 307,
+      "brand": "KGM",
+      "model": "Rexton",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "diesel",
+      "seats": 7,
+      "price": 36190000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV grande premium con motor 2.2 turbodiésel y tres corridas de asientos.",
+      "origin": "Corea del Sur",
+      "hp": 202,
+      "torque_nm": 441,
+      "length_mm": 4850,
+      "width_mm": 1960,
+      "height_mm": 1825,
+      "wheelbase_mm": 2865,
+      "fuel_tank_liters": 70,
+      "ground_clearance_mm": 245,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 9.2\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "fuel_consumption_mixed_km_l": 10.5,
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "Corea del Sur",
+      "versions": [
+        {
+          "version": "LX 2.2TD 8AT 4x2 2AB",
+          "price": 29990000,
+          "transmission": "Automática 8V",
+          "traction": "4x2"
+        },
+        {
+          "version": "GLX 2.2TD 8AT 4x2 6AB",
+          "price": 36190000,
+          "transmission": "Automática 8V",
+          "traction": "4x2"
+        },
+        {
+          "version": "GLX 2.2TD 8AT 4x4 6AB",
+          "price": 38190000,
+          "transmission": "Automática 8V",
+          "traction": "4x4"
+        },
+        {
+          "version": "Limited 2.2TD 8AT 4x4 6AB",
+          "price": 42190000,
+          "transmission": "Automática 8V",
+          "traction": "4x4"
+        },
+        {
+          "version": "Limited Plus 2.2TD 8AT 4x4 9AB",
+          "price": 48190000,
+          "transmission": "Automática 8V",
+          "traction": "4x4"
+        }
+      ]
+    },
+    {
+      "id": 308,
+      "brand": "KGM",
+      "model": "Torres",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 25990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV mediana de diseño robusto, inspirada en Torres del Paine.",
+      "origin": "Corea del Sur",
+      "hp": 163,
+      "torque_nm": 280,
+      "length_mm": 4700,
+      "width_mm": 1890,
+      "height_mm": 1720,
+      "wheelbase_mm": 2680,
+      "fuel_tank_liters": 55,
+      "ground_clearance_mm": 200,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 12.3\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "fuel_consumption_mixed_km_l": 11.5,
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "Corea del Sur",
+      "versions": [
+        {
+          "version": "Life 1.5T 4x2 MT",
+          "price": 25990000,
+          "transmission": "Manual 6V",
+          "traction": "4x2"
+        },
+        {
+          "version": "Style 1.5T 4x2 AT",
+          "price": 28990000,
+          "transmission": "Automática 6V",
+          "traction": "4x2"
+        },
+        {
+          "version": "GLX 1.5T 4x4 AT",
+          "price": 31990000,
+          "transmission": "Automática 6V",
+          "traction": "4x4"
+        },
+        {
+          "version": "Adventure 1.5T 4x4 AT",
+          "price": 34990000,
+          "transmission": "Automática 6V",
+          "traction": "4x4"
+        }
+      ]
+    },
+    {
+      "id": 309,
+      "brand": "KGM",
+      "model": "Torres EVX",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "electrico",
+      "seats": 5,
+      "price": 43490000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "SUV 100% eléctrica con batería BYD y autonomía superior a 400 km.",
+      "origin": "Corea del Sur",
+      "hp": 207,
+      "torque_nm": 340,
+      "length_mm": 4700,
+      "width_mm": 1890,
+      "height_mm": 1720,
+      "wheelbase_mm": 2680,
+      "ground_clearance_mm": 200,
+      "airbags": 6,
+      "isofix": true,
+      "adas": [
+        "Frenado automático AEB",
+        "Control crucero adaptativo"
+      ],
+      "infotainment": [
+        "Pantalla 12.3\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "Corea del Sur",
+      "versions": [
+        {
+          "version": "Standard",
+          "price": 43490000,
+          "transmission": "Automática",
+          "traction": "awd"
+        },
+        {
+          "version": "Limited",
+          "price": 47490000,
+          "transmission": "Automática",
+          "traction": "awd"
+        }
+      ]
+    }
+  ]
+}

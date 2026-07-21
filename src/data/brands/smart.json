@@ -1,0 +1,126 @@
+{
+  "brand": "smart",
+  "brandUrl": "#",
+  "models": [
+    {
+      "id": 530,
+      "brand": "smart",
+      "model": "#1",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "electrico",
+      "seats": 5,
+      "price": 32990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "SUV eléctrico compacto con diseño moderno.",
+      "origin": "China",
+      "versions": [
+        {
+          "version": "Pro+",
+          "price": 32990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "Premium",
+          "price": 37990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "Brabus",
+          "price": 42990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ],
+      "hp": 272,
+      "torque_nm": 343,
+      "top_speed_kmh": 180,
+      "length_mm": 4270,
+      "width_mm": 1844,
+      "height_mm": 1636,
+      "wheelbase_mm": 2750,
+      "ground_clearance_mm": 175,
+      "trunk_liters": 411,
+      "airbags": 7,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "cámara 360°",
+        "asistente de estacionamiento"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "pantalla 12.8\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "sonido Beats"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 100000,
+      "origin_country": "China"
+    },
+    {
+      "id": 531,
+      "brand": "smart",
+      "model": "#3",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "electrico",
+      "seats": 5,
+      "price": 37990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "SUV coupé eléctrico deportivo.",
+      "origin": "China",
+      "versions": [
+        {
+          "version": "Premium",
+          "price": 37990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "Brabus",
+          "price": 44990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ],
+      "hp": 315,
+      "torque_nm": 400,
+      "top_speed_kmh": 180,
+      "length_mm": 4400,
+      "width_mm": 1844,
+      "height_mm": 1556,
+      "wheelbase_mm": 2785,
+      "ground_clearance_mm": 160,
+      "trunk_liters": 370,
+      "airbags": 7,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "cámara 360°",
+        "asistente de estacionamiento"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "pantalla 12.8\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "sonido Beats"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 100000,
+      "origin_country": "China"
+    }
+  ]
+}

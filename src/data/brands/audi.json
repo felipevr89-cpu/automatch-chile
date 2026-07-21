@@ -1,0 +1,904 @@
+{
+  "brand": "Audi",
+  "brandUrl": "https://www.audi.cl",
+  "models": [
+    {
+      "id": 10,
+      "brand": "Audi",
+      "model": "A1",
+      "year": 2026,
+      "type": "hatchback",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 26990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Hatchback premium compacto con diseño juvenil y ágil conducción urbana.",
+      "origin": "Alemania",
+      "hp": 150,
+      "torque_nm": 250,
+      "length_mm": 4046,
+      "width_mm": 1740,
+      "height_mm": 1434,
+      "wheelbase_mm": 2553,
+      "fuel_tank_liters": 40,
+      "ground_clearance_mm": 135,
+      "trunk_liters": 335,
+      "airbags": 6,
+      "isofix": true,
+      "adas": [
+        "Control crucero adaptativo",
+        "Frenado automático",
+        "Asistente de carril"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Audi MMI",
+        "Pantalla 10.1\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "fuel_consumption_mixed_km_l": 16,
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "Alemania",
+      "versions": [
+        {
+          "version": "30 TFSI",
+          "price": 26990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "35 TFSI S line",
+          "price": 29990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "brand": "Audi",
+      "model": "A3",
+      "year": 2025,
+      "type": "sedan",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 22990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Sedán compacto premium con interior de alta calidad.",
+      "origin": "Alemania",
+      "versions": [
+        {
+          "version": "35 TFSI",
+          "price": 22990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "40 TFSI S line",
+          "price": 27490000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 150,
+      "torque_nm": 250,
+      "top_speed_kmh": 224,
+      "fuel_consumption_city_km_l": 14,
+      "fuel_consumption_highway_km_l": 18,
+      "fuel_consumption_mixed_km_l": 16,
+      "fuel_tank_liters": 50,
+      "length_mm": 4343,
+      "width_mm": 1815,
+      "height_mm": 1458,
+      "wheelbase_mm": 2636,
+      "ground_clearance_mm": 130,
+      "trunk_liters": 425,
+      "airbags": 6,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "Audi MMI",
+        "pantalla 10.1\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "Alemania"
+    },
+    {
+      "id": 12,
+      "brand": "Audi",
+      "model": "A4",
+      "year": 2025,
+      "type": "sedan",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 29990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Sedán ejecutivo con diseño elegante.",
+      "origin": "Alemania",
+      "versions": [
+        {
+          "version": "35 TFSI",
+          "price": 29990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "40 TFSI Quattro",
+          "price": 35990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 204,
+      "torque_nm": 340,
+      "top_speed_kmh": 241,
+      "fuel_consumption_city_km_l": 12,
+      "fuel_consumption_highway_km_l": 17,
+      "fuel_consumption_mixed_km_l": 14.5,
+      "fuel_tank_liters": 58,
+      "length_mm": 4762,
+      "width_mm": 1847,
+      "height_mm": 1436,
+      "wheelbase_mm": 2819,
+      "ground_clearance_mm": 135,
+      "trunk_liters": 460,
+      "airbags": 8,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "cámara 360°"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "Audi MMI",
+        "pantalla 10.1\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "sonido Bang & Olufsen"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "Alemania"
+    },
+    {
+      "id": 13,
+      "brand": "Audi",
+      "model": "A5",
+      "year": 2025,
+      "type": "sedan",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 34990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "Coupé deportivo con tracción Quattro.",
+      "origin": "Alemania",
+      "versions": [
+        {
+          "version": "40 TFSI Quattro",
+          "price": 34990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "45 TFSI S line",
+          "price": 42990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 265,
+      "torque_nm": 370,
+      "top_speed_kmh": 250,
+      "fuel_consumption_city_km_l": 11,
+      "fuel_consumption_highway_km_l": 16,
+      "fuel_consumption_mixed_km_l": 13,
+      "fuel_tank_liters": 58,
+      "length_mm": 4726,
+      "width_mm": 1866,
+      "height_mm": 1424,
+      "wheelbase_mm": 2826,
+      "ground_clearance_mm": 132,
+      "trunk_liters": 480,
+      "airbags": 8,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "cámara 360°"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "Audi MMI",
+        "pantalla 10.1\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "sonido Bang & Olufsen"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "Alemania"
+    },
+    {
+      "id": 14,
+      "brand": "Audi",
+      "model": "A6",
+      "year": 2026,
+      "type": "sedan",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 41990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Sedán ejecutivo con tecnología híbrida ligera y diseño sofisticado.",
+      "origin": "Alemania",
+      "hp": 265,
+      "torque_nm": 370,
+      "length_mm": 4939,
+      "width_mm": 1886,
+      "height_mm": 1457,
+      "wheelbase_mm": 2924,
+      "fuel_tank_liters": 63,
+      "ground_clearance_mm": 140,
+      "trunk_liters": 530,
+      "airbags": 8,
+      "isofix": true,
+      "adas": [
+        "Control crucero adaptativo",
+        "Asistente de carril",
+        "Frenado automático",
+        "Cámara 360°"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Audi MMI",
+        "Pantalla 10.1\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Sonido Bang & Olufsen"
+      ],
+      "fuel_consumption_mixed_km_l": 13,
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "Alemania",
+      "versions": [
+        {
+          "version": "40 TFSI",
+          "price": 41990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "45 TFSI Quattro",
+          "price": 49990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "brand": "Audi",
+      "model": "A7",
+      "year": 2026,
+      "type": "sedan",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 65990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "Sedán deportivo de lujo con diseño coupé y motor V6 turbo.",
+      "origin": "Alemania",
+      "hp": 340,
+      "torque_nm": 500,
+      "length_mm": 4969,
+      "width_mm": 1908,
+      "height_mm": 1422,
+      "wheelbase_mm": 2926,
+      "fuel_tank_liters": 63,
+      "ground_clearance_mm": 135,
+      "trunk_liters": 535,
+      "airbags": 8,
+      "isofix": true,
+      "adas": [
+        "Control crucero adaptativo",
+        "Asistente de carril",
+        "Frenado automático",
+        "Cámara 360°",
+        "Asistente de estacionamiento"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Audi MMI",
+        "Pantalla 10.1\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Sonido Bang & Olufsen"
+      ],
+      "fuel_consumption_mixed_km_l": 11.5,
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "Alemania",
+      "versions": [
+        {
+          "version": "55 TFSI quattro",
+          "price": 65990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "RS 7",
+          "price": 95990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "brand": "Audi",
+      "model": "A8",
+      "year": 2026,
+      "type": "sedan",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 85990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "Sedán de lujo tope de gama con la máxima sofisticación tecnológica.",
+      "origin": "Alemania",
+      "hp": 340,
+      "torque_nm": 500,
+      "length_mm": 5172,
+      "width_mm": 1945,
+      "height_mm": 1473,
+      "wheelbase_mm": 2998,
+      "fuel_tank_liters": 72,
+      "ground_clearance_mm": 140,
+      "trunk_liters": 505,
+      "airbags": 8,
+      "isofix": true,
+      "adas": [
+        "Control crucero adaptativo",
+        "Asistente de carril",
+        "Frenado automático",
+        "Cámara 360°",
+        "Asistente de estacionamiento",
+        "Conducción autopista"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Audi MMI",
+        "Pantalla 10.1\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Sonido Bang & Olufsen",
+        "Pantalla trasera"
+      ],
+      "fuel_consumption_mixed_km_l": 10.5,
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "Alemania",
+      "versions": [
+        {
+          "version": "A8 60 TFSI",
+          "price": 85990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "A8 L 60 TFSI",
+          "price": 95990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "brand": "Audi",
+      "model": "e-tron GT",
+      "year": 2025,
+      "type": "sedan",
+      "fuel": "electrico",
+      "seats": 5,
+      "price": 72990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "Gran turismo eléctrico de alto rendimiento.",
+      "origin": "Alemania",
+      "versions": [
+        {
+          "version": "S e-tron GT",
+          "price": 72990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "RS e-tron GT",
+          "price": 99990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ],
+      "hp": 522,
+      "torque_nm": 640,
+      "top_speed_kmh": 245,
+      "length_mm": 4987,
+      "width_mm": 1936,
+      "height_mm": 1414,
+      "wheelbase_mm": 2903,
+      "ground_clearance_mm": 128,
+      "trunk_liters": 405,
+      "airbags": 8,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "cámara 360°",
+        "asistente de estacionamiento"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "Audi MMI",
+        "pantalla 12.3\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "sonido Bang & Olufsen"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "Alemania"
+    },
+    {
+      "id": 18,
+      "brand": "Audi",
+      "model": "Q2",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 21990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV compacto urbano con diseño juvenil.",
+      "origin": "Alemania",
+      "versions": [
+        {
+          "version": "30 TFSI",
+          "price": 21990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "35 TFSI S line",
+          "price": 25990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 116,
+      "torque_nm": 200,
+      "top_speed_kmh": 197,
+      "fuel_consumption_city_km_l": 15,
+      "fuel_consumption_highway_km_l": 20,
+      "fuel_consumption_mixed_km_l": 17,
+      "fuel_tank_liters": 50,
+      "length_mm": 4236,
+      "width_mm": 1794,
+      "height_mm": 1541,
+      "wheelbase_mm": 2601,
+      "ground_clearance_mm": 175,
+      "trunk_liters": 405,
+      "airbags": 6,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "Audi MMI",
+        "pantalla 8.3\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "Alemania"
+    },
+    {
+      "id": 19,
+      "brand": "Audi",
+      "model": "Q3",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 27990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "SUV compacto premium con tecnología Quattro.",
+      "origin": "Alemania",
+      "versions": [
+        {
+          "version": "35 TFSI",
+          "price": 27990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "40 TFSI quattro",
+          "price": 32990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "45 TFSI S line",
+          "price": 36990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 230,
+      "torque_nm": 350,
+      "top_speed_kmh": 233,
+      "fuel_consumption_city_km_l": 12,
+      "fuel_consumption_highway_km_l": 17,
+      "fuel_consumption_mixed_km_l": 14,
+      "fuel_tank_liters": 60,
+      "length_mm": 4484,
+      "width_mm": 1856,
+      "height_mm": 1616,
+      "wheelbase_mm": 2680,
+      "ground_clearance_mm": 190,
+      "trunk_liters": 530,
+      "airbags": 7,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "cámara 360°"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "Audi MMI",
+        "pantalla 10.25\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "Alemania"
+    },
+    {
+      "id": 20,
+      "brand": "Audi",
+      "model": "Q4 e-tron",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "electrico",
+      "seats": 5,
+      "price": 44990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "SUV compacto 100% eléctrico con diseño moderno y buena autonomía.",
+      "origin": "Alemania",
+      "hp": 299,
+      "torque_nm": 460,
+      "length_mm": 4588,
+      "width_mm": 1865,
+      "height_mm": 1632,
+      "wheelbase_mm": 2764,
+      "ground_clearance_mm": 180,
+      "trunk_liters": 520,
+      "airbags": 8,
+      "isofix": true,
+      "adas": [
+        "Control crucero adaptativo",
+        "Asistente de carril",
+        "Frenado automático",
+        "Cámara 360°"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Audi MMI",
+        "Pantalla 10.25\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Sonido Bang & Olufsen"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "Alemania",
+      "versions": [
+        {
+          "version": "40 e-tron",
+          "price": 44990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "50 e-tron Quattro",
+          "price": 52990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "brand": "Audi",
+      "model": "Q5",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 37990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "SUV mediano con prestaciones deportivas.",
+      "origin": "Alemania",
+      "versions": [
+        {
+          "version": "40 TFSI quattro",
+          "price": 37990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "45 TFSI S line",
+          "price": 44990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 265,
+      "torque_nm": 370,
+      "top_speed_kmh": 250,
+      "fuel_consumption_city_km_l": 10,
+      "fuel_consumption_highway_km_l": 15,
+      "fuel_consumption_mixed_km_l": 12,
+      "fuel_tank_liters": 70,
+      "length_mm": 4682,
+      "width_mm": 1893,
+      "height_mm": 1659,
+      "wheelbase_mm": 2819,
+      "ground_clearance_mm": 200,
+      "trunk_liters": 550,
+      "airbags": 8,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "cámara 360°",
+        "asistente de estacionamiento"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "Audi MMI",
+        "pantalla 10.1\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "sonido Bang & Olufsen"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "Alemania"
+    },
+    {
+      "id": 22,
+      "brand": "Audi",
+      "model": "Q6 e-tron",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "electrico",
+      "seats": 5,
+      "price": 54990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "SUV eléctrico mediano con plataforma PPE y tecnología de punta.",
+      "origin": "Alemania",
+      "hp": 387,
+      "torque_nm": 580,
+      "length_mm": 4771,
+      "width_mm": 1939,
+      "height_mm": 1685,
+      "wheelbase_mm": 2899,
+      "ground_clearance_mm": 195,
+      "trunk_liters": 525,
+      "airbags": 8,
+      "isofix": true,
+      "adas": [
+        "Control crucero adaptativo",
+        "Asistente de carril",
+        "Frenado automático",
+        "Cámara 360°",
+        "Asistente de estacionamiento"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Audi MMI",
+        "Pantalla 14.5\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Sonido Bang & Olufsen"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "Alemania",
+      "versions": [
+        {
+          "version": "55 e-tron",
+          "price": 54990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "SQ6 e-tron",
+          "price": 69990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "brand": "Audi",
+      "model": "Q7",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 7,
+      "price": 52990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "SUV grande de 7 plazas con motor potente.",
+      "origin": "Alemania",
+      "versions": [
+        {
+          "version": "45 TFSI quattro",
+          "price": 52990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "55 TFSI S line",
+          "price": 62990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 340,
+      "torque_nm": 500,
+      "top_speed_kmh": 250,
+      "fuel_consumption_city_km_l": 9,
+      "fuel_consumption_highway_km_l": 13,
+      "fuel_consumption_mixed_km_l": 10.5,
+      "fuel_tank_liters": 85,
+      "length_mm": 4994,
+      "width_mm": 1968,
+      "height_mm": 1740,
+      "wheelbase_mm": 2994,
+      "ground_clearance_mm": 225,
+      "trunk_liters": 740,
+      "airbags": 8,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "cámara 360°",
+        "asistente de estacionamiento"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "Audi MMI",
+        "pantalla 10.1\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "sonido Bang & Olufsen",
+        "pantalla trasera"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "Alemania"
+    },
+    {
+      "id": 24,
+      "brand": "Audi",
+      "model": "Q8",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 64990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "SUV coupé de lujo con diseño imponente.",
+      "origin": "Alemania",
+      "versions": [
+        {
+          "version": "55 TFSI quattro",
+          "price": 64990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "SQ8",
+          "price": 82990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 340,
+      "torque_nm": 500,
+      "top_speed_kmh": 250,
+      "fuel_consumption_city_km_l": 8,
+      "fuel_consumption_highway_km_l": 12,
+      "fuel_consumption_mixed_km_l": 10,
+      "fuel_tank_liters": 85,
+      "length_mm": 4986,
+      "width_mm": 1995,
+      "height_mm": 1702,
+      "wheelbase_mm": 2995,
+      "ground_clearance_mm": 220,
+      "trunk_liters": 605,
+      "airbags": 8,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "cámara 360°",
+        "asistente de estacionamiento"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "Audi MMI",
+        "pantalla 10.1\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "sonido Bang & Olufsen"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "Alemania"
+    }
+  ]
+}

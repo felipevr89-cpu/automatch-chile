@@ -1,0 +1,47 @@
+{
+  "brand": "Wuling",
+  "brandUrl": "#",
+  "models": [
+    {
+      "id": 611,
+      "brand": "Wuling",
+      "model": "Almaz",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 7,
+      "price": 19990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV familiar de siete pasajeros con motor 1.5T turbo y plataforma MG-SS.",
+      "origin": "China",
+      "hp": 147,
+      "torque_nm": 250,
+      "length_mm": 4655,
+      "width_mm": 1835,
+      "height_mm": 1760,
+      "wheelbase_mm": 2750,
+      "fuel_tank_liters": 55,
+      "airbags": 4,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 10.1\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "fuel_consumption_mixed_km_l": 12,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "Comfort 1.5T AT",
+          "price": 19990000,
+          "transmission": "Automática 6V",
+          "traction": "4x2"
+        }
+      ]
+    }
+  ]
+}

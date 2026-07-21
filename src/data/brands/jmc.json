@@ -1,0 +1,243 @@
+{
+  "brand": "JMC",
+  "brandUrl": "https://www.jmcchile.cl",
+  "models": [
+    {
+      "id": 295,
+      "brand": "JMC",
+      "model": "Grand Avenue",
+      "year": 2025,
+      "type": "pickup",
+      "fuel": "diesel",
+      "seats": 5,
+      "price": 22028100,
+      "transmission": "manual",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Pick-up mediana con motor 2.3L turbodiésel, diseño robusto y equipamiento completo.",
+      "origin": "China",
+      "hp": 174,
+      "torque_nm": 445,
+      "length_mm": 5450,
+      "width_mm": 1935,
+      "height_mm": 1872,
+      "wheelbase_mm": 3270,
+      "fuel_tank_liters": 67,
+      "ground_clearance_mm": 220,
+      "airbags": 4,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 9\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "fuel_consumption_city_km_l": 9.3,
+      "fuel_consumption_highway_km_l": 14.9,
+      "fuel_consumption_mixed_km_l": 12.2,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "2.3L 4x2 MT",
+          "price": 22028100,
+          "transmission": "Manual 6V",
+          "traction": "4x2"
+        },
+        {
+          "version": "2.3L 4x4 MT",
+          "price": 22813100,
+          "transmission": "Manual 6V",
+          "traction": "4x4"
+        },
+        {
+          "version": "2.3L 4x2 AT",
+          "price": 24003100,
+          "transmission": "Automática 8V",
+          "traction": "4x2"
+        },
+        {
+          "version": "2.3L 4x4 AT",
+          "price": 24788100,
+          "transmission": "Automática 8V",
+          "traction": "4x4"
+        }
+      ]
+    },
+    {
+      "id": 296,
+      "brand": "JMC",
+      "model": "Touring Cargo",
+      "year": 2025,
+      "type": "minivan",
+      "fuel": "diesel",
+      "seats": 2,
+      "price": 20990000,
+      "transmission": "manual",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Furgón de carga con motor 2.5L diésel y amplio espacio de carga.",
+      "origin": "China",
+      "hp": 136,
+      "torque_nm": 300,
+      "length_mm": 5480,
+      "width_mm": 1890,
+      "height_mm": 2320,
+      "wheelbase_mm": 3080,
+      "fuel_tank_liters": 67,
+      "airbags": 2,
+      "infotainment": [
+        "Pantalla 7\"",
+        "Bluetooth"
+      ],
+      "fuel_consumption_mixed_km_l": 10.5,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "2.5L MT",
+          "price": 20990000,
+          "transmission": "Manual 5V",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 297,
+      "brand": "JMC",
+      "model": "Vigus EV",
+      "year": 2025,
+      "type": "pickup",
+      "fuel": "electrico",
+      "seats": 5,
+      "price": 33990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Primera pick-up eléctrica de JMC, con autonomía de 250 km y carga útil de 1.300 kg.",
+      "origin": "China",
+      "hp": 163,
+      "torque_nm": 310,
+      "length_mm": 5410,
+      "width_mm": 1880,
+      "height_mm": 1810,
+      "wheelbase_mm": 3080,
+      "airbags": 2,
+      "infotainment": [
+        "Pantalla 8\"",
+        "Bluetooth"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "Eléctrica",
+          "price": 33990000,
+          "transmission": "Automática",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 298,
+      "brand": "JMC",
+      "model": "Vigus Plus",
+      "year": 2025,
+      "type": "pickup",
+      "fuel": "diesel",
+      "seats": 5,
+      "price": 22598100,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Pick-up mediana con motor 2.4L diésel, buena capacidad de carga.",
+      "origin": "China",
+      "hp": 138,
+      "torque_nm": 340,
+      "length_mm": 5410,
+      "width_mm": 1880,
+      "height_mm": 1810,
+      "wheelbase_mm": 3080,
+      "fuel_tank_liters": 67,
+      "ground_clearance_mm": 210,
+      "airbags": 2,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 8\"",
+        "Bluetooth"
+      ],
+      "fuel_consumption_mixed_km_l": 11.5,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "2.4L 4x2 MT",
+          "price": 20838100,
+          "transmission": "Manual 5V",
+          "traction": "4x2"
+        },
+        {
+          "version": "2.4L 4x2 AT",
+          "price": 22598100,
+          "transmission": "Automática 5V",
+          "traction": "4x2"
+        },
+        {
+          "version": "2.4L 4x4 AT",
+          "price": 23788100,
+          "transmission": "Automática 5V",
+          "traction": "4x4"
+        }
+      ]
+    },
+    {
+      "id": 299,
+      "brand": "JMC",
+      "model": "Vigus Work",
+      "year": 2025,
+      "type": "pickup",
+      "fuel": "diesel",
+      "seats": 5,
+      "price": 13990000,
+      "transmission": "manual",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Pick-up de trabajo accesible con motor Isuzu 2.5L.",
+      "origin": "China",
+      "hp": 123,
+      "torque_nm": 310,
+      "length_mm": 5410,
+      "width_mm": 1880,
+      "height_mm": 1810,
+      "wheelbase_mm": 3080,
+      "fuel_tank_liters": 67,
+      "ground_clearance_mm": 210,
+      "airbags": 2,
+      "infotainment": [
+        "Pantalla 7\"",
+        "Bluetooth"
+      ],
+      "fuel_consumption_mixed_km_l": 12,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "2.5L 4x2 MT",
+          "price": 13990000,
+          "transmission": "Manual 5V",
+          "traction": "4x2"
+        },
+        {
+          "version": "2.5L 4x4 MT",
+          "price": 15990000,
+          "transmission": "Manual 5V",
+          "traction": "4x4"
+        }
+      ]
+    }
+  ]
+}

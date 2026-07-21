@@ -1,0 +1,292 @@
+{
+  "brand": "Maxus",
+  "brandUrl": "https://www.maxus.cl",
+  "models": [
+    {
+      "id": 378,
+      "brand": "Maxus",
+      "model": "D60",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 7,
+      "price": 22990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV familiar de siete pasajeros con motor turbo.",
+      "origin": "China",
+      "hp": 169,
+      "torque_nm": 250,
+      "length_mm": 4720,
+      "width_mm": 1860,
+      "height_mm": 1730,
+      "wheelbase_mm": 2760,
+      "fuel_tank_liters": 55,
+      "airbags": 4,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 12.3\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "fuel_consumption_mixed_km_l": 11,
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "Elite 1.5T AT",
+          "price": 22990000,
+          "transmission": "DCT 7V",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 379,
+      "brand": "Maxus",
+      "model": "G90",
+      "year": 2025,
+      "type": "minivan",
+      "fuel": "diesel",
+      "seats": 7,
+      "price": 34498100,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Van de lujo diesel con acabados premium y siete plazas confortables.",
+      "origin": "China",
+      "hp": 159,
+      "torque_nm": 375,
+      "length_mm": 5270,
+      "width_mm": 1980,
+      "height_mm": 1928,
+      "wheelbase_mm": 3200,
+      "fuel_tank_liters": 70,
+      "airbags": 4,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 12.3\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "fuel_consumption_mixed_km_l": 9,
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "Elite 6+1",
+          "price": 34498100,
+          "transmission": "Automática 8V",
+          "traction": "4x2"
+        },
+        {
+          "version": "Luxury 6+1",
+          "price": 41043100,
+          "transmission": "Automática 8V",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 380,
+      "brand": "Maxus",
+      "model": "T60",
+      "year": 2025,
+      "type": "pickup",
+      "fuel": "diesel",
+      "seats": 5,
+      "price": 20694100,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Pick-up mediana popular en Chile, motor 2.0T diésel y buena capacidad de carga.",
+      "origin": "China",
+      "hp": 215,
+      "torque_nm": 500,
+      "length_mm": 5365,
+      "width_mm": 1900,
+      "height_mm": 1809,
+      "wheelbase_mm": 3155,
+      "fuel_tank_liters": 75,
+      "ground_clearance_mm": 215,
+      "airbags": 4,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 10\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "fuel_consumption_mixed_km_l": 10.5,
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "2.0T 4x2 MT",
+          "price": 20694100,
+          "transmission": "Manual 6V",
+          "traction": "4x2"
+        },
+        {
+          "version": "2.0T 4x2 AT",
+          "price": 22694100,
+          "transmission": "Automática 6V",
+          "traction": "4x2"
+        },
+        {
+          "version": "2.0T 4x4 AT",
+          "price": 24694100,
+          "transmission": "Automática 6V",
+          "traction": "4x4"
+        }
+      ]
+    },
+    {
+      "id": 381,
+      "brand": "Maxus",
+      "model": "T60 MAX",
+      "year": 2026,
+      "type": "pickup",
+      "fuel": "diesel",
+      "seats": 5,
+      "price": 30237900,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "Pick-up premium con motor 2.0T biturbo y equipamiento completo.",
+      "origin": "China",
+      "hp": 221,
+      "torque_nm": 520,
+      "length_mm": 5365,
+      "width_mm": 1900,
+      "height_mm": 1809,
+      "wheelbase_mm": 3155,
+      "fuel_tank_liters": 75,
+      "ground_clearance_mm": 215,
+      "airbags": 6,
+      "isofix": true,
+      "adas": [
+        "Frenado automático AEB",
+        "Control crucero adaptativo"
+      ],
+      "infotainment": [
+        "Pantalla 10.4\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "fuel_consumption_mixed_km_l": 10,
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "2.0T Biturbo 4x4 AT",
+          "price": 30237900,
+          "transmission": "Automática 8V",
+          "traction": "4x4"
+        }
+      ]
+    },
+    {
+      "id": 382,
+      "brand": "Maxus",
+      "model": "T90",
+      "year": 2026,
+      "type": "pickup",
+      "fuel": "diesel",
+      "seats": 5,
+      "price": 37497900,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "La pick-up más grande y potente de su segmento, con diseño futurista basado en plataforma EV.",
+      "origin": "China",
+      "hp": 221,
+      "torque_nm": 520,
+      "length_mm": 5500,
+      "width_mm": 1997,
+      "height_mm": 1874,
+      "wheelbase_mm": 3300,
+      "fuel_tank_liters": 80,
+      "ground_clearance_mm": 230,
+      "airbags": 6,
+      "isofix": true,
+      "adas": [
+        "Frenado automático AEB",
+        "Control crucero adaptativo",
+        "Cámara 360°"
+      ],
+      "infotainment": [
+        "Pantalla 12.3\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "fuel_consumption_mixed_km_l": 9.5,
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "GL 2.0T 4x4 AT",
+          "price": 37497900,
+          "transmission": "Automática 8V",
+          "traction": "4x4"
+        },
+        {
+          "version": "GLX 2.0T 4x4 AT",
+          "price": 41127900,
+          "transmission": "Automática 8V",
+          "traction": "4x4"
+        }
+      ]
+    },
+    {
+      "id": 383,
+      "brand": "Maxus",
+      "model": "T90 EV",
+      "year": 2026,
+      "type": "pickup",
+      "fuel": "electrico",
+      "seats": 5,
+      "price": 65000000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "Pick-up 100% eléctrica con 700 Nm de torque, 430 km de autonomía y 5 estrellas Euro NCAP.",
+      "origin": "China",
+      "hp": 272,
+      "torque_nm": 700,
+      "length_mm": 5500,
+      "width_mm": 1997,
+      "height_mm": 1874,
+      "wheelbase_mm": 3300,
+      "ground_clearance_mm": 230,
+      "airbags": 6,
+      "isofix": true,
+      "adas": [
+        "Frenado automático AEB",
+        "Control crucero adaptativo",
+        "Cámara 360°"
+      ],
+      "infotainment": [
+        "Pantalla 12.3\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "4x4 88kWh",
+          "price": 65000000,
+          "transmission": "Automática",
+          "traction": "4x4"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,350 @@
+{
+  "brand": "RAM",
+  "brandUrl": "https://www.ram.cl",
+  "models": [
+    {
+      "id": 495,
+      "brand": "RAM",
+      "model": "1200",
+      "year": 2026,
+      "type": "pickup",
+      "fuel": "diesel",
+      "seats": 5,
+      "price": 24990000,
+      "transmission": "manual",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "Pick-up mediana con motor diésel y tracción 4x4 para trabajo pesado.",
+      "origin": "México",
+      "hp": 160,
+      "torque_nm": 380,
+      "length_mm": 5150,
+      "width_mm": 1850,
+      "height_mm": 1760,
+      "wheelbase_mm": 3050,
+      "fuel_tank_liters": 80,
+      "ground_clearance_mm": 215,
+      "trunk_liters": 0,
+      "airbags": 4,
+      "isofix": true,
+      "adas": [
+        "Frenado automático"
+      ],
+      "latin_ncap_stars": 4,
+      "infotainment": [
+        "Pantalla 7\"",
+        "Bluetooth",
+        "USB"
+      ],
+      "fuel_consumption_mixed_km_l": 10.5,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "México",
+      "versions": [
+        {
+          "version": "2.8D 4x4",
+          "price": 24990000,
+          "transmission": "manual",
+          "traction": "4x4"
+        },
+        {
+          "version": "2.8D 4x4 Doble Cabina",
+          "price": 27990000,
+          "transmission": "manual",
+          "traction": "4x4"
+        }
+      ]
+    },
+    {
+      "id": 496,
+      "brand": "RAM",
+      "model": "1500",
+      "year": 2025,
+      "type": "pickup",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 76148100,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "Pick-up full-size con motor V8 HEMI 5.7L de 395 hp, lujo y capacidad.",
+      "origin": "Estados Unidos",
+      "versions": [
+        {
+          "version": "5.7L HEMI V8 4x4",
+          "price": 76148100,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 395,
+      "torque_nm": 556,
+      "fuel_consumption_mixed_km_l": 8,
+      "fuel_tank_liters": 98,
+      "length_mm": 5916,
+      "width_mm": 2085,
+      "height_mm": 1919,
+      "wheelbase_mm": 3569,
+      "ground_clearance_mm": 226,
+      "trunk_liters": 0,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 12\"",
+        "U-Connect 5",
+        "Android Auto",
+        "Apple CarPlay"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "Estados Unidos"
+    },
+    {
+      "id": 497,
+      "brand": "RAM",
+      "model": "1500 RHO",
+      "year": 2025,
+      "type": "pickup",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 89990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "Pick-up de alto rendimiento off-road con motor Hurricane 3.0L twin-turbo de 540 hp.",
+      "origin": "Estados Unidos",
+      "versions": [
+        {
+          "version": "Hurricane 3.0L TT 4x4",
+          "price": 89990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 540,
+      "torque_nm": 706,
+      "fuel_consumption_mixed_km_l": 7.5,
+      "fuel_tank_liters": 98,
+      "length_mm": 5916,
+      "width_mm": 2085,
+      "height_mm": 1953,
+      "wheelbase_mm": 3569,
+      "ground_clearance_mm": 277,
+      "trunk_liters": 0,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 12\"",
+        "U-Connect 5",
+        "Harman Kardon"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "Estados Unidos"
+    },
+    {
+      "id": 498,
+      "brand": "RAM",
+      "model": "2500",
+      "year": 2025,
+      "type": "pickup",
+      "fuel": "diesel",
+      "seats": 5,
+      "price": 71990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "Pick-up Heavy Duty con motor Cummins 6.7L turbo diésel de 370 hp, para trabajo pesado.",
+      "origin": "Estados Unidos",
+      "versions": [
+        {
+          "version": "6.7L Cummins Bighorn 4x4",
+          "price": 71990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "6.7L Cummins Rebel 4x4",
+          "price": 82990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 370,
+      "torque_nm": 1152,
+      "fuel_consumption_mixed_km_l": 6.8,
+      "fuel_tank_liters": 136,
+      "length_mm": 6604,
+      "width_mm": 2085,
+      "height_mm": 1951,
+      "wheelbase_mm": 3937,
+      "ground_clearance_mm": 206,
+      "trunk_liters": 0,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 12\"",
+        "U-Connect 5",
+        "Alpine Sound"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "Estados Unidos"
+    },
+    {
+      "id": 499,
+      "brand": "RAM",
+      "model": "700",
+      "year": 2025,
+      "type": "pickup",
+      "fuel": "gasolina",
+      "seats": 2,
+      "price": 16053100,
+      "transmission": "manual",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Pick-up compacta de trabajo con motor 1.4L de 85 hp, caja manual de 5 velocidades.",
+      "origin": "Brasil",
+      "versions": [
+        {
+          "version": "1.4L SLT MT",
+          "price": 16053100,
+          "transmission": "manual",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 85,
+      "torque_nm": 122,
+      "fuel_consumption_mixed_km_l": 13.5,
+      "fuel_tank_liters": 55,
+      "length_mm": 4474,
+      "width_mm": 1732,
+      "height_mm": 1608,
+      "wheelbase_mm": 2739,
+      "ground_clearance_mm": 208,
+      "trunk_liters": 0,
+      "airbags": 2,
+      "isofix": false,
+      "infotainment": [
+        "Pantalla 7\"",
+        "Bluetooth",
+        "USB"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Brasil"
+    },
+    {
+      "id": 500,
+      "brand": "RAM",
+      "model": "Promaster Rapid",
+      "year": 2026,
+      "type": "minivan",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 17990000,
+      "transmission": "manual",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Furgón compacto para carga y pasajeros con gran capacidad.",
+      "origin": "Brasil",
+      "hp": 85,
+      "torque_nm": 122,
+      "length_mm": 4500,
+      "width_mm": 1732,
+      "height_mm": 1900,
+      "wheelbase_mm": 2739,
+      "fuel_tank_liters": 55,
+      "ground_clearance_mm": 180,
+      "trunk_liters": 0,
+      "airbags": 4,
+      "isofix": false,
+      "adas": [],
+      "latin_ncap_stars": 3,
+      "infotainment": [
+        "Bluetooth",
+        "USB"
+      ],
+      "fuel_consumption_mixed_km_l": 11,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Brasil",
+      "versions": [
+        {
+          "version": "1.4L SLT MT",
+          "price": 17990000,
+          "transmission": "manual",
+          "traction": "4x2"
+        },
+        {
+          "version": "1.4L SLT Plus MT",
+          "price": 19990000,
+          "transmission": "manual",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 501,
+      "brand": "RAM",
+      "model": "Rampage",
+      "year": 2025,
+      "type": "pickup",
+      "fuel": "diesel",
+      "seats": 5,
+      "price": 39258100,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "Pick-up compacta premium con motor 2.2L diésel de 200 hp o 2.0L gasolina de 275 hp.",
+      "origin": "Brasil",
+      "versions": [
+        {
+          "version": "2.2L Bighorn AT9 4x4",
+          "price": 39258100,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "2.0L Rebel AT9 4x4",
+          "price": 43990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "2.0L Laramie AT9 4x4",
+          "price": 46990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "2.0L R/T AT9 4x4",
+          "price": 52990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 275,
+      "torque_nm": 400,
+      "fuel_consumption_mixed_km_l": 11.7,
+      "fuel_tank_liters": 55,
+      "length_mm": 5028,
+      "width_mm": 1886,
+      "height_mm": 1719,
+      "wheelbase_mm": 2994,
+      "ground_clearance_mm": 264,
+      "trunk_liters": 980,
+      "airbags": 7,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 12.3\"",
+        "U-Connect 5",
+        "Android Auto",
+        "Apple CarPlay"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Brasil"
+    }
+  ]
+}

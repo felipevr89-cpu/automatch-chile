@@ -1,0 +1,1111 @@
+{
+  "brand": "Chevrolet",
+  "brandUrl": "https://www.chevrolet.cl",
+  "models": [
+    {
+      "id": 105,
+      "brand": "Chevrolet",
+      "model": "Blazer EV",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "electrico",
+      "seats": 5,
+      "price": 44990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "SUV eléctrico con diseño audaz y tecnología avanzada de la plataforma Ultium.",
+      "origin": "USA",
+      "hp": 340,
+      "torque_nm": 650,
+      "length_mm": 4880,
+      "width_mm": 1980,
+      "height_mm": 1650,
+      "wheelbase_mm": 3090,
+      "ground_clearance_mm": 175,
+      "trunk_liters": 720,
+      "airbags": 8,
+      "isofix": true,
+      "adas": [
+        "Frenado autónomo de emergencia",
+        "Asistente de carril",
+        "Control crucero adaptativo",
+        "Cámara 360°",
+        "Super Cruise"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Pantalla 17.7\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Google Built-in"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "USA",
+      "versions": [
+        {
+          "version": "RS AWD",
+          "price": 44990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "SS AWD",
+          "price": 54990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ]
+    },
+    {
+      "id": 106,
+      "brand": "Chevrolet",
+      "model": "Camaro",
+      "year": 2026,
+      "type": "coupe",
+      "fuel": "gasolina",
+      "seats": 4,
+      "price": 49990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Deportivo icónico americano con motor V8 y diseño agresivo que rinde homenaje a su legado.",
+      "origin": "USA",
+      "hp": 455,
+      "torque_nm": 617,
+      "length_mm": 4785,
+      "width_mm": 1895,
+      "height_mm": 1340,
+      "wheelbase_mm": 2810,
+      "fuel_tank_liters": 62,
+      "ground_clearance_mm": 120,
+      "trunk_liters": 260,
+      "airbags": 6,
+      "isofix": true,
+      "adas": [
+        "Control crucero adaptativo",
+        "Cámara de retroceso",
+        "Alerta de punto ciego"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Pantalla 8\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Sonido Bose"
+      ],
+      "fuel_consumption_mixed_km_l": 7.5,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "USA",
+      "versions": [
+        {
+          "version": "SS AT",
+          "price": 49990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "ZL1 AT",
+          "price": 69990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 107,
+      "brand": "Chevrolet",
+      "model": "Captiva EV",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "electrico",
+      "seats": 5,
+      "price": 35990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "SUV eléctrico con diseño moderno y autonomía para el día a día.",
+      "origin": "USA",
+      "hp": 210,
+      "torque_nm": 320,
+      "length_mm": 4650,
+      "width_mm": 1850,
+      "height_mm": 1680,
+      "wheelbase_mm": 2750,
+      "ground_clearance_mm": 180,
+      "trunk_liters": 420,
+      "airbags": 8,
+      "isofix": true,
+      "adas": [
+        "Control crucero adaptativo",
+        "Asistente de carril",
+        "Frenado automático",
+        "Cámara 360°"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Pantalla 11\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Wi-Fi"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "USA",
+      "versions": [
+        {
+          "version": "EV LT",
+          "price": 35990000,
+          "transmission": "automática",
+          "traction": "awd"
+        },
+        {
+          "version": "EV Premier",
+          "price": 40990000,
+          "transmission": "automática",
+          "traction": "awd"
+        }
+      ]
+    },
+    {
+      "id": 108,
+      "brand": "Chevrolet",
+      "model": "Captiva PHEV",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "hibrido_enchufable",
+      "seats": 5,
+      "price": 27990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV híbrido enchufable con eficiencia y versatilidad.",
+      "origin": "USA",
+      "hp": 190,
+      "torque_nm": 300,
+      "length_mm": 4650,
+      "width_mm": 1850,
+      "height_mm": 1680,
+      "wheelbase_mm": 2750,
+      "fuel_tank_liters": 45,
+      "ground_clearance_mm": 180,
+      "trunk_liters": 420,
+      "airbags": 8,
+      "isofix": true,
+      "adas": [
+        "Control crucero adaptativo",
+        "Asistente de carril",
+        "Frenado automático",
+        "Cámara 360°"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Pantalla 11\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Wi-Fi"
+      ],
+      "fuel_consumption_mixed_km_l": 22,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "USA",
+      "versions": [
+        {
+          "version": "PHEV LT",
+          "price": 27990000,
+          "transmission": "automática",
+          "traction": "4x2"
+        },
+        {
+          "version": "PHEV Premier",
+          "price": 32990000,
+          "transmission": "automática",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 109,
+      "brand": "Chevrolet",
+      "model": "Captiva XL",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 7,
+      "price": 16990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV familiar con 7 plazas, motor 1.5L turbo de 147 hp y transmisión CVT.",
+      "origin": "China",
+      "versions": [
+        {
+          "version": "1.5T CVT",
+          "price": 16990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 147,
+      "torque_nm": 230,
+      "fuel_consumption_mixed_km_l": 13.8,
+      "fuel_tank_liters": 52,
+      "length_mm": 4655,
+      "width_mm": 1790,
+      "height_mm": 1718,
+      "wheelbase_mm": 2755,
+      "ground_clearance_mm": 195,
+      "trunk_liters": 420,
+      "airbags": 4,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 8\"",
+        "MyLink",
+        "Android Auto",
+        "Apple CarPlay"
+      ],
+      "warranty_years": 6,
+      "warranty_km": 150000,
+      "origin_country": "China"
+    },
+    {
+      "id": 110,
+      "brand": "Chevrolet",
+      "model": "Colorado",
+      "year": 2025,
+      "type": "pickup",
+      "fuel": "diesel",
+      "seats": 5,
+      "price": 27817900,
+      "transmission": "manual",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "Pick-up mediana con motor Duramax 2.8L turbo diésel de 200 hp.",
+      "origin": "Tailandia",
+      "versions": [
+        {
+          "version": "2.8L Worktruck MT 4x4",
+          "price": 27817900,
+          "transmission": "manual",
+          "traction": "4x4"
+        },
+        {
+          "version": "2.8L Worktruck AT 4x4",
+          "price": 37981900,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "2.8L LTZ AT 4x4",
+          "price": 45362900,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 200,
+      "torque_nm": 500,
+      "fuel_consumption_mixed_km_l": 12.8,
+      "fuel_tank_liters": 76,
+      "length_mm": 5347,
+      "width_mm": 1882,
+      "height_mm": 1793,
+      "wheelbase_mm": 3096,
+      "ground_clearance_mm": 210,
+      "trunk_liters": 0,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 8\"",
+        "MyLink",
+        "Android Auto",
+        "Apple CarPlay"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "Tailandia"
+    },
+    {
+      "id": 111,
+      "brand": "Chevrolet",
+      "model": "Colorado Z71",
+      "year": 2025,
+      "type": "pickup",
+      "fuel": "diesel",
+      "seats": 5,
+      "price": 43063900,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "Versión off-road de la Colorado con paquete Z71, motor Duramax 2.8L de 204 hp.",
+      "origin": "Tailandia",
+      "versions": [
+        {
+          "version": "2.8L Z71 AT 4x4",
+          "price": 43063900,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 204,
+      "torque_nm": 510,
+      "fuel_consumption_mixed_km_l": 12.8,
+      "fuel_tank_liters": 76,
+      "length_mm": 5347,
+      "width_mm": 1882,
+      "height_mm": 1793,
+      "wheelbase_mm": 3096,
+      "ground_clearance_mm": 250,
+      "trunk_liters": 0,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 8\"",
+        "MyLink",
+        "Android Auto",
+        "Apple CarPlay"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "Tailandia"
+    },
+    {
+      "id": 112,
+      "brand": "Chevrolet",
+      "model": "Equinox",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 21790000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV mediana con motor 1.5L turbo de 161 hp y transmisión CVT.",
+      "origin": "México",
+      "versions": [
+        {
+          "version": "1.5T LTZ CVT",
+          "price": 19190000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "1.5T Premier CVT",
+          "price": 21790000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 161,
+      "torque_nm": 248,
+      "fuel_consumption_mixed_km_l": 13.2,
+      "fuel_tank_liters": 56,
+      "length_mm": 4652,
+      "width_mm": 1843,
+      "height_mm": 1684,
+      "wheelbase_mm": 2725,
+      "ground_clearance_mm": 175,
+      "trunk_liters": 909,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 8\"",
+        "MyLink",
+        "Android Auto",
+        "Apple CarPlay"
+      ],
+      "warranty_years": 6,
+      "warranty_km": 150000,
+      "origin_country": "México"
+    },
+    {
+      "id": 113,
+      "brand": "Chevrolet",
+      "model": "Equinox EV",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "electrico",
+      "seats": 5,
+      "price": 45990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "SUV 100% eléctrica con autonomía de hasta 490 km y carga rápida.",
+      "origin": "Estados Unidos",
+      "versions": [
+        {
+          "version": "RS AWD",
+          "price": 45990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ],
+      "hp": 290,
+      "torque_nm": 460,
+      "length_mm": 4666,
+      "width_mm": 1863,
+      "height_mm": 1635,
+      "wheelbase_mm": 2758,
+      "ground_clearance_mm": 180,
+      "trunk_liters": 685,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 17.7\"",
+        "Android Auto",
+        "Apple CarPlay"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "Estados Unidos"
+    },
+    {
+      "id": 114,
+      "brand": "Chevrolet",
+      "model": "Groove",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 12490000,
+      "transmission": "manual",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV urbana accesible con motor 1.5L de 110 hp, ideal para la ciudad.",
+      "origin": "China",
+      "versions": [
+        {
+          "version": "1.5L MT",
+          "price": 11490000,
+          "transmission": "manual",
+          "traction": "4x2"
+        },
+        {
+          "version": "1.5L CVT",
+          "price": 12490000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 110,
+      "torque_nm": 147,
+      "fuel_consumption_mixed_km_l": 15.2,
+      "fuel_tank_liters": 44,
+      "length_mm": 4221,
+      "width_mm": 1736,
+      "height_mm": 1613,
+      "wheelbase_mm": 2550,
+      "ground_clearance_mm": 178,
+      "trunk_liters": 320,
+      "airbags": 4,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 8\"",
+        "Android Auto",
+        "Apple CarPlay"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "China"
+    },
+    {
+      "id": 115,
+      "brand": "Chevrolet",
+      "model": "Joy",
+      "year": 2026,
+      "type": "hatchback",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 7990000,
+      "transmission": "manual",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Hatchback de entrada accesible con bajo costo de mantenimiento ideal para la ciudad.",
+      "origin": "China",
+      "hp": 80,
+      "torque_nm": 115,
+      "length_mm": 3775,
+      "width_mm": 1675,
+      "height_mm": 1510,
+      "wheelbase_mm": 2390,
+      "fuel_tank_liters": 36,
+      "ground_clearance_mm": 140,
+      "trunk_liters": 210,
+      "airbags": 2,
+      "isofix": false,
+      "adas": [],
+      "latin_ncap_stars": 3,
+      "infotainment": [
+        "Radio AM/FM",
+        "Bluetooth"
+      ],
+      "fuel_consumption_mixed_km_l": 15.5,
+      "warranty_years": 3,
+      "warranty_km": 60000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "1.4L MT",
+          "price": 7990000,
+          "transmission": "manual",
+          "traction": "4x2"
+        },
+        {
+          "version": "1.4L MT AC",
+          "price": 8490000,
+          "transmission": "manual",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 116,
+      "brand": "Chevrolet",
+      "model": "Montana",
+      "year": 2025,
+      "type": "pickup",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 17400000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Pick-up compacta con motor 1.2L turbo de 130 hp, caja CVT y caja Multi-Flex.",
+      "origin": "Brasil",
+      "versions": [
+        {
+          "version": "1.2T LT S MT",
+          "price": 17920100,
+          "transmission": "manual",
+          "traction": "4x2"
+        },
+        {
+          "version": "1.2T LTZ S CVT",
+          "price": 21054000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "1.2T Premier S CVT",
+          "price": 22627000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 130,
+      "torque_nm": 190,
+      "fuel_consumption_mixed_km_l": 14.5,
+      "fuel_tank_liters": 50,
+      "length_mm": 4925,
+      "width_mm": 1846,
+      "height_mm": 1781,
+      "wheelbase_mm": 2870,
+      "ground_clearance_mm": 210,
+      "trunk_liters": 0,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 8\"",
+        "MyLink",
+        "Android Auto",
+        "Apple CarPlay"
+      ],
+      "warranty_years": 6,
+      "warranty_km": 150000,
+      "origin_country": "Brasil"
+    },
+    {
+      "id": 117,
+      "brand": "Chevrolet",
+      "model": "N400 Max",
+      "year": 2026,
+      "type": "minivan",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 14990000,
+      "transmission": "manual",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Furgón compacto para carga con gran capacidad y rendimiento.",
+      "origin": "China",
+      "hp": 100,
+      "torque_nm": 132,
+      "length_mm": 4500,
+      "width_mm": 1700,
+      "height_mm": 1900,
+      "wheelbase_mm": 2700,
+      "fuel_tank_liters": 55,
+      "ground_clearance_mm": 175,
+      "trunk_liters": 0,
+      "airbags": 4,
+      "isofix": false,
+      "adas": [],
+      "latin_ncap_stars": 3,
+      "infotainment": [
+        "Bluetooth",
+        "USB"
+      ],
+      "fuel_consumption_mixed_km_l": 10,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "LS MT",
+          "price": 14990000,
+          "transmission": "manual",
+          "traction": "4x2"
+        },
+        {
+          "version": "LT MT",
+          "price": 16990000,
+          "transmission": "manual",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 118,
+      "brand": "Chevrolet",
+      "model": "Onix",
+      "year": 2025,
+      "type": "sedan",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 16090000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Sedán compacto con motor Turbo 1.0L de 116 hp y caja CVT, tecnología avanzada.",
+      "origin": "Brasil",
+      "versions": [
+        {
+          "version": "1.0T Turbo LT CVT",
+          "price": 14990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "1.0T Turbo LTZ CVT",
+          "price": 16090000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "1.0T Turbo Premier CVT",
+          "price": 18190000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 116,
+      "torque_nm": 168,
+      "fuel_consumption_mixed_km_l": 14.8,
+      "fuel_tank_liters": 44,
+      "length_mm": 4475,
+      "width_mm": 1730,
+      "height_mm": 1475,
+      "wheelbase_mm": 2600,
+      "ground_clearance_mm": 127,
+      "trunk_liters": 420,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 8\"",
+        "MyLink",
+        "Android Auto",
+        "Apple CarPlay"
+      ],
+      "warranty_years": 6,
+      "warranty_km": 150000,
+      "origin_country": "Brasil"
+    },
+    {
+      "id": 119,
+      "brand": "Chevrolet",
+      "model": "Sail HB",
+      "year": 2025,
+      "type": "hatchback",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 9990000,
+      "transmission": "manual",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Hatchback compacto con motor 1.5L de 113 hp, ideal para primera compra.",
+      "origin": "China",
+      "versions": [
+        {
+          "version": "1.5L LTZ MT",
+          "price": 9990000,
+          "transmission": "manual",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 113,
+      "torque_nm": 148,
+      "fuel_consumption_mixed_km_l": 16.1,
+      "fuel_tank_liters": 40,
+      "length_mm": 4065,
+      "width_mm": 1710,
+      "height_mm": 1482,
+      "wheelbase_mm": 2500,
+      "ground_clearance_mm": 127,
+      "trunk_liters": 310,
+      "airbags": 2,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 7\"",
+        "Bluetooth",
+        "USB"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "China"
+    },
+    {
+      "id": 120,
+      "brand": "Chevrolet",
+      "model": "Sail Sedán",
+      "year": 2025,
+      "type": "sedan",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 9790000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Sedán compacto con motor 1.5L de 113 hp y caja CVT, excelente eficiencia.",
+      "origin": "China",
+      "versions": [
+        {
+          "version": "1.5L LTZ CVT",
+          "price": 9790000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 113,
+      "torque_nm": 148,
+      "fuel_consumption_mixed_km_l": 16.1,
+      "fuel_tank_liters": 40,
+      "length_mm": 4370,
+      "width_mm": 1710,
+      "height_mm": 1476,
+      "wheelbase_mm": 2600,
+      "ground_clearance_mm": 130,
+      "trunk_liters": 405,
+      "airbags": 2,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 7\"",
+        "Bluetooth",
+        "USB"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "China"
+    },
+    {
+      "id": 121,
+      "brand": "Chevrolet",
+      "model": "Silverado",
+      "year": 2025,
+      "type": "pickup",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 50807900,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "Pick-up full-size con motor V8 5.3L Ecotec de 355 hp, caja automática y tracción 4x4.",
+      "origin": "Estados Unidos",
+      "versions": [
+        {
+          "version": "5.3L LT Trailboss 4x4",
+          "price": 50807900,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "6.2L ZR2 4x4 S",
+          "price": 66537900,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "3.0L High Country 4x4",
+          "price": 73555900,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 355,
+      "torque_nm": 518,
+      "fuel_consumption_mixed_km_l": 8.5,
+      "fuel_tank_liters": 91,
+      "length_mm": 5892,
+      "width_mm": 2063,
+      "height_mm": 1906,
+      "wheelbase_mm": 3744,
+      "ground_clearance_mm": 234,
+      "trunk_liters": 0,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 13.4\"",
+        "MyLink",
+        "Android Auto",
+        "Apple CarPlay",
+        "Bose"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "Estados Unidos"
+    },
+    {
+      "id": 122,
+      "brand": "Chevrolet",
+      "model": "Spin",
+      "year": 2026,
+      "type": "minivan",
+      "fuel": "gasolina",
+      "seats": 7,
+      "price": 13990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Minivan familiar de 7 plazas con excelente relación costo-beneficio.",
+      "origin": "Brasil",
+      "hp": 110,
+      "torque_nm": 150,
+      "length_mm": 4420,
+      "width_mm": 1730,
+      "height_mm": 1680,
+      "wheelbase_mm": 2640,
+      "fuel_tank_liters": 48,
+      "ground_clearance_mm": 160,
+      "trunk_liters": 530,
+      "airbags": 6,
+      "isofix": true,
+      "adas": [
+        "Frenado automático"
+      ],
+      "latin_ncap_stars": 4,
+      "infotainment": [
+        "Pantalla 7\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Bluetooth"
+      ],
+      "fuel_consumption_mixed_km_l": 12,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Brasil",
+      "versions": [
+        {
+          "version": "LS AT 7 plazas",
+          "price": 13990000,
+          "transmission": "automática",
+          "traction": "4x2"
+        },
+        {
+          "version": "LT AT 7 plazas",
+          "price": 15990000,
+          "transmission": "automática",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 123,
+      "brand": "Chevrolet",
+      "model": "Suburban",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 7,
+      "price": 64700000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "SUV full-size premium con motor V8 5.3L de 355 hp, tres filas de asientos y gran capacidad.",
+      "origin": "Estados Unidos",
+      "versions": [
+        {
+          "version": "5.3L V8 4x4",
+          "price": 64700000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 355,
+      "torque_nm": 518,
+      "fuel_consumption_mixed_km_l": 8.1,
+      "fuel_tank_liters": 107,
+      "length_mm": 5733,
+      "width_mm": 2060,
+      "height_mm": 1905,
+      "wheelbase_mm": 3302,
+      "ground_clearance_mm": 215,
+      "trunk_liters": 1113,
+      "airbags": 7,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 10.2\"",
+        "MyLink",
+        "Android Auto",
+        "Apple CarPlay"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "Estados Unidos"
+    },
+    {
+      "id": 124,
+      "brand": "Chevrolet",
+      "model": "Tahoe",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 7,
+      "price": 61400000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "SUV full-size con motor V8 5.3L de 355 hp, tres filas y equipamiento premium.",
+      "origin": "Estados Unidos",
+      "versions": [
+        {
+          "version": "5.3L V8 4x4",
+          "price": 61400000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 355,
+      "torque_nm": 518,
+      "fuel_consumption_mixed_km_l": 8.1,
+      "fuel_tank_liters": 91,
+      "length_mm": 5351,
+      "width_mm": 2060,
+      "height_mm": 1905,
+      "wheelbase_mm": 3071,
+      "ground_clearance_mm": 215,
+      "trunk_liters": 722,
+      "airbags": 7,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 10.2\"",
+        "MyLink",
+        "Android Auto",
+        "Apple CarPlay"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "Estados Unidos"
+    },
+    {
+      "id": 125,
+      "brand": "Chevrolet",
+      "model": "Tracker",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 18490000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV compacta con motor Turbo 1.0L de 130 hp, transmisión automática de 6 velocidades.",
+      "origin": "China",
+      "versions": [
+        {
+          "version": "1.0T LT 6AT",
+          "price": 18490000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "1.0T LTZ 6AT",
+          "price": 20990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "1.0T Premier 6AT",
+          "price": 23490000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 130,
+      "torque_nm": 180,
+      "fuel_consumption_mixed_km_l": 14.5,
+      "fuel_tank_liters": 50,
+      "length_mm": 4270,
+      "width_mm": 1791,
+      "height_mm": 1627,
+      "wheelbase_mm": 2570,
+      "ground_clearance_mm": 183,
+      "trunk_liters": 425,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 8\"",
+        "MyLink",
+        "Android Auto",
+        "Apple CarPlay"
+      ],
+      "warranty_years": 6,
+      "warranty_km": 150000,
+      "origin_country": "China"
+    },
+    {
+      "id": 126,
+      "brand": "Chevrolet",
+      "model": "Traverse Z71",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 7,
+      "price": 48990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "SUV full-size con 7 plazas, motor 3.6L V6 de 315 hp y tracción AWD.",
+      "origin": "Estados Unidos",
+      "versions": [
+        {
+          "version": "Z71 3.6L V6 AWD",
+          "price": 48990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ],
+      "hp": 315,
+      "torque_nm": 360,
+      "fuel_consumption_mixed_km_l": 10.2,
+      "fuel_tank_liters": 67,
+      "length_mm": 5047,
+      "width_mm": 1961,
+      "height_mm": 1740,
+      "wheelbase_mm": 3071,
+      "ground_clearance_mm": 203,
+      "trunk_liters": 657,
+      "airbags": 7,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 8\"",
+        "MyLink",
+        "Android Auto",
+        "Apple CarPlay"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "Estados Unidos"
+    }
+  ]
+}

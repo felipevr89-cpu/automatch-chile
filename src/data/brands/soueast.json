@@ -1,0 +1,157 @@
+{
+  "brand": "Soueast",
+  "brandUrl": "https://www.soueast.cl",
+  "models": [
+    {
+      "id": 532,
+      "brand": "Soueast",
+      "model": "A5",
+      "year": 2026,
+      "type": "sedan",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 8990000,
+      "transmission": "manual",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Sedán compacto accesible con diseño moderno, representado por SKBergé / Astara.",
+      "origin": "China",
+      "hp": 100,
+      "torque_nm": 134,
+      "length_mm": 4500,
+      "width_mm": 1760,
+      "height_mm": 1490,
+      "wheelbase_mm": 2620,
+      "fuel_tank_liters": 45,
+      "ground_clearance_mm": 150,
+      "trunk_liters": 360,
+      "airbags": 2,
+      "isofix": false,
+      "adas": [],
+      "latin_ncap_stars": 3,
+      "infotainment": [
+        "Radio",
+        "Bluetooth",
+        "USB"
+      ],
+      "fuel_consumption_mixed_km_l": 14,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "1.5L MT",
+          "price": 8990000,
+          "transmission": "manual",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 533,
+      "brand": "Soueast",
+      "model": "DX3",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 10990000,
+      "transmission": "manual",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV subcompacto con diseño juvenil y buen equipamiento de serie.",
+      "origin": "China",
+      "hp": 118,
+      "torque_nm": 145,
+      "length_mm": 4354,
+      "width_mm": 1840,
+      "height_mm": 1664,
+      "wheelbase_mm": 2610,
+      "fuel_tank_liters": 45,
+      "ground_clearance_mm": 180,
+      "trunk_liters": 380,
+      "airbags": 4,
+      "isofix": true,
+      "adas": [
+        "Cámara de retroceso"
+      ],
+      "latin_ncap_stars": 4,
+      "infotainment": [
+        "Pantalla 9\"",
+        "Bluetooth"
+      ],
+      "fuel_consumption_mixed_km_l": 13,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "1.5L MT",
+          "price": 10990000,
+          "transmission": "manual",
+          "traction": "4x2"
+        },
+        {
+          "version": "1.5L AT",
+          "price": 12990000,
+          "transmission": "automática",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 534,
+      "brand": "Soueast",
+      "model": "DX7",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 13990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV compacto con buena relación precio-equipamiento.",
+      "origin": "China",
+      "hp": 156,
+      "torque_nm": 215,
+      "length_mm": 4530,
+      "width_mm": 1835,
+      "height_mm": 1700,
+      "wheelbase_mm": 2685,
+      "fuel_tank_liters": 50,
+      "ground_clearance_mm": 190,
+      "trunk_liters": 440,
+      "airbags": 4,
+      "isofix": true,
+      "adas": [
+        "Cámara de retroceso",
+        "Control crucero"
+      ],
+      "latin_ncap_stars": 4,
+      "infotainment": [
+        "Pantalla 10\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "fuel_consumption_mixed_km_l": 12.5,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "1.5T AT",
+          "price": 13990000,
+          "transmission": "automática",
+          "traction": "4x2"
+        },
+        {
+          "version": "1.5T Luxury",
+          "price": 15990000,
+          "transmission": "automática",
+          "traction": "4x2"
+        }
+      ]
+    }
+  ]
+}

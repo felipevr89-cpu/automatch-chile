@@ -1,0 +1,187 @@
+{
+  "brand": "Lamborghini",
+  "brandUrl": "#",
+  "models": [
+    {
+      "id": 340,
+      "brand": "Lamborghini",
+      "model": "Huracán",
+      "year": 2025,
+      "type": "sedan",
+      "fuel": "gasolina",
+      "seats": 2,
+      "price": 199990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "Superdeportivo icónico con motor V10.",
+      "origin": "Italia",
+      "versions": [
+        {
+          "version": "Huracán Tecnica",
+          "price": 199990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "Huracán STO",
+          "price": 239990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "Huracán Sterrato",
+          "price": 259990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ],
+      "hp": 640,
+      "torque_nm": 565,
+      "top_speed_kmh": 325,
+      "fuel_consumption_city_km_l": 7,
+      "fuel_consumption_highway_km_l": 12,
+      "fuel_consumption_mixed_km_l": 9,
+      "fuel_tank_liters": 80,
+      "length_mm": 4549,
+      "width_mm": 1924,
+      "height_mm": 1165,
+      "wheelbase_mm": 2620,
+      "ground_clearance_mm": 120,
+      "trunk_liters": 150,
+      "airbags": 4,
+      "adas": [
+        "control de crucero adaptativo",
+        "frenado automático de emergencia"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": false,
+      "infotainment": [
+        "pantalla 8.4\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Italia"
+    },
+    {
+      "id": 341,
+      "brand": "Lamborghini",
+      "model": "Revuelto",
+      "year": 2026,
+      "type": "sedan",
+      "fuel": "hibrido_enchufable",
+      "seats": 2,
+      "price": 349990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "Hiperdeportivo híbrido V12, sucesor del Aventador.",
+      "origin": "Italia",
+      "versions": [
+        {
+          "version": "Revuelto",
+          "price": 349990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ],
+      "hp": 1015,
+      "torque_nm": 725,
+      "top_speed_kmh": 350,
+      "fuel_consumption_city_km_l": 18,
+      "fuel_consumption_highway_km_l": 12,
+      "fuel_consumption_mixed_km_l": 15,
+      "fuel_tank_liters": 73,
+      "length_mm": 4947,
+      "width_mm": 2033,
+      "height_mm": 1160,
+      "wheelbase_mm": 2779,
+      "ground_clearance_mm": 125,
+      "trunk_liters": 100,
+      "airbags": 4,
+      "adas": [
+        "control de crucero adaptativo",
+        "frenado automático de emergencia",
+        "cámara 360°"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": false,
+      "infotainment": [
+        "pantalla 8.4\"",
+        "Apple CarPlay"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Italia"
+    },
+    {
+      "id": 342,
+      "brand": "Lamborghini",
+      "model": "Urus",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 149990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "SUV superdeportivo, el primero de Lamborghini.",
+      "origin": "Italia",
+      "versions": [
+        {
+          "version": "Urus",
+          "price": 149990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "Urus Performante",
+          "price": 179990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "Urus SE",
+          "price": 189990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ],
+      "hp": 666,
+      "torque_nm": 850,
+      "top_speed_kmh": 305,
+      "fuel_consumption_city_km_l": 8,
+      "fuel_consumption_highway_km_l": 12,
+      "fuel_consumption_mixed_km_l": 10,
+      "fuel_tank_liters": 75,
+      "length_mm": 5112,
+      "width_mm": 2016,
+      "height_mm": 1638,
+      "wheelbase_mm": 3003,
+      "ground_clearance_mm": 200,
+      "trunk_liters": 616,
+      "airbags": 8,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "cámara 360°",
+        "asistente de estacionamiento"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "pantalla 10.1\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "sonido Bang & Olufsen"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Italia"
+    }
+  ]
+}

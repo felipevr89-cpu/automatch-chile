@@ -1,0 +1,122 @@
+{
+  "brand": "Lotus",
+  "brandUrl": "#",
+  "models": [
+    {
+      "id": 367,
+      "brand": "Lotus",
+      "model": "Eletre",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "electrico",
+      "seats": 5,
+      "price": 99990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "SUV eléctrico Hyper-GT con autonomía de hasta 600 km.",
+      "origin": "China",
+      "versions": [
+        {
+          "version": "Eletre",
+          "price": 99990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "Eletre R",
+          "price": 119990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ],
+      "hp": 612,
+      "torque_nm": 710,
+      "top_speed_kmh": 258,
+      "length_mm": 5103,
+      "width_mm": 2135,
+      "height_mm": 1630,
+      "wheelbase_mm": 3019,
+      "ground_clearance_mm": 185,
+      "trunk_liters": 611,
+      "airbags": 8,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "cámara 360°",
+        "asistente de estacionamiento",
+        "asistente de conducción en autopista"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "pantalla 15.1\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "sonido KEF"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 100000,
+      "origin_country": "China"
+    },
+    {
+      "id": 368,
+      "brand": "Lotus",
+      "model": "Emira",
+      "year": 2025,
+      "type": "coupe",
+      "fuel": "gasolina",
+      "seats": 2,
+      "price": 89990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Deportivo puro de aluminio con motor Toyota V6.",
+      "origin": "Reino Unido",
+      "versions": [
+        {
+          "version": "V6 First Edition",
+          "price": 89990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "V6",
+          "price": 99990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 400,
+      "torque_nm": 420,
+      "top_speed_kmh": 290,
+      "fuel_consumption_city_km_l": 10,
+      "fuel_consumption_highway_km_l": 15,
+      "fuel_consumption_mixed_km_l": 12,
+      "fuel_tank_liters": 60,
+      "length_mm": 4413,
+      "width_mm": 1896,
+      "height_mm": 1226,
+      "wheelbase_mm": 2570,
+      "ground_clearance_mm": 117,
+      "trunk_liters": 151,
+      "airbags": 4,
+      "adas": [
+        "control de crucero adaptativo",
+        "frenado automático de emergencia",
+        "cámara 360°"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": false,
+      "infotainment": [
+        "pantalla 10.25\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Reino Unido"
+    }
+  ]
+}

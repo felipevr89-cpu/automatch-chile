@@ -1,0 +1,116 @@
+{
+  "brand": "Abarth",
+  "brandUrl": "https://www.fiat.cl",
+  "models": [
+    {
+      "id": 1,
+      "brand": "Abarth",
+      "model": "595",
+      "year": 2025,
+      "type": "hatchback",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 19990000,
+      "transmission": "manual",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Hatchback deportivo de alta performance.",
+      "origin": "Italia",
+      "versions": [
+        {
+          "version": "595",
+          "price": 19990000,
+          "transmission": "manual",
+          "traction": "4x2"
+        },
+        {
+          "version": "595 Competizione",
+          "price": 25990000,
+          "transmission": "manual",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 165,
+      "torque_nm": 230,
+      "top_speed_kmh": 225,
+      "fuel_consumption_city_km_l": 13,
+      "fuel_consumption_highway_km_l": 18,
+      "fuel_consumption_mixed_km_l": 15,
+      "fuel_tank_liters": 35,
+      "length_mm": 3657,
+      "width_mm": 1627,
+      "height_mm": 1485,
+      "wheelbase_mm": 2300,
+      "ground_clearance_mm": 130,
+      "trunk_liters": 185,
+      "airbags": 4,
+      "adas": [],
+      "latin_ncap_stars": 4,
+      "isofix": true,
+      "infotainment": [
+        "pantalla 7\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Bluetooth"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Italia"
+    },
+    {
+      "id": 2,
+      "brand": "Abarth",
+      "model": "695",
+      "year": 2025,
+      "type": "hatchback",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 24990000,
+      "transmission": "manual",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "La versión más extrema de la familia 500.",
+      "origin": "Italia",
+      "versions": [
+        {
+          "version": "695 Tributo Ferrari",
+          "price": 24990000,
+          "transmission": "manual",
+          "traction": "4x2"
+        },
+        {
+          "version": "695 Esseesse",
+          "price": 28990000,
+          "transmission": "manual",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 180,
+      "torque_nm": 250,
+      "top_speed_kmh": 230,
+      "fuel_consumption_city_km_l": 12,
+      "fuel_consumption_highway_km_l": 17,
+      "fuel_consumption_mixed_km_l": 14,
+      "fuel_tank_liters": 35,
+      "length_mm": 3657,
+      "width_mm": 1627,
+      "height_mm": 1485,
+      "wheelbase_mm": 2300,
+      "ground_clearance_mm": 125,
+      "trunk_liters": 185,
+      "airbags": 4,
+      "adas": [],
+      "latin_ncap_stars": 4,
+      "isofix": true,
+      "infotainment": [
+        "pantalla 7\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Bluetooth"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Italia"
+    }
+  ]
+}

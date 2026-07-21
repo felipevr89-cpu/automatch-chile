@@ -1,0 +1,592 @@
+{
+  "brand": "Mazda",
+  "brandUrl": "https://www.mazda.cl",
+  "models": [
+    {
+      "id": 384,
+      "brand": "Mazda",
+      "model": "BT-50",
+      "year": 2025,
+      "type": "pickup",
+      "fuel": "diesel",
+      "seats": 5,
+      "price": 27990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "Pickup robusta con plataforma compartida con Isuzu",
+      "origin": "Tailandia",
+      "origin_country": "Japón",
+      "versions": [
+        {
+          "version": "XTR 4x2",
+          "price": 25990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "XTR 4x4",
+          "price": 29990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "Thunder 4x4",
+          "price": 33990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 190,
+      "torque_nm": 450,
+      "fuel_consumption_mixed_km_l": 12.5,
+      "fuel_tank_liters": 76,
+      "length_mm": 5320,
+      "width_mm": 1870,
+      "height_mm": 1800,
+      "wheelbase_mm": 3125,
+      "ground_clearance_mm": 240,
+      "trunk_liters": 0,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 9\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000
+    },
+    {
+      "id": 385,
+      "brand": "Mazda",
+      "model": "CX-30",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 19990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV crossover compacto con diseño premium",
+      "origin": "México",
+      "origin_country": "Japón",
+      "versions": [
+        {
+          "version": "Base",
+          "price": 19990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "E-EVOLVE",
+          "price": 22990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Exclusive AWD",
+          "price": 26990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ],
+      "hp": 187,
+      "torque_nm": 252,
+      "fuel_consumption_mixed_km_l": 16,
+      "fuel_tank_liters": 51,
+      "length_mm": 4395,
+      "width_mm": 1795,
+      "height_mm": 1540,
+      "wheelbase_mm": 2655,
+      "ground_clearance_mm": 175,
+      "trunk_liters": 430,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 10.25\"",
+        "Bose",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "adas": [
+        "i-Activsense",
+        "Frenado automático",
+        "Lane Keep Assist"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000
+    },
+    {
+      "id": 386,
+      "brand": "Mazda",
+      "model": "CX-5",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 24990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV mediano con equilibrio entre lujo y funcionalidad",
+      "origin": "Japón",
+      "origin_country": "Japón",
+      "versions": [
+        {
+          "version": "Base",
+          "price": 24990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "E-EVOLVE",
+          "price": 27990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Exclusive AWD",
+          "price": 31990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "Signature AWD",
+          "price": 34990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ],
+      "hp": 194,
+      "torque_nm": 258,
+      "fuel_consumption_mixed_km_l": 14.5,
+      "fuel_tank_liters": 56,
+      "length_mm": 4575,
+      "width_mm": 1845,
+      "height_mm": 1690,
+      "wheelbase_mm": 2700,
+      "ground_clearance_mm": 200,
+      "trunk_liters": 505,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 10.25\"",
+        "Bose",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "adas": [
+        "i-Activsense",
+        "Frenado automático",
+        "Lane Keep Assist",
+        "Control crucero adaptativo"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000
+    },
+    {
+      "id": 387,
+      "brand": "Mazda",
+      "model": "CX-50",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 26990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "SUV aventurero con carácter off-road",
+      "origin": "Japón",
+      "origin_country": "Japón",
+      "versions": [
+        {
+          "version": "Select",
+          "price": 26990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "Preferred",
+          "price": 29990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "Premium Plus",
+          "price": 33990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ],
+      "hp": 187,
+      "torque_nm": 252,
+      "fuel_consumption_mixed_km_l": 14,
+      "fuel_tank_liters": 55,
+      "length_mm": 4785,
+      "width_mm": 1865,
+      "height_mm": 1680,
+      "wheelbase_mm": 2815,
+      "ground_clearance_mm": 210,
+      "trunk_liters": 590,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 10.25\"",
+        "Bose",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "adas": [
+        "i-Activsense",
+        "Frenado automático",
+        "Lane Keep Assist",
+        "Control crucero adaptativo"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000
+    },
+    {
+      "id": 388,
+      "brand": "Mazda",
+      "model": "CX-60",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 32990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "SUV premium con motor inline-6 y arquitectura de lujo",
+      "origin": "Japón",
+      "origin_country": "Japón",
+      "versions": [
+        {
+          "version": "Elegant",
+          "price": 32990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "Exclusive",
+          "price": 36990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "Signature",
+          "price": 40990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ],
+      "hp": 286,
+      "torque_nm": 450,
+      "fuel_consumption_mixed_km_l": 13,
+      "fuel_tank_liters": 58,
+      "length_mm": 4740,
+      "width_mm": 1890,
+      "height_mm": 1695,
+      "wheelbase_mm": 2870,
+      "ground_clearance_mm": 175,
+      "trunk_liters": 570,
+      "airbags": 8,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 12.3\"",
+        "Bose",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "adas": [
+        "i-Activsense",
+        "Frenado automático",
+        "Lane Keep Assist",
+        "Control crucero adaptativo"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000
+    },
+    {
+      "id": 389,
+      "brand": "Mazda",
+      "model": "CX-90",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 7,
+      "price": 44990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "SUV de 3 filas con motor turbo, lujo japonés y conducción deportiva.",
+      "origin": "Japón",
+      "hp": 280,
+      "torque_nm": 430,
+      "length_mm": 5100,
+      "width_mm": 1971,
+      "height_mm": 1748,
+      "wheelbase_mm": 3119,
+      "fuel_tank_liters": 69,
+      "ground_clearance_mm": 185,
+      "trunk_liters": 540,
+      "airbags": 8,
+      "isofix": true,
+      "adas": [
+        "Control crucero adaptativo",
+        "Asistente de carril",
+        "Frenado automático",
+        "Cámara 360°"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Pantalla 12.3\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Sonido Bose"
+      ],
+      "fuel_consumption_mixed_km_l": 10,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Japón",
+      "versions": [
+        {
+          "version": "3.3T AT AWD",
+          "price": 44990000,
+          "transmission": "automática",
+          "traction": "4x4"
+        },
+        {
+          "version": "3.3T AT AWD Signature",
+          "price": 52990000,
+          "transmission": "automática",
+          "traction": "4x4"
+        }
+      ]
+    },
+    {
+      "id": 390,
+      "brand": "Mazda",
+      "model": "Mazda 2",
+      "year": 2025,
+      "type": "hatchback",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 13990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Subcompacto deportivo con diseño Kodo",
+      "origin": "México",
+      "origin_country": "Japón",
+      "versions": [
+        {
+          "version": "Base",
+          "price": 13990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Exclusive",
+          "price": 16490000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 110,
+      "torque_nm": 148,
+      "fuel_consumption_mixed_km_l": 18,
+      "fuel_tank_liters": 44,
+      "length_mm": 4060,
+      "width_mm": 1695,
+      "height_mm": 1515,
+      "wheelbase_mm": 2570,
+      "ground_clearance_mm": 150,
+      "trunk_liters": 287,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 7\"",
+        "Bluetooth",
+        "USB"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000
+    },
+    {
+      "id": 391,
+      "brand": "Mazda",
+      "model": "Mazda 3",
+      "year": 2025,
+      "type": "sedan",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 18990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Sedán compacto premium con acabados de lujo",
+      "origin": "México",
+      "origin_country": "Japón",
+      "versions": [
+        {
+          "version": "Base",
+          "price": 18990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "E-EVOLVE",
+          "price": 21990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Exclusive",
+          "price": 24990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ],
+      "hp": 187,
+      "torque_nm": 252,
+      "fuel_consumption_mixed_km_l": 16,
+      "fuel_tank_liters": 51,
+      "length_mm": 4660,
+      "width_mm": 1795,
+      "height_mm": 1440,
+      "wheelbase_mm": 2725,
+      "ground_clearance_mm": 140,
+      "trunk_liters": 444,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 10.25\"",
+        "Bose",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "adas": [
+        "i-Activsense",
+        "Frenado automático",
+        "Lane Keep Assist"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000
+    },
+    {
+      "id": 392,
+      "brand": "Mazda",
+      "model": "Mazda 6",
+      "year": 2026,
+      "type": "sedan",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 28990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Sedán mediano con diseño Kodo y conducción deportiva.",
+      "origin": "Japón",
+      "hp": 190,
+      "torque_nm": 250,
+      "length_mm": 4870,
+      "width_mm": 1840,
+      "height_mm": 1450,
+      "wheelbase_mm": 2830,
+      "fuel_tank_liters": 62,
+      "ground_clearance_mm": 150,
+      "trunk_liters": 480,
+      "airbags": 6,
+      "isofix": true,
+      "adas": [
+        "Control crucero adaptativo",
+        "Frenado automático",
+        "Asistente de carril"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Pantalla 8\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Sonido Bose"
+      ],
+      "fuel_consumption_mixed_km_l": 13,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Japón",
+      "versions": [
+        {
+          "version": "2.5L AT",
+          "price": 28990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "2.5L AT Signature",
+          "price": 32990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 393,
+      "brand": "Mazda",
+      "model": "MX-5",
+      "year": 2026,
+      "type": "convertible",
+      "fuel": "gasolina",
+      "seats": 2,
+      "price": 24990000,
+      "transmission": "manual",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Roadster biplaza icónico, el auto deportivo más vendido del mundo con conducción pura.",
+      "origin": "Japón",
+      "hp": 181,
+      "torque_nm": 205,
+      "length_mm": 3915,
+      "width_mm": 1730,
+      "height_mm": 1240,
+      "wheelbase_mm": 2310,
+      "fuel_tank_liters": 45,
+      "ground_clearance_mm": 130,
+      "trunk_liters": 150,
+      "airbags": 4,
+      "isofix": false,
+      "adas": [
+        "Control crucero adaptativo",
+        "Frenado automático"
+      ],
+      "latin_ncap_stars": 4,
+      "infotainment": [
+        "Pantalla 7\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Sonido Bose"
+      ],
+      "fuel_consumption_mixed_km_l": 14,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Japón",
+      "versions": [
+        {
+          "version": "2.0L MT",
+          "price": 24990000,
+          "transmission": "manual",
+          "traction": "4x2"
+        },
+        {
+          "version": "2.0L RF AT",
+          "price": 29990000,
+          "transmission": "automática",
+          "traction": "4x2"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "brand": "Riddara",
+  "brandUrl": "https://www.riddara.cl",
+  "models": [
+    {
+      "id": 516,
+      "brand": "Riddara",
+      "model": "RD6",
+      "year": 2025,
+      "type": "pickup",
+      "fuel": "electrico",
+      "seats": 5,
+      "price": 51597900,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Pick-up eléctrica basada en plataforma Geely con múltiples opciones de batería.",
+      "origin": "China",
+      "hp": 268,
+      "torque_nm": 384,
+      "length_mm": 5260,
+      "width_mm": 1900,
+      "height_mm": 1865,
+      "wheelbase_mm": 3120,
+      "ground_clearance_mm": 230,
+      "airbags": 6,
+      "isofix": true,
+      "adas": [
+        "Frenado automático AEB",
+        "Control crucero adaptativo"
+      ],
+      "infotainment": [
+        "Pantalla 12.3\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "4x2 Air 63kWh",
+          "price": 51597900,
+          "transmission": "Automática",
+          "traction": "4x2"
+        },
+        {
+          "version": "4x2 Ultra 86kWh",
+          "price": 57539000,
+          "transmission": "Automática",
+          "traction": "4x2"
+        },
+        {
+          "version": "4x4 Pro 86kWh",
+          "price": 57647900,
+          "transmission": "Automática",
+          "traction": "4x4"
+        },
+        {
+          "version": "4x4 Ultra 100kWh",
+          "price": 64799000,
+          "transmission": "Automática",
+          "traction": "4x4"
+        }
+      ]
+    }
+  ]
+}

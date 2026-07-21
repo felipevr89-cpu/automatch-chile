@@ -1,0 +1,794 @@
+{
+  "brand": "Volkswagen",
+  "brandUrl": "https://www.volkswagen.cl",
+  "models": [
+    {
+      "id": 587,
+      "brand": "Volkswagen",
+      "model": "Amarok",
+      "year": 2025,
+      "type": "pickup",
+      "fuel": "diesel",
+      "seats": 5,
+      "price": 28990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "Pickup de doble cabina con diseño robusto.",
+      "origin": "Sudáfrica",
+      "versions": [
+        {
+          "version": "Comfortline 4x2",
+          "price": 28990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Highline 4x4",
+          "price": 34990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "Aventura 4x4",
+          "price": 39990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 204,
+      "torque_nm": 500,
+      "top_speed_kmh": 190,
+      "fuel_consumption_city_km_l": 10,
+      "fuel_consumption_highway_km_l": 14,
+      "fuel_consumption_mixed_km_l": 12,
+      "fuel_tank_liters": 80,
+      "length_mm": 5254,
+      "width_mm": 1954,
+      "height_mm": 1888,
+      "wheelbase_mm": 3100,
+      "ground_clearance_mm": 237,
+      "trunk_liters": 0,
+      "airbags": 6,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "cámara 360°"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "pantalla 8\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Bluetooth"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "Sudáfrica"
+    },
+    {
+      "id": 588,
+      "brand": "Volkswagen",
+      "model": "Atlas",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 7,
+      "price": 37990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "SUV grande de 7 plazas con amplio espacio y motor potente.",
+      "origin": "Estados Unidos",
+      "hp": 235,
+      "torque_nm": 320,
+      "length_mm": 5036,
+      "width_mm": 1983,
+      "height_mm": 1765,
+      "wheelbase_mm": 2979,
+      "fuel_tank_liters": 70,
+      "ground_clearance_mm": 195,
+      "trunk_liters": 583,
+      "airbags": 7,
+      "isofix": true,
+      "adas": [
+        "Control crucero adaptativo",
+        "Asistente de carril",
+        "Frenado automático",
+        "Cámara 360°"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Pantalla 12\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Sonido Fender"
+      ],
+      "fuel_consumption_mixed_km_l": 10,
+      "warranty_years": 4,
+      "warranty_km": 100000,
+      "origin_country": "Estados Unidos",
+      "versions": [
+        {
+          "version": "SE 4x4",
+          "price": 37990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "SEL 4x4",
+          "price": 44990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ]
+    },
+    {
+      "id": 589,
+      "brand": "Volkswagen",
+      "model": "ID.4",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "electrico",
+      "seats": 5,
+      "price": 36990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "SUV eléctrico con autonomía de hasta 500 km.",
+      "origin": "Alemania",
+      "versions": [
+        {
+          "version": "ID.4 Pro",
+          "price": 36990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "ID.4 GTX",
+          "price": 42990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ],
+      "hp": 286,
+      "torque_nm": 425,
+      "top_speed_kmh": 180,
+      "length_mm": 4584,
+      "width_mm": 1852,
+      "height_mm": 1640,
+      "wheelbase_mm": 2765,
+      "ground_clearance_mm": 186,
+      "trunk_liters": 543,
+      "airbags": 8,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "cámara 360°",
+        "asistente de estacionamiento"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "pantalla 12.9\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 100000,
+      "origin_country": "Alemania"
+    },
+    {
+      "id": 590,
+      "brand": "Volkswagen",
+      "model": "ID.Buzz",
+      "year": 2026,
+      "type": "minivan",
+      "fuel": "electrico",
+      "seats": 7,
+      "price": 55990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "Minivan eléctrica con diseño retro y tecnología de punta.",
+      "origin": "Alemania",
+      "hp": 340,
+      "torque_nm": 560,
+      "length_mm": 4710,
+      "width_mm": 1980,
+      "height_mm": 1900,
+      "wheelbase_mm": 2990,
+      "ground_clearance_mm": 180,
+      "trunk_liters": 1120,
+      "airbags": 8,
+      "isofix": true,
+      "adas": [
+        "Control crucero adaptativo",
+        "Asistente de carril",
+        "Frenado automático",
+        "Cámara 360°",
+        "Estacionamiento autónomo"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Pantalla 12.9\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Sonido Harman Kardon"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 100000,
+      "origin_country": "Alemania",
+      "versions": [
+        {
+          "version": "Pro awd",
+          "price": 55990000,
+          "transmission": "automática",
+          "traction": "awd"
+        },
+        {
+          "version": "GTX awd",
+          "price": 65990000,
+          "transmission": "automática",
+          "traction": "awd"
+        }
+      ]
+    },
+    {
+      "id": 591,
+      "brand": "Volkswagen",
+      "model": "Jetta",
+      "year": 2025,
+      "type": "sedan",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 19990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Sedán compacto con diseño elegante.",
+      "origin": "México",
+      "versions": [
+        {
+          "version": "Trendline",
+          "price": 19990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Comfortline",
+          "price": 23490000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Highline",
+          "price": 26990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 150,
+      "torque_nm": 250,
+      "top_speed_kmh": 210,
+      "fuel_consumption_city_km_l": 13,
+      "fuel_consumption_highway_km_l": 18,
+      "fuel_consumption_mixed_km_l": 15,
+      "fuel_tank_liters": 55,
+      "length_mm": 4701,
+      "width_mm": 1791,
+      "height_mm": 1462,
+      "wheelbase_mm": 2686,
+      "ground_clearance_mm": 155,
+      "trunk_liters": 510,
+      "airbags": 6,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "pantalla 8\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Bluetooth",
+        "sonido Fender"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 100000,
+      "origin_country": "México"
+    },
+    {
+      "id": 592,
+      "brand": "Volkswagen",
+      "model": "Nivus",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 17990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV coupé subcompacto con diseño deportivo y tecnológico.",
+      "origin": "Brasil",
+      "hp": 116,
+      "torque_nm": 168,
+      "length_mm": 4218,
+      "width_mm": 1756,
+      "height_mm": 1575,
+      "wheelbase_mm": 2590,
+      "fuel_tank_liters": 52,
+      "ground_clearance_mm": 175,
+      "trunk_liters": 380,
+      "airbags": 4,
+      "isofix": true,
+      "adas": [
+        "Frenado automático"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Pantalla 8\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "fuel_consumption_mixed_km_l": 15,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Brasil",
+      "versions": [
+        {
+          "version": "Comfortline",
+          "price": 17990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Highline",
+          "price": 20990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 593,
+      "brand": "Volkswagen",
+      "model": "Polo",
+      "year": 2025,
+      "type": "hatchback",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 15990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Hatchback subcompacto con diseño moderno.",
+      "origin": "Brasil",
+      "versions": [
+        {
+          "version": "Trendline",
+          "price": 15990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Comfortline",
+          "price": 18490000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Highline",
+          "price": 20990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 116,
+      "torque_nm": 168,
+      "top_speed_kmh": 185,
+      "fuel_consumption_city_km_l": 14,
+      "fuel_consumption_highway_km_l": 19,
+      "fuel_consumption_mixed_km_l": 16,
+      "fuel_tank_liters": 52,
+      "length_mm": 4053,
+      "width_mm": 1751,
+      "height_mm": 1450,
+      "wheelbase_mm": 2548,
+      "ground_clearance_mm": 163,
+      "trunk_liters": 300,
+      "airbags": 4,
+      "adas": [
+        "frenado automático de emergencia"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "pantalla 8\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Bluetooth"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Brasil"
+    },
+    {
+      "id": 594,
+      "brand": "Volkswagen",
+      "model": "Saveiro",
+      "year": 2026,
+      "type": "pickup",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 13990000,
+      "transmission": "manual",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Pick-up compacta con cabina doble ideal para trabajo y ciudad.",
+      "origin": "Brasil",
+      "hp": 95,
+      "torque_nm": 128,
+      "length_mm": 4450,
+      "width_mm": 1710,
+      "height_mm": 1540,
+      "wheelbase_mm": 2775,
+      "fuel_tank_liters": 55,
+      "ground_clearance_mm": 190,
+      "trunk_liters": 0,
+      "airbags": 4,
+      "isofix": true,
+      "adas": [],
+      "latin_ncap_stars": 4,
+      "infotainment": [
+        "Bluetooth",
+        "USB"
+      ],
+      "fuel_consumption_mixed_km_l": 13,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Brasil",
+      "versions": [
+        {
+          "version": "Trendline MT",
+          "price": 13990000,
+          "transmission": "manual",
+          "traction": "4x2"
+        },
+        {
+          "version": "Comfortline MT",
+          "price": 15990000,
+          "transmission": "manual",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 595,
+      "brand": "Volkswagen",
+      "model": "T-Cross",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 17990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV subcompacto urbano con versatilidad.",
+      "origin": "Brasil",
+      "versions": [
+        {
+          "version": "Trendline",
+          "price": 17990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Comfortline",
+          "price": 20490000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Highline",
+          "price": 23490000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 116,
+      "torque_nm": 168,
+      "top_speed_kmh": 185,
+      "fuel_consumption_city_km_l": 13,
+      "fuel_consumption_highway_km_l": 18,
+      "fuel_consumption_mixed_km_l": 15,
+      "fuel_tank_liters": 52,
+      "length_mm": 4218,
+      "width_mm": 1756,
+      "height_mm": 1575,
+      "wheelbase_mm": 2600,
+      "ground_clearance_mm": 175,
+      "trunk_liters": 373,
+      "airbags": 4,
+      "adas": [
+        "frenado automático de emergencia"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "pantalla 8\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Bluetooth"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Brasil"
+    },
+    {
+      "id": 596,
+      "brand": "Volkswagen",
+      "model": "Taos",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 22990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "SUV compacto con espacio generoso.",
+      "origin": "México",
+      "versions": [
+        {
+          "version": "Trendline",
+          "price": 22990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Comfortline 4x4",
+          "price": 25990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "Highline 4x4",
+          "price": 29990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 150,
+      "torque_nm": 250,
+      "top_speed_kmh": 200,
+      "fuel_consumption_city_km_l": 13,
+      "fuel_consumption_highway_km_l": 17,
+      "fuel_consumption_mixed_km_l": 15,
+      "fuel_tank_liters": 60,
+      "length_mm": 4461,
+      "width_mm": 1841,
+      "height_mm": 1632,
+      "wheelbase_mm": 2680,
+      "ground_clearance_mm": 192,
+      "trunk_liters": 519,
+      "airbags": 6,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "cámara 360°"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "pantalla 8\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Bluetooth"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 100000,
+      "origin_country": "México"
+    },
+    {
+      "id": 597,
+      "brand": "Volkswagen",
+      "model": "Tiguan",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 26990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "SUV compacto premium con amplio equipamiento.",
+      "origin": "Alemania",
+      "versions": [
+        {
+          "version": "Trendline",
+          "price": 26990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Comfortline 4x4",
+          "price": 30990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "Highline 4x4",
+          "price": 34990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 186,
+      "torque_nm": 320,
+      "top_speed_kmh": 210,
+      "fuel_consumption_city_km_l": 11,
+      "fuel_consumption_highway_km_l": 16,
+      "fuel_consumption_mixed_km_l": 13,
+      "fuel_tank_liters": 60,
+      "length_mm": 4509,
+      "width_mm": 1839,
+      "height_mm": 1665,
+      "wheelbase_mm": 2681,
+      "ground_clearance_mm": 195,
+      "trunk_liters": 615,
+      "airbags": 7,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "cámara 360°",
+        "asistente de estacionamiento"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "pantalla 8\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Bluetooth"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "Alemania"
+    },
+    {
+      "id": 598,
+      "brand": "Volkswagen",
+      "model": "Touareg",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 42990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "SUV de lujo con tecnología puntera.",
+      "origin": "Alemania",
+      "versions": [
+        {
+          "version": "Touareg",
+          "price": 42990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "Touareg R-Line",
+          "price": 52990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 286,
+      "torque_nm": 450,
+      "top_speed_kmh": 245,
+      "fuel_consumption_city_km_l": 9,
+      "fuel_consumption_highway_km_l": 14,
+      "fuel_consumption_mixed_km_l": 11,
+      "fuel_tank_liters": 90,
+      "length_mm": 4878,
+      "width_mm": 1984,
+      "height_mm": 1702,
+      "wheelbase_mm": 2899,
+      "ground_clearance_mm": 215,
+      "trunk_liters": 670,
+      "airbags": 8,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "cámara 360°",
+        "asistente de estacionamiento",
+        "asistente de conducción en autopista"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "pantalla 15\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "sonido Dynaudio"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "Alemania"
+    },
+    {
+      "id": 599,
+      "brand": "Volkswagen",
+      "model": "Virtus",
+      "year": 2025,
+      "type": "sedan",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 16990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Sedán subcompacto con amplio espacio interior.",
+      "origin": "Brasil",
+      "versions": [
+        {
+          "version": "Trendline",
+          "price": 16990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Comfortline",
+          "price": 19490000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Highline",
+          "price": 22490000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 116,
+      "torque_nm": 168,
+      "top_speed_kmh": 190,
+      "fuel_consumption_city_km_l": 14,
+      "fuel_consumption_highway_km_l": 19,
+      "fuel_consumption_mixed_km_l": 16,
+      "fuel_tank_liters": 52,
+      "length_mm": 4501,
+      "width_mm": 1751,
+      "height_mm": 1468,
+      "wheelbase_mm": 2604,
+      "ground_clearance_mm": 168,
+      "trunk_liters": 503,
+      "airbags": 4,
+      "adas": [
+        "frenado automático de emergencia"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "pantalla 8\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Bluetooth"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Brasil"
+    }
+  ]
+}

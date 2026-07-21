@@ -1,0 +1,145 @@
+{
+  "brand": "GMC",
+  "brandUrl": "#",
+  "models": [
+    {
+      "id": 208,
+      "brand": "GMC",
+      "model": "Canyon",
+      "year": 2025,
+      "type": "pickup",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 63570000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "Pick-up mediana premium con motor 2.7L turbo de 314 hp y capacidad off-road.",
+      "origin": "Estados Unidos",
+      "versions": [
+        {
+          "version": "AT4 2.7L Turbo 4x4",
+          "price": 63570000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 314,
+      "torque_nm": 522,
+      "fuel_consumption_mixed_km_l": 10.2,
+      "fuel_tank_liters": 70,
+      "length_mm": 5400,
+      "width_mm": 1910,
+      "height_mm": 1785,
+      "wheelbase_mm": 3180,
+      "ground_clearance_mm": 235,
+      "trunk_liters": 0,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 11.3\"",
+        "Infotainment",
+        "Android Auto",
+        "Apple CarPlay"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "Estados Unidos"
+    },
+    {
+      "id": 209,
+      "brand": "GMC",
+      "model": "Sierra",
+      "year": 2025,
+      "type": "pickup",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 81800000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "Pick-up full-size premium con motor V8 6.2L de 420 hp y acabados Denali.",
+      "origin": "Estados Unidos",
+      "versions": [
+        {
+          "version": "1500 5.3L V8 4x4",
+          "price": 81800000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "2500 6.6L Diesel 4x4",
+          "price": 87010000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 420,
+      "torque_nm": 623,
+      "fuel_consumption_mixed_km_l": 8.1,
+      "fuel_tank_liters": 118,
+      "length_mm": 5931,
+      "width_mm": 2064,
+      "height_mm": 1900,
+      "wheelbase_mm": 3744,
+      "ground_clearance_mm": 216,
+      "trunk_liters": 0,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 13.4\"",
+        "Bose",
+        "Android Auto",
+        "Apple CarPlay",
+        "Multi Pro Tailgate"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "Estados Unidos"
+    },
+    {
+      "id": 210,
+      "brand": "GMC",
+      "model": "Yukon",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 7,
+      "price": 95000000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "SUV full-size de lujo con motor V8 5.3L de 355 hp, tres filas de asientos y equipamiento premium.",
+      "origin": "Estados Unidos",
+      "versions": [
+        {
+          "version": "SLT V8 4x4",
+          "price": 95000000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 355,
+      "torque_nm": 518,
+      "fuel_consumption_mixed_km_l": 8.1,
+      "fuel_tank_liters": 91,
+      "length_mm": 5351,
+      "width_mm": 2060,
+      "height_mm": 1890,
+      "wheelbase_mm": 3071,
+      "ground_clearance_mm": 203,
+      "trunk_liters": 722,
+      "airbags": 7,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 10.2\"",
+        "Bose",
+        "Android Auto",
+        "Apple CarPlay"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "Estados Unidos"
+    }
+  ]
+}

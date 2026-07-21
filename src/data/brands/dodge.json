@@ -1,0 +1,50 @@
+{
+  "brand": "Dodge",
+  "brandUrl": "#",
+  "models": [
+    {
+      "id": 148,
+      "brand": "Dodge",
+      "model": "Durango",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 7,
+      "price": 55000000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "SUV full-size con motor V6 3.6L Pentastar de 295 hp, tres filas de asientos.",
+      "origin": "Estados Unidos",
+      "versions": [
+        {
+          "version": "SXT V6 4x4",
+          "price": 55000000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 295,
+      "torque_nm": 353,
+      "fuel_consumption_mixed_km_l": 9.4,
+      "fuel_tank_liters": 93,
+      "length_mm": 5115,
+      "width_mm": 1925,
+      "height_mm": 1816,
+      "wheelbase_mm": 3042,
+      "ground_clearance_mm": 206,
+      "trunk_liters": 487,
+      "airbags": 7,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 8.4\"",
+        "U-Connect",
+        "Android Auto",
+        "Apple CarPlay"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Estados Unidos"
+    }
+  ]
+}

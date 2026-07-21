@@ -1,0 +1,56 @@
+{
+  "brand": "Farizon",
+  "brandUrl": "https://www.farizon.cl",
+  "models": [
+    {
+      "id": 159,
+      "brand": "Farizon",
+      "model": "SuperVAN",
+      "year": 2025,
+      "type": "minivan",
+      "fuel": "electrico",
+      "seats": 3,
+      "price": 29990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Furgón eléctrico comercial de Geely con gran capacidad de carga, autonomía útil y bajos costos operativos.",
+      "origin": "China",
+      "versions": [
+        {
+          "version": "Cargo",
+          "price": 29990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 231,
+      "torque_nm": 336,
+      "top_speed_kmh": 130,
+      "electric_range_km": 340,
+      "battery_kwh": 83,
+      "length_mm": 5195,
+      "width_mm": 2020,
+      "height_mm": 1980,
+      "wheelbase_mm": 3160,
+      "ground_clearance_mm": 170,
+      "trunk_liters": 6900,
+      "payload_kg": 1400,
+      "airbags": 2,
+      "adas": [
+        "control de crucero",
+        "frenado automático de emergencia",
+        "cámara de retroceso"
+      ],
+      "latin_ncap_stars": 3,
+      "isofix": false,
+      "infotainment": [
+        "pantalla 10.25\"",
+        "Bluetooth"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 150000,
+      "origin_country": "China"
+    }
+  ]
+}

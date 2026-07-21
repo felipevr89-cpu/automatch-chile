@@ -1,0 +1,142 @@
+{
+  "brand": "ZX Auto",
+  "brandUrl": "https://www.zxauto.cl",
+  "models": [
+    {
+      "id": 616,
+      "brand": "ZX Auto",
+      "model": "Grand Avenue",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 7,
+      "price": 18990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV de 7 plazas con diseño llamativo y buen equipamiento.",
+      "origin": "China",
+      "hp": 136,
+      "torque_nm": 185,
+      "length_mm": 4780,
+      "width_mm": 1880,
+      "height_mm": 1750,
+      "wheelbase_mm": 2800,
+      "fuel_tank_liters": 55,
+      "ground_clearance_mm": 200,
+      "trunk_liters": 550,
+      "airbags": 4,
+      "isofix": true,
+      "adas": [
+        "Cámara de retroceso",
+        "Control crucero"
+      ],
+      "latin_ncap_stars": 4,
+      "infotainment": [
+        "Pantalla 12.3\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "fuel_consumption_mixed_km_l": 11.5,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "1.5T AT 7 plazas",
+          "price": 18990000,
+          "transmission": "automática",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 617,
+      "brand": "ZX Auto",
+      "model": "Pickup 4x2",
+      "year": 2026,
+      "type": "pickup",
+      "fuel": "diesel",
+      "seats": 5,
+      "price": 13990000,
+      "transmission": "manual",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Pick-up diésel de trabajo con buena capacidad de carga, representado por Tattersall Automotriz.",
+      "origin": "China",
+      "hp": 130,
+      "torque_nm": 280,
+      "length_mm": 4880,
+      "width_mm": 1720,
+      "height_mm": 1750,
+      "wheelbase_mm": 2850,
+      "fuel_tank_liters": 55,
+      "ground_clearance_mm": 200,
+      "trunk_liters": 0,
+      "airbags": 2,
+      "isofix": false,
+      "adas": [],
+      "latin_ncap_stars": 2,
+      "infotainment": [
+        "Radio",
+        "Bluetooth"
+      ],
+      "fuel_consumption_mixed_km_l": 12,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "2.5L Diésel MT 4x2",
+          "price": 13990000,
+          "transmission": "manual",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 618,
+      "brand": "ZX Auto",
+      "model": "Pickup 4x4",
+      "year": 2026,
+      "type": "pickup",
+      "fuel": "diesel",
+      "seats": 5,
+      "price": 16990000,
+      "transmission": "manual",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "Pick-up 4x4 diésel con gran capacidad off-road para trabajo pesado.",
+      "origin": "China",
+      "hp": 130,
+      "torque_nm": 280,
+      "length_mm": 4880,
+      "width_mm": 1720,
+      "height_mm": 1750,
+      "wheelbase_mm": 2850,
+      "fuel_tank_liters": 55,
+      "ground_clearance_mm": 230,
+      "trunk_liters": 0,
+      "airbags": 2,
+      "isofix": false,
+      "adas": [],
+      "latin_ncap_stars": 2,
+      "infotainment": [
+        "Radio",
+        "Bluetooth"
+      ],
+      "fuel_consumption_mixed_km_l": 11.5,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "2.5L Diésel MT 4x4",
+          "price": 16990000,
+          "transmission": "manual",
+          "traction": "4x4"
+        }
+      ]
+    }
+  ]
+}

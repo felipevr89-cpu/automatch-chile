@@ -1,0 +1,573 @@
+{
+  "brand": "Honda",
+  "brandUrl": "https://www.honda.cl",
+  "models": [
+    {
+      "id": 229,
+      "brand": "Honda",
+      "model": "Accord",
+      "year": 2025,
+      "type": "sedan",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 27990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Sedán ejecutivo con diseño elegante y tecnología Honda Sensing",
+      "origin": "Tailandia",
+      "origin_country": "Japón",
+      "versions": [
+        {
+          "version": "EX",
+          "price": 27990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Touring",
+          "price": 32990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 192,
+      "torque_nm": 260,
+      "fuel_consumption_mixed_km_l": 16,
+      "fuel_tank_liters": 56,
+      "length_mm": 4971,
+      "width_mm": 1862,
+      "height_mm": 1450,
+      "wheelbase_mm": 2830,
+      "ground_clearance_mm": 137,
+      "trunk_liters": 573,
+      "airbags": 10,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 12.3\"",
+        "Bose",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "adas": [
+        "Honda Sensing",
+        "Frenado automático",
+        "Lane Keep Assist",
+        "Control crucero adaptativo"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000
+    },
+    {
+      "id": 230,
+      "brand": "Honda",
+      "model": "City",
+      "year": 2025,
+      "type": "sedan",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 14490000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Sedán subcompacto con diseño moderno y eficiente",
+      "origin": "Tailandia",
+      "origin_country": "Japón",
+      "versions": [
+        {
+          "version": "LX",
+          "price": 14490000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "EX",
+          "price": 16490000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "EX-L",
+          "price": 17990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 121,
+      "torque_nm": 148,
+      "fuel_consumption_mixed_km_l": 18,
+      "fuel_tank_liters": 40,
+      "length_mm": 4553,
+      "width_mm": 1748,
+      "height_mm": 1467,
+      "wheelbase_mm": 2600,
+      "ground_clearance_mm": 135,
+      "trunk_liters": 506,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 8\"",
+        "Honda Connect",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000
+    },
+    {
+      "id": 231,
+      "brand": "Honda",
+      "model": "Civic",
+      "year": 2025,
+      "type": "sedan",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 20990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Sedán deportivo con excelente dinámica de conducción",
+      "origin": "Tailandia",
+      "origin_country": "Japón",
+      "versions": [
+        {
+          "version": "LX",
+          "price": 20990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "EX",
+          "price": 23990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Touring",
+          "price": 26990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 180,
+      "torque_nm": 240,
+      "fuel_consumption_mixed_km_l": 17.5,
+      "fuel_tank_liters": 47,
+      "length_mm": 4674,
+      "width_mm": 1802,
+      "height_mm": 1415,
+      "wheelbase_mm": 2735,
+      "ground_clearance_mm": 135,
+      "trunk_liters": 519,
+      "airbags": 10,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 9\"",
+        "Bose",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "adas": [
+        "Honda Sensing",
+        "Frenado automático",
+        "Lane Keep Assist"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000
+    },
+    {
+      "id": 232,
+      "brand": "Honda",
+      "model": "Civic Type R",
+      "year": 2026,
+      "type": "hatchback",
+      "fuel": "gasolina",
+      "seats": 4,
+      "price": 49990000,
+      "transmission": "manual",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Hatchback deportivo extremo con motor VTEC turboalimentado y chasis afinado en Nürburgring.",
+      "origin": "Japón",
+      "hp": 329,
+      "torque_nm": 420,
+      "length_mm": 4595,
+      "width_mm": 1890,
+      "height_mm": 1405,
+      "wheelbase_mm": 2735,
+      "fuel_tank_liters": 47,
+      "ground_clearance_mm": 130,
+      "trunk_liters": 410,
+      "airbags": 8,
+      "isofix": true,
+      "adas": [
+        "Control crucero adaptativo",
+        "Frenado automático",
+        "Asistente de carril"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Pantalla 9\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Sonido Bose"
+      ],
+      "fuel_consumption_mixed_km_l": 11,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Japón",
+      "versions": [
+        {
+          "version": "2.0T MT",
+          "price": 49990000,
+          "transmission": "manual",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 233,
+      "brand": "Honda",
+      "model": "CR-V",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 27990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV mediano espacioso y confiable",
+      "origin": "Tailandia",
+      "origin_country": "Japón",
+      "versions": [
+        {
+          "version": "LX",
+          "price": 27990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "EX",
+          "price": 30990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Touring",
+          "price": 34990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ],
+      "hp": 190,
+      "torque_nm": 243,
+      "fuel_consumption_mixed_km_l": 15,
+      "fuel_tank_liters": 53,
+      "length_mm": 4703,
+      "width_mm": 1866,
+      "height_mm": 1690,
+      "wheelbase_mm": 2701,
+      "ground_clearance_mm": 208,
+      "trunk_liters": 1113,
+      "airbags": 10,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 9\"",
+        "Bose",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "adas": [
+        "Honda Sensing",
+        "Frenado automático",
+        "Lane Keep Assist",
+        "Control crucero adaptativo"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000
+    },
+    {
+      "id": 234,
+      "brand": "Honda",
+      "model": "HR-V",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 19990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV compacto con diseño elegante y versatilidad",
+      "origin": "Tailandia",
+      "origin_country": "Japón",
+      "versions": [
+        {
+          "version": "LX",
+          "price": 19990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "EX",
+          "price": 22990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "EX-L",
+          "price": 25990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 131,
+      "torque_nm": 155,
+      "fuel_consumption_mixed_km_l": 17.5,
+      "fuel_tank_liters": 40,
+      "length_mm": 4385,
+      "width_mm": 1790,
+      "height_mm": 1590,
+      "wheelbase_mm": 2610,
+      "ground_clearance_mm": 181,
+      "trunk_liters": 404,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 8\"",
+        "Honda Connect",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000
+    },
+    {
+      "id": 235,
+      "brand": "Honda",
+      "model": "Pilot",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 7,
+      "price": 39990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "SUV mediano con capacidad para 7 pasajeros y sistema de tracción integral.",
+      "origin": "USA",
+      "hp": 285,
+      "torque_nm": 355,
+      "length_mm": 5080,
+      "width_mm": 1994,
+      "height_mm": 1801,
+      "wheelbase_mm": 2891,
+      "fuel_tank_liters": 73,
+      "ground_clearance_mm": 200,
+      "trunk_liters": 520,
+      "airbags": 8,
+      "isofix": true,
+      "adas": [
+        "Control crucero adaptativo",
+        "Asistente de carril",
+        "Frenado automático",
+        "Cámara 360°"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Pantalla 9\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Sonido Bose"
+      ],
+      "fuel_consumption_mixed_km_l": 9.5,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "USA",
+      "versions": [
+        {
+          "version": "3.5L V6 AT AWD",
+          "price": 39990000,
+          "transmission": "automática",
+          "traction": "4x4"
+        },
+        {
+          "version": "3.5L V6 AT AWD Elite",
+          "price": 45990000,
+          "transmission": "automática",
+          "traction": "4x4"
+        }
+      ]
+    },
+    {
+      "id": 236,
+      "brand": "Honda",
+      "model": "Ridgeline",
+      "year": 2026,
+      "type": "pickup",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 44990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "Pick-up unibody con conducción suave y cama con compartimento de carga sellado.",
+      "origin": "USA",
+      "hp": 280,
+      "torque_nm": 355,
+      "length_mm": 5335,
+      "width_mm": 2004,
+      "height_mm": 1805,
+      "wheelbase_mm": 3180,
+      "fuel_tank_liters": 74,
+      "ground_clearance_mm": 215,
+      "trunk_liters": 0,
+      "airbags": 8,
+      "isofix": true,
+      "adas": [
+        "Control crucero adaptativo",
+        "Asistente de carril",
+        "Frenado automático",
+        "Cámara 360°"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Pantalla 9\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Sonido premium"
+      ],
+      "fuel_consumption_mixed_km_l": 8.5,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "USA",
+      "versions": [
+        {
+          "version": "RTL AWD",
+          "price": 44990000,
+          "transmission": "automática",
+          "traction": "4x4"
+        },
+        {
+          "version": "Black Edition AWD",
+          "price": 49990000,
+          "transmission": "automática",
+          "traction": "4x4"
+        }
+      ]
+    },
+    {
+      "id": 237,
+      "brand": "Honda",
+      "model": "WR-V",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 20990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV subcompacto con diseño robusto y confiabilidad Honda.",
+      "origin": "Japón",
+      "hp": 121,
+      "torque_nm": 150,
+      "length_mm": 4070,
+      "width_mm": 1750,
+      "height_mm": 1590,
+      "wheelbase_mm": 2550,
+      "fuel_tank_liters": 45,
+      "ground_clearance_mm": 180,
+      "trunk_liters": 370,
+      "airbags": 6,
+      "isofix": true,
+      "adas": [
+        "Honda Sensing",
+        "Frenado automático",
+        "Lane Keep Assist"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Pantalla 8\"",
+        "Honda Connect",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "fuel_consumption_mixed_km_l": 14.5,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Japón",
+      "versions": [
+        {
+          "version": "1.5L CVT",
+          "price": 20990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "1.5L CVT EX",
+          "price": 22990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 238,
+      "brand": "Honda",
+      "model": "ZR-V",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 24990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV crossover premium con tecnología avanzada",
+      "origin": "Japón",
+      "origin_country": "Japón",
+      "versions": [
+        {
+          "version": "EX",
+          "price": 24990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "EX-L",
+          "price": 27990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 178,
+      "torque_nm": 240,
+      "fuel_consumption_mixed_km_l": 16.5,
+      "fuel_tank_liters": 53,
+      "length_mm": 4568,
+      "width_mm": 1839,
+      "height_mm": 1620,
+      "wheelbase_mm": 2657,
+      "ground_clearance_mm": 180,
+      "trunk_liters": 500,
+      "airbags": 10,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 9\"",
+        "Bose",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "adas": [
+        "Honda Sensing",
+        "Frenado automático",
+        "Lane Keep Assist",
+        "Control crucero adaptativo"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000
+    }
+  ]
+}

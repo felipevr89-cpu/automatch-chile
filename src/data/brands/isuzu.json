@@ -1,0 +1,131 @@
+{
+  "brand": "Isuzu",
+  "brandUrl": "#",
+  "models": [
+    {
+      "id": 263,
+      "brand": "Isuzu",
+      "model": "D-Max",
+      "year": 2026,
+      "type": "pickup",
+      "fuel": "diesel",
+      "seats": 5,
+      "price": 22990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Pick-up mediana con nuevo motor 2.2L Ddi MaxForce de 163 Hp y caja automática 8V.",
+      "origin": "Japón",
+      "hp": 163,
+      "torque_nm": 400,
+      "length_mm": 5280,
+      "width_mm": 1870,
+      "height_mm": 1785,
+      "wheelbase_mm": 3125,
+      "fuel_tank_liters": 76,
+      "ground_clearance_mm": 240,
+      "airbags": 6,
+      "isofix": true,
+      "adas": [
+        "Frenado automático AEB",
+        "Control crucero adaptativo"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Pantalla 9\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "fuel_consumption_mixed_km_l": 14,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Japón",
+      "versions": [
+        {
+          "version": "2.2L 4x2 MT",
+          "price": 22990000,
+          "transmission": "Manual 6V",
+          "traction": "4x2"
+        },
+        {
+          "version": "2.2L 4x2 AT",
+          "price": 25990000,
+          "transmission": "Automática 8V",
+          "traction": "4x2"
+        },
+        {
+          "version": "2.2L 4x4 MT",
+          "price": 27990000,
+          "transmission": "Manual 6V",
+          "traction": "4x4"
+        },
+        {
+          "version": "2.2L 4x4 AT",
+          "price": 29990000,
+          "transmission": "Automática 8V",
+          "traction": "4x4"
+        }
+      ]
+    },
+    {
+      "id": 264,
+      "brand": "Isuzu",
+      "model": "MU-X",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "diesel",
+      "seats": 7,
+      "price": 29990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV basada en la D-Max con siete plazas, motor 2.2L MaxForce y tecnología ADAS.",
+      "origin": "Japón",
+      "hp": 163,
+      "torque_nm": 400,
+      "length_mm": 4850,
+      "width_mm": 1870,
+      "height_mm": 1825,
+      "wheelbase_mm": 3125,
+      "fuel_tank_liters": 76,
+      "ground_clearance_mm": 240,
+      "airbags": 6,
+      "isofix": true,
+      "adas": [
+        "Frenado automático AEB",
+        "Control crucero adaptativo",
+        "Asistencia de carril"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Pantalla 9\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "fuel_consumption_mixed_km_l": 13,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Japón",
+      "versions": [
+        {
+          "version": "Active 2.2L 4x2 AT",
+          "price": 29990000,
+          "transmission": "Automática 8V",
+          "traction": "4x2"
+        },
+        {
+          "version": "Elegant 2.2L 4x2 AT",
+          "price": 32990000,
+          "transmission": "Automática 8V",
+          "traction": "4x2"
+        },
+        {
+          "version": "Ultimate 2.2L 4x4 AT",
+          "price": 36990000,
+          "transmission": "Automática 8V",
+          "traction": "4x4"
+        }
+      ]
+    }
+  ]
+}

@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom';
 import { Car } from '../types';
 import { CompareTable } from '../components/Compare/CompareTable';
+import { Breadcrumbs } from '../components/Breadcrumbs';
+import { SEO } from '../components/SEO';
 
 interface Props {
   compareList: Car[];
@@ -11,6 +13,7 @@ interface Props {
 export function Compare({ compareList, onRemoveFromCompare, onClearCompare }: Props) {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <SEO title="Comparar Vehículos" description="Compara hasta 3 vehículos lado a lado con todas sus especificaciones." />
       <div className="flex items-center justify-between mb-8">
         <div>
           <h1 className="text-3xl font-bold text-gray-900">Comparar Vehículos</h1>
@@ -27,6 +30,8 @@ export function Compare({ compareList, onRemoveFromCompare, onClearCompare }: Pr
           </button>
         )}
       </div>
+
+      <Breadcrumbs items={[{ label: 'Comparar Vehículos' }]} />
 
       <CompareTable cars={compareList} onRemove={onRemoveFromCompare} />
 

@@ -1,0 +1,277 @@
+{
+  "brand": "JAC",
+  "brandUrl": "https://www.jacautoschile.cl",
+  "models": [
+    {
+      "id": 265,
+      "brand": "JAC",
+      "model": "JS2",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 11890000,
+      "transmission": "manual",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV subcompacta de entrada, ideal para ciudad con excelente relación precio-equipamiento.",
+      "origin": "China",
+      "hp": 111,
+      "torque_nm": 146,
+      "length_mm": 4135,
+      "width_mm": 1750,
+      "height_mm": 1568,
+      "wheelbase_mm": 2490,
+      "fuel_tank_liters": 42,
+      "airbags": 2,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 7\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "fuel_consumption_city_km_l": 10.4,
+      "fuel_consumption_highway_km_l": 15.6,
+      "fuel_consumption_mixed_km_l": 13.3,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "1.5L Comfort",
+          "price": 11890000,
+          "transmission": "Manual 5V",
+          "traction": "4x2"
+        },
+        {
+          "version": "1.5L Lux",
+          "price": 12890000,
+          "transmission": "Manual 5V",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 266,
+      "brand": "JAC",
+      "model": "JS2 Pro",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 14790000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Versión mejorada del JS2 con motor turbo y transmisión automática CVT.",
+      "origin": "China",
+      "hp": 150,
+      "torque_nm": 210,
+      "length_mm": 4135,
+      "width_mm": 1750,
+      "height_mm": 1568,
+      "wheelbase_mm": 2490,
+      "fuel_tank_liters": 42,
+      "airbags": 4,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 10.25\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "fuel_consumption_mixed_km_l": 12.5,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "1.5T Comfort CVT",
+          "price": 13790000,
+          "transmission": "CVT",
+          "traction": "4x2"
+        },
+        {
+          "version": "1.5T Lux CVT",
+          "price": 14790000,
+          "transmission": "CVT",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 267,
+      "brand": "JAC",
+      "model": "JS4",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 15990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV compacta con buen equipamiento y motor turbo eficiente.",
+      "origin": "China",
+      "hp": 150,
+      "torque_nm": 210,
+      "length_mm": 4325,
+      "width_mm": 1800,
+      "height_mm": 1650,
+      "wheelbase_mm": 2560,
+      "fuel_tank_liters": 45,
+      "airbags": 4,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 10.25\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "fuel_consumption_mixed_km_l": 12,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "1.5T Comfort CVT",
+          "price": 14990000,
+          "transmission": "CVT",
+          "traction": "4x2"
+        },
+        {
+          "version": "1.5T Lux CVT",
+          "price": 15990000,
+          "transmission": "CVT",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 268,
+      "brand": "JAC",
+      "model": "Sunray",
+      "year": 2025,
+      "type": "minivan",
+      "fuel": "diesel",
+      "seats": 17,
+      "price": 32356100,
+      "transmission": "manual",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Minivan de pasajeros con capacidad hasta 17 personas, ideal para flotas y transporte.",
+      "origin": "China",
+      "hp": 163,
+      "torque_nm": 360,
+      "length_mm": 5995,
+      "width_mm": 2098,
+      "height_mm": 2645,
+      "wheelbase_mm": 3570,
+      "fuel_tank_liters": 80,
+      "airbags": 2,
+      "infotainment": [
+        "Pantalla 7\"",
+        "Bluetooth"
+      ],
+      "fuel_consumption_mixed_km_l": 8.5,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "Pasajeros 2.0T MT",
+          "price": 32356100,
+          "transmission": "Manual 6V",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 269,
+      "brand": "JAC",
+      "model": "T8 Pro",
+      "year": 2025,
+      "type": "pickup",
+      "fuel": "diesel",
+      "seats": 5,
+      "price": 20990000,
+      "transmission": "manual",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "Pick-up mediana con motor Isuzu 2.5L turbodiésel, robusta y confiable.",
+      "origin": "China",
+      "hp": 136,
+      "torque_nm": 320,
+      "length_mm": 5325,
+      "width_mm": 1870,
+      "height_mm": 1815,
+      "wheelbase_mm": 3090,
+      "fuel_tank_liters": 68,
+      "ground_clearance_mm": 210,
+      "airbags": 2,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 8\"",
+        "Bluetooth"
+      ],
+      "fuel_consumption_mixed_km_l": 10.5,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "Luxury 4x4",
+          "price": 20990000,
+          "transmission": "Manual 6V",
+          "traction": "4x4"
+        },
+        {
+          "version": "Advance 4x4",
+          "price": 21990000,
+          "transmission": "Manual 6V",
+          "traction": "4x4"
+        }
+      ]
+    },
+    {
+      "id": 270,
+      "brand": "JAC",
+      "model": "T9",
+      "year": 2025,
+      "type": "pickup",
+      "fuel": "diesel",
+      "seats": 5,
+      "price": 28786100,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "Pick-up grande con motor 2.0T diésel y caja automática 8V.",
+      "origin": "China",
+      "hp": 170,
+      "torque_nm": 410,
+      "length_mm": 5605,
+      "width_mm": 1965,
+      "height_mm": 1895,
+      "wheelbase_mm": 3400,
+      "fuel_tank_liters": 80,
+      "ground_clearance_mm": 230,
+      "airbags": 4,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 10.4\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "fuel_consumption_mixed_km_l": 9.5,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "2.0T 4x4 Automática",
+          "price": 28786100,
+          "transmission": "Automática 8V",
+          "traction": "4x4"
+        }
+      ]
+    }
+  ]
+}

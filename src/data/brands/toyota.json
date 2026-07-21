@@ -1,0 +1,1299 @@
+{
+  "brand": "Toyota",
+  "brandUrl": "https://www.toyota.cl",
+  "models": [
+    {
+      "id": 564,
+      "brand": "Toyota",
+      "model": "4Runner",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 49990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "SUV todoterreno con capacidad off-road y durabilidad legendaria.",
+      "origin": "Japón",
+      "hp": 278,
+      "torque_nm": 450,
+      "length_mm": 4830,
+      "width_mm": 1925,
+      "height_mm": 1820,
+      "wheelbase_mm": 2790,
+      "fuel_tank_liters": 80,
+      "ground_clearance_mm": 240,
+      "trunk_liters": 480,
+      "airbags": 8,
+      "isofix": true,
+      "adas": [
+        "Control crucero adaptativo",
+        "Asistente de carril",
+        "Frenado automático",
+        "Cámara 360°"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Pantalla 8\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Toyota Safety Sense"
+      ],
+      "fuel_consumption_mixed_km_l": 8.5,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Japón",
+      "versions": [
+        {
+          "version": "SR5 4x4",
+          "price": 49990000,
+          "transmission": "automática",
+          "traction": "4x4"
+        },
+        {
+          "version": "TRD Pro 4x4",
+          "price": 59990000,
+          "transmission": "automática",
+          "traction": "4x4"
+        }
+      ]
+    },
+    {
+      "id": 565,
+      "brand": "Toyota",
+      "model": "bZ4X",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "electrico",
+      "seats": 5,
+      "price": 41990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "SUV eléctrico con diseño vanguardista y autonomía superior.",
+      "origin": "Japón",
+      "hp": 218,
+      "torque_nm": 336,
+      "length_mm": 4690,
+      "width_mm": 1860,
+      "height_mm": 1650,
+      "wheelbase_mm": 2850,
+      "ground_clearance_mm": 190,
+      "trunk_liters": 452,
+      "airbags": 8,
+      "isofix": true,
+      "adas": [
+        "Control crucero adaptativo",
+        "Asistente de carril",
+        "Frenado automático",
+        "Cámara 360°"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Pantalla 12.3\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Toyota Safety Sense"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Japón",
+      "versions": [
+        {
+          "version": "XLE AWD",
+          "price": 41990000,
+          "transmission": "automática",
+          "traction": "awd"
+        },
+        {
+          "version": "Limited AWD",
+          "price": 47990000,
+          "transmission": "automática",
+          "traction": "awd"
+        }
+      ]
+    },
+    {
+      "id": 566,
+      "brand": "Toyota",
+      "model": "C-HR",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 21990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV crossover con diseño deportivo y audaz",
+      "origin": "Tailandia",
+      "origin_country": "Japón",
+      "versions": [
+        {
+          "version": "XE",
+          "price": 21990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "XEL",
+          "price": 24990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Híbrido",
+          "price": 26990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 172,
+      "torque_nm": 210,
+      "fuel_consumption_mixed_km_l": 16.5,
+      "fuel_tank_liters": 50,
+      "length_mm": 4390,
+      "width_mm": 1795,
+      "height_mm": 1565,
+      "wheelbase_mm": 2640,
+      "ground_clearance_mm": 160,
+      "trunk_liters": 318,
+      "airbags": 8,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 8\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "adas": [
+        "Toyota Safety Sense",
+        "Frenado automático"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000
+    },
+    {
+      "id": 567,
+      "brand": "Toyota",
+      "model": "Camry",
+      "year": 2025,
+      "type": "sedan",
+      "fuel": "hibrido",
+      "seats": 5,
+      "price": 28990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Sedán mediano con tecnología híbrida",
+      "origin": "Japón",
+      "origin_country": "Japón",
+      "versions": [
+        {
+          "version": "SE",
+          "price": 28990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "XLE",
+          "price": 32990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 225,
+      "torque_nm": 221,
+      "fuel_consumption_mixed_km_l": 22,
+      "fuel_tank_liters": 50,
+      "length_mm": 4885,
+      "width_mm": 1840,
+      "height_mm": 1445,
+      "wheelbase_mm": 2825,
+      "ground_clearance_mm": 140,
+      "trunk_liters": 524,
+      "airbags": 10,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 9\"",
+        "JBL",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "adas": [
+        "Toyota Safety Sense",
+        "Frenado automático",
+        "Lane Tracing Assist"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000
+    },
+    {
+      "id": 568,
+      "brand": "Toyota",
+      "model": "Corolla",
+      "year": 2025,
+      "type": "sedan",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 17990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Sedán compacto confiable y moderno",
+      "origin": "Japón",
+      "origin_country": "Japón",
+      "versions": [
+        {
+          "version": "SE",
+          "price": 17990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "XEL",
+          "price": 20990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Híbrido",
+          "price": 22990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 169,
+      "torque_nm": 210,
+      "fuel_consumption_mixed_km_l": 16.8,
+      "fuel_tank_liters": 50,
+      "length_mm": 4630,
+      "width_mm": 1780,
+      "height_mm": 1435,
+      "wheelbase_mm": 2700,
+      "ground_clearance_mm": 135,
+      "trunk_liters": 470,
+      "airbags": 8,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 8\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "adas": [
+        "Frenado automático",
+        "Lane Keep Assist",
+        "Control crucero adaptativo"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000
+    },
+    {
+      "id": 569,
+      "brand": "Toyota",
+      "model": "Corolla Cross",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 20990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV compacto versátil para la familia",
+      "origin": "Tailandia",
+      "origin_country": "Japón",
+      "versions": [
+        {
+          "version": "XE",
+          "price": 20990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "XEL",
+          "price": 23990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "XLE AWD",
+          "price": 26990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ],
+      "hp": 169,
+      "torque_nm": 210,
+      "fuel_consumption_mixed_km_l": 16,
+      "fuel_tank_liters": 50,
+      "length_mm": 4460,
+      "width_mm": 1825,
+      "height_mm": 1620,
+      "wheelbase_mm": 2640,
+      "ground_clearance_mm": 180,
+      "trunk_liters": 440,
+      "airbags": 8,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 8\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "adas": [
+        "Frenado automático",
+        "Lane Keep Assist",
+        "Control crucero adaptativo"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000
+    },
+    {
+      "id": 570,
+      "brand": "Toyota",
+      "model": "Corolla Cross Híbrido",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "hibrido",
+      "seats": 5,
+      "price": 24990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "SUV compacto híbrido con eficiencia excepcional",
+      "origin": "Tailandia",
+      "origin_country": "Japón",
+      "versions": [
+        {
+          "version": "XLE Híbrido",
+          "price": 24990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "XLE Híbrido Premium",
+          "price": 27990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ],
+      "hp": 196,
+      "torque_nm": 230,
+      "fuel_consumption_mixed_km_l": 23,
+      "fuel_tank_liters": 50,
+      "length_mm": 4460,
+      "width_mm": 1825,
+      "height_mm": 1620,
+      "wheelbase_mm": 2640,
+      "ground_clearance_mm": 180,
+      "trunk_liters": 440,
+      "airbags": 8,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 8\"",
+        "JBL",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "adas": [
+        "Toyota Safety Sense 2.5",
+        "Frenado automático",
+        "Lane Keep Assist",
+        "Control crucero adaptativo"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000
+    },
+    {
+      "id": 571,
+      "brand": "Toyota",
+      "model": "Fortuner",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "diesel",
+      "seats": 7,
+      "price": 32990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "SUV body-on-frame robusto y versátil",
+      "origin": "Tailandia",
+      "origin_country": "Japón",
+      "versions": [
+        {
+          "version": "SRV 4x2",
+          "price": 30990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "SRV 4x4",
+          "price": 34990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "Legender 4x4",
+          "price": 38990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 204,
+      "torque_nm": 500,
+      "fuel_consumption_mixed_km_l": 11,
+      "fuel_tank_liters": 80,
+      "length_mm": 4795,
+      "width_mm": 1855,
+      "height_mm": 1835,
+      "wheelbase_mm": 2745,
+      "ground_clearance_mm": 279,
+      "trunk_liters": 0,
+      "airbags": 7,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 9\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "adas": [
+        "Toyota Safety Sense",
+        "Frenado automático"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000
+    },
+    {
+      "id": 572,
+      "brand": "Toyota",
+      "model": "Hiace",
+      "year": 2026,
+      "type": "minivan",
+      "fuel": "diesel",
+      "seats": 9,
+      "price": 24990000,
+      "transmission": "manual",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Furgón/minivan con capacidad para 9 pasajeros y gran durabilidad.",
+      "origin": "Japón",
+      "hp": 136,
+      "torque_nm": 300,
+      "length_mm": 5265,
+      "width_mm": 1880,
+      "height_mm": 1990,
+      "wheelbase_mm": 3210,
+      "fuel_tank_liters": 70,
+      "ground_clearance_mm": 185,
+      "trunk_liters": 0,
+      "airbags": 4,
+      "isofix": true,
+      "adas": [
+        "Control crucero",
+        "Cámara de retroceso"
+      ],
+      "latin_ncap_stars": 3,
+      "infotainment": [
+        "Pantalla 6.8\"",
+        "Bluetooth",
+        "USB"
+      ],
+      "fuel_consumption_mixed_km_l": 10.5,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Japón",
+      "versions": [
+        {
+          "version": "2.8TDI MT 9 plazas",
+          "price": 24990000,
+          "transmission": "manual",
+          "traction": "4x2"
+        },
+        {
+          "version": "2.8TDI MT 12 plazas",
+          "price": 25990000,
+          "transmission": "manual",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 573,
+      "brand": "Toyota",
+      "model": "Hilux",
+      "year": 2025,
+      "type": "pickup",
+      "fuel": "diesel",
+      "seats": 5,
+      "price": 26990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Pickup legendaria por su durabilidad y capacidad",
+      "origin": "Tailandia",
+      "origin_country": "Japón",
+      "versions": [
+        {
+          "version": "DX 4x2",
+          "price": 26990000,
+          "transmission": "manual",
+          "traction": "4x2"
+        },
+        {
+          "version": "SRV 4x2",
+          "price": 30990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "SRV 4x4",
+          "price": 34990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "Conquest 4x4",
+          "price": 37990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 204,
+      "torque_nm": 500,
+      "fuel_consumption_mixed_km_l": 12,
+      "fuel_tank_liters": 80,
+      "length_mm": 5325,
+      "width_mm": 1855,
+      "height_mm": 1815,
+      "wheelbase_mm": 3085,
+      "ground_clearance_mm": 279,
+      "trunk_liters": 0,
+      "airbags": 7,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 8\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000
+    },
+    {
+      "id": 574,
+      "brand": "Toyota",
+      "model": "Innova",
+      "year": 2025,
+      "type": "minivan",
+      "fuel": "diesel",
+      "seats": 7,
+      "price": 28990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Minivan versátil con excelente espacio interior",
+      "origin": "Tailandia",
+      "origin_country": "Japón",
+      "versions": [
+        {
+          "version": "DX",
+          "price": 25990000,
+          "transmission": "manual",
+          "traction": "4x2"
+        },
+        {
+          "version": "SRV",
+          "price": 28990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Venturer",
+          "price": 31990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 178,
+      "torque_nm": 360,
+      "fuel_consumption_mixed_km_l": 12.5,
+      "fuel_tank_liters": 55,
+      "length_mm": 4735,
+      "width_mm": 1830,
+      "height_mm": 1795,
+      "wheelbase_mm": 2750,
+      "ground_clearance_mm": 185,
+      "trunk_liters": 0,
+      "airbags": 7,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 9\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000
+    },
+    {
+      "id": 575,
+      "brand": "Toyota",
+      "model": "Land Cruiser 300",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "diesel",
+      "seats": 7,
+      "price": 69990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "SUV de lujo off-road con motor twin-turbo diésel",
+      "origin": "Japón",
+      "origin_country": "Japón",
+      "versions": [
+        {
+          "version": "GX",
+          "price": 69990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "ZX",
+          "price": 79990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 305,
+      "torque_nm": 700,
+      "fuel_consumption_mixed_km_l": 9.5,
+      "fuel_tank_liters": 110,
+      "length_mm": 4985,
+      "width_mm": 1980,
+      "height_mm": 1890,
+      "wheelbase_mm": 2850,
+      "ground_clearance_mm": 230,
+      "trunk_liters": 0,
+      "airbags": 10,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 12.3\"",
+        "JBL",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "adas": [
+        "Toyota Safety Sense 2.5",
+        "Frenado automático",
+        "Lane Keep Assist",
+        "Control crucero adaptativo"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000
+    },
+    {
+      "id": 576,
+      "brand": "Toyota",
+      "model": "Land Cruiser Prado",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "diesel",
+      "seats": 7,
+      "price": 49990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "SUV premium de off-road con lujo y capacidad",
+      "origin": "Japón",
+      "origin_country": "Japón",
+      "versions": [
+        {
+          "version": "TX",
+          "price": 49990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "VX",
+          "price": 56990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 204,
+      "torque_nm": 500,
+      "fuel_consumption_mixed_km_l": 10.5,
+      "fuel_tank_liters": 110,
+      "length_mm": 4925,
+      "width_mm": 1885,
+      "height_mm": 1880,
+      "wheelbase_mm": 2850,
+      "ground_clearance_mm": 279,
+      "trunk_liters": 0,
+      "airbags": 10,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 12.3\"",
+        "JBL",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "adas": [
+        "Toyota Safety Sense 2.5",
+        "Frenado automático",
+        "Monitor 360°",
+        "Control crucero adaptativo"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000
+    },
+    {
+      "id": 577,
+      "brand": "Toyota",
+      "model": "Prius",
+      "year": 2025,
+      "type": "sedan",
+      "fuel": "hibrido",
+      "seats": 5,
+      "price": 29990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Sedán híbrido pionero en eficiencia de combustible",
+      "origin": "Japón",
+      "origin_country": "Japón",
+      "versions": [
+        {
+          "version": "XLE",
+          "price": 29990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Limited",
+          "price": 33990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 196,
+      "torque_nm": 190,
+      "fuel_consumption_mixed_km_l": 28,
+      "fuel_tank_liters": 43,
+      "length_mm": 4600,
+      "width_mm": 1780,
+      "height_mm": 1470,
+      "wheelbase_mm": 2700,
+      "ground_clearance_mm": 130,
+      "trunk_liters": 450,
+      "airbags": 8,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 8\"",
+        "JBL",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "adas": [
+        "Toyota Safety Sense 2.5",
+        "Frenado automático",
+        "Lane Keep Assist",
+        "Control crucero adaptativo"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000
+    },
+    {
+      "id": 578,
+      "brand": "Toyota",
+      "model": "Raize",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 15990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV urbano compacto con diseño moderno y eficiencia sobresaliente.",
+      "origin": "Japón",
+      "hp": 98,
+      "torque_nm": 140,
+      "length_mm": 3995,
+      "width_mm": 1695,
+      "height_mm": 1620,
+      "wheelbase_mm": 2525,
+      "fuel_tank_liters": 36,
+      "ground_clearance_mm": 185,
+      "trunk_liters": 369,
+      "airbags": 6,
+      "isofix": true,
+      "adas": [
+        "Control crucero",
+        "Asistente de carril",
+        "Frenado automático"
+      ],
+      "latin_ncap_stars": 4,
+      "infotainment": [
+        "Pantalla 9\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "fuel_consumption_mixed_km_l": 16.5,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Japón",
+      "versions": [
+        {
+          "version": "1.0T AT",
+          "price": 15990000,
+          "transmission": "automática",
+          "traction": "4x2"
+        },
+        {
+          "version": "1.0T AT Limited",
+          "price": 17990000,
+          "transmission": "automática",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 579,
+      "brand": "Toyota",
+      "model": "RAV4",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 26990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV mediano robusto y versátil",
+      "origin": "Japón",
+      "origin_country": "Japón",
+      "versions": [
+        {
+          "version": "XE",
+          "price": 26990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "XEL",
+          "price": 29990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Adventure",
+          "price": 33990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "Híbrido",
+          "price": 31990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ],
+      "hp": 203,
+      "torque_nm": 243,
+      "fuel_consumption_mixed_km_l": 15,
+      "fuel_tank_liters": 55,
+      "length_mm": 4600,
+      "width_mm": 1855,
+      "height_mm": 1685,
+      "wheelbase_mm": 2690,
+      "ground_clearance_mm": 190,
+      "trunk_liters": 580,
+      "airbags": 8,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 8\"",
+        "JBL",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "adas": [
+        "Toyota Safety Sense 2.5",
+        "Frenado automático",
+        "Lane Tracing Assist",
+        "Control crucero adaptativo"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000
+    },
+    {
+      "id": 580,
+      "brand": "Toyota",
+      "model": "Rush",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 7,
+      "price": 17990000,
+      "transmission": "manual",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV de 7 plazas con gran habitabilidad y diseño robusto.",
+      "origin": "Indonesia",
+      "hp": 104,
+      "torque_nm": 136,
+      "length_mm": 4435,
+      "width_mm": 1695,
+      "height_mm": 1705,
+      "wheelbase_mm": 2685,
+      "fuel_tank_liters": 45,
+      "ground_clearance_mm": 205,
+      "trunk_liters": 220,
+      "airbags": 4,
+      "isofix": true,
+      "adas": [
+        "Cámara de retroceso"
+      ],
+      "latin_ncap_stars": 4,
+      "infotainment": [
+        "Pantalla 7\"",
+        "Bluetooth",
+        "USB"
+      ],
+      "fuel_consumption_mixed_km_l": 13,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Indonesia",
+      "versions": [
+        {
+          "version": "1.5L MT",
+          "price": 17990000,
+          "transmission": "manual",
+          "traction": "4x2"
+        },
+        {
+          "version": "1.5L AT",
+          "price": 19990000,
+          "transmission": "automática",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 581,
+      "brand": "Toyota",
+      "model": "Supra",
+      "year": 2026,
+      "type": "coupe",
+      "fuel": "gasolina",
+      "seats": 2,
+      "price": 64990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Deportivo emblemático con motor BMW biturbo de 3.0L y rendimiento de clase mundial.",
+      "origin": "Austria",
+      "hp": 382,
+      "torque_nm": 500,
+      "length_mm": 4379,
+      "width_mm": 1854,
+      "height_mm": 1292,
+      "wheelbase_mm": 2470,
+      "fuel_tank_liters": 52,
+      "ground_clearance_mm": 120,
+      "trunk_liters": 290,
+      "airbags": 6,
+      "isofix": false,
+      "adas": [
+        "Control crucero adaptativo",
+        "Frenado automático",
+        "Asistente de carril"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Pantalla 8.8\"",
+        "Apple CarPlay",
+        "Sonido JBL"
+      ],
+      "fuel_consumption_mixed_km_l": 11,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Austria",
+      "versions": [
+        {
+          "version": "3.0 AT",
+          "price": 64990000,
+          "transmission": "automática",
+          "traction": "4x2"
+        },
+        {
+          "version": "3.0 MT",
+          "price": 64990000,
+          "transmission": "manual",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 582,
+      "brand": "Toyota",
+      "model": "SW4",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "diesel",
+      "seats": 7,
+      "price": 34990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "SUV de off-road con plataforma escalera",
+      "origin": "Tailandia",
+      "origin_country": "Japón",
+      "versions": [
+        {
+          "version": "SRV 4x4",
+          "price": 34990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "Legend 4x4",
+          "price": 39990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 204,
+      "torque_nm": 500,
+      "fuel_consumption_mixed_km_l": 11.5,
+      "fuel_tank_liters": 80,
+      "length_mm": 4935,
+      "width_mm": 1885,
+      "height_mm": 1880,
+      "wheelbase_mm": 2850,
+      "ground_clearance_mm": 279,
+      "trunk_liters": 0,
+      "airbags": 7,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 9\"",
+        "JBL",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "adas": [
+        "Toyota Safety Sense",
+        "Frenado automático",
+        "Control crucero adaptativo"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000
+    },
+    {
+      "id": 583,
+      "brand": "Toyota",
+      "model": "Tundra",
+      "year": 2026,
+      "type": "pickup",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 54990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "Pick-up full-size con capacidad de trabajo excepcional y motor V6 biturbo.",
+      "origin": "USA",
+      "hp": 389,
+      "torque_nm": 650,
+      "length_mm": 5815,
+      "width_mm": 2030,
+      "height_mm": 1935,
+      "wheelbase_mm": 3700,
+      "fuel_tank_liters": 100,
+      "ground_clearance_mm": 272,
+      "trunk_liters": 0,
+      "airbags": 8,
+      "isofix": true,
+      "adas": [
+        "Control crucero adaptativo",
+        "Asistente de carril",
+        "Frenado automático",
+        "Cámara 360°"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Pantalla 14\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Sonido JBL"
+      ],
+      "fuel_consumption_mixed_km_l": 7.5,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "USA",
+      "versions": [
+        {
+          "version": "SR5 4x4",
+          "price": 54990000,
+          "transmission": "automática",
+          "traction": "4x4"
+        },
+        {
+          "version": "Limited 4x4",
+          "price": 65990000,
+          "transmission": "automática",
+          "traction": "4x4"
+        }
+      ]
+    },
+    {
+      "id": 584,
+      "brand": "Toyota",
+      "model": "Yaris",
+      "year": 2025,
+      "type": "hatchback",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 13490000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Subcompacto eficiente y ágil para la ciudad",
+      "origin": "Japón",
+      "origin_country": "Japón",
+      "versions": [
+        {
+          "version": "CE",
+          "price": 13490000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "XLE",
+          "price": 15490000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 110,
+      "torque_nm": 140,
+      "fuel_consumption_mixed_km_l": 18.5,
+      "fuel_tank_liters": 42,
+      "length_mm": 3940,
+      "width_mm": 1695,
+      "height_mm": 1505,
+      "wheelbase_mm": 2560,
+      "ground_clearance_mm": 135,
+      "trunk_liters": 286,
+      "airbags": 7,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 7\"",
+        "Bluetooth",
+        "USB"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000
+    },
+    {
+      "id": 585,
+      "brand": "Toyota",
+      "model": "Yaris Cross",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 17990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV subcompacto ágil para la ciudad",
+      "origin": "Tailandia",
+      "origin_country": "Japón",
+      "versions": [
+        {
+          "version": "XE",
+          "price": 17990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "XEL",
+          "price": 20990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 114,
+      "torque_nm": 141,
+      "fuel_consumption_mixed_km_l": 18,
+      "fuel_tank_liters": 42,
+      "length_mm": 4180,
+      "width_mm": 1765,
+      "height_mm": 1590,
+      "wheelbase_mm": 2560,
+      "ground_clearance_mm": 170,
+      "trunk_liters": 390,
+      "airbags": 7,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 8\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "adas": [
+        "Toyota Safety Sense",
+        "Frenado automático"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000
+    },
+    {
+      "id": 586,
+      "brand": "Toyota",
+      "model": "Yaris Sedán",
+      "year": 2025,
+      "type": "sedan",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 14290000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Sedán subcompacto con espacio interior generoso",
+      "origin": "Japón",
+      "origin_country": "Japón",
+      "versions": [
+        {
+          "version": "CE",
+          "price": 14290000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "XLE",
+          "price": 16290000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 110,
+      "torque_nm": 140,
+      "fuel_consumption_mixed_km_l": 18,
+      "fuel_tank_liters": 42,
+      "length_mm": 4425,
+      "width_mm": 1695,
+      "height_mm": 1505,
+      "wheelbase_mm": 2560,
+      "ground_clearance_mm": 135,
+      "trunk_liters": 470,
+      "airbags": 7,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 7\"",
+        "Bluetooth",
+        "USB"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000
+    }
+  ]
+}

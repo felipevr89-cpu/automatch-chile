@@ -1,0 +1,228 @@
+{
+  "brand": "Jetour",
+  "brandUrl": "https://www.jetour.cl",
+  "models": [
+    {
+      "id": 289,
+      "brand": "Jetour",
+      "model": "Dashing",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 17990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV coupé deportivo juvenil con diseño llamativo.",
+      "origin": "China",
+      "hp": 157,
+      "torque_nm": 230,
+      "length_mm": 4590,
+      "width_mm": 1900,
+      "height_mm": 1685,
+      "wheelbase_mm": 2720,
+      "fuel_tank_liters": 52,
+      "ground_clearance_mm": 185,
+      "trunk_liters": 480,
+      "airbags": 6,
+      "isofix": true,
+      "adas": [
+        "Frenado automático AEB",
+        "Control crucero",
+        "Cámara 360°"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Pantalla 10.25\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "fuel_consumption_mixed_km_l": 12.8,
+      "warranty_years": 5,
+      "warranty_km": 150000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "1.5T",
+          "price": 17990000,
+          "transmission": "automática",
+          "traction": "4x2"
+        },
+        {
+          "version": "1.5T Sport",
+          "price": 19990000,
+          "transmission": "automática",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 290,
+      "brand": "Jetour",
+      "model": "X70",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 15990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV mediano con amplio espacio interior y diseño moderno, representado por Tattersall Automotriz.",
+      "origin": "China",
+      "hp": 156,
+      "torque_nm": 230,
+      "length_mm": 4720,
+      "width_mm": 1900,
+      "height_mm": 1710,
+      "wheelbase_mm": 2745,
+      "fuel_tank_liters": 55,
+      "ground_clearance_mm": 190,
+      "trunk_liters": 560,
+      "airbags": 6,
+      "isofix": true,
+      "adas": [
+        "Frenado automático AEB",
+        "Control crucero",
+        "Cámara de retroceso"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Pantalla 10.1\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "fuel_consumption_mixed_km_l": 12.5,
+      "warranty_years": 5,
+      "warranty_km": 150000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "1.5T",
+          "price": 15990000,
+          "transmission": "automática",
+          "traction": "4x2"
+        },
+        {
+          "version": "1.5T Sport",
+          "price": 17990000,
+          "transmission": "automática",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 291,
+      "brand": "Jetour",
+      "model": "X70 Plus",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 7,
+      "price": 19990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV de 7 plazas con tecnología avanzada y diseño renovado.",
+      "origin": "China",
+      "hp": 170,
+      "torque_nm": 250,
+      "length_mm": 4749,
+      "width_mm": 1900,
+      "height_mm": 1720,
+      "wheelbase_mm": 2745,
+      "fuel_tank_liters": 55,
+      "ground_clearance_mm": 195,
+      "trunk_liters": 650,
+      "airbags": 6,
+      "isofix": true,
+      "adas": [
+        "Frenado automático AEB",
+        "Control crucero adaptativo",
+        "Cámara 360°"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Pantalla 12.3\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "fuel_consumption_mixed_km_l": 12,
+      "warranty_years": 5,
+      "warranty_km": 150000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "1.5T 7 plazas",
+          "price": 19990000,
+          "transmission": "automática",
+          "traction": "4x2"
+        },
+        {
+          "version": "1.5T Sport 7 plazas",
+          "price": 21990000,
+          "transmission": "automática",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 292,
+      "brand": "Jetour",
+      "model": "X90",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 7,
+      "price": 23990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV grande de 7 plazas, el modelo más espacioso de Jetour.",
+      "origin": "China",
+      "hp": 197,
+      "torque_nm": 290,
+      "length_mm": 4840,
+      "width_mm": 1925,
+      "height_mm": 1745,
+      "wheelbase_mm": 2850,
+      "fuel_tank_liters": 57,
+      "ground_clearance_mm": 200,
+      "trunk_liters": 700,
+      "airbags": 7,
+      "isofix": true,
+      "adas": [
+        "Frenado automático AEB",
+        "Control crucero adaptativo",
+        "Cámara 360°",
+        "Asistente de carril"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Pantalla 12.3\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Sonido premium"
+      ],
+      "fuel_consumption_mixed_km_l": 11.5,
+      "warranty_years": 5,
+      "warranty_km": 150000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "1.6T 7 plazas",
+          "price": 23990000,
+          "transmission": "automática",
+          "traction": "4x2"
+        },
+        {
+          "version": "1.6T Luxury 7 plazas",
+          "price": 26990000,
+          "transmission": "automática",
+          "traction": "4x2"
+        }
+      ]
+    }
+  ]
+}

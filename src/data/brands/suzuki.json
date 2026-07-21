@@ -1,0 +1,580 @@
+{
+  "brand": "Suzuki",
+  "brandUrl": "https://www.suzuki.cl",
+  "models": [
+    {
+      "id": 544,
+      "brand": "Suzuki",
+      "model": "Across Hybrid",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "hibrido",
+      "seats": 5,
+      "price": 34990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "SUV híbrido enchufable con tracción total y gran eficiencia.",
+      "origin": "Japón",
+      "hp": 306,
+      "torque_nm": 350,
+      "length_mm": 4635,
+      "width_mm": 1855,
+      "height_mm": 1690,
+      "wheelbase_mm": 2690,
+      "fuel_tank_liters": 55,
+      "ground_clearance_mm": 190,
+      "trunk_liters": 490,
+      "airbags": 7,
+      "isofix": true,
+      "adas": [
+        "Control crucero adaptativo",
+        "Asistente de carril",
+        "Frenado automático",
+        "Cámara 360°"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Pantalla 9\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "fuel_consumption_mixed_km_l": 18,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Japón",
+      "versions": [
+        {
+          "version": "GLX",
+          "price": 34990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "GLX Plus",
+          "price": 39990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ]
+    },
+    {
+      "id": 545,
+      "brand": "Suzuki",
+      "model": "Alto",
+      "year": 2026,
+      "type": "hatchback",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 6990000,
+      "transmission": "manual",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "City car ultraeconómico ideal para ciudad.",
+      "origin": "India",
+      "hp": 66,
+      "torque_nm": 90,
+      "length_mm": 3600,
+      "width_mm": 1695,
+      "height_mm": 1500,
+      "wheelbase_mm": 2450,
+      "fuel_tank_liters": 35,
+      "ground_clearance_mm": 135,
+      "trunk_liters": 220,
+      "airbags": 2,
+      "isofix": false,
+      "adas": [],
+      "latin_ncap_stars": 3,
+      "infotainment": [
+        "Bluetooth",
+        "USB"
+      ],
+      "fuel_consumption_mixed_km_l": 22,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "India",
+      "versions": [
+        {
+          "version": "GA",
+          "price": 6990000,
+          "transmission": "manual",
+          "traction": "4x2"
+        },
+        {
+          "version": "GL",
+          "price": 7990000,
+          "transmission": "manual",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 546,
+      "brand": "Suzuki",
+      "model": "Baleno",
+      "year": 2025,
+      "type": "hatchback",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 12990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Hatchback compacto con excelente rendimiento de combustible",
+      "origin": "India",
+      "origin_country": "Japón",
+      "versions": [
+        {
+          "version": "GA",
+          "price": 12990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "GL",
+          "price": 14990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 90,
+      "torque_nm": 113,
+      "fuel_consumption_mixed_km_l": 21.5,
+      "fuel_tank_liters": 37,
+      "length_mm": 3990,
+      "width_mm": 1745,
+      "height_mm": 1500,
+      "wheelbase_mm": 2520,
+      "ground_clearance_mm": 160,
+      "trunk_liters": 355,
+      "airbags": 2,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 9\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000
+    },
+    {
+      "id": 547,
+      "brand": "Suzuki",
+      "model": "Carry",
+      "year": 2026,
+      "type": "pickup",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 9990000,
+      "transmission": "manual",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Pick-up liviana y económica para trabajo y ciudad.",
+      "origin": "Japón",
+      "hp": 80,
+      "torque_nm": 100,
+      "length_mm": 3950,
+      "width_mm": 1670,
+      "height_mm": 1730,
+      "wheelbase_mm": 2400,
+      "fuel_tank_liters": 38,
+      "ground_clearance_mm": 175,
+      "trunk_liters": 0,
+      "airbags": 2,
+      "isofix": false,
+      "adas": [],
+      "latin_ncap_stars": 3,
+      "infotainment": [
+        "Bluetooth",
+        "USB"
+      ],
+      "fuel_consumption_mixed_km_l": 16,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Japón",
+      "versions": [
+        {
+          "version": "1.0L MT",
+          "price": 9990000,
+          "transmission": "manual",
+          "traction": "4x2"
+        },
+        {
+          "version": "1.0L MT Dual",
+          "price": 10990000,
+          "transmission": "manual",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 548,
+      "brand": "Suzuki",
+      "model": "Dzire Hybrid",
+      "year": 2026,
+      "type": "sedan",
+      "fuel": "hibrido",
+      "seats": 5,
+      "price": 12990000,
+      "transmission": "manual",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Sedán compacto híbrido con bajo consumo y etiqueta ecológica.",
+      "origin": "India",
+      "hp": 89,
+      "torque_nm": 113,
+      "length_mm": 3990,
+      "width_mm": 1745,
+      "height_mm": 1500,
+      "wheelbase_mm": 2520,
+      "fuel_tank_liters": 37,
+      "ground_clearance_mm": 160,
+      "trunk_liters": 355,
+      "airbags": 4,
+      "isofix": true,
+      "adas": [
+        "Frenado automático"
+      ],
+      "latin_ncap_stars": 4,
+      "infotainment": [
+        "Pantalla 9\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "fuel_consumption_mixed_km_l": 22,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Japón",
+      "versions": [
+        {
+          "version": "GL",
+          "price": 12990000,
+          "transmission": "manual",
+          "traction": "4x2"
+        },
+        {
+          "version": "GLX",
+          "price": 14990000,
+          "transmission": "manual",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 549,
+      "brand": "Suzuki",
+      "model": "Ertiga",
+      "year": 2025,
+      "type": "minivan",
+      "fuel": "gasolina",
+      "seats": 7,
+      "price": 15990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Minivan compacto económica y espaciosa",
+      "origin": "India",
+      "origin_country": "Japón",
+      "versions": [
+        {
+          "version": "GA",
+          "price": 14990000,
+          "transmission": "manual",
+          "traction": "4x2"
+        },
+        {
+          "version": "GL",
+          "price": 16990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 105,
+      "torque_nm": 138,
+      "fuel_consumption_mixed_km_l": 18,
+      "fuel_tank_liters": 45,
+      "length_mm": 4395,
+      "width_mm": 1735,
+      "height_mm": 1690,
+      "wheelbase_mm": 2740,
+      "ground_clearance_mm": 180,
+      "trunk_liters": 0,
+      "airbags": 2,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 9\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000
+    },
+    {
+      "id": 550,
+      "brand": "Suzuki",
+      "model": "Fronx",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 15990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Crossover subcompacto con motor turbo y diseño moderno",
+      "origin": "India",
+      "origin_country": "Japón",
+      "versions": [
+        {
+          "version": "GL",
+          "price": 15990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "GLX",
+          "price": 18990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 109,
+      "torque_nm": 150,
+      "fuel_consumption_mixed_km_l": 18,
+      "fuel_tank_liters": 37,
+      "length_mm": 3990,
+      "width_mm": 1765,
+      "height_mm": 1570,
+      "wheelbase_mm": 2520,
+      "ground_clearance_mm": 190,
+      "trunk_liters": 355,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 9\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000
+    },
+    {
+      "id": 551,
+      "brand": "Suzuki",
+      "model": "Jimny",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 4,
+      "price": 19990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "Off-roader compacto legendario con capacidad todoterreno",
+      "origin": "Japón",
+      "origin_country": "Japón",
+      "versions": [
+        {
+          "version": "GL",
+          "price": 19990000,
+          "transmission": "manual",
+          "traction": "4x4"
+        },
+        {
+          "version": "GLX",
+          "price": 22990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 102,
+      "torque_nm": 130,
+      "fuel_consumption_mixed_km_l": 16,
+      "fuel_tank_liters": 40,
+      "length_mm": 3645,
+      "width_mm": 1645,
+      "height_mm": 1725,
+      "wheelbase_mm": 2250,
+      "ground_clearance_mm": 210,
+      "trunk_liters": 85,
+      "airbags": 2,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 9\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000
+    },
+    {
+      "id": 552,
+      "brand": "Suzuki",
+      "model": "S-Cross",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 19990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Crossover con motor turbo eficiente",
+      "origin": "Hungría",
+      "origin_country": "Japón",
+      "versions": [
+        {
+          "version": "GL",
+          "price": 19990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "GLX",
+          "price": 22990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "AllGrip",
+          "price": 25990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 129,
+      "torque_nm": 235,
+      "fuel_consumption_mixed_km_l": 16.5,
+      "fuel_tank_liters": 48,
+      "length_mm": 4300,
+      "width_mm": 1785,
+      "height_mm": 1585,
+      "wheelbase_mm": 2600,
+      "ground_clearance_mm": 175,
+      "trunk_liters": 430,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 9\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "adas": [
+        "Frenado automático",
+        "Lane Departure Warning"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000
+    },
+    {
+      "id": 553,
+      "brand": "Suzuki",
+      "model": "Swift",
+      "year": 2025,
+      "type": "hatchback",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 13990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Subcompacto ligero y divertido de conducir",
+      "origin": "India",
+      "origin_country": "Japón",
+      "versions": [
+        {
+          "version": "GA",
+          "price": 13990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "GL",
+          "price": 15990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "GLX",
+          "price": 17990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 89,
+      "torque_nm": 113,
+      "fuel_consumption_mixed_km_l": 21,
+      "fuel_tank_liters": 37,
+      "length_mm": 3840,
+      "width_mm": 1695,
+      "height_mm": 1500,
+      "wheelbase_mm": 2450,
+      "ground_clearance_mm": 135,
+      "trunk_liters": 265,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 9\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000
+    },
+    {
+      "id": 554,
+      "brand": "Suzuki",
+      "model": "Vitara",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 17990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV compacto con diseño moderno y eficiente",
+      "origin": "Hungría",
+      "origin_country": "Japón",
+      "versions": [
+        {
+          "version": "GL",
+          "price": 17990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "GLX",
+          "price": 20990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "AllGrip",
+          "price": 23990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 106,
+      "torque_nm": 138,
+      "fuel_consumption_mixed_km_l": 17,
+      "fuel_tank_liters": 47,
+      "length_mm": 4175,
+      "width_mm": 1775,
+      "height_mm": 1610,
+      "wheelbase_mm": 2500,
+      "ground_clearance_mm": 185,
+      "trunk_liters": 375,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 9\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000
+    }
+  ]
+}

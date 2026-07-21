@@ -1,0 +1,203 @@
+{
+  "brand": "Alfa Romeo",
+  "brandUrl": "https://www.alfaromeo.cl",
+  "models": [
+    {
+      "id": 4,
+      "brand": "Alfa Romeo",
+      "model": "Giulia",
+      "year": 2025,
+      "type": "sedan",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 37990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Sedán deportivo italiano con alma de carreras.",
+      "origin": "Italia",
+      "versions": [
+        {
+          "version": "Super",
+          "price": 37990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Veloce",
+          "price": 44990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "Quadrifoglio",
+          "price": 64990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 280,
+      "torque_nm": 400,
+      "top_speed_kmh": 270,
+      "fuel_consumption_city_km_l": 11,
+      "fuel_consumption_highway_km_l": 16,
+      "fuel_consumption_mixed_km_l": 13,
+      "fuel_tank_liters": 58,
+      "length_mm": 4643,
+      "width_mm": 1860,
+      "height_mm": 1436,
+      "wheelbase_mm": 2820,
+      "ground_clearance_mm": 135,
+      "trunk_liters": 480,
+      "airbags": 8,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "cámara 360°"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "Alfa Connect",
+        "pantalla 8.8\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "sonido Harman Kardon"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "Italia"
+    },
+    {
+      "id": 5,
+      "brand": "Alfa Romeo",
+      "model": "Stelvio",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 42990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "SUV deportivo con prestaciones de Alfa Romeo.",
+      "origin": "Italia",
+      "versions": [
+        {
+          "version": "Super",
+          "price": 42990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "Veloce",
+          "price": 50990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "Quadrifoglio",
+          "price": 72990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 280,
+      "torque_nm": 400,
+      "top_speed_kmh": 245,
+      "fuel_consumption_city_km_l": 10,
+      "fuel_consumption_highway_km_l": 15,
+      "fuel_consumption_mixed_km_l": 12,
+      "fuel_tank_liters": 64,
+      "length_mm": 4687,
+      "width_mm": 1903,
+      "height_mm": 1648,
+      "wheelbase_mm": 2818,
+      "ground_clearance_mm": 200,
+      "trunk_liters": 525,
+      "airbags": 8,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "cámara 360°",
+        "asistente de estacionamiento"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "Alfa Connect",
+        "pantalla 8.8\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "sonido Harman Kardon"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "Italia"
+    },
+    {
+      "id": 6,
+      "brand": "Alfa Romeo",
+      "model": "Tonale",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "hibrido_enchufable",
+      "seats": 5,
+      "price": 32990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "SUV compacto híbrido enchufable con diseño italiano.",
+      "origin": "Italia",
+      "versions": [
+        {
+          "version": "Sprint",
+          "price": 32990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Veloce",
+          "price": 38990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 275,
+      "torque_nm": 350,
+      "top_speed_kmh": 200,
+      "fuel_consumption_city_km_l": 50,
+      "fuel_consumption_highway_km_l": 25,
+      "fuel_consumption_mixed_km_l": 35,
+      "fuel_tank_liters": 45,
+      "length_mm": 4528,
+      "width_mm": 1835,
+      "height_mm": 1601,
+      "wheelbase_mm": 2632,
+      "ground_clearance_mm": 180,
+      "trunk_liters": 500,
+      "airbags": 8,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "cámara 360°",
+        "asistente de estacionamiento"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "Alfa Connect",
+        "pantalla 10.25\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "sonido Harman Kardon"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "Italia"
+    }
+  ]
+}

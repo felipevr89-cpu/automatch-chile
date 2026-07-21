@@ -1,0 +1,533 @@
+{
+  "brand": "Subaru",
+  "brandUrl": "https://www.subaru.cl",
+  "models": [
+    {
+      "id": 535,
+      "brand": "Subaru",
+      "model": "BRZ",
+      "year": 2026,
+      "type": "coupe",
+      "fuel": "gasolina",
+      "seats": 4,
+      "price": 29990000,
+      "transmission": "manual",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Coupé deportivo ligero con motor bóxer y tracción trasera para máxima diversión al volante.",
+      "origin": "Japón",
+      "hp": 230,
+      "torque_nm": 250,
+      "length_mm": 4265,
+      "width_mm": 1775,
+      "height_mm": 1310,
+      "wheelbase_mm": 2575,
+      "fuel_tank_liters": 50,
+      "ground_clearance_mm": 130,
+      "trunk_liters": 235,
+      "airbags": 6,
+      "isofix": true,
+      "adas": [
+        "Control crucero adaptativo",
+        "Frenado automático"
+      ],
+      "latin_ncap_stars": 4,
+      "infotainment": [
+        "Pantalla 8\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Sonido premium"
+      ],
+      "fuel_consumption_mixed_km_l": 11.5,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Japón",
+      "versions": [
+        {
+          "version": "2.4L MT",
+          "price": 29990000,
+          "transmission": "manual",
+          "traction": "4x2"
+        },
+        {
+          "version": "2.4L AT",
+          "price": 31990000,
+          "transmission": "automática",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 536,
+      "brand": "Subaru",
+      "model": "Crosstrek",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 22990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "Crossover compacto con AWD simétrico y capacidad todoterreno",
+      "origin": "Japón",
+      "origin_country": "Japón",
+      "versions": [
+        {
+          "version": "Base",
+          "price": 22990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "Premium",
+          "price": 25990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "Limited",
+          "price": 28990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ],
+      "hp": 152,
+      "torque_nm": 198,
+      "fuel_consumption_mixed_km_l": 15,
+      "fuel_tank_liters": 63,
+      "length_mm": 4670,
+      "width_mm": 1800,
+      "height_mm": 1630,
+      "wheelbase_mm": 2670,
+      "ground_clearance_mm": 220,
+      "trunk_liters": 345,
+      "airbags": 8,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 11.6\"",
+        "Harman Kardon",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "adas": [
+        "EyeSight",
+        "Frenado automático",
+        "Lane Keep Assist",
+        "Control crucero adaptativo"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000
+    },
+    {
+      "id": 537,
+      "brand": "Subaru",
+      "model": "Evoltis",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 27990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "SUV híbrido enchufable con tracción simétrica AWD y eficiencia excepcional.",
+      "origin": "Japón",
+      "hp": 150,
+      "torque_nm": 188,
+      "length_mm": 4495,
+      "width_mm": 1795,
+      "height_mm": 1575,
+      "wheelbase_mm": 2670,
+      "fuel_tank_liters": 48,
+      "ground_clearance_mm": 185,
+      "trunk_liters": 410,
+      "airbags": 7,
+      "isofix": true,
+      "adas": [
+        "Control crucero adaptativo",
+        "Asistente de carril",
+        "Frenado automático",
+        "Cámara 360°"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Pantalla 11.6\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Sonido Harman Kardon"
+      ],
+      "fuel_consumption_mixed_km_l": 18,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Japón",
+      "versions": [
+        {
+          "version": "2.0L PHEV CVT AWD",
+          "price": 27990000,
+          "transmission": "automática",
+          "traction": "awd"
+        },
+        {
+          "version": "2.0L PHEV CVT AWD Limited",
+          "price": 31990000,
+          "transmission": "automática",
+          "traction": "awd"
+        }
+      ]
+    },
+    {
+      "id": 538,
+      "brand": "Subaru",
+      "model": "Forester",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 24990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "SUV mediano con AWD simétrico y capacidad off-road",
+      "origin": "Japón",
+      "origin_country": "Japón",
+      "versions": [
+        {
+          "version": "Base",
+          "price": 24990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "Premium",
+          "price": 27990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "Touring",
+          "price": 30990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ],
+      "hp": 156,
+      "torque_nm": 198,
+      "fuel_consumption_mixed_km_l": 14.5,
+      "fuel_tank_liters": 63,
+      "length_mm": 4625,
+      "width_mm": 1815,
+      "height_mm": 1715,
+      "wheelbase_mm": 2670,
+      "ground_clearance_mm": 220,
+      "trunk_liters": 520,
+      "airbags": 7,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 11.6\"",
+        "Harman Kardon",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "adas": [
+        "EyeSight",
+        "Frenado automático",
+        "Lane Keep Assist",
+        "Control crucero adaptativo"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000
+    },
+    {
+      "id": 539,
+      "brand": "Subaru",
+      "model": "Impreza",
+      "year": 2025,
+      "type": "hatchback",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 16990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "Compacto con tracción integral symmetrical AWD",
+      "origin": "Japón",
+      "origin_country": "Japón",
+      "versions": [
+        {
+          "version": "Base",
+          "price": 16990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "Premium",
+          "price": 19990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ],
+      "hp": 152,
+      "torque_nm": 198,
+      "fuel_consumption_mixed_km_l": 15.5,
+      "fuel_tank_liters": 50,
+      "length_mm": 4670,
+      "width_mm": 1775,
+      "height_mm": 1515,
+      "wheelbase_mm": 2670,
+      "ground_clearance_mm": 130,
+      "trunk_liters": 345,
+      "airbags": 7,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 11.6\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "adas": [
+        "EyeSight",
+        "Frenado automático",
+        "Lane Keep Assist",
+        "Control crucero adaptativo"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000
+    },
+    {
+      "id": 540,
+      "brand": "Subaru",
+      "model": "Legacy",
+      "year": 2026,
+      "type": "sedan",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 28990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "Sedán mediano con tracción simétrica AWD y seguridad Subaru.",
+      "origin": "Japón",
+      "hp": 182,
+      "torque_nm": 240,
+      "length_mm": 4860,
+      "width_mm": 1840,
+      "height_mm": 1500,
+      "wheelbase_mm": 2750,
+      "fuel_tank_liters": 60,
+      "ground_clearance_mm": 145,
+      "trunk_liters": 430,
+      "airbags": 8,
+      "isofix": true,
+      "adas": [
+        "Control crucero adaptativo",
+        "Asistente de carril",
+        "Frenado automático",
+        "Cámara 360°"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Pantalla 11.6\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Sonido Harman Kardon"
+      ],
+      "fuel_consumption_mixed_km_l": 12.5,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Japón",
+      "versions": [
+        {
+          "version": "2.5i AWD",
+          "price": 28990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "2.5i Sport AWD",
+          "price": 32990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ]
+    },
+    {
+      "id": 541,
+      "brand": "Subaru",
+      "model": "Outback",
+      "year": 2025,
+      "type": "wagon",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 32990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "Wagon familiar con capacidad off-road y lujo",
+      "origin": "Japón",
+      "origin_country": "Japón",
+      "versions": [
+        {
+          "version": "Base",
+          "price": 32990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "Premium",
+          "price": 36990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "Touring",
+          "price": 40990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ],
+      "hp": 182,
+      "torque_nm": 239,
+      "fuel_consumption_mixed_km_l": 13.5,
+      "fuel_tank_liters": 63,
+      "length_mm": 4870,
+      "width_mm": 1875,
+      "height_mm": 1675,
+      "wheelbase_mm": 2745,
+      "ground_clearance_mm": 213,
+      "trunk_liters": 561,
+      "airbags": 7,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 11.6\"",
+        "Harman Kardon",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "adas": [
+        "EyeSight",
+        "Frenado automático",
+        "Lane Keep Assist",
+        "Control crucero adaptativo"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000
+    },
+    {
+      "id": 542,
+      "brand": "Subaru",
+      "model": "Solterra",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "electrico",
+      "seats": 5,
+      "price": 41990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "SUV 100% eléctrico con tracción AWD simétrica y capacidad off-road.",
+      "origin": "Japón",
+      "hp": 215,
+      "torque_nm": 336,
+      "length_mm": 4690,
+      "width_mm": 1860,
+      "height_mm": 1650,
+      "wheelbase_mm": 2850,
+      "ground_clearance_mm": 210,
+      "trunk_liters": 440,
+      "airbags": 8,
+      "isofix": true,
+      "adas": [
+        "Control crucero adaptativo",
+        "Asistente de carril",
+        "Frenado automático",
+        "Cámara 360°",
+        "Estacionamiento autónomo"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Pantalla 12.3\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Sonido premium"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Japón",
+      "versions": [
+        {
+          "version": "AWD",
+          "price": 41990000,
+          "transmission": "automática",
+          "traction": "awd"
+        },
+        {
+          "version": "AWD Limited",
+          "price": 47990000,
+          "transmission": "automática",
+          "traction": "awd"
+        }
+      ]
+    },
+    {
+      "id": 543,
+      "brand": "Subaru",
+      "model": "XV",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 19990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "Crossover compacto con AWD de serie y capacidad off-road",
+      "origin": "Japón",
+      "origin_country": "Japón",
+      "versions": [
+        {
+          "version": "Base",
+          "price": 19990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "Premium",
+          "price": 22990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "Sport",
+          "price": 25990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ],
+      "hp": 156,
+      "torque_nm": 198,
+      "fuel_consumption_mixed_km_l": 15,
+      "fuel_tank_liters": 63,
+      "length_mm": 4615,
+      "width_mm": 1800,
+      "height_mm": 1615,
+      "wheelbase_mm": 2670,
+      "ground_clearance_mm": 220,
+      "trunk_liters": 345,
+      "airbags": 7,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 11.6\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "adas": [
+        "EyeSight",
+        "Frenado automático",
+        "Lane Keep Assist",
+        "Control crucero adaptativo"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000
+    }
+  ]
+}

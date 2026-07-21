@@ -1,0 +1,1515 @@
+{
+  "brand": "BMW",
+  "brandUrl": "https://www.bmw.cl",
+  "models": [
+    {
+      "id": 37,
+      "brand": "BMW",
+      "model": "i4",
+      "year": 2026,
+      "type": "sedan",
+      "fuel": "electrico",
+      "seats": 5,
+      "price": 47990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "Gran coupé 100% eléctrico con autonomía de hasta 590 km.",
+      "origin": "Alemania",
+      "hp": 340,
+      "torque_nm": 430,
+      "length_mm": 4785,
+      "width_mm": 1852,
+      "height_mm": 1448,
+      "wheelbase_mm": 2856,
+      "ground_clearance_mm": 138,
+      "trunk_liters": 470,
+      "airbags": 8,
+      "isofix": true,
+      "adas": [
+        "Control crucero adaptativo",
+        "Asistente de carril",
+        "Frenado automático",
+        "Cámara 360°"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "iDrive",
+        "Pantalla 14.9\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Sonido Harman Kardon"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "Alemania",
+      "versions": [
+        {
+          "version": "eDrive35",
+          "price": 44990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "eDrive40",
+          "price": 47990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "M50 xDrive",
+          "price": 59990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "brand": "BMW",
+      "model": "i5",
+      "year": 2026,
+      "type": "sedan",
+      "fuel": "electrico",
+      "seats": 5,
+      "price": 72990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "Sedán ejecutivo 100% eléctrico con autonomía de hasta 580 km.",
+      "origin": "Alemania",
+      "hp": 340,
+      "torque_nm": 430,
+      "length_mm": 5060,
+      "width_mm": 1900,
+      "height_mm": 1515,
+      "wheelbase_mm": 2995,
+      "ground_clearance_mm": 145,
+      "trunk_liters": 490,
+      "airbags": 8,
+      "isofix": true,
+      "adas": [
+        "Control crucero adaptativo",
+        "Asistente de carril",
+        "Frenado automático",
+        "Cámara 360°",
+        "Asistente de estacionamiento",
+        "Conducción autopista"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "iDrive",
+        "Pantalla 14.9\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Sonido Bowers & Wilkins"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "Alemania",
+      "versions": [
+        {
+          "version": "eDrive40",
+          "price": 72990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "M60 xDrive",
+          "price": 89990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "brand": "BMW",
+      "model": "i7",
+      "year": 2026,
+      "type": "sedan",
+      "fuel": "electrico",
+      "seats": 5,
+      "price": 110990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "Sedán de lujo 100% eléctrico con la máxima tecnología y confort.",
+      "origin": "Alemania",
+      "hp": 544,
+      "torque_nm": 745,
+      "length_mm": 5391,
+      "width_mm": 1950,
+      "height_mm": 1544,
+      "wheelbase_mm": 3215,
+      "ground_clearance_mm": 145,
+      "trunk_liters": 540,
+      "airbags": 8,
+      "isofix": true,
+      "adas": [
+        "Control crucero adaptativo",
+        "Asistente de carril",
+        "Frenado automático",
+        "Cámara 360°",
+        "Asistente de estacionamiento",
+        "Conducción autopista"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "iDrive",
+        "Pantalla 14.9\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Sonido Bowers & Wilkins",
+        "Pantalla trasera 31\""
+      ],
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "Alemania",
+      "versions": [
+        {
+          "version": "xDrive60",
+          "price": 110990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "M70 xDrive",
+          "price": 139990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "brand": "BMW",
+      "model": "iX",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "electrico",
+      "seats": 5,
+      "price": 74990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "SUV eléctrico de lujo con diseño vanguardista y autonomía superior.",
+      "origin": "Alemania",
+      "hp": 523,
+      "torque_nm": 765,
+      "length_mm": 4953,
+      "width_mm": 1967,
+      "height_mm": 1695,
+      "wheelbase_mm": 3000,
+      "ground_clearance_mm": 210,
+      "trunk_liters": 500,
+      "airbags": 8,
+      "isofix": true,
+      "adas": [
+        "Control crucero adaptativo",
+        "Asistente de carril",
+        "Frenado automático",
+        "Cámara 360°",
+        "Asistente de estacionamiento",
+        "Conducción autopista"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "iDrive",
+        "Pantalla 14.9\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Sonido Bowers & Wilkins"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "Alemania",
+      "versions": [
+        {
+          "version": "xDrive40",
+          "price": 74990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "xDrive50",
+          "price": 89990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "brand": "BMW",
+      "model": "iX1",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "electrico",
+      "seats": 5,
+      "price": 42990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "SUV eléctrico compacto con autonomía de hasta 440 km.",
+      "origin": "Alemania",
+      "versions": [
+        {
+          "version": "xDrive20",
+          "price": 42990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "xDrive30",
+          "price": 48990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ],
+      "hp": 313,
+      "torque_nm": 494,
+      "top_speed_kmh": 180,
+      "length_mm": 4500,
+      "width_mm": 1845,
+      "height_mm": 1642,
+      "wheelbase_mm": 2692,
+      "ground_clearance_mm": 183,
+      "trunk_liters": 540,
+      "airbags": 8,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "cámara 360°",
+        "asistente de estacionamiento"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "iDrive",
+        "pantalla 10.25\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "Alemania"
+    },
+    {
+      "id": 42,
+      "brand": "BMW",
+      "model": "iX3",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "electrico",
+      "seats": 5,
+      "price": 52990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "SUV eléctrico con autonomía de hasta 460 km.",
+      "origin": "Alemania",
+      "versions": [
+        {
+          "version": "eDrive20",
+          "price": 47990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "xDrive30",
+          "price": 52990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ],
+      "hp": 286,
+      "torque_nm": 400,
+      "top_speed_kmh": 180,
+      "length_mm": 4746,
+      "width_mm": 1891,
+      "height_mm": 1668,
+      "wheelbase_mm": 2864,
+      "ground_clearance_mm": 200,
+      "trunk_liters": 510,
+      "airbags": 8,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "cámara 360°",
+        "asistente de estacionamiento"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "iDrive",
+        "pantalla 12.3\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "sonido Harman Kardon"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "Alemania"
+    },
+    {
+      "id": 43,
+      "brand": "BMW",
+      "model": "M2",
+      "year": 2026,
+      "type": "sedan",
+      "fuel": "gasolina",
+      "seats": 4,
+      "price": 75990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Deportivo compacto de altas prestaciones con motor biturbo.",
+      "origin": "Alemania",
+      "hp": 460,
+      "torque_nm": 550,
+      "length_mm": 4580,
+      "width_mm": 1887,
+      "height_mm": 1403,
+      "wheelbase_mm": 2747,
+      "fuel_tank_liters": 52,
+      "ground_clearance_mm": 120,
+      "trunk_liters": 390,
+      "airbags": 6,
+      "isofix": false,
+      "adas": [
+        "Control crucero adaptativo",
+        "Frenado automático"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "iDrive",
+        "Pantalla 12.3\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Sonido Harman Kardon"
+      ],
+      "fuel_consumption_mixed_km_l": 10.5,
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "Alemania",
+      "versions": [
+        {
+          "version": "M2 Coupé AT",
+          "price": 75990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "M2 Coupé MT",
+          "price": 73990000,
+          "transmission": "manual",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "brand": "BMW",
+      "model": "M3",
+      "year": 2026,
+      "type": "sedan",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 85990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Sedán deportivo de alto rendimiento con motor biturbo de 510 hp.",
+      "origin": "Alemania",
+      "hp": 510,
+      "torque_nm": 650,
+      "length_mm": 4794,
+      "width_mm": 1903,
+      "height_mm": 1433,
+      "wheelbase_mm": 2857,
+      "fuel_tank_liters": 59,
+      "ground_clearance_mm": 130,
+      "trunk_liters": 480,
+      "airbags": 6,
+      "isofix": true,
+      "adas": [
+        "Control crucero adaptativo",
+        "Asistente de carril",
+        "Frenado automático",
+        "Cámara 360°"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "iDrive",
+        "Pantalla 12.3\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Sonido Harman Kardon"
+      ],
+      "fuel_consumption_mixed_km_l": 10,
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "Alemania",
+      "versions": [
+        {
+          "version": "M3 Competition",
+          "price": 85990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "M3 CS",
+          "price": 95990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "brand": "BMW",
+      "model": "M4",
+      "year": 2026,
+      "type": "sedan",
+      "fuel": "gasolina",
+      "seats": 4,
+      "price": 90990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Coupé deportivo de altas prestaciones con diseño agresivo.",
+      "origin": "Alemania",
+      "hp": 510,
+      "torque_nm": 650,
+      "length_mm": 4794,
+      "width_mm": 1887,
+      "height_mm": 1395,
+      "wheelbase_mm": 2857,
+      "fuel_tank_liters": 59,
+      "ground_clearance_mm": 120,
+      "trunk_liters": 440,
+      "airbags": 6,
+      "isofix": false,
+      "adas": [
+        "Control crucero adaptativo",
+        "Asistente de carril",
+        "Frenado automático",
+        "Cámara 360°"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "iDrive",
+        "Pantalla 12.3\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Sonido Harman Kardon"
+      ],
+      "fuel_consumption_mixed_km_l": 10,
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "Alemania",
+      "versions": [
+        {
+          "version": "M4 Competition",
+          "price": 90990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "M4 CSL",
+          "price": 109990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "brand": "BMW",
+      "model": "M5",
+      "year": 2026,
+      "type": "sedan",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 119990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "Sedán deportivo de lujo con motor V8 biturbo y tracción integral.",
+      "origin": "Alemania",
+      "hp": 600,
+      "torque_nm": 750,
+      "length_mm": 4980,
+      "width_mm": 1903,
+      "height_mm": 1470,
+      "wheelbase_mm": 2982,
+      "fuel_tank_liters": 68,
+      "ground_clearance_mm": 130,
+      "trunk_liters": 530,
+      "airbags": 8,
+      "isofix": true,
+      "adas": [
+        "Control crucero adaptativo",
+        "Asistente de carril",
+        "Frenado automático",
+        "Cámara 360°",
+        "Asistente de estacionamiento"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "iDrive",
+        "Pantalla 12.3\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Sonido Harman Kardon"
+      ],
+      "fuel_consumption_mixed_km_l": 9,
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "Alemania",
+      "versions": [
+        {
+          "version": "M5 Competition",
+          "price": 119990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "M5 CS",
+          "price": 139990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "brand": "BMW",
+      "model": "Serie 1",
+      "year": 2025,
+      "type": "hatchback",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 21990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Hatchback deportivo con el ADN de BMW.",
+      "origin": "Alemania",
+      "versions": [
+        {
+          "version": "118i",
+          "price": 21990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "120i M Sport",
+          "price": 26990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 136,
+      "torque_nm": 220,
+      "top_speed_kmh": 210,
+      "fuel_consumption_city_km_l": 14,
+      "fuel_consumption_highway_km_l": 19,
+      "fuel_consumption_mixed_km_l": 16,
+      "fuel_tank_liters": 45,
+      "length_mm": 4319,
+      "width_mm": 1799,
+      "height_mm": 1434,
+      "wheelbase_mm": 2670,
+      "ground_clearance_mm": 145,
+      "trunk_liters": 380,
+      "airbags": 6,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "iDrive",
+        "pantalla 10.25\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "Alemania"
+    },
+    {
+      "id": 48,
+      "brand": "BMW",
+      "model": "Serie 2 Gran Coupé",
+      "year": 2026,
+      "type": "sedan",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 31990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Sedán coupé de cuatro puertas con diseño deportivo y elegancia urbana.",
+      "origin": "Alemania",
+      "hp": 178,
+      "torque_nm": 280,
+      "length_mm": 4526,
+      "width_mm": 1800,
+      "height_mm": 1420,
+      "wheelbase_mm": 2670,
+      "fuel_tank_liters": 50,
+      "ground_clearance_mm": 140,
+      "trunk_liters": 430,
+      "airbags": 6,
+      "isofix": true,
+      "adas": [
+        "Control crucero adaptativo",
+        "Asistente de carril",
+        "Frenado automático"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "iDrive",
+        "Pantalla 10.25\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "fuel_consumption_mixed_km_l": 14,
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "Alemania",
+      "versions": [
+        {
+          "version": "218i",
+          "price": 31990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "M235i xDrive",
+          "price": 42990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "brand": "BMW",
+      "model": "Serie 3",
+      "year": 2025,
+      "type": "sedan",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 29990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Sedán deportivo ejecutivo, referente de la marca.",
+      "origin": "Alemania",
+      "versions": [
+        {
+          "version": "320i",
+          "price": 29990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "330i",
+          "price": 36990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "M340i xDrive",
+          "price": 45990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 258,
+      "torque_nm": 400,
+      "top_speed_kmh": 250,
+      "fuel_consumption_city_km_l": 12,
+      "fuel_consumption_highway_km_l": 17,
+      "fuel_consumption_mixed_km_l": 14,
+      "fuel_tank_liters": 59,
+      "length_mm": 4709,
+      "width_mm": 1827,
+      "height_mm": 1440,
+      "wheelbase_mm": 2851,
+      "ground_clearance_mm": 140,
+      "trunk_liters": 480,
+      "airbags": 8,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "cámara 360°",
+        "asistente de estacionamiento"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "iDrive",
+        "pantalla 10.25\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "sonido Harman Kardon"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "Alemania"
+    },
+    {
+      "id": 50,
+      "brand": "BMW",
+      "model": "Serie 4",
+      "year": 2026,
+      "type": "sedan",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 37990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Coupé deportivo de lujo con líneas elegantes y motor potente.",
+      "origin": "Alemania",
+      "hp": 258,
+      "torque_nm": 400,
+      "length_mm": 4768,
+      "width_mm": 1852,
+      "height_mm": 1383,
+      "wheelbase_mm": 2851,
+      "fuel_tank_liters": 59,
+      "ground_clearance_mm": 135,
+      "trunk_liters": 440,
+      "airbags": 8,
+      "isofix": true,
+      "adas": [
+        "Control crucero adaptativo",
+        "Asistente de carril",
+        "Frenado automático",
+        "Cámara 360°"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "iDrive",
+        "Pantalla 12.3\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Sonido Harman Kardon"
+      ],
+      "fuel_consumption_mixed_km_l": 13,
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "Alemania",
+      "versions": [
+        {
+          "version": "420i",
+          "price": 37990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "430i xDrive",
+          "price": 45990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "brand": "BMW",
+      "model": "Serie 5",
+      "year": 2025,
+      "type": "sedan",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 42990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Sedán de lujo con tecnología de vanguardia.",
+      "origin": "Alemania",
+      "versions": [
+        {
+          "version": "520i",
+          "price": 42990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "530i xDrive",
+          "price": 52990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 258,
+      "torque_nm": 400,
+      "top_speed_kmh": 250,
+      "fuel_consumption_city_km_l": 11,
+      "fuel_consumption_highway_km_l": 16,
+      "fuel_consumption_mixed_km_l": 13,
+      "fuel_tank_liters": 60,
+      "length_mm": 4963,
+      "width_mm": 1903,
+      "height_mm": 1515,
+      "wheelbase_mm": 2995,
+      "ground_clearance_mm": 144,
+      "trunk_liters": 530,
+      "airbags": 8,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "cámara 360°",
+        "asistente de estacionamiento",
+        "asistente de conducción en autopista"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "iDrive",
+        "pantalla 12.3\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "sonido Harman Kardon",
+        "pantalla trasera"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "Alemania"
+    },
+    {
+      "id": 52,
+      "brand": "BMW",
+      "model": "Serie 7",
+      "year": 2026,
+      "type": "sedan",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 74990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "Sedán de lujo tope de gama con la máxima sofisticación y confort.",
+      "origin": "Alemania",
+      "hp": 380,
+      "torque_nm": 540,
+      "length_mm": 5391,
+      "width_mm": 1950,
+      "height_mm": 1544,
+      "wheelbase_mm": 3215,
+      "fuel_tank_liters": 74,
+      "ground_clearance_mm": 145,
+      "trunk_liters": 540,
+      "airbags": 8,
+      "isofix": true,
+      "adas": [
+        "Control crucero adaptativo",
+        "Asistente de carril",
+        "Frenado automático",
+        "Cámara 360°",
+        "Asistente de estacionamiento",
+        "Conducción autopista"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "iDrive",
+        "Pantalla 14.9\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Sonido Bowers & Wilkins",
+        "Pantalla trasera 31\""
+      ],
+      "fuel_consumption_mixed_km_l": 10.5,
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "Alemania",
+      "versions": [
+        {
+          "version": "740i xDrive",
+          "price": 74990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "760i xDrive",
+          "price": 119990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "brand": "BMW",
+      "model": "X1",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 26990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV compacto con diseño moderno.",
+      "origin": "Alemania",
+      "versions": [
+        {
+          "version": "sDrive18i",
+          "price": 26990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "sDrive20i M Sport",
+          "price": 31990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 156,
+      "torque_nm": 240,
+      "top_speed_kmh": 220,
+      "fuel_consumption_city_km_l": 14,
+      "fuel_consumption_highway_km_l": 19,
+      "fuel_consumption_mixed_km_l": 16,
+      "fuel_tank_liters": 51,
+      "length_mm": 4500,
+      "width_mm": 1845,
+      "height_mm": 1642,
+      "wheelbase_mm": 2692,
+      "ground_clearance_mm": 183,
+      "trunk_liters": 540,
+      "airbags": 6,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "iDrive",
+        "pantalla 10.25\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "Alemania"
+    },
+    {
+      "id": 54,
+      "brand": "BMW",
+      "model": "X2",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 42990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV coupé compacto con diseño deportivo y motor eficiente.",
+      "origin": "Alemania",
+      "hp": 245,
+      "torque_nm": 350,
+      "length_mm": 4554,
+      "width_mm": 1845,
+      "height_mm": 1590,
+      "wheelbase_mm": 2692,
+      "fuel_tank_liters": 51,
+      "ground_clearance_mm": 180,
+      "trunk_liters": 515,
+      "airbags": 8,
+      "isofix": true,
+      "adas": [
+        "Control crucero adaptativo",
+        "Asistente de carril",
+        "Frenado automático",
+        "Cámara 360°"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "iDrive",
+        "Pantalla 10.25\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "fuel_consumption_mixed_km_l": 14,
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "Alemania",
+      "versions": [
+        {
+          "version": "sDrive20i",
+          "price": 42990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "M35i xDrive",
+          "price": 54990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "brand": "BMW",
+      "model": "X3",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 35990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "SUV mediano con equilibrio entre deportividad y versatilidad.",
+      "origin": "Alemania",
+      "versions": [
+        {
+          "version": "xDrive20i",
+          "price": 35990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "xDrive30i M Sport",
+          "price": 43990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 245,
+      "torque_nm": 350,
+      "top_speed_kmh": 240,
+      "fuel_consumption_city_km_l": 11,
+      "fuel_consumption_highway_km_l": 16,
+      "fuel_consumption_mixed_km_l": 13,
+      "fuel_tank_liters": 65,
+      "length_mm": 4716,
+      "width_mm": 1897,
+      "height_mm": 1667,
+      "wheelbase_mm": 2864,
+      "ground_clearance_mm": 204,
+      "trunk_liters": 550,
+      "airbags": 8,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "cámara 360°",
+        "asistente de estacionamiento"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "iDrive",
+        "pantalla 10.25\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "sonido Harman Kardon"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "Alemania"
+    },
+    {
+      "id": 56,
+      "brand": "BMW",
+      "model": "X4",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 44990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "SUV coupé deportivo con diseño dinámico y tracción integral.",
+      "origin": "Alemania",
+      "hp": 245,
+      "torque_nm": 350,
+      "length_mm": 4751,
+      "width_mm": 1918,
+      "height_mm": 1621,
+      "wheelbase_mm": 2864,
+      "fuel_tank_liters": 65,
+      "ground_clearance_mm": 204,
+      "trunk_liters": 525,
+      "airbags": 8,
+      "isofix": true,
+      "adas": [
+        "Control crucero adaptativo",
+        "Asistente de carril",
+        "Frenado automático",
+        "Cámara 360°"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "iDrive",
+        "Pantalla 12.3\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Sonido Harman Kardon"
+      ],
+      "fuel_consumption_mixed_km_l": 12,
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "Alemania",
+      "versions": [
+        {
+          "version": "xDrive20i",
+          "price": 44990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "M40i",
+          "price": 59990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "brand": "BMW",
+      "model": "X5",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 52990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "SUV grande de lujo con prestaciones de alto rendimiento.",
+      "origin": "Alemania",
+      "versions": [
+        {
+          "version": "xDrive40i",
+          "price": 52990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "M50i",
+          "price": 68990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 340,
+      "torque_nm": 450,
+      "top_speed_kmh": 250,
+      "fuel_consumption_city_km_l": 9,
+      "fuel_consumption_highway_km_l": 13,
+      "fuel_consumption_mixed_km_l": 11,
+      "fuel_tank_liters": 83,
+      "length_mm": 4922,
+      "width_mm": 2004,
+      "height_mm": 1745,
+      "wheelbase_mm": 2975,
+      "ground_clearance_mm": 215,
+      "trunk_liters": 650,
+      "airbags": 8,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "cámara 360°",
+        "asistente de estacionamiento",
+        "asistente de conducción en autopista"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "iDrive",
+        "pantalla 12.3\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "sonido Harman Kardon",
+        "pantalla trasera"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "Alemania"
+    },
+    {
+      "id": 58,
+      "brand": "BMW",
+      "model": "X6",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 64990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "SUV coupé de lujo con presencia imponente y alto rendimiento.",
+      "origin": "Alemania",
+      "hp": 340,
+      "torque_nm": 450,
+      "length_mm": 4935,
+      "width_mm": 2004,
+      "height_mm": 1693,
+      "wheelbase_mm": 2975,
+      "fuel_tank_liters": 83,
+      "ground_clearance_mm": 215,
+      "trunk_liters": 580,
+      "airbags": 8,
+      "isofix": true,
+      "adas": [
+        "Control crucero adaptativo",
+        "Asistente de carril",
+        "Frenado automático",
+        "Cámara 360°",
+        "Asistente de estacionamiento"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "iDrive",
+        "Pantalla 12.3\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Sonido Harman Kardon"
+      ],
+      "fuel_consumption_mixed_km_l": 10.5,
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "Alemania",
+      "versions": [
+        {
+          "version": "xDrive40i",
+          "price": 64990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "M60i",
+          "price": 84990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "brand": "BMW",
+      "model": "X7",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 7,
+      "price": 84990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "SUV de lujo de 7 plazas con prestaciones excepcionales, el BMW más grande y lujoso.",
+      "origin": "Alemania",
+      "versions": [
+        {
+          "version": "xDrive40i",
+          "price": 84990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "xDrive40i M Sport",
+          "price": 94990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "xDrive40d",
+          "price": 89990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "M60i xDrive",
+          "price": 119990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "Alpina XB7",
+          "price": 159990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 380,
+      "torque_nm": 520,
+      "top_speed_kmh": 250,
+      "fuel_consumption_city_km_l": 8,
+      "fuel_consumption_highway_km_l": 12,
+      "fuel_consumption_mixed_km_l": 10,
+      "fuel_tank_liters": 90,
+      "length_mm": 5181,
+      "width_mm": 2000,
+      "height_mm": 1835,
+      "wheelbase_mm": 3105,
+      "ground_clearance_mm": 225,
+      "trunk_liters": 750,
+      "airbags": 8,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "cámara 360°",
+        "asistente de estacionamiento",
+        "asistente de conducción en autopista"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "iDrive",
+        "pantalla 12.3\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "sonido Harman Kardon",
+        "pantalla trasera"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "Alemania"
+    },
+    {
+      "id": 60,
+      "brand": "BMW",
+      "model": "XM",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "hibrido_enchufable",
+      "seats": 5,
+      "price": 150990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "SUV de altas prestaciones híbrido enchufable con motor V8.",
+      "origin": "Alemania",
+      "hp": 644,
+      "torque_nm": 800,
+      "length_mm": 5110,
+      "width_mm": 2005,
+      "height_mm": 1755,
+      "wheelbase_mm": 3105,
+      "fuel_tank_liters": 69,
+      "ground_clearance_mm": 210,
+      "trunk_liters": 527,
+      "airbags": 8,
+      "isofix": true,
+      "adas": [
+        "Control crucero adaptativo",
+        "Asistente de carril",
+        "Frenado automático",
+        "Cámara 360°",
+        "Asistente de estacionamiento",
+        "Conducción autopista"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "iDrive",
+        "Pantalla 14.9\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Sonido Bowers & Wilkins"
+      ],
+      "fuel_consumption_mixed_km_l": 12,
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "Alemania",
+      "versions": [
+        {
+          "version": "XM 50e",
+          "price": 150990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "XM Label Red",
+          "price": 179990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "brand": "BMW",
+      "model": "Z4",
+      "year": 2025,
+      "type": "convertible",
+      "fuel": "gasolina",
+      "seats": 2,
+      "price": 42990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Roadster deportivo con techo descapotable.",
+      "origin": "Alemania",
+      "versions": [
+        {
+          "version": "sDrive20i",
+          "price": 42990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "M40i",
+          "price": 56990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 184,
+      "torque_nm": 300,
+      "top_speed_kmh": 240,
+      "fuel_consumption_city_km_l": 12,
+      "fuel_consumption_highway_km_l": 17,
+      "fuel_consumption_mixed_km_l": 14,
+      "fuel_tank_liters": 52,
+      "length_mm": 4324,
+      "width_mm": 1864,
+      "height_mm": 1315,
+      "wheelbase_mm": 2470,
+      "ground_clearance_mm": 120,
+      "trunk_liters": 281,
+      "airbags": 6,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": false,
+      "infotainment": [
+        "iDrive",
+        "pantalla 10.25\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "Alemania"
+    }
+  ]
+}

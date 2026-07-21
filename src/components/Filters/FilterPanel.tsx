@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Filters } from '../../types';
-import { brands, carTypes, fuelTypes, transmissions, tractions, getTypeLabel, getFuelLabel } from '../../data/cars-chile';
+import { brands, carTypes, fuelTypes, transmissions, tractions, originCountries, getModelsByBrand, getTypeLabel, getFuelLabel } from '../../data/brands';
 import { MultiSelectDropdown } from './MultiSelectDropdown';
 import { RangeSlider } from './RangeSlider';
 
@@ -32,19 +32,28 @@ export function FilterPanel({ filters, updateFilter, resetFilters, resultCount, 
     { value: '7', label: '7 plazas' },
   ];
 
+  const selectedBrands = filters.brand;
+  const modelOptions = selectedBrands.length === 1
+    ? getModelsByBrand(selectedBrands[0]).map(m => ({ value: m, label: m }))
+    : [];
+
+  const originOptions = originCountries.map(c => ({ value: c, label: c }));
+
   const hasActiveFilters =
     filters.brand.length > 0 ||
+    filters.model.length > 0 ||
     filters.type.length > 0 ||
     filters.fuel.length > 0 ||
     filters.transmission.length > 0 ||
     filters.traction.length > 0 ||
     filters.seats.length > 0 ||
+    filters.origin_country.length > 0 ||
     filters.priceRange[0] > 5000000 ||
-    filters.priceRange[1] < 80000000;
+    filters.priceRange[1] < 80000000 ||
+    filters.minAirbags > 0;
 
   return (
     <div className="bg-white rounded-2xl card-shadow overflow-hidden">
-      {/* Header */}
       <div className="p-4 border-b border-gray-100">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-3">
@@ -84,10 +93,8 @@ export function FilterPanel({ filters, updateFilter, resetFilters, resultCount, 
         </div>
       </div>
 
-      {/* Filters */}
       {isExpanded && (
         <div className="p-4 space-y-4">
-          {/* Search */}
           <div>
             <label className="block text-sm font-medium text-gray-700 mb-1.5">Buscar</label>
             <div className="relative">
@@ -104,7 +111,6 @@ export function FilterPanel({ filters, updateFilter, resetFilters, resultCount, 
             </div>
           </div>
 
-          {/* Sort */}
           <div>
             <label className="block text-sm font-medium text-gray-700 mb-1.5">Ordenar por</label>
             <select
@@ -118,13 +124,27 @@ export function FilterPanel({ filters, updateFilter, resetFilters, resultCount, 
               <option value="brand">Marca</option>
             </select>
           </div>
+
           <MultiSelectDropdown
             label="Marca"
             options={brandOptions}
             selected={filters.brand}
-            onChange={(v) => updateFilter('brand', v)}
+            onChange={(v) => {
+              updateFilter('brand', v);
+              updateFilter('model', []);
+            }}
             placeholder="Todas las marcas"
           />
+
+          {modelOptions.length > 0 && (
+            <MultiSelectDropdown
+              label="Modelo"
+              options={modelOptions}
+              selected={filters.model}
+              onChange={(v) => updateFilter('model', v)}
+              placeholder="Todos los modelos"
+            />
+          )}
 
           <MultiSelectDropdown
             label="Tipo de vehículo"
@@ -172,6 +192,29 @@ export function FilterPanel({ filters, updateFilter, resetFilters, resultCount, 
             selected={filters.seats.map(String)}
             onChange={(v) => updateFilter('seats', v.map(Number))}
             placeholder="Cualquier cantidad"
+          />
+
+          <div>
+            <label className="block text-sm font-medium text-gray-700 mb-1.5">Mín. Airbags</label>
+            <select
+              value={filters.minAirbags}
+              onChange={(e) => updateFilter('minAirbags', Number(e.target.value))}
+              className="w-full px-4 py-2.5 bg-white border border-gray-200 rounded-xl text-sm focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-500/20"
+            >
+              <option value={0}>Cualquier cantidad</option>
+              <option value={2}>2+ airbags</option>
+              <option value={4}>4+ airbags</option>
+              <option value={6}>6+ airbags</option>
+              <option value={8}>8+ airbags</option>
+            </select>
+          </div>
+
+          <MultiSelectDropdown
+            label="País de origen"
+            options={originOptions}
+            selected={filters.origin_country}
+            onChange={(v) => updateFilter('origin_country', v)}
+            placeholder="Todos los países"
           />
         </div>
       )}

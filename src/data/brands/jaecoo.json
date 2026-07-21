@@ -1,0 +1,210 @@
+{
+  "brand": "Jaecoo",
+  "brandUrl": "https://www.omodajaecoo.cl",
+  "models": [
+    {
+      "id": 271,
+      "brand": "Jaecoo",
+      "model": "J5",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 14490000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV compacta orientada al estilo outdoor, con materiales pet-friendly homologados.",
+      "origin": "China",
+      "hp": 147,
+      "torque_nm": 210,
+      "length_mm": 4380,
+      "width_mm": 1840,
+      "height_mm": 1630,
+      "wheelbase_mm": 2620,
+      "fuel_tank_liters": 51,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 10.25\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Modo karaoke"
+      ],
+      "fuel_consumption_city_km_l": 10.1,
+      "fuel_consumption_highway_km_l": 15.4,
+      "fuel_consumption_mixed_km_l": 12.9,
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "Elemental",
+          "price": 14490000,
+          "transmission": "CVT",
+          "traction": "4x2"
+        },
+        {
+          "version": "Prime",
+          "price": 16490000,
+          "transmission": "CVT",
+          "traction": "4x2"
+        },
+        {
+          "version": "Summit",
+          "price": 18490000,
+          "transmission": "CVT",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 272,
+      "brand": "Jaecoo",
+      "model": "J7",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 18490000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV mediana con motor 1.6TGDI y equipamiento completo.",
+      "origin": "China",
+      "hp": 197,
+      "torque_nm": 290,
+      "length_mm": 4500,
+      "width_mm": 1865,
+      "height_mm": 1680,
+      "wheelbase_mm": 2670,
+      "fuel_tank_liters": 57,
+      "airbags": 6,
+      "isofix": true,
+      "adas": [
+        "Frenado automático AEB",
+        "Control crucero adaptativo",
+        "Alerta de punto ciego"
+      ],
+      "infotainment": [
+        "Pantalla 12.3\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "fuel_consumption_mixed_km_l": 12,
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "Elemental 1.6 TGDI",
+          "price": 18490000,
+          "transmission": "DCT 7V",
+          "traction": "4x2"
+        },
+        {
+          "version": "Prime AWD 1.6 TGDI",
+          "price": 22990000,
+          "transmission": "DCT 7V",
+          "traction": "awd"
+        }
+      ]
+    },
+    {
+      "id": 273,
+      "brand": "Jaecoo",
+      "model": "J7 SHS",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "hibrido_enchufable",
+      "seats": 5,
+      "price": 22990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Versión híbrida enchufable del J7 con autonomía eléctrica y baja emisión.",
+      "origin": "China",
+      "hp": 197,
+      "torque_nm": 350,
+      "length_mm": 4500,
+      "width_mm": 1865,
+      "height_mm": 1680,
+      "wheelbase_mm": 2670,
+      "fuel_tank_liters": 57,
+      "airbags": 6,
+      "isofix": true,
+      "adas": [
+        "Frenado automático AEB",
+        "Control crucero adaptativo"
+      ],
+      "infotainment": [
+        "Pantalla 12.3\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "SHS Anandes",
+          "price": 22990000,
+          "transmission": "DHT",
+          "traction": "4x2"
+        },
+        {
+          "version": "SHS Patagonia",
+          "price": 24990000,
+          "transmission": "DHT",
+          "traction": "awd"
+        }
+      ]
+    },
+    {
+      "id": 274,
+      "brand": "Jaecoo",
+      "model": "J8",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 7,
+      "price": 29990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "SUV grande familiar con tres filas de asientos y motor turbo potente.",
+      "origin": "China",
+      "hp": 261,
+      "torque_nm": 400,
+      "length_mm": 4820,
+      "width_mm": 1920,
+      "height_mm": 1720,
+      "wheelbase_mm": 2820,
+      "fuel_tank_liters": 65,
+      "airbags": 7,
+      "isofix": true,
+      "adas": [
+        "Frenado automático AEB",
+        "Control crucero adaptativo",
+        "Cámara 360°"
+      ],
+      "infotainment": [
+        "Pantalla 14.6\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "fuel_consumption_mixed_km_l": 10.5,
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "Anandes 1.6T AWD",
+          "price": 29990000,
+          "transmission": "DCT 7V",
+          "traction": "awd"
+        }
+      ]
+    }
+  ]
+}

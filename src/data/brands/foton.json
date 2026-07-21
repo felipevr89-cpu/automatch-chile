@@ -1,0 +1,194 @@
+{
+  "brand": "Foton",
+  "brandUrl": "https://www.foton.cl",
+  "models": [
+    {
+      "id": 190,
+      "brand": "Foton",
+      "model": "Aumark",
+      "year": 2026,
+      "type": "pickup",
+      "fuel": "diesel",
+      "seats": 3,
+      "price": 14990000,
+      "transmission": "manual",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Camión liviano de cabina simple para uso comercial y logístico.",
+      "origin": "china",
+      "versions": [
+        {
+          "version": "2.5T Chasis 4x2",
+          "price": 14990000,
+          "transmission": "manual",
+          "traction": "4x2"
+        },
+        {
+          "version": "2.5T Caja Plana 4x2",
+          "price": 16990000,
+          "transmission": "manual",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 150,
+      "torque_nm": 360,
+      "fuel_consumption_city_km_l": 8,
+      "fuel_consumption_highway_km_l": 11,
+      "fuel_consumption_mixed_km_l": 9.2,
+      "fuel_tank_liters": 80,
+      "length_mm": 5950,
+      "width_mm": 2000,
+      "height_mm": 2250,
+      "wheelbase_mm": 3360,
+      "ground_clearance_mm": 200,
+      "trunk_liters": 0,
+      "airbags": 0,
+      "isofix": false,
+      "infotainment": [
+        "Radio AM/FM"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "China"
+    },
+    {
+      "id": 191,
+      "brand": "Foton",
+      "model": "Gratour",
+      "year": 2026,
+      "type": "minivan",
+      "fuel": "gasolina",
+      "seats": 7,
+      "price": 9990000,
+      "transmission": "manual",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Van/vagoneta económica para transporte de pasajeros y carga ligera.",
+      "origin": "china",
+      "versions": [
+        {
+          "version": "1.5 MT",
+          "price": 9990000,
+          "transmission": "manual",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 112,
+      "torque_nm": 145,
+      "fuel_consumption_city_km_l": 11,
+      "fuel_consumption_highway_km_l": 14.5,
+      "fuel_consumption_mixed_km_l": 12.5,
+      "fuel_tank_liters": 45,
+      "length_mm": 4490,
+      "width_mm": 1680,
+      "height_mm": 1880,
+      "wheelbase_mm": 2920,
+      "ground_clearance_mm": 170,
+      "trunk_liters": 0,
+      "airbags": 0,
+      "isofix": false,
+      "infotainment": [
+        "Radio AM/FM"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "China"
+    },
+    {
+      "id": 192,
+      "brand": "Foton",
+      "model": "Tunland G",
+      "year": 2026,
+      "type": "pickup",
+      "fuel": "diesel",
+      "seats": 5,
+      "price": 21990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "Pickup mediana diésel con motor 2.0 turbo de 163 hp y tracción total.",
+      "origin": "china",
+      "versions": [
+        {
+          "version": "2.0T 4x2 AT",
+          "price": 19990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "2.0T 4x4 AT",
+          "price": 21990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 163,
+      "torque_nm": 400,
+      "fuel_consumption_city_km_l": 8.5,
+      "fuel_consumption_highway_km_l": 12,
+      "fuel_consumption_mixed_km_l": 10,
+      "fuel_tank_liters": 70,
+      "length_mm": 5350,
+      "width_mm": 1890,
+      "height_mm": 1870,
+      "wheelbase_mm": 3100,
+      "ground_clearance_mm": 230,
+      "trunk_liters": 0,
+      "airbags": 2,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla táctil 8\"",
+        "Bluetooth",
+        "USB"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "China"
+    },
+    {
+      "id": 193,
+      "brand": "Foton",
+      "model": "View",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 7,
+      "price": 15990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV de tres filas con motor 1.5 turbo y espacio para siete pasajeros.",
+      "origin": "china",
+      "versions": [
+        {
+          "version": "1.5T Comfort CVT",
+          "price": 15990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 150,
+      "torque_nm": 220,
+      "fuel_consumption_city_km_l": 9.5,
+      "fuel_consumption_highway_km_l": 13.5,
+      "fuel_consumption_mixed_km_l": 11.2,
+      "fuel_tank_liters": 55,
+      "length_mm": 4680,
+      "width_mm": 1850,
+      "height_mm": 1710,
+      "wheelbase_mm": 2760,
+      "ground_clearance_mm": 195,
+      "trunk_liters": 320,
+      "airbags": 4,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla táctil 10\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "China"
+    }
+  ]
+}

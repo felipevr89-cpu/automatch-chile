@@ -1,0 +1,254 @@
+{
+  "brand": "Maserati",
+  "brandUrl": "https://www.maserati.com/cl/es",
+  "models": [
+    {
+      "id": 374,
+      "brand": "Maserati",
+      "model": "Ghibli",
+      "year": 2025,
+      "type": "sedan",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 62990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Sedán deportivo de lujo con motor V6 biturbo.",
+      "origin": "Italia",
+      "versions": [
+        {
+          "version": "Ghibli",
+          "price": 62990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Ghibli Trofeo",
+          "price": 82990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 330,
+      "torque_nm": 500,
+      "top_speed_kmh": 270,
+      "fuel_consumption_city_km_l": 9,
+      "fuel_consumption_highway_km_l": 14,
+      "fuel_consumption_mixed_km_l": 11,
+      "fuel_tank_liters": 80,
+      "length_mm": 4971,
+      "width_mm": 1945,
+      "height_mm": 1455,
+      "wheelbase_mm": 2998,
+      "ground_clearance_mm": 135,
+      "trunk_liters": 500,
+      "airbags": 8,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "cámara 360°",
+        "asistente de estacionamiento"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "Maserati Touch Control Plus",
+        "pantalla 10.1\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "sonido Harman Kardon"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "Italia"
+    },
+    {
+      "id": 375,
+      "brand": "Maserati",
+      "model": "GranTurismo",
+      "year": 2025,
+      "type": "sedan",
+      "fuel": "gasolina",
+      "seats": 4,
+      "price": 109990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "GT deportivo con motor V6 biturbo Nettuno.",
+      "origin": "Italia",
+      "versions": [
+        {
+          "version": "GranTurismo",
+          "price": 109990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "GranTurismo Trofeo",
+          "price": 139990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ],
+      "hp": 490,
+      "torque_nm": 600,
+      "top_speed_kmh": 316,
+      "fuel_consumption_city_km_l": 9,
+      "fuel_consumption_highway_km_l": 14,
+      "fuel_consumption_mixed_km_l": 11,
+      "fuel_tank_liters": 70,
+      "length_mm": 4810,
+      "width_mm": 1937,
+      "height_mm": 1353,
+      "wheelbase_mm": 2929,
+      "ground_clearance_mm": 122,
+      "trunk_liters": 310,
+      "airbags": 6,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "cámara 360°"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "Maserati Intelligent Assistant",
+        "pantalla 12.3\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "sonido Sonus Faber"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "Italia"
+    },
+    {
+      "id": 376,
+      "brand": "Maserati",
+      "model": "Grecale",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 49990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "SUV mediano de lujo con tecnología de última generación.",
+      "origin": "Italia",
+      "versions": [
+        {
+          "version": "Grecale",
+          "price": 49990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "Grecale Trofeo",
+          "price": 74990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 300,
+      "torque_nm": 450,
+      "top_speed_kmh": 255,
+      "fuel_consumption_city_km_l": 10,
+      "fuel_consumption_highway_km_l": 15,
+      "fuel_consumption_mixed_km_l": 12,
+      "fuel_tank_liters": 64,
+      "length_mm": 4846,
+      "width_mm": 1948,
+      "height_mm": 1651,
+      "wheelbase_mm": 2901,
+      "ground_clearance_mm": 200,
+      "trunk_liters": 535,
+      "airbags": 8,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "cámara 360°",
+        "asistente de estacionamiento",
+        "asistente de conducción en autopista"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "Maserati Intelligent Assistant",
+        "pantalla 12.3\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "sonido Harman Kardon"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "Italia"
+    },
+    {
+      "id": 377,
+      "brand": "Maserati",
+      "model": "Levante",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 69990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "SUV deportivo de lujo con motor V6 biturbo.",
+      "origin": "Italia",
+      "versions": [
+        {
+          "version": "Levante",
+          "price": 69990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "Levante Trofeo",
+          "price": 94990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 330,
+      "torque_nm": 500,
+      "top_speed_kmh": 260,
+      "fuel_consumption_city_km_l": 9,
+      "fuel_consumption_highway_km_l": 13,
+      "fuel_consumption_mixed_km_l": 11,
+      "fuel_tank_liters": 80,
+      "length_mm": 5003,
+      "width_mm": 1968,
+      "height_mm": 1679,
+      "wheelbase_mm": 2998,
+      "ground_clearance_mm": 207,
+      "trunk_liters": 580,
+      "airbags": 8,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "cámara 360°",
+        "asistente de estacionamiento"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "Maserati Touch Control Plus",
+        "pantalla 10.1\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "sonido Harman Kardon"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 120000,
+      "origin_country": "Italia"
+    }
+  ]
+}

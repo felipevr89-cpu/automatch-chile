@@ -1,0 +1,164 @@
+{
+  "brand": "Kaiyi",
+  "brandUrl": "https://www.kaiyi.cl",
+  "models": [
+    {
+      "id": 300,
+      "brand": "Kaiyi",
+      "model": "KYE5",
+      "year": 2025,
+      "type": "sedan",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 9990000,
+      "transmission": "manual",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Sedán compacta con buen espacio interior y precio accesible.",
+      "origin": "China",
+      "hp": 114,
+      "torque_nm": 143,
+      "length_mm": 4572,
+      "width_mm": 1800,
+      "height_mm": 1480,
+      "wheelbase_mm": 2670,
+      "fuel_tank_liters": 48,
+      "airbags": 2,
+      "infotainment": [
+        "Pantalla 7\"",
+        "Bluetooth"
+      ],
+      "fuel_consumption_mixed_km_l": 14,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "1.5L MT",
+          "price": 9990000,
+          "transmission": "Manual 5V",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 301,
+      "brand": "Kaiyi",
+      "model": "KYX3",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 8490000,
+      "transmission": "manual",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV compacta económica con motor 1.5L.",
+      "origin": "China",
+      "hp": 114,
+      "torque_nm": 143,
+      "length_mm": 4250,
+      "width_mm": 1790,
+      "height_mm": 1650,
+      "wheelbase_mm": 2560,
+      "fuel_tank_liters": 50,
+      "airbags": 2,
+      "infotainment": [
+        "Pantalla 7\"",
+        "Bluetooth"
+      ],
+      "fuel_consumption_mixed_km_l": 13,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "1.5L MT",
+          "price": 8490000,
+          "transmission": "Manual 5V",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 302,
+      "brand": "Kaiyi",
+      "model": "KYX3 Pro",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 11990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Versión mejorada del KYX3 con transmisión CVT y equipamiento superior.",
+      "origin": "China",
+      "hp": 114,
+      "torque_nm": 143,
+      "length_mm": 4250,
+      "width_mm": 1790,
+      "height_mm": 1650,
+      "wheelbase_mm": 2560,
+      "fuel_tank_liters": 50,
+      "airbags": 2,
+      "infotainment": [
+        "Pantalla 8\"",
+        "Apple CarPlay"
+      ],
+      "fuel_consumption_mixed_km_l": 12.5,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "1.5L CVT",
+          "price": 11990000,
+          "transmission": "CVT",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 303,
+      "brand": "Kaiyi",
+      "model": "KYX7",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 7,
+      "price": 14990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV de siete pasajeros con motor 1.5T turbo.",
+      "origin": "China",
+      "hp": 150,
+      "torque_nm": 210,
+      "length_mm": 4720,
+      "width_mm": 1860,
+      "height_mm": 1730,
+      "wheelbase_mm": 2760,
+      "fuel_tank_liters": 55,
+      "airbags": 4,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 10.25\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "fuel_consumption_mixed_km_l": 11.5,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "1.5T CVT",
+          "price": 14990000,
+          "transmission": "CVT",
+          "traction": "4x2"
+        }
+      ]
+    }
+  ]
+}

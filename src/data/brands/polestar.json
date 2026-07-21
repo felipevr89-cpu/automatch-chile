@@ -1,0 +1,126 @@
+{
+  "brand": "Polestar",
+  "brandUrl": "https://www.polestar.com",
+  "models": [
+    {
+      "id": 487,
+      "brand": "Polestar",
+      "model": "2",
+      "year": 2025,
+      "type": "sedan",
+      "fuel": "electrico",
+      "seats": 5,
+      "price": 44990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Sedán fastback eléctrico sueco premium con diseño minimalista, gran autonomía y tecnología Google integrada.",
+      "origin": "China",
+      "versions": [
+        {
+          "version": "Long Range Single Motor",
+          "price": 44990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Long Range Dual Motor",
+          "price": 51990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ],
+      "hp": 299,
+      "torque_nm": 490,
+      "top_speed_kmh": 205,
+      "electric_range_km": 655,
+      "battery_kwh": 82,
+      "length_mm": 4606,
+      "width_mm": 1859,
+      "height_mm": 1479,
+      "wheelbase_mm": 2735,
+      "ground_clearance_mm": 151,
+      "trunk_liters": 405,
+      "airbags": 8,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "alerta de punto ciego",
+        "estacionamiento automático"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "pantalla 11.15\"",
+        "Google integrado",
+        "Apple CarPlay",
+        "Bluetooth",
+        "audio Harman Kardon"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "China"
+    },
+    {
+      "id": 488,
+      "brand": "Polestar",
+      "model": "4",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "electrico",
+      "seats": 5,
+      "price": 56990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV coupé eléctrico con diseño vanguardista sin luneta trasera, gran autonomía y prestaciones deportivas.",
+      "origin": "China",
+      "versions": [
+        {
+          "version": "Long Range Single Motor",
+          "price": 56990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Long Range Dual Motor",
+          "price": 64990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ],
+      "hp": 272,
+      "torque_nm": 343,
+      "top_speed_kmh": 200,
+      "electric_range_km": 620,
+      "battery_kwh": 100,
+      "length_mm": 4839,
+      "width_mm": 2008,
+      "height_mm": 1544,
+      "wheelbase_mm": 2999,
+      "ground_clearance_mm": 162,
+      "trunk_liters": 526,
+      "airbags": 8,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "alerta de punto ciego",
+        "estacionamiento automático"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "pantalla 15.4\"",
+        "Google integrado",
+        "Apple CarPlay",
+        "Bluetooth",
+        "audio Harman Kardon"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "China"
+    }
+  ]
+}

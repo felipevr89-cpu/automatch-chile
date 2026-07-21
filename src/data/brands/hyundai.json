@@ -1,0 +1,1089 @@
+{
+  "brand": "Hyundai",
+  "brandUrl": "https://www.hyundai.cl",
+  "models": [
+    {
+      "id": 241,
+      "brand": "Hyundai",
+      "model": "Accent",
+      "year": 2025,
+      "type": "sedan",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 13990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Sedán subcompacto con diseño sensuous sportiness",
+      "origin": "Corea del Sur",
+      "origin_country": "Corea del Sur",
+      "versions": [
+        {
+          "version": "Concept",
+          "price": 13990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Premiere",
+          "price": 15990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Style",
+          "price": 17490000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 123,
+      "torque_nm": 151,
+      "fuel_consumption_mixed_km_l": 18.5,
+      "fuel_tank_liters": 43,
+      "length_mm": 4440,
+      "width_mm": 1729,
+      "height_mm": 1470,
+      "wheelbase_mm": 2600,
+      "ground_clearance_mm": 150,
+      "trunk_liters": 474,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 8\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "adas": [
+        "Frenado automático",
+        "Alerta de punto ciego"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000
+    },
+    {
+      "id": 242,
+      "brand": "Hyundai",
+      "model": "Bayon",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 17990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Crossover urbano con diseño paramétrico",
+      "origin": "Corea del Sur",
+      "origin_country": "Corea del Sur",
+      "versions": [
+        {
+          "version": "Sense",
+          "price": 17990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Comfort",
+          "price": 19990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 120,
+      "torque_nm": 172,
+      "fuel_consumption_mixed_km_l": 17.5,
+      "fuel_tank_liters": 45,
+      "length_mm": 4180,
+      "width_mm": 1775,
+      "height_mm": 1490,
+      "wheelbase_mm": 2580,
+      "ground_clearance_mm": 165,
+      "trunk_liters": 411,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 8\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "adas": [
+        "SmartSense",
+        "Frenado automático"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000
+    },
+    {
+      "id": 243,
+      "brand": "Hyundai",
+      "model": "Creta",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 19990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV crossover con diseño paramétrico y tecnología",
+      "origin": "Brasil",
+      "origin_country": "Corea del Sur",
+      "versions": [
+        {
+          "version": "Sense",
+          "price": 19990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Comfort",
+          "price": 22990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Premium",
+          "price": 25990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 120,
+      "torque_nm": 151,
+      "fuel_consumption_mixed_km_l": 16.5,
+      "fuel_tank_liters": 50,
+      "length_mm": 4300,
+      "width_mm": 1790,
+      "height_mm": 1620,
+      "wheelbase_mm": 2610,
+      "ground_clearance_mm": 190,
+      "trunk_liters": 422,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 10.25\"",
+        "Bose",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "adas": [
+        "SmartSense",
+        "Frenado automático",
+        "Lane Keep Assist"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000
+    },
+    {
+      "id": 244,
+      "brand": "Hyundai",
+      "model": "Elantra",
+      "year": 2025,
+      "type": "sedan",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 17990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Sedán compacto con diseño paramétrico audaz",
+      "origin": "Corea del Sur",
+      "origin_country": "Corea del Sur",
+      "versions": [
+        {
+          "version": "Sense",
+          "price": 17990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Comfort",
+          "price": 20990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Premium",
+          "price": 23990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 147,
+      "torque_nm": 179,
+      "fuel_consumption_mixed_km_l": 17,
+      "fuel_tank_liters": 50,
+      "length_mm": 4650,
+      "width_mm": 1825,
+      "height_mm": 1430,
+      "wheelbase_mm": 2720,
+      "ground_clearance_mm": 140,
+      "trunk_liters": 474,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 10.25\"",
+        "Bose",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "adas": [
+        "SmartSense",
+        "Frenado automático",
+        "Lane Keep Assist",
+        "Control crucero adaptativo"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000
+    },
+    {
+      "id": 245,
+      "brand": "Hyundai",
+      "model": "Grand i10",
+      "year": 2026,
+      "type": "hatchback",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 9990000,
+      "transmission": "manual",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Hatchback urbano compacto con eficiente motor 1.2L, ideal para la conducción diaria en la ciudad.",
+      "origin": "India",
+      "hp": 83,
+      "torque_nm": 118,
+      "length_mm": 3815,
+      "width_mm": 1680,
+      "height_mm": 1520,
+      "wheelbase_mm": 2450,
+      "fuel_tank_liters": 38,
+      "ground_clearance_mm": 160,
+      "trunk_liters": 260,
+      "airbags": 4,
+      "isofix": true,
+      "adas": [
+        "Cámara de retroceso",
+        "Control crucero"
+      ],
+      "latin_ncap_stars": 3,
+      "infotainment": [
+        "Pantalla 8\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "fuel_consumption_mixed_km_l": 16.5,
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "India",
+      "versions": [
+        {
+          "version": "1.2L MT",
+          "price": 9990000,
+          "transmission": "manual",
+          "traction": "4x2"
+        },
+        {
+          "version": "1.2L AT",
+          "price": 11490000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 246,
+      "brand": "Hyundai",
+      "model": "HB20",
+      "year": 2025,
+      "type": "hatchback",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 13490000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Hatchback compacto con personalidad brasileña",
+      "origin": "Brasil",
+      "origin_country": "Corea del Sur",
+      "versions": [
+        {
+          "version": "Sense",
+          "price": 13490000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Comfort",
+          "price": 15490000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Premium",
+          "price": 17490000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 80,
+      "torque_nm": 100,
+      "fuel_consumption_mixed_km_l": 19.5,
+      "fuel_tank_liters": 50,
+      "length_mm": 3935,
+      "width_mm": 1720,
+      "height_mm": 1500,
+      "wheelbase_mm": 2530,
+      "ground_clearance_mm": 152,
+      "trunk_liters": 300,
+      "airbags": 2,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 8\"",
+        "Bluetooth",
+        "USB"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000
+    },
+    {
+      "id": 247,
+      "brand": "Hyundai",
+      "model": "i10",
+      "year": 2025,
+      "type": "hatchback",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 12990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "City car moderna con diseño atrevido",
+      "origin": "India",
+      "origin_country": "Corea del Sur",
+      "versions": [
+        {
+          "version": "Concept",
+          "price": 12990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Premiere",
+          "price": 14990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 83,
+      "torque_nm": 114,
+      "fuel_consumption_mixed_km_l": 20.5,
+      "fuel_tank_liters": 36,
+      "length_mm": 3670,
+      "width_mm": 1660,
+      "height_mm": 1500,
+      "wheelbase_mm": 2400,
+      "ground_clearance_mm": 152,
+      "trunk_liters": 252,
+      "airbags": 2,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 8\"",
+        "Bluetooth",
+        "USB"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000
+    },
+    {
+      "id": 248,
+      "brand": "Hyundai",
+      "model": "i20",
+      "year": 2025,
+      "type": "hatchback",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 15990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Hatchback premium con diseño deportivo",
+      "origin": "India",
+      "origin_country": "Corea del Sur",
+      "versions": [
+        {
+          "version": "Sense",
+          "price": 15990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Comfort",
+          "price": 17990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "N Line",
+          "price": 20990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 120,
+      "torque_nm": 172,
+      "fuel_consumption_mixed_km_l": 17.5,
+      "fuel_tank_liters": 40,
+      "length_mm": 4035,
+      "width_mm": 1775,
+      "height_mm": 1460,
+      "wheelbase_mm": 2580,
+      "ground_clearance_mm": 150,
+      "trunk_liters": 352,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 10.25\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "adas": [
+        "SmartSense",
+        "Frenado automático"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000
+    },
+    {
+      "id": 249,
+      "brand": "Hyundai",
+      "model": "Inster",
+      "year": 2026,
+      "type": "hatchback",
+      "fuel": "electrico",
+      "seats": 5,
+      "price": 21990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Hatchback 100% eléctrico con diseño moderno y autonomía ideal para la ciudad.",
+      "origin": "Corea del Sur",
+      "hp": 115,
+      "torque_nm": 255,
+      "length_mm": 3825,
+      "width_mm": 1710,
+      "height_mm": 1580,
+      "wheelbase_mm": 2580,
+      "ground_clearance_mm": 160,
+      "trunk_liters": 280,
+      "airbags": 6,
+      "isofix": true,
+      "adas": [
+        "Frenado autónomo de emergencia",
+        "Asistente de carril",
+        "Cámara de retroceso"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Pantalla 10.25\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "Corea del Sur",
+      "versions": [
+        {
+          "version": "Standard Range",
+          "price": 19990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Long Range",
+          "price": 21990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 250,
+      "brand": "Hyundai",
+      "model": "Ioniq 5",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "electrico",
+      "seats": 5,
+      "price": 44990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "SUV eléctrico retro-futurista con plataforma E-GMP",
+      "origin": "Corea del Sur",
+      "origin_country": "Corea del Sur",
+      "versions": [
+        {
+          "version": "Standard Range",
+          "price": 44990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "Long Range",
+          "price": 49990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ],
+      "hp": 325,
+      "torque_nm": 605,
+      "length_mm": 4635,
+      "width_mm": 1890,
+      "height_mm": 1605,
+      "wheelbase_mm": 3000,
+      "ground_clearance_mm": 160,
+      "trunk_liters": 527,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 12.3\"",
+        "Bose",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "adas": [
+        "SmartSense",
+        "Frenado automático",
+        "Lane Keep Assist",
+        "Control crucero adaptativo"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000
+    },
+    {
+      "id": 251,
+      "brand": "Hyundai",
+      "model": "Ioniq 6",
+      "year": 2025,
+      "type": "sedan",
+      "fuel": "electrico",
+      "seats": 5,
+      "price": 42990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "Sedán eléctrico aerodinámico con autonomía de 614 km",
+      "origin": "Corea del Sur",
+      "origin_country": "Corea del Sur",
+      "versions": [
+        {
+          "version": "Standard",
+          "price": 42990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "Long Range",
+          "price": 47990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ],
+      "hp": 321,
+      "torque_nm": 605,
+      "length_mm": 4855,
+      "width_mm": 1880,
+      "height_mm": 1495,
+      "wheelbase_mm": 2950,
+      "ground_clearance_mm": 150,
+      "trunk_liters": 401,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 12.3\"",
+        "Bose",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "adas": [
+        "SmartSense",
+        "Frenado automático",
+        "Lane Keep Assist",
+        "Control crucero adaptativo"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000
+    },
+    {
+      "id": 252,
+      "brand": "Hyundai",
+      "model": "Kona",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 19990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV crossover urbano con diseño futurista",
+      "origin": "Corea del Sur",
+      "origin_country": "Corea del Sur",
+      "versions": [
+        {
+          "version": "Sense",
+          "price": 19990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Comfort",
+          "price": 22990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "N Line",
+          "price": 25990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 149,
+      "torque_nm": 179,
+      "fuel_consumption_mixed_km_l": 16.5,
+      "fuel_tank_liters": 50,
+      "length_mm": 4355,
+      "width_mm": 1800,
+      "height_mm": 1565,
+      "wheelbase_mm": 2600,
+      "ground_clearance_mm": 170,
+      "trunk_liters": 422,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 10.25\"",
+        "Bose",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "adas": [
+        "SmartSense",
+        "Frenado automático",
+        "Lane Keep Assist"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000
+    },
+    {
+      "id": 253,
+      "brand": "Hyundai",
+      "model": "Palisade",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 7,
+      "price": 44990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "SUV familiar premium con capacidad para 7 pasajeros y motor V6 de alto rendimiento.",
+      "origin": "Corea del Sur",
+      "hp": 295,
+      "torque_nm": 355,
+      "length_mm": 4980,
+      "width_mm": 1975,
+      "height_mm": 1750,
+      "wheelbase_mm": 2900,
+      "fuel_tank_liters": 71,
+      "ground_clearance_mm": 185,
+      "trunk_liters": 510,
+      "airbags": 8,
+      "isofix": true,
+      "adas": [
+        "Frenado autónomo de emergencia",
+        "Asistente de mantenimiento de carril",
+        "Control crucero adaptativo",
+        "Cámara 360°",
+        "Monitor de punto ciego"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Pantalla 12.3\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Sonido Infinity"
+      ],
+      "fuel_consumption_mixed_km_l": 9.5,
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "Corea del Sur",
+      "versions": [
+        {
+          "version": "3.8 V6 AT 4x2",
+          "price": 41990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "3.8 V6 AT 4x4",
+          "price": 44990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ]
+    },
+    {
+      "id": 254,
+      "brand": "Hyundai",
+      "model": "Porter",
+      "year": 2026,
+      "type": "pickup",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 23193100,
+      "transmission": "manual",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Pickup de trabajo con capacidad de carga y eficiencia.",
+      "origin": "Corea del Sur",
+      "hp": 100,
+      "torque_nm": 132,
+      "length_mm": 4740,
+      "width_mm": 1690,
+      "height_mm": 1620,
+      "wheelbase_mm": 2680,
+      "fuel_tank_liters": 60,
+      "ground_clearance_mm": 190,
+      "trunk_liters": 0,
+      "airbags": 4,
+      "isofix": true,
+      "adas": [
+        "Frenado automático"
+      ],
+      "latin_ncap_stars": 4,
+      "infotainment": [
+        "Bluetooth",
+        "USB"
+      ],
+      "fuel_consumption_mixed_km_l": 12,
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "Corea del Sur",
+      "versions": [
+        {
+          "version": "Cabina Simple",
+          "price": 23193100,
+          "transmission": "manual",
+          "traction": "4x2"
+        },
+        {
+          "version": "Cabina Doble",
+          "price": 25193100,
+          "transmission": "manual",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 255,
+      "brand": "Hyundai",
+      "model": "Santa Fe",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "hibrido",
+      "seats": 7,
+      "price": 35990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "SUV grande familiar con tercera fila y tecnología híbrida",
+      "origin": "Corea del Sur",
+      "origin_country": "Corea del Sur",
+      "versions": [
+        {
+          "version": "Comfort",
+          "price": 35990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "Premium",
+          "price": 39990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "Calligraphy",
+          "price": 44990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ],
+      "hp": 227,
+      "torque_nm": 357,
+      "fuel_consumption_mixed_km_l": 17,
+      "fuel_tank_liters": 54,
+      "length_mm": 4830,
+      "width_mm": 1900,
+      "height_mm": 1770,
+      "wheelbase_mm": 2815,
+      "ground_clearance_mm": 185,
+      "trunk_liters": 571,
+      "airbags": 10,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 12.3\"",
+        "Harman Kardon",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "adas": [
+        "SmartSense",
+        "Frenado automático",
+        "Lane Keep Assist",
+        "Control crucero adaptativo",
+        "Parking Assist"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000
+    },
+    {
+      "id": 256,
+      "brand": "Hyundai",
+      "model": "Staria",
+      "year": 2025,
+      "type": "minivan",
+      "fuel": "diesel",
+      "seats": 7,
+      "price": 34990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Minivan futurista con diseño único y espacio generoso",
+      "origin": "Corea del Sur",
+      "origin_country": "Corea del Sur",
+      "versions": [
+        {
+          "version": "Comfort",
+          "price": 34990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Premium",
+          "price": 39990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 177,
+      "torque_nm": 431,
+      "fuel_consumption_mixed_km_l": 13,
+      "fuel_tank_liters": 75,
+      "length_mm": 5255,
+      "width_mm": 1995,
+      "height_mm": 1990,
+      "wheelbase_mm": 3275,
+      "ground_clearance_mm": 185,
+      "trunk_liters": 0,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 10.25\"",
+        "Bose",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "adas": [
+        "SmartSense",
+        "Frenado automático",
+        "Lane Keep Assist"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000
+    },
+    {
+      "id": 257,
+      "brand": "Hyundai",
+      "model": "Tucson",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 24990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV mediano con diseño sensuous sportiness",
+      "origin": "Corea del Sur",
+      "origin_country": "Corea del Sur",
+      "versions": [
+        {
+          "version": "Sense",
+          "price": 24990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Comfort",
+          "price": 27990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Premium",
+          "price": 31990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Híbrido",
+          "price": 33990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ],
+      "hp": 186,
+      "torque_nm": 265,
+      "fuel_consumption_mixed_km_l": 15,
+      "fuel_tank_liters": 54,
+      "length_mm": 4630,
+      "width_mm": 1865,
+      "height_mm": 1665,
+      "wheelbase_mm": 2755,
+      "ground_clearance_mm": 181,
+      "trunk_liters": 539,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 10.25\"",
+        "Bose",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "adas": [
+        "SmartSense",
+        "Frenado automático",
+        "Lane Keep Assist",
+        "Control crucero adaptativo",
+        "Monitor 360°"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000
+    },
+    {
+      "id": 258,
+      "brand": "Hyundai",
+      "model": "Tucson Híbrido",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "hibrido",
+      "seats": 5,
+      "price": 30990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "SUV mediano híbrido enchufable con 60 km de autonomía eléctrica",
+      "origin": "Corea del Sur",
+      "origin_country": "Corea del Sur",
+      "versions": [
+        {
+          "version": "Comfort PHEV",
+          "price": 30990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "Premium PHEV",
+          "price": 34990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ],
+      "hp": 265,
+      "torque_nm": 357,
+      "fuel_consumption_mixed_km_l": 50,
+      "fuel_tank_liters": 54,
+      "length_mm": 4630,
+      "width_mm": 1865,
+      "height_mm": 1665,
+      "wheelbase_mm": 2755,
+      "ground_clearance_mm": 181,
+      "trunk_liters": 539,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 10.25\"",
+        "Bose",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "adas": [
+        "SmartSense",
+        "Frenado automático",
+        "Lane Keep Assist",
+        "Control crucero adaptativo"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000
+    },
+    {
+      "id": 259,
+      "brand": "Hyundai",
+      "model": "Venue",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 14990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV subcompacta con estilo moderno y gran conectividad para la vida urbana.",
+      "origin": "India",
+      "hp": 120,
+      "torque_nm": 175,
+      "length_mm": 3995,
+      "width_mm": 1770,
+      "height_mm": 1615,
+      "wheelbase_mm": 2500,
+      "fuel_tank_liters": 45,
+      "ground_clearance_mm": 195,
+      "trunk_liters": 350,
+      "airbags": 6,
+      "isofix": true,
+      "adas": [
+        "Cámara de retroceso",
+        "Control crucero",
+        "Asistente de partida en pendiente"
+      ],
+      "latin_ncap_stars": 4,
+      "infotainment": [
+        "Pantalla 8\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Hyundai Bluelink"
+      ],
+      "fuel_consumption_mixed_km_l": 14,
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "India",
+      "versions": [
+        {
+          "version": "1.0T MT",
+          "price": 13490000,
+          "transmission": "manual",
+          "traction": "4x2"
+        },
+        {
+          "version": "1.0T AT",
+          "price": 14990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ]
+    }
+  ]
+}

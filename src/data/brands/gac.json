@@ -1,0 +1,207 @@
+{
+  "brand": "GAC",
+  "brandUrl": "https://www.gacmotor.cl",
+  "models": [
+    {
+      "id": 194,
+      "brand": "GAC",
+      "model": "Aion UT",
+      "year": 2026,
+      "type": "hatchback",
+      "fuel": "electrico",
+      "seats": 4,
+      "price": 18990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Citycar eléctrico compacto con diseño moderno y autonomía urbana.",
+      "origin": "china",
+      "versions": [
+        {
+          "version": "EV Comfort",
+          "price": 18990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 100,
+      "torque_nm": 175,
+      "top_speed_kmh": 140,
+      "length_mm": 3850,
+      "width_mm": 1740,
+      "height_mm": 1550,
+      "wheelbase_mm": 2560,
+      "ground_clearance_mm": 150,
+      "trunk_liters": 310,
+      "airbags": 4,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla táctil 10.25\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "China"
+    },
+    {
+      "id": 195,
+      "brand": "GAC",
+      "model": "GS3 Power",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 13490000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV subcompacto con motor 1.5 turbo y diseño moderno.",
+      "origin": "china",
+      "versions": [
+        {
+          "version": "1.5T Com CVT",
+          "price": 13490000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "1.5T GS CVT",
+          "price": 15490000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 150,
+      "torque_nm": 225,
+      "fuel_consumption_city_km_l": 10,
+      "fuel_consumption_highway_km_l": 14.5,
+      "fuel_consumption_mixed_km_l": 12,
+      "fuel_tank_liters": 48,
+      "length_mm": 4350,
+      "width_mm": 1825,
+      "height_mm": 1660,
+      "wheelbase_mm": 2560,
+      "ground_clearance_mm": 185,
+      "trunk_liters": 370,
+      "airbags": 4,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla táctil 10.25\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "China"
+    },
+    {
+      "id": 196,
+      "brand": "GAC",
+      "model": "GS4 Power",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 16490000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV compacto con motor 1.5 turbo y caja automática de 6 velocidades.",
+      "origin": "china",
+      "versions": [
+        {
+          "version": "1.5T GB AT",
+          "price": 16490000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "1.5T GLS AT",
+          "price": 17990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 169,
+      "torque_nm": 265,
+      "fuel_consumption_city_km_l": 9.5,
+      "fuel_consumption_highway_km_l": 14,
+      "fuel_consumption_mixed_km_l": 11.5,
+      "fuel_tank_liters": 55,
+      "length_mm": 4545,
+      "width_mm": 1855,
+      "height_mm": 1690,
+      "wheelbase_mm": 2680,
+      "ground_clearance_mm": 190,
+      "trunk_liters": 460,
+      "airbags": 4,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla táctil 10.25\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "China"
+    },
+    {
+      "id": 197,
+      "brand": "GAC",
+      "model": "GS8",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 7,
+      "price": 27990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "SUV premium de tres filas con motor 2.0 turbo y tecnología de punta.",
+      "origin": "china",
+      "versions": [
+        {
+          "version": "2.0T 4x2 AT",
+          "price": 27990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "2.0T 4x4 AT",
+          "price": 29990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ],
+      "hp": 252,
+      "torque_nm": 400,
+      "fuel_consumption_city_km_l": 9,
+      "fuel_consumption_highway_km_l": 12.5,
+      "fuel_consumption_mixed_km_l": 10.5,
+      "fuel_tank_liters": 65,
+      "length_mm": 4835,
+      "width_mm": 1930,
+      "height_mm": 1765,
+      "wheelbase_mm": 2800,
+      "ground_clearance_mm": 200,
+      "trunk_liters": 350,
+      "airbags": 6,
+      "adas": [
+        "Control crucero adaptativo",
+        "Frenado de emergencia",
+        "Cámara 360°",
+        "Asistente de carril"
+      ],
+      "isofix": true,
+      "infotainment": [
+        "Pantalla táctil 14.6\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "China"
+    }
+  ]
+}

@@ -1,0 +1,600 @@
+{
+  "brand": "Volvo",
+  "brandUrl": "https://www.volvocars.com/cl/",
+  "models": [
+    {
+      "id": 600,
+      "brand": "Volvo",
+      "model": "EX30",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "electrico",
+      "seats": 5,
+      "price": 32990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "SUV compacto 100% eléctrico, el Volvo más pequeño y sostenible de la gama.",
+      "origin": "Suecia",
+      "hp": 272,
+      "torque_nm": 343,
+      "length_mm": 4233,
+      "width_mm": 1836,
+      "height_mm": 1549,
+      "wheelbase_mm": 2650,
+      "ground_clearance_mm": 175,
+      "trunk_liters": 318,
+      "airbags": 8,
+      "isofix": true,
+      "adas": [
+        "City Safety",
+        "Pilot Assist",
+        "Frenado autónomo",
+        "Detección peatones",
+        "Cámara 360°"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Google Automotive",
+        "Pantalla 12.3\"",
+        "Apple CarPlay"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "Suecia",
+      "versions": [
+        {
+          "version": "Core",
+          "price": 32990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "Plus",
+          "price": 36990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "Ultra",
+          "price": 41990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ]
+    },
+    {
+      "id": 601,
+      "brand": "Volvo",
+      "model": "EX40",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "electrico",
+      "seats": 5,
+      "price": 48990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "SUV compacto 100% eléctrico con diseño escandinavo y gran autonomía.",
+      "origin": "Suecia",
+      "hp": 408,
+      "torque_nm": 670,
+      "length_mm": 4440,
+      "width_mm": 2034,
+      "height_mm": 1647,
+      "wheelbase_mm": 2702,
+      "ground_clearance_mm": 211,
+      "trunk_liters": 460,
+      "airbags": 8,
+      "isofix": true,
+      "adas": [
+        "City Safety",
+        "Pilot Assist",
+        "Frenado autónomo",
+        "Detección peatones",
+        "Cámara 360°"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Google Automotive",
+        "Pantalla 12.3\"",
+        "Apple CarPlay"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "Suecia",
+      "versions": [
+        {
+          "version": "Twin Motor",
+          "price": 48990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "Twin Motor Ultimate",
+          "price": 53990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ]
+    },
+    {
+      "id": 602,
+      "brand": "Volvo",
+      "model": "EX90",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "electrico",
+      "seats": 7,
+      "price": 79990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "SUV eléctrico flagship de Volvo con 7 plazas y autonomía de más de 600 km.",
+      "origin": "Suecia",
+      "hp": 517,
+      "torque_nm": 910,
+      "length_mm": 5037,
+      "width_mm": 2014,
+      "height_mm": 1744,
+      "wheelbase_mm": 2985,
+      "ground_clearance_mm": 210,
+      "trunk_liters": 655,
+      "airbags": 8,
+      "isofix": true,
+      "adas": [
+        "LiDAR",
+        "City Safety",
+        "Pilot Assist",
+        "Frenado autónomo",
+        "Detección peatones",
+        "Cámara 360°",
+        "Asistente de estacionamiento"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Google Automotive",
+        "Pantalla 14.5\"",
+        "Apple CarPlay",
+        "Sonido Bowers & Wilkins"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "Suecia",
+      "versions": [
+        {
+          "version": "Twin Motor Core",
+          "price": 79990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "Twin Motor Plus",
+          "price": 87990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "Twin Motor Ultimate",
+          "price": 95990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ]
+    },
+    {
+      "id": 603,
+      "brand": "Volvo",
+      "model": "S60",
+      "year": 2026,
+      "type": "sedan",
+      "fuel": "hibrido",
+      "seats": 5,
+      "price": 38990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "Sedán ejecutivo premium con motorización híbrida enchufable.",
+      "origin": "Suecia",
+      "hp": 350,
+      "torque_nm": 500,
+      "length_mm": 4778,
+      "width_mm": 2034,
+      "height_mm": 1431,
+      "wheelbase_mm": 2870,
+      "fuel_tank_liters": 48,
+      "ground_clearance_mm": 145,
+      "trunk_liters": 380,
+      "airbags": 8,
+      "isofix": true,
+      "adas": [
+        "City Safety",
+        "Pilot Assist",
+        "Frenado autónomo",
+        "Detección peatones"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Google Automotive",
+        "Pantalla 9\"",
+        "Apple CarPlay"
+      ],
+      "fuel_consumption_mixed_km_l": 37,
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "Suecia",
+      "versions": [
+        {
+          "version": "T6 AWD Core",
+          "price": 38990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "T8 AWD Ultimate",
+          "price": 49990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ]
+    },
+    {
+      "id": 604,
+      "brand": "Volvo",
+      "model": "S90",
+      "year": 2026,
+      "type": "sedan",
+      "fuel": "hibrido",
+      "seats": 5,
+      "price": 58990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Sedán ejecutivo premium con motorización híbrida enchufable.",
+      "origin": "Suecia",
+      "hp": 350,
+      "torque_nm": 500,
+      "length_mm": 4969,
+      "width_mm": 2000,
+      "height_mm": 1447,
+      "wheelbase_mm": 2941,
+      "fuel_tank_liters": 48,
+      "ground_clearance_mm": 145,
+      "trunk_liters": 500,
+      "airbags": 8,
+      "isofix": true,
+      "adas": [
+        "City Safety",
+        "Pilot Assist",
+        "Frenado autónomo",
+        "Detección peatones",
+        "Cámara 360°"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Google Automotive",
+        "Pantalla 9\"",
+        "Apple CarPlay",
+        "Sonido Bowers & Wilkins"
+      ],
+      "fuel_consumption_mixed_km_l": 35,
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "Suecia",
+      "versions": [
+        {
+          "version": "T8 Recharge",
+          "price": 58990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "T8 Recharge Ultimate",
+          "price": 65990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 605,
+      "brand": "Volvo",
+      "model": "V60",
+      "year": 2026,
+      "type": "wagon",
+      "fuel": "hibrido",
+      "seats": 5,
+      "price": 45990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Station wagon premium con diseño escandinavo y motor híbrido eficiente.",
+      "origin": "Suecia",
+      "hp": 350,
+      "torque_nm": 500,
+      "length_mm": 4761,
+      "width_mm": 2000,
+      "height_mm": 1437,
+      "wheelbase_mm": 2870,
+      "fuel_tank_liters": 48,
+      "ground_clearance_mm": 145,
+      "trunk_liters": 529,
+      "airbags": 8,
+      "isofix": true,
+      "adas": [
+        "City Safety",
+        "Pilot Assist",
+        "Frenado autónomo",
+        "Detección peatones"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Google Automotive",
+        "Pantalla 9\"",
+        "Apple CarPlay"
+      ],
+      "fuel_consumption_mixed_km_l": 35,
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "Suecia",
+      "versions": [
+        {
+          "version": "T8 Recharge",
+          "price": 45990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "T8 Recharge Ultimate",
+          "price": 52990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 606,
+      "brand": "Volvo",
+      "model": "V90",
+      "year": 2026,
+      "type": "wagon",
+      "fuel": "hibrido",
+      "seats": 5,
+      "price": 58990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Station wagon de lujo con amplio espacio de carga y sofisticación.",
+      "origin": "Suecia",
+      "hp": 350,
+      "torque_nm": 500,
+      "length_mm": 4939,
+      "width_mm": 2000,
+      "height_mm": 1470,
+      "wheelbase_mm": 2941,
+      "fuel_tank_liters": 48,
+      "ground_clearance_mm": 150,
+      "trunk_liters": 560,
+      "airbags": 8,
+      "isofix": true,
+      "adas": [
+        "City Safety",
+        "Pilot Assist",
+        "Frenado autónomo",
+        "Detección peatones",
+        "Cámara 360°"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Google Automotive",
+        "Pantalla 9\"",
+        "Apple CarPlay",
+        "Sonido Bowers & Wilkins"
+      ],
+      "fuel_consumption_mixed_km_l": 35,
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "Suecia",
+      "versions": [
+        {
+          "version": "T8 Recharge",
+          "price": 58990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "T8 Recharge Ultimate",
+          "price": 65990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 607,
+      "brand": "Volvo",
+      "model": "XC40",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "hibrido",
+      "seats": 5,
+      "price": 36990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "SUV compacto premium con motorización híbrida y el mejor diseño escandinavo.",
+      "origin": "Suecia",
+      "hp": 197,
+      "torque_nm": 300,
+      "length_mm": 4440,
+      "width_mm": 2034,
+      "height_mm": 1652,
+      "wheelbase_mm": 2702,
+      "fuel_tank_liters": 48,
+      "ground_clearance_mm": 211,
+      "trunk_liters": 460,
+      "airbags": 8,
+      "isofix": true,
+      "adas": [
+        "City Safety",
+        "Pilot Assist",
+        "Frenado autónomo",
+        "Detección peatones"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Google Automotive",
+        "Pantalla 9\"",
+        "Apple CarPlay"
+      ],
+      "fuel_consumption_mixed_km_l": 18,
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "Suecia",
+      "versions": [
+        {
+          "version": "T5 AWD Core",
+          "price": 36990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "T5 AWD Plus",
+          "price": 40990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ]
+    },
+    {
+      "id": 608,
+      "brand": "Volvo",
+      "model": "XC60",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "hibrido",
+      "seats": 5,
+      "price": 45990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "SUV mediano premium con tecnología híbrida enchufable y seguridad líder.",
+      "origin": "Suecia",
+      "hp": 350,
+      "torque_nm": 500,
+      "length_mm": 4708,
+      "width_mm": 1902,
+      "height_mm": 1658,
+      "wheelbase_mm": 2865,
+      "fuel_tank_liters": 48,
+      "ground_clearance_mm": 216,
+      "trunk_liters": 505,
+      "airbags": 8,
+      "isofix": true,
+      "adas": [
+        "City Safety",
+        "Pilot Assist",
+        "Frenado autónomo",
+        "Detección peatones",
+        "Cámara 360°"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Google Automotive",
+        "Pantalla 9\"",
+        "Apple CarPlay",
+        "Sonido Bowers & Wilkins"
+      ],
+      "fuel_consumption_mixed_km_l": 35,
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "Suecia",
+      "versions": [
+        {
+          "version": "T6 AWD Core",
+          "price": 45990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "T6 AWD Plus",
+          "price": 51990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "T8 AWD Ultimate",
+          "price": 59990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ]
+    },
+    {
+      "id": 609,
+      "brand": "Volvo",
+      "model": "XC90",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "hibrido",
+      "seats": 7,
+      "price": 65990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "SUV grande de 7 plazas, tope de gama Volvo con lujo y seguridad absolutos.",
+      "origin": "Suecia",
+      "hp": 455,
+      "torque_nm": 600,
+      "length_mm": 4953,
+      "width_mm": 2008,
+      "height_mm": 1776,
+      "wheelbase_mm": 2984,
+      "fuel_tank_liters": 48,
+      "ground_clearance_mm": 238,
+      "trunk_liters": 640,
+      "airbags": 8,
+      "isofix": true,
+      "adas": [
+        "City Safety",
+        "Pilot Assist",
+        "Frenado autónomo",
+        "Detección peatones",
+        "Cámara 360°",
+        "Asistente de estacionamiento"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Google Automotive",
+        "Pantalla 9\"",
+        "Apple CarPlay",
+        "Sonido Bowers & Wilkins",
+        "Pantalla trasera"
+      ],
+      "fuel_consumption_mixed_km_l": 38,
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "Suecia",
+      "versions": [
+        {
+          "version": "T8 AWD Core",
+          "price": 65990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "T8 AWD Plus",
+          "price": 72990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "T8 AWD Ultimate",
+          "price": 82990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "brand": "Opel",
+  "brandUrl": "https://www.opel.cl",
+  "models": [
+    {
+      "id": 470,
+      "brand": "Opel",
+      "model": "Corsa",
+      "year": 2025,
+      "type": "hatchback",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 14490000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Hatchback subcompacto con diseño moderno.",
+      "origin": "España",
+      "versions": [
+        {
+          "version": "Edition",
+          "price": 14490000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Elegance",
+          "price": 16490000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 110,
+      "torque_nm": 150,
+      "top_speed_kmh": 190,
+      "fuel_consumption_city_km_l": 15,
+      "fuel_consumption_highway_km_l": 20,
+      "fuel_consumption_mixed_km_l": 17,
+      "fuel_tank_liters": 41,
+      "length_mm": 4060,
+      "width_mm": 1765,
+      "height_mm": 1433,
+      "wheelbase_mm": 2538,
+      "ground_clearance_mm": 150,
+      "trunk_liters": 267,
+      "airbags": 6,
+      "adas": [
+        "frenado automático de emergencia",
+        "asistente de carril"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "pantalla 7\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Bluetooth"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "España"
+    },
+    {
+      "id": 471,
+      "brand": "Opel",
+      "model": "Crossland",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 17490000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV compacto con diseño robusto.",
+      "origin": "Francia",
+      "versions": [
+        {
+          "version": "Edition",
+          "price": 17490000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Elegance",
+          "price": 20490000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 130,
+      "torque_nm": 230,
+      "top_speed_kmh": 190,
+      "fuel_consumption_city_km_l": 13,
+      "fuel_consumption_highway_km_l": 18,
+      "fuel_consumption_mixed_km_l": 15,
+      "fuel_tank_liters": 45,
+      "length_mm": 4212,
+      "width_mm": 1765,
+      "height_mm": 1597,
+      "wheelbase_mm": 2604,
+      "ground_clearance_mm": 175,
+      "trunk_liters": 410,
+      "airbags": 6,
+      "adas": [
+        "frenado automático de emergencia",
+        "asistente de carril",
+        "asistente de estacionamiento"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "pantalla 7\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Bluetooth"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Francia"
+    },
+    {
+      "id": 472,
+      "brand": "Opel",
+      "model": "Grandland",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 23490000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "SUV mediano con diseño elegante.",
+      "origin": "Francia",
+      "versions": [
+        {
+          "version": "Edition",
+          "price": 23490000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Elegance 4x4",
+          "price": 27490000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 180,
+      "torque_nm": 250,
+      "top_speed_kmh": 200,
+      "fuel_consumption_city_km_l": 12,
+      "fuel_consumption_highway_km_l": 17,
+      "fuel_consumption_mixed_km_l": 14,
+      "fuel_tank_liters": 53,
+      "length_mm": 4477,
+      "width_mm": 1856,
+      "height_mm": 1609,
+      "wheelbase_mm": 2675,
+      "ground_clearance_mm": 190,
+      "trunk_liters": 514,
+      "airbags": 7,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "cámara 360°",
+        "asistente de estacionamiento"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "pantalla 10\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Bluetooth"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Francia"
+    }
+  ]
+}

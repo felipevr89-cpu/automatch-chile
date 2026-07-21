@@ -1,0 +1,141 @@
+{
+  "brand": "Shineray",
+  "brandUrl": "https://www.shineraychile.cl",
+  "models": [
+    {
+      "id": 527,
+      "brand": "Shineray",
+      "model": "T30",
+      "year": 2026,
+      "type": "pickup",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 11990000,
+      "transmission": "manual",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Pick-up mediana con capacidad de carga mejorada para trabajo pesado.",
+      "origin": "China",
+      "hp": 108,
+      "torque_nm": 145,
+      "length_mm": 4800,
+      "width_mm": 1720,
+      "height_mm": 1780,
+      "wheelbase_mm": 2850,
+      "fuel_tank_liters": 50,
+      "ground_clearance_mm": 195,
+      "trunk_liters": 0,
+      "airbags": 2,
+      "isofix": false,
+      "adas": [],
+      "latin_ncap_stars": 2,
+      "infotainment": [
+        "Radio",
+        "Bluetooth",
+        "USB"
+      ],
+      "fuel_consumption_mixed_km_l": 11,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "1.5L MT",
+          "price": 11990000,
+          "transmission": "manual",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 528,
+      "brand": "Shineray",
+      "model": "X30",
+      "year": 2026,
+      "type": "pickup",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 9990000,
+      "transmission": "manual",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Pick-up compacta de trabajo con excelente relación costo-beneficio, representado por Gildemeister.",
+      "origin": "China",
+      "hp": 82,
+      "torque_nm": 115,
+      "length_mm": 4580,
+      "width_mm": 1680,
+      "height_mm": 1760,
+      "wheelbase_mm": 2700,
+      "fuel_tank_liters": 48,
+      "ground_clearance_mm": 190,
+      "trunk_liters": 0,
+      "airbags": 2,
+      "isofix": false,
+      "adas": [],
+      "latin_ncap_stars": 2,
+      "infotainment": [
+        "Radio",
+        "Bluetooth"
+      ],
+      "fuel_consumption_mixed_km_l": 11.5,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "1.3L MT",
+          "price": 9990000,
+          "transmission": "manual",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 529,
+      "brand": "Shineray",
+      "model": "X5",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 7,
+      "price": 14990000,
+      "transmission": "manual",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV de 7 plazas accesible para familias numerosas.",
+      "origin": "China",
+      "hp": 108,
+      "torque_nm": 145,
+      "length_mm": 4620,
+      "width_mm": 1790,
+      "height_mm": 1780,
+      "wheelbase_mm": 2750,
+      "fuel_tank_liters": 50,
+      "ground_clearance_mm": 200,
+      "trunk_liters": 480,
+      "airbags": 2,
+      "isofix": true,
+      "adas": [
+        "Cámara de retroceso"
+      ],
+      "latin_ncap_stars": 3,
+      "infotainment": [
+        "Pantalla 8\"",
+        "Bluetooth"
+      ],
+      "fuel_consumption_mixed_km_l": 11.5,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "1.5L MT 7 plazas",
+          "price": 14990000,
+          "transmission": "manual",
+          "traction": "4x2"
+        }
+      ]
+    }
+  ]
+}

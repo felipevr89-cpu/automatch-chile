@@ -1,0 +1,63 @@
+{
+  "brand": "Acura",
+  "brandUrl": "https://www.acura.cl",
+  "models": [
+    {
+      "id": 3,
+      "brand": "Acura",
+      "model": "RDX",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 47990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "SUV premium de Honda con motor turbo, tracción total SH-AWD, conducción deportiva y equipamiento de lujo.",
+      "origin": "Estados Unidos",
+      "versions": [
+        {
+          "version": "Advance SH-AWD",
+          "price": 47990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ],
+      "hp": 272,
+      "torque_nm": 380,
+      "top_speed_kmh": 217,
+      "fuel_consumption_city_km_l": 9,
+      "fuel_consumption_highway_km_l": 13,
+      "fuel_consumption_mixed_km_l": 11,
+      "fuel_tank_liters": 60,
+      "length_mm": 4756,
+      "width_mm": 1920,
+      "height_mm": 1668,
+      "wheelbase_mm": 2750,
+      "ground_clearance_mm": 200,
+      "trunk_liters": 831,
+      "airbags": 8,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "alerta de punto ciego",
+        "estacionamiento automático"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "pantalla 10.2\"",
+        "cuadro digital",
+        "Apple CarPlay",
+        "Android Auto",
+        "Bluetooth",
+        "audio ELS"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Estados Unidos"
+    }
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "brand": "Omoda",
+  "brandUrl": "https://www.omodajaecoo.cl",
+  "models": [
+    {
+      "id": 466,
+      "brand": "Omoda",
+      "model": "C5",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 12490000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV compacta con diseño vanguardista, motor 1.5L turbo y tecnología avanzada.",
+      "origin": "China",
+      "hp": 147,
+      "torque_nm": 210,
+      "length_mm": 4368,
+      "width_mm": 1848,
+      "height_mm": 1625,
+      "wheelbase_mm": 2630,
+      "fuel_tank_liters": 51,
+      "airbags": 6,
+      "isofix": true,
+      "adas": [
+        "Frenado automático AEB",
+        "Control crucero adaptativo",
+        "Alerta de punto ciego",
+        "Cámara 360°"
+      ],
+      "infotainment": [
+        "Pantalla 10.25\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Sony Premium"
+      ],
+      "fuel_consumption_mixed_km_l": 13,
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "Urban 1.5L",
+          "price": 12490000,
+          "transmission": "CVT",
+          "traction": "4x2"
+        },
+        {
+          "version": "Comfort 1.5T",
+          "price": 14990000,
+          "transmission": "DCT 7V",
+          "traction": "4x2"
+        },
+        {
+          "version": "Luxury 1.5T",
+          "price": 16990000,
+          "transmission": "DCT 7V",
+          "traction": "4x2"
+        },
+        {
+          "version": "Prestige 1.6TGDI",
+          "price": 18990000,
+          "transmission": "DCT 7V",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 467,
+      "brand": "Omoda",
+      "model": "C5 SHS",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "hibrido_enchufable",
+      "seats": 5,
+      "price": 17990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Versión híbrida enchufable del C5 con sistema DHT y autonomía eléctrica.",
+      "origin": "China",
+      "hp": 197,
+      "torque_nm": 350,
+      "length_mm": 4368,
+      "width_mm": 1848,
+      "height_mm": 1625,
+      "wheelbase_mm": 2630,
+      "fuel_tank_liters": 51,
+      "airbags": 6,
+      "isofix": true,
+      "adas": [
+        "Frenado automático AEB",
+        "Control crucero adaptativo",
+        "Cámara 360°"
+      ],
+      "infotainment": [
+        "Pantalla 10.25\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "fuel_consumption_mixed_km_l": 20,
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "Comfort 1.5T DHT",
+          "price": 17990000,
+          "transmission": "DHT",
+          "traction": "4x2"
+        },
+        {
+          "version": "Luxury 1.5T DHT",
+          "price": 19990000,
+          "transmission": "DHT",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 468,
+      "brand": "Omoda",
+      "model": "C7",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 17740000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV coupe con diseño deportivo y motor turbo.",
+      "origin": "China",
+      "hp": 197,
+      "torque_nm": 290,
+      "length_mm": 4600,
+      "width_mm": 1880,
+      "height_mm": 1670,
+      "wheelbase_mm": 2720,
+      "fuel_tank_liters": 55,
+      "airbags": 6,
+      "isofix": true,
+      "adas": [
+        "Frenado automático AEB",
+        "Control crucero adaptativo"
+      ],
+      "infotainment": [
+        "Pantalla 12.3\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "fuel_consumption_mixed_km_l": 12.5,
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "Comfort",
+          "price": 17740000,
+          "transmission": "DCT 7V",
+          "traction": "4x2"
+        },
+        {
+          "version": "Luxury",
+          "price": 19740000,
+          "transmission": "DCT 7V",
+          "traction": "4x2"
+        },
+        {
+          "version": "Prestige",
+          "price": 21740000,
+          "transmission": "DCT 7V",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 469,
+      "brand": "Omoda",
+      "model": "E5",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "electrico",
+      "seats": 5,
+      "price": 25990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV 100% eléctrica con autonomía de hasta 430 km.",
+      "origin": "China",
+      "hp": 204,
+      "torque_nm": 340,
+      "length_mm": 4368,
+      "width_mm": 1848,
+      "height_mm": 1625,
+      "wheelbase_mm": 2630,
+      "airbags": 6,
+      "isofix": true,
+      "adas": [
+        "Frenado automático AEB",
+        "Control crucero adaptativo",
+        "Cámara 360°"
+      ],
+      "infotainment": [
+        "Pantalla 12.3\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "E5 EV 61kWh",
+          "price": 25990000,
+          "transmission": "Automática",
+          "traction": "4x2"
+        }
+      ]
+    }
+  ]
+}

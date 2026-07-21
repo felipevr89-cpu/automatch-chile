@@ -1,0 +1,65 @@
+{
+  "brand": "Wey",
+  "brandUrl": "https://www.gwm.cl",
+  "models": [
+    {
+      "id": 610,
+      "brand": "Wey",
+      "model": "05",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "hibrido_enchufable",
+      "seats": 5,
+      "price": 39990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV mediano híbrido enchufable premium de GWM con gran autonomía eléctrica, lujo y equipamiento tecnológico avanzado.",
+      "origin": "China",
+      "versions": [
+        {
+          "version": "PHEV Flagship",
+          "price": 39990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 476,
+      "torque_nm": 762,
+      "top_speed_kmh": 200,
+      "fuel_consumption_city_km_l": 18,
+      "fuel_consumption_highway_km_l": 22,
+      "fuel_consumption_mixed_km_l": 20,
+      "fuel_tank_liters": 55,
+      "electric_range_km": 110,
+      "battery_kwh": 34,
+      "length_mm": 4870,
+      "width_mm": 1960,
+      "height_mm": 1730,
+      "wheelbase_mm": 2915,
+      "ground_clearance_mm": 180,
+      "trunk_liters": 480,
+      "airbags": 8,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "alerta de punto ciego",
+        "estacionamiento automático",
+        "cámara 360"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "pantalla dual 14.6\"",
+        "cuadro digital",
+        "Apple CarPlay",
+        "Android Auto",
+        "Bluetooth"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 150000,
+      "origin_country": "China"
+    }
+  ]
+}

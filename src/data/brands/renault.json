@@ -1,0 +1,816 @@
+{
+  "brand": "Renault",
+  "brandUrl": "https://www.renault.cl",
+  "models": [
+    {
+      "id": 502,
+      "brand": "Renault",
+      "model": "Alaskan",
+      "year": 2026,
+      "type": "pickup",
+      "fuel": "diesel",
+      "seats": 5,
+      "price": 26990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "Pick-up mediana con capacidad todoterreno y motor diésel.",
+      "origin": "España",
+      "hp": 190,
+      "torque_nm": 450,
+      "length_mm": 5270,
+      "width_mm": 1850,
+      "height_mm": 1780,
+      "wheelbase_mm": 3150,
+      "fuel_tank_liters": 80,
+      "ground_clearance_mm": 210,
+      "trunk_liters": 0,
+      "airbags": 6,
+      "isofix": true,
+      "adas": [
+        "Control crucero adaptativo",
+        "Frenado automático",
+        "Cámara 360°"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Pantalla 8\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "fuel_consumption_mixed_km_l": 10,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "España",
+      "versions": [
+        {
+          "version": "2.3L dCi 4x4",
+          "price": 26990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "2.3L dCi 4x4 Iconic",
+          "price": 29990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ]
+    },
+    {
+      "id": 503,
+      "brand": "Renault",
+      "model": "Arkana MHEV",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "hibrido",
+      "seats": 5,
+      "price": 21990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV coupé híbrido con sistema microhíbrido y diseño deportivo.",
+      "origin": "Francia",
+      "hp": 140,
+      "torque_nm": 240,
+      "length_mm": 4568,
+      "width_mm": 1821,
+      "height_mm": 1571,
+      "wheelbase_mm": 2720,
+      "fuel_tank_liters": 50,
+      "ground_clearance_mm": 190,
+      "trunk_liters": 480,
+      "airbags": 6,
+      "isofix": true,
+      "adas": [
+        "Control crucero adaptativo",
+        "Asistente de carril",
+        "Frenado automático",
+        "Cámara 360°"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "OpenR Link",
+        "Pantalla 9.3\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "fuel_consumption_mixed_km_l": 15,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Francia",
+      "versions": [
+        {
+          "version": "Zen MHEV",
+          "price": 21990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Intens MHEV",
+          "price": 25990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 504,
+      "brand": "Renault",
+      "model": "Austral",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 26990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "SUV mediano con tecnología híbrida.",
+      "origin": "Francia",
+      "versions": [
+        {
+          "version": "Techno",
+          "price": 26990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Techno 4x4",
+          "price": 30990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "Esprit Alpine",
+          "price": 34990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 200,
+      "torque_nm": 320,
+      "top_speed_kmh": 180,
+      "fuel_consumption_city_km_l": 16,
+      "fuel_consumption_highway_km_l": 19,
+      "fuel_consumption_mixed_km_l": 17,
+      "fuel_tank_liters": 55,
+      "length_mm": 4520,
+      "width_mm": 1836,
+      "height_mm": 1613,
+      "wheelbase_mm": 2670,
+      "ground_clearance_mm": 185,
+      "trunk_liters": 487,
+      "airbags": 8,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "cámara 360°",
+        "asistente de estacionamiento",
+        "asistente de conducción en autopista"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "OpenR Link",
+        "pantalla 12\"",
+        "Google Built-In",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Francia"
+    },
+    {
+      "id": 505,
+      "brand": "Renault",
+      "model": "Captur",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 19990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV subcompacto con diseño personalizable.",
+      "origin": "España",
+      "versions": [
+        {
+          "version": "Zen",
+          "price": 19990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Intens",
+          "price": 23490000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "R.S. Line",
+          "price": 26990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 140,
+      "torque_nm": 240,
+      "top_speed_kmh": 195,
+      "fuel_consumption_city_km_l": 13,
+      "fuel_consumption_highway_km_l": 18,
+      "fuel_consumption_mixed_km_l": 15,
+      "fuel_tank_liters": 48,
+      "length_mm": 4227,
+      "width_mm": 1797,
+      "height_mm": 1593,
+      "wheelbase_mm": 2604,
+      "ground_clearance_mm": 173,
+      "trunk_liters": 455,
+      "airbags": 6,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "cámara 360°"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "OpenR Link",
+        "pantalla 9.3\"",
+        "Google Built-In",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "España"
+    },
+    {
+      "id": 506,
+      "brand": "Renault",
+      "model": "Duster",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 16990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "SUV compacto con capacidad off-road.",
+      "origin": "Rumania",
+      "versions": [
+        {
+          "version": "Authentique 4x2",
+          "price": 16990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Zen 4x2",
+          "price": 19490000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Intens 4x4",
+          "price": 22990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 170,
+      "torque_nm": 250,
+      "top_speed_kmh": 190,
+      "fuel_consumption_city_km_l": 12,
+      "fuel_consumption_highway_km_l": 17,
+      "fuel_consumption_mixed_km_l": 14,
+      "fuel_tank_liters": 55,
+      "length_mm": 4341,
+      "width_mm": 1813,
+      "height_mm": 1625,
+      "wheelbase_mm": 2656,
+      "ground_clearance_mm": 217,
+      "trunk_liters": 472,
+      "airbags": 6,
+      "adas": [
+        "frenado automático de emergencia",
+        "asistente de carril",
+        "control de crucero adaptativo"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "pantalla 8\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Bluetooth"
+      ],
+      "warranty_years": 4,
+      "warranty_km": 100000,
+      "origin_country": "Rumania"
+    },
+    {
+      "id": 507,
+      "brand": "Renault",
+      "model": "Kangoo",
+      "year": 2026,
+      "type": "minivan",
+      "fuel": "diesel",
+      "seats": 5,
+      "price": 17990000,
+      "transmission": "manual",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Furgón multiuso con amplio espacio de carga y eficiencia diésel.",
+      "origin": "Francia",
+      "hp": 95,
+      "torque_nm": 220,
+      "length_mm": 4466,
+      "width_mm": 1830,
+      "height_mm": 1810,
+      "wheelbase_mm": 2810,
+      "fuel_tank_liters": 60,
+      "ground_clearance_mm": 175,
+      "trunk_liters": 0,
+      "airbags": 4,
+      "isofix": true,
+      "adas": [
+        "Frenado automático",
+        "Control de estabilidad"
+      ],
+      "latin_ncap_stars": 4,
+      "infotainment": [
+        "Pantalla 7\"",
+        "Bluetooth",
+        "USB"
+      ],
+      "fuel_consumption_mixed_km_l": 14,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Francia",
+      "versions": [
+        {
+          "version": "1.5L dCi Zen MT",
+          "price": 17990000,
+          "transmission": "manual",
+          "traction": "4x2"
+        },
+        {
+          "version": "1.5L dCi Intens MT",
+          "price": 19990000,
+          "transmission": "manual",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 508,
+      "brand": "Renault",
+      "model": "Koleos",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 28990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "SUV mediano de lujo con amplio equipamiento.",
+      "origin": "Corea del Sur",
+      "versions": [
+        {
+          "version": "Zen",
+          "price": 28990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Intens",
+          "price": 32990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 184,
+      "torque_nm": 300,
+      "top_speed_kmh": 190,
+      "fuel_consumption_city_km_l": 11,
+      "fuel_consumption_highway_km_l": 16,
+      "fuel_consumption_mixed_km_l": 13,
+      "fuel_tank_liters": 60,
+      "length_mm": 4673,
+      "width_mm": 1843,
+      "height_mm": 1678,
+      "wheelbase_mm": 2705,
+      "ground_clearance_mm": 210,
+      "trunk_liters": 498,
+      "airbags": 6,
+      "adas": [
+        "control de crucero adaptativo",
+        "asistente de carril",
+        "frenado automático de emergencia",
+        "cámara 360°",
+        "asistente de estacionamiento"
+      ],
+      "latin_ncap_stars": 5,
+      "isofix": true,
+      "infotainment": [
+        "pantalla 8.7\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "sonido Bose"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Corea del Sur"
+    },
+    {
+      "id": 509,
+      "brand": "Renault",
+      "model": "Kwid",
+      "year": 2025,
+      "type": "hatchback",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 10990000,
+      "transmission": "manual",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Micro SUV urbano económico.",
+      "origin": "Brasil",
+      "versions": [
+        {
+          "version": "Authentique",
+          "price": 10990000,
+          "transmission": "manual",
+          "traction": "4x2"
+        },
+        {
+          "version": "Expression",
+          "price": 12490000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Intens",
+          "price": 14490000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 70,
+      "torque_nm": 98,
+      "top_speed_kmh": 155,
+      "fuel_consumption_city_km_l": 16,
+      "fuel_consumption_highway_km_l": 21,
+      "fuel_consumption_mixed_km_l": 18,
+      "fuel_tank_liters": 35,
+      "length_mm": 3731,
+      "width_mm": 1586,
+      "height_mm": 1522,
+      "wheelbase_mm": 2423,
+      "ground_clearance_mm": 184,
+      "trunk_liters": 290,
+      "airbags": 2,
+      "adas": [],
+      "latin_ncap_stars": 3,
+      "isofix": true,
+      "infotainment": [
+        "pantalla 7\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Bluetooth"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Brasil"
+    },
+    {
+      "id": 510,
+      "brand": "Renault",
+      "model": "Logan",
+      "year": 2026,
+      "type": "sedan",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 9990000,
+      "transmission": "manual",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Sedán compacto con amplio maletero y gran durabilidad.",
+      "origin": "Rumania",
+      "hp": 100,
+      "torque_nm": 140,
+      "length_mm": 4346,
+      "width_mm": 1733,
+      "height_mm": 1500,
+      "wheelbase_mm": 2634,
+      "fuel_tank_liters": 50,
+      "ground_clearance_mm": 155,
+      "trunk_liters": 510,
+      "airbags": 4,
+      "isofix": true,
+      "adas": [
+        "Frenado automático"
+      ],
+      "latin_ncap_stars": 4,
+      "infotainment": [
+        "Pantalla 7\"",
+        "Bluetooth",
+        "USB"
+      ],
+      "fuel_consumption_mixed_km_l": 15,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Rumania",
+      "versions": [
+        {
+          "version": "1.6L MT",
+          "price": 9990000,
+          "transmission": "manual",
+          "traction": "4x2"
+        },
+        {
+          "version": "1.6L MT Intense",
+          "price": 10990000,
+          "transmission": "manual",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 511,
+      "brand": "Renault",
+      "model": "Master",
+      "year": 2026,
+      "type": "minivan",
+      "fuel": "diesel",
+      "seats": 5,
+      "price": 24990000,
+      "transmission": "manual",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Furgón grande para transporte de carga y pasajeros.",
+      "origin": "Francia",
+      "hp": 130,
+      "torque_nm": 300,
+      "length_mm": 5048,
+      "width_mm": 2070,
+      "height_mm": 2300,
+      "wheelbase_mm": 3180,
+      "fuel_tank_liters": 80,
+      "ground_clearance_mm": 185,
+      "trunk_liters": 0,
+      "airbags": 4,
+      "isofix": false,
+      "adas": [
+        "Frenado automático",
+        "Control de estabilidad",
+        "Asistente de carril"
+      ],
+      "latin_ncap_stars": 3,
+      "infotainment": [
+        "Pantalla 7\"",
+        "Bluetooth"
+      ],
+      "fuel_consumption_mixed_km_l": 10,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Francia",
+      "versions": [
+        {
+          "version": "2.3L dCi Zen MT",
+          "price": 24990000,
+          "transmission": "manual",
+          "traction": "4x2"
+        },
+        {
+          "version": "2.3L dCi Intens MT",
+          "price": 27990000,
+          "transmission": "manual",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 512,
+      "brand": "Renault",
+      "model": "Megane E-Tech",
+      "year": 2026,
+      "type": "hatchback",
+      "fuel": "electrico",
+      "seats": 5,
+      "price": 38990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Hatchback eléctrico con diseño moderno y gran autonomía.",
+      "origin": "Francia",
+      "hp": 220,
+      "torque_nm": 300,
+      "length_mm": 4200,
+      "width_mm": 1780,
+      "height_mm": 1500,
+      "wheelbase_mm": 2685,
+      "ground_clearance_mm": 140,
+      "trunk_liters": 389,
+      "airbags": 8,
+      "isofix": true,
+      "adas": [
+        "Control crucero adaptativo",
+        "Asistente de carril",
+        "Frenado automático",
+        "Cámara 360°"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "OpenR Link",
+        "Pantalla 12\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Francia",
+      "versions": [
+        {
+          "version": "EV60",
+          "price": 38990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "EV60 Iconic",
+          "price": 42990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 513,
+      "brand": "Renault",
+      "model": "Oroch",
+      "year": 2026,
+      "type": "pickup",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 15990000,
+      "transmission": "manual",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Pick-up compacta con cabina doble y gran versatilidad.",
+      "origin": "Brasil",
+      "hp": 110,
+      "torque_nm": 150,
+      "length_mm": 4380,
+      "width_mm": 1810,
+      "height_mm": 1690,
+      "wheelbase_mm": 2690,
+      "fuel_tank_liters": 60,
+      "ground_clearance_mm": 200,
+      "trunk_liters": 0,
+      "airbags": 4,
+      "isofix": true,
+      "adas": [],
+      "latin_ncap_stars": 4,
+      "infotainment": [
+        "Pantalla 7\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "fuel_consumption_mixed_km_l": 12,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Brasil",
+      "versions": [
+        {
+          "version": "1.6L Zen MT",
+          "price": 15990000,
+          "transmission": "manual",
+          "traction": "4x2"
+        },
+        {
+          "version": "1.6L Intens MT",
+          "price": 17990000,
+          "transmission": "manual",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 514,
+      "brand": "Renault",
+      "model": "Sandero",
+      "year": 2026,
+      "type": "hatchback",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 9990000,
+      "transmission": "manual",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Hatchback compacto y accesible con gran relación precio-producto.",
+      "origin": "Rumania",
+      "hp": 100,
+      "torque_nm": 140,
+      "length_mm": 4060,
+      "width_mm": 1733,
+      "height_mm": 1500,
+      "wheelbase_mm": 2590,
+      "fuel_tank_liters": 50,
+      "ground_clearance_mm": 155,
+      "trunk_liters": 320,
+      "airbags": 4,
+      "isofix": true,
+      "adas": [
+        "Frenado automático"
+      ],
+      "latin_ncap_stars": 4,
+      "infotainment": [
+        "Pantalla 7\"",
+        "Bluetooth",
+        "USB"
+      ],
+      "fuel_consumption_mixed_km_l": 15,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Rumania",
+      "versions": [
+        {
+          "version": "1.6L MT",
+          "price": 9990000,
+          "transmission": "manual",
+          "traction": "4x2"
+        },
+        {
+          "version": "1.6L MT Intense",
+          "price": 10990000,
+          "transmission": "manual",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 515,
+      "brand": "Renault",
+      "model": "Stepway",
+      "year": 2025,
+      "type": "hatchback",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 13990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Hatchback tipo crossover con protección de SUV.",
+      "origin": "Brasil",
+      "versions": [
+        {
+          "version": "Zen",
+          "price": 13990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Intens",
+          "price": 15990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 82,
+      "torque_nm": 120,
+      "top_speed_kmh": 170,
+      "fuel_consumption_city_km_l": 14,
+      "fuel_consumption_highway_km_l": 19,
+      "fuel_consumption_mixed_km_l": 16,
+      "fuel_tank_liters": 40,
+      "length_mm": 4012,
+      "width_mm": 1730,
+      "height_mm": 1612,
+      "wheelbase_mm": 2539,
+      "ground_clearance_mm": 191,
+      "trunk_liters": 315,
+      "airbags": 2,
+      "adas": [],
+      "latin_ncap_stars": 3,
+      "isofix": true,
+      "infotainment": [
+        "pantalla 7\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Bluetooth"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Brasil"
+    }
+  ]
+}

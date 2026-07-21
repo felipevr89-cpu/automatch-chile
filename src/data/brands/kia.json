@@ -1,0 +1,1218 @@
+{
+  "brand": "Kia",
+  "brandUrl": "https://www.kia.cl",
+  "models": [
+    {
+      "id": 310,
+      "brand": "Kia",
+      "model": "Bongo",
+      "year": 2026,
+      "type": "pickup",
+      "fuel": "diesel",
+      "seats": 5,
+      "price": 19990000,
+      "transmission": "manual",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Pickup de carga con motor diésel eficiente y gran durabilidad.",
+      "origin": "Corea del Sur",
+      "hp": 130,
+      "torque_nm": 260,
+      "length_mm": 4850,
+      "width_mm": 1750,
+      "height_mm": 1980,
+      "wheelbase_mm": 2800,
+      "fuel_tank_liters": 65,
+      "ground_clearance_mm": 180,
+      "trunk_liters": 0,
+      "airbags": 4,
+      "isofix": true,
+      "adas": [
+        "Frenado automático"
+      ],
+      "latin_ncap_stars": 4,
+      "infotainment": [
+        "Bluetooth",
+        "USB"
+      ],
+      "fuel_consumption_mixed_km_l": 11,
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "Corea del Sur",
+      "versions": [
+        {
+          "version": "Cabina Simple",
+          "price": 19990000,
+          "transmission": "manual",
+          "traction": "4x2"
+        },
+        {
+          "version": "Cabina Doble",
+          "price": 21990000,
+          "transmission": "manual",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 311,
+      "brand": "Kia",
+      "model": "Carens",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 7,
+      "price": 19990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV familiar de 7 plazas con amplio espacio y versatilidad.",
+      "origin": "Corea del Sur",
+      "hp": 140,
+      "torque_nm": 250,
+      "length_mm": 4530,
+      "width_mm": 1820,
+      "height_mm": 1680,
+      "wheelbase_mm": 2780,
+      "fuel_tank_liters": 50,
+      "ground_clearance_mm": 175,
+      "trunk_liters": 510,
+      "airbags": 6,
+      "isofix": true,
+      "adas": [
+        "Control crucero adaptativo",
+        "Asistente de carril",
+        "Frenado automático",
+        "Cámara 360°"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Pantalla 10.25\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "fuel_consumption_mixed_km_l": 13,
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "Corea del Sur",
+      "versions": [
+        {
+          "version": "1.5L AT 7 plazas",
+          "price": 19990000,
+          "transmission": "automática",
+          "traction": "4x2"
+        },
+        {
+          "version": "1.5L AT Luxury",
+          "price": 22990000,
+          "transmission": "automática",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 312,
+      "brand": "Kia",
+      "model": "Carnival",
+      "year": 2025,
+      "type": "minivan",
+      "fuel": "gasolina",
+      "seats": 7,
+      "price": 36990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Minivan premium con diseño SUV y lujo interior",
+      "origin": "Corea del Sur",
+      "origin_country": "Corea del Sur",
+      "versions": [
+        {
+          "version": "EX",
+          "price": 36990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "SX",
+          "price": 41990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "SX Prestige",
+          "price": 46990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 290,
+      "torque_nm": 355,
+      "fuel_consumption_mixed_km_l": 12,
+      "fuel_tank_liters": 72,
+      "length_mm": 5155,
+      "width_mm": 1995,
+      "height_mm": 1775,
+      "wheelbase_mm": 3090,
+      "ground_clearance_mm": 172,
+      "trunk_liters": 1139,
+      "airbags": 8,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 12.3\"",
+        "Harman Kardon",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "adas": [
+        "Drive Wise",
+        "Frenado automático",
+        "Lane Keep Assist",
+        "Control crucero adaptativo",
+        "Parking Assist"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000
+    },
+    {
+      "id": 313,
+      "brand": "Kia",
+      "model": "Cerato",
+      "year": 2025,
+      "type": "sedan",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 17990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Sedán compacto con diseño sport y tecnología",
+      "origin": "Corea del Sur",
+      "origin_country": "Corea del Sur",
+      "versions": [
+        {
+          "version": "LX",
+          "price": 17990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "EX",
+          "price": 20990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "GT Line",
+          "price": 23990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 149,
+      "torque_nm": 179,
+      "fuel_consumption_mixed_km_l": 17,
+      "fuel_tank_liters": 50,
+      "length_mm": 4640,
+      "width_mm": 1800,
+      "height_mm": 1450,
+      "wheelbase_mm": 2700,
+      "ground_clearance_mm": 150,
+      "trunk_liters": 502,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 10.25\"",
+        "Harman Kardon",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "adas": [
+        "Drive Wise",
+        "Frenado automático",
+        "Lane Keep Assist",
+        "Control crucero adaptativo"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000
+    },
+    {
+      "id": 314,
+      "brand": "Kia",
+      "model": "EV5",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "electrico",
+      "seats": 5,
+      "price": 34990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "SUV 100% eléctrico con autonomía extendida",
+      "origin": "Corea del Sur",
+      "origin_country": "Corea del Sur",
+      "versions": [
+        {
+          "version": "Standard",
+          "price": 34990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "Long Range",
+          "price": 39990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ],
+      "hp": 218,
+      "torque_nm": 310,
+      "length_mm": 4615,
+      "width_mm": 1875,
+      "height_mm": 1715,
+      "wheelbase_mm": 2750,
+      "ground_clearance_mm": 180,
+      "trunk_liters": 513,
+      "airbags": 8,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 12.3\"",
+        "Harman Kardon",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "adas": [
+        "Drive Wise",
+        "Frenado automático",
+        "Lane Keep Assist",
+        "Control crucero adaptativo"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000
+    },
+    {
+      "id": 315,
+      "brand": "Kia",
+      "model": "EV6",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "electrico",
+      "seats": 5,
+      "price": 42990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "SUV eléctrico de alto rendimiento con carga ultra-rápida",
+      "origin": "Corea del Sur",
+      "origin_country": "Corea del Sur",
+      "versions": [
+        {
+          "version": "Air",
+          "price": 42990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "GT-Line",
+          "price": 48990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "GT",
+          "price": 58990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ],
+      "hp": 325,
+      "torque_nm": 605,
+      "length_mm": 4695,
+      "width_mm": 1890,
+      "height_mm": 1550,
+      "wheelbase_mm": 2900,
+      "ground_clearance_mm": 160,
+      "trunk_liters": 520,
+      "airbags": 7,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 12.3\"",
+        "Meridian",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "adas": [
+        "Drive Wise",
+        "Frenado automático",
+        "Lane Keep Assist",
+        "Control crucero adaptativo",
+        "Parking Assist"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000
+    },
+    {
+      "id": 316,
+      "brand": "Kia",
+      "model": "EV9",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "electrico",
+      "seats": 7,
+      "price": 54990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "SUV eléctrico de gran tamaño con 7 plazas, diseño vanguardista y autonomía excepcional.",
+      "origin": "Corea del Sur",
+      "hp": 380,
+      "torque_nm": 700,
+      "length_mm": 5010,
+      "width_mm": 1980,
+      "height_mm": 1755,
+      "wheelbase_mm": 3100,
+      "ground_clearance_mm": 178,
+      "trunk_liters": 600,
+      "airbags": 8,
+      "isofix": true,
+      "adas": [
+        "Frenado autónomo de emergencia",
+        "Asistente de mantenimiento de carril",
+        "Control crucero adaptativo",
+        "Cámara 360°",
+        "Estacionamiento autónomo remoto"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Pantalla dual 12.3\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Sonido Meridian"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "Corea del Sur",
+      "versions": [
+        {
+          "version": "RWD Standard",
+          "price": 49990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "AWD Long Range",
+          "price": 54990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ]
+    },
+    {
+      "id": 317,
+      "brand": "Kia",
+      "model": "K3",
+      "year": 2026,
+      "type": "sedan",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 12990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Sedán compacto con diseño deportivo y alta eficiencia.",
+      "origin": "Corea del Sur",
+      "hp": 120,
+      "torque_nm": 160,
+      "length_mm": 4550,
+      "width_mm": 1780,
+      "height_mm": 1465,
+      "wheelbase_mm": 2670,
+      "fuel_tank_liters": 50,
+      "ground_clearance_mm": 150,
+      "trunk_liters": 450,
+      "airbags": 6,
+      "isofix": true,
+      "adas": [
+        "Control crucero adaptativo",
+        "Asistente de carril",
+        "Frenado automático"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Pantalla 8\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "fuel_consumption_mixed_km_l": 16,
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "Corea del Sur",
+      "versions": [
+        {
+          "version": "1.6L MT",
+          "price": 11990000,
+          "transmission": "manual",
+          "traction": "4x2"
+        },
+        {
+          "version": "1.6L AT",
+          "price": 12990000,
+          "transmission": "automática",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 318,
+      "brand": "Kia",
+      "model": "Morning",
+      "year": 2025,
+      "type": "hatchback",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 12990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "City car económica y confiable para la ciudad",
+      "origin": "Corea del Sur",
+      "origin_country": "Corea del Sur",
+      "versions": [
+        {
+          "version": "LX",
+          "price": 12990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "EX",
+          "price": 14990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 79,
+      "torque_nm": 114,
+      "fuel_consumption_mixed_km_l": 20,
+      "fuel_tank_liters": 43,
+      "length_mm": 3595,
+      "width_mm": 1595,
+      "height_mm": 1485,
+      "wheelbase_mm": 2385,
+      "ground_clearance_mm": 152,
+      "trunk_liters": 255,
+      "airbags": 2,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 8\"",
+        "Bluetooth",
+        "USB"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000
+    },
+    {
+      "id": 319,
+      "brand": "Kia",
+      "model": "Niro",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "hibrido",
+      "seats": 5,
+      "price": 26990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV híbrido eficiente con diseño aerodinámico",
+      "origin": "Corea del Sur",
+      "origin_country": "Corea del Sur",
+      "versions": [
+        {
+          "version": "HEV",
+          "price": 26990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "PHEV",
+          "price": 31990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "EV",
+          "price": 35990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 141,
+      "torque_nm": 265,
+      "fuel_consumption_mixed_km_l": 23,
+      "fuel_tank_liters": 43,
+      "length_mm": 4420,
+      "width_mm": 1825,
+      "height_mm": 1570,
+      "wheelbase_mm": 2720,
+      "ground_clearance_mm": 170,
+      "trunk_liters": 427,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 10.25\"",
+        "Harman Kardon",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "adas": [
+        "Drive Wise",
+        "Frenado automático",
+        "Lane Keep Assist",
+        "Control crucero adaptativo"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000
+    },
+    {
+      "id": 320,
+      "brand": "Kia",
+      "model": "Niro EV",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "electrico",
+      "seats": 5,
+      "price": 35990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV eléctrico eficiente con autonomía de 463 km",
+      "origin": "Corea del Sur",
+      "origin_country": "Corea del Sur",
+      "versions": [
+        {
+          "version": "Wind",
+          "price": 35990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Wave",
+          "price": 39990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 204,
+      "torque_nm": 255,
+      "length_mm": 4420,
+      "width_mm": 1825,
+      "height_mm": 1570,
+      "wheelbase_mm": 2720,
+      "ground_clearance_mm": 170,
+      "trunk_liters": 427,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 10.25\"",
+        "Harman Kardon",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "adas": [
+        "Drive Wise",
+        "Frenado automático",
+        "Lane Keep Assist",
+        "Control crucero adaptativo"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000
+    },
+    {
+      "id": 321,
+      "brand": "Kia",
+      "model": "Rio",
+      "year": 2025,
+      "type": "sedan",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 13990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Sedán subcompacto con acabados premium",
+      "origin": "Corea del Sur",
+      "origin_country": "Corea del Sur",
+      "versions": [
+        {
+          "version": "LX",
+          "price": 13990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "EX",
+          "price": 15990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "SX",
+          "price": 17490000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 120,
+      "torque_nm": 151,
+      "fuel_consumption_mixed_km_l": 18,
+      "fuel_tank_liters": 43,
+      "length_mm": 4440,
+      "width_mm": 1729,
+      "height_mm": 1470,
+      "wheelbase_mm": 2600,
+      "ground_clearance_mm": 150,
+      "trunk_liters": 474,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 8\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "adas": [
+        "Frenado automático",
+        "Alerta de punto ciego"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000
+    },
+    {
+      "id": 322,
+      "brand": "Kia",
+      "model": "Seltos",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 19990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV compacto con diseño bold y tecnología avanzada",
+      "origin": "Corea del Sur",
+      "origin_country": "Corea del Sur",
+      "versions": [
+        {
+          "version": "LX",
+          "price": 19990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "EX",
+          "price": 22990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "SX",
+          "price": 26990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 149,
+      "torque_nm": 179,
+      "fuel_consumption_mixed_km_l": 16.5,
+      "fuel_tank_liters": 50,
+      "length_mm": 4370,
+      "width_mm": 1800,
+      "height_mm": 1615,
+      "wheelbase_mm": 2630,
+      "ground_clearance_mm": 190,
+      "trunk_liters": 428,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 10.25\"",
+        "Bose",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "adas": [
+        "Drive Wise",
+        "Frenado automático",
+        "Lane Keep Assist",
+        "Control crucero adaptativo"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000
+    },
+    {
+      "id": 323,
+      "brand": "Kia",
+      "model": "Soluto",
+      "year": 2026,
+      "type": "sedan",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 9990000,
+      "transmission": "manual",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Sedán compacto accesible con excelente eficiencia de combustible para la ciudad.",
+      "origin": "Corea del Sur",
+      "hp": 95,
+      "torque_nm": 135,
+      "length_mm": 4395,
+      "width_mm": 1680,
+      "height_mm": 1510,
+      "wheelbase_mm": 2570,
+      "fuel_tank_liters": 43,
+      "ground_clearance_mm": 150,
+      "trunk_liters": 475,
+      "airbags": 4,
+      "isofix": true,
+      "adas": [
+        "Cámara de retroceso"
+      ],
+      "latin_ncap_stars": 4,
+      "infotainment": [
+        "Pantalla 7\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "fuel_consumption_mixed_km_l": 15,
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "Corea del Sur",
+      "versions": [
+        {
+          "version": "1.4L MT",
+          "price": 9990000,
+          "transmission": "manual",
+          "traction": "4x2"
+        },
+        {
+          "version": "1.4L AT",
+          "price": 11490000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 324,
+      "brand": "Kia",
+      "model": "Sonet",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 15990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV subcompacto con diseño atrevido",
+      "origin": "India",
+      "origin_country": "Corea del Sur",
+      "versions": [
+        {
+          "version": "LX",
+          "price": 15990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "EX",
+          "price": 18490000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 120,
+      "torque_nm": 172,
+      "fuel_consumption_mixed_km_l": 18,
+      "fuel_tank_liters": 45,
+      "length_mm": 3995,
+      "width_mm": 1790,
+      "height_mm": 1610,
+      "wheelbase_mm": 2500,
+      "ground_clearance_mm": 205,
+      "trunk_liters": 392,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 8\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "adas": [
+        "Drive Wise",
+        "Frenado automático"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000
+    },
+    {
+      "id": 325,
+      "brand": "Kia",
+      "model": "Sorento",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 7,
+      "price": 32990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "SUV grande familiar con tercera fila de asientos",
+      "origin": "Corea del Sur",
+      "origin_country": "Corea del Sur",
+      "versions": [
+        {
+          "version": "EX",
+          "price": 32990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "SX",
+          "price": 37990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "SX Prestige",
+          "price": 42990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 249,
+      "torque_nm": 353,
+      "fuel_consumption_mixed_km_l": 13.5,
+      "fuel_tank_liters": 67,
+      "length_mm": 4810,
+      "width_mm": 1890,
+      "height_mm": 1750,
+      "wheelbase_mm": 2815,
+      "ground_clearance_mm": 188,
+      "trunk_liters": 565,
+      "airbags": 8,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 12.3\"",
+        "Harman Kardon",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "adas": [
+        "Drive Wise",
+        "Frenado automático",
+        "Lane Keep Assist",
+        "Control crucero adaptativo",
+        "Parking Assist"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000
+    },
+    {
+      "id": 326,
+      "brand": "Kia",
+      "model": "Sorento Híbrido",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "hibrido",
+      "seats": 7,
+      "price": 38990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "SUV grande familiar híbrido con tercera fila",
+      "origin": "Corea del Sur",
+      "origin_country": "Corea del Sur",
+      "versions": [
+        {
+          "version": "HEV EX",
+          "price": 38990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "HEV SX Prestige",
+          "price": 44990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ],
+      "hp": 227,
+      "torque_nm": 357,
+      "fuel_consumption_mixed_km_l": 18,
+      "fuel_tank_liters": 67,
+      "length_mm": 4810,
+      "width_mm": 1890,
+      "height_mm": 1750,
+      "wheelbase_mm": 2815,
+      "ground_clearance_mm": 188,
+      "trunk_liters": 565,
+      "airbags": 8,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 12.3\"",
+        "Harman Kardon",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "adas": [
+        "Drive Wise",
+        "Frenado automático",
+        "Lane Keep Assist",
+        "Control crucero adaptativo",
+        "Parking Assist"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000
+    },
+    {
+      "id": 327,
+      "brand": "Kia",
+      "model": "Sportage",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 25990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV mediano con diseño revolucionario y tecnología de vanguardia",
+      "origin": "Corea del Sur",
+      "origin_country": "Corea del Sur",
+      "versions": [
+        {
+          "version": "LX",
+          "price": 25990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "EX",
+          "price": 29990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "SX",
+          "price": 33990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "Híbrido",
+          "price": 35990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ],
+      "hp": 187,
+      "torque_nm": 265,
+      "fuel_consumption_mixed_km_l": 15,
+      "fuel_tank_liters": 54,
+      "length_mm": 4660,
+      "width_mm": 1865,
+      "height_mm": 1665,
+      "wheelbase_mm": 2755,
+      "ground_clearance_mm": 183,
+      "trunk_liters": 591,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 12.3\"",
+        "Harman Kardon",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "adas": [
+        "Drive Wise",
+        "Frenado automático",
+        "Lane Keep Assist",
+        "Control crucero adaptativo",
+        "Monitor 360°"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000
+    },
+    {
+      "id": 328,
+      "brand": "Kia",
+      "model": "Sportage Híbrido",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "hibrido",
+      "seats": 5,
+      "price": 31990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "SUV mediano híbrido con eficiencia extendida",
+      "origin": "Corea del Sur",
+      "origin_country": "Corea del Sur",
+      "versions": [
+        {
+          "version": "HEV EX",
+          "price": 31990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "HEV SX",
+          "price": 35990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ],
+      "hp": 230,
+      "torque_nm": 357,
+      "fuel_consumption_mixed_km_l": 20,
+      "fuel_tank_liters": 54,
+      "length_mm": 4660,
+      "width_mm": 1865,
+      "height_mm": 1665,
+      "wheelbase_mm": 2755,
+      "ground_clearance_mm": 183,
+      "trunk_liters": 591,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 12.3\"",
+        "Harman Kardon",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "adas": [
+        "Drive Wise",
+        "Frenado automático",
+        "Lane Keep Assist",
+        "Control crucero adaptativo"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000
+    },
+    {
+      "id": 329,
+      "brand": "Kia",
+      "model": "Stonic",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 17990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Crossover urbano con diseño compacto y moderno",
+      "origin": "Corea del Sur",
+      "origin_country": "Corea del Sur",
+      "versions": [
+        {
+          "version": "LX",
+          "price": 17990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "EX",
+          "price": 20490000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "GT Line",
+          "price": 22990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 120,
+      "torque_nm": 172,
+      "fuel_consumption_mixed_km_l": 17.5,
+      "fuel_tank_liters": 45,
+      "length_mm": 4140,
+      "width_mm": 1760,
+      "height_mm": 1520,
+      "wheelbase_mm": 2580,
+      "ground_clearance_mm": 183,
+      "trunk_liters": 352,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 8\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "adas": [
+        "Drive Wise",
+        "Frenado automático"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000
+    },
+    {
+      "id": 330,
+      "brand": "Kia",
+      "model": "Tasman",
+      "year": 2026,
+      "type": "pickup",
+      "fuel": "diesel",
+      "seats": 5,
+      "price": 29990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "Pick-up mediana con capacidad todoterreno y motor diésel de alto torque.",
+      "origin": "Corea del Sur",
+      "hp": 210,
+      "torque_nm": 440,
+      "length_mm": 5370,
+      "width_mm": 1950,
+      "height_mm": 1870,
+      "wheelbase_mm": 3220,
+      "fuel_tank_liters": 65,
+      "ground_clearance_mm": 220,
+      "trunk_liters": 0,
+      "airbags": 6,
+      "isofix": true,
+      "adas": [
+        "Control crucero adaptativo",
+        "Cámara 360°",
+        "Asistente de descenso",
+        "Asistente de remolque"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Pantalla 12.3\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Sonido Harman Kardon"
+      ],
+      "fuel_consumption_mixed_km_l": 10.5,
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "Corea del Sur",
+      "versions": [
+        {
+          "version": "2.2 CRDi AT 4x2",
+          "price": 26990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "2.2 CRDi AT 4x4",
+          "price": 29990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ]
+    }
+  ]
+}

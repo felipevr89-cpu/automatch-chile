@@ -1,0 +1,92 @@
+{
+  "brand": "SWM",
+  "brandUrl": "#",
+  "models": [
+    {
+      "id": 555,
+      "brand": "SWM",
+      "model": "G03F",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 7,
+      "price": 7990000,
+      "transmission": "manual",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV de 7 asientos más económica del mercado, ideal para transporte familiar.",
+      "origin": "China",
+      "hp": 107,
+      "torque_nm": 148,
+      "length_mm": 4515,
+      "width_mm": 1755,
+      "height_mm": 1760,
+      "wheelbase_mm": 2750,
+      "fuel_tank_liters": 50,
+      "airbags": 2,
+      "infotainment": [
+        "Pantalla 7\"",
+        "Bluetooth"
+      ],
+      "fuel_consumption_mixed_km_l": 12,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "1.5L MT",
+          "price": 7990000,
+          "transmission": "Manual 5V",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 556,
+      "brand": "SWM",
+      "model": "G05",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 7,
+      "price": 11990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV familiar de 7 asientos con motor 1.5T turbo y transmisión DCT.",
+      "origin": "China",
+      "hp": 154,
+      "torque_nm": 230,
+      "length_mm": 4710,
+      "width_mm": 1860,
+      "height_mm": 1730,
+      "wheelbase_mm": 2760,
+      "fuel_tank_liters": 55,
+      "airbags": 4,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 12\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "fuel_consumption_mixed_km_l": 11.5,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "Pro 2.0L Elite MT",
+          "price": 11990000,
+          "transmission": "Manual 5V",
+          "traction": "4x2"
+        },
+        {
+          "version": "Pro 1.5T DCT Elite",
+          "price": 13990000,
+          "transmission": "DCT 6V",
+          "traction": "4x2"
+        }
+      ]
+    }
+  ]
+}

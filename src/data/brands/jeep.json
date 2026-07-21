@@ -1,0 +1,519 @@
+{
+  "brand": "Jeep",
+  "brandUrl": "https://www.jeep.cl",
+  "models": [
+    {
+      "id": 279,
+      "brand": "Jeep",
+      "model": "Avenger",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 19990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV compacta con ADN Jeep, motor 1.2L turbo de 100 hp, diseño atrevido y tecnología.",
+      "origin": "Francia",
+      "versions": [
+        {
+          "version": "1.2T Altitude DCT",
+          "price": 19990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 100,
+      "torque_nm": 205,
+      "fuel_consumption_mixed_km_l": 15.2,
+      "fuel_tank_liters": 44,
+      "length_mm": 4084,
+      "width_mm": 1786,
+      "height_mm": 1534,
+      "wheelbase_mm": 2565,
+      "ground_clearance_mm": 200,
+      "trunk_liters": 360,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 10.25\"",
+        "U-Connect",
+        "Android Auto",
+        "Apple CarPlay"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 60000,
+      "origin_country": "Francia"
+    },
+    {
+      "id": 280,
+      "brand": "Jeep",
+      "model": "Cherokee",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 27990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "SUV mediana con capacidad off-road y motor eficiente.",
+      "origin": "Estados Unidos",
+      "hp": 270,
+      "torque_nm": 300,
+      "length_mm": 4620,
+      "width_mm": 1860,
+      "height_mm": 1690,
+      "wheelbase_mm": 2710,
+      "fuel_tank_liters": 60,
+      "ground_clearance_mm": 210,
+      "trunk_liters": 500,
+      "airbags": 7,
+      "isofix": true,
+      "adas": [
+        "Control crucero adaptativo",
+        "Asistente de carril",
+        "Frenado automático",
+        "Cámara 360°"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Pantalla 8.4\"",
+        "U-Connect",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "fuel_consumption_mixed_km_l": 11.5,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Estados Unidos",
+      "versions": [
+        {
+          "version": "Limited 4x4",
+          "price": 27990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "Trailhawk 4x4",
+          "price": 32990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ]
+    },
+    {
+      "id": 281,
+      "brand": "Jeep",
+      "model": "Commander",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 7,
+      "price": 37990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV de 7 plazas con motor 1.3L turbo de 175 hp y transmisión automática de 6 velocidades.",
+      "origin": "Estados Unidos",
+      "versions": [
+        {
+          "version": "1.3T Limited 4x2",
+          "price": 35990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "1.3T Overland 4x2",
+          "price": 37990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "2.0T Blackhawk 4x4",
+          "price": 42990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "2.0T Limited TD 4x4",
+          "price": 42990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 175,
+      "torque_nm": 270,
+      "fuel_consumption_mixed_km_l": 13.6,
+      "fuel_tank_liters": 61,
+      "length_mm": 4470,
+      "width_mm": 1860,
+      "height_mm": 1682,
+      "wheelbase_mm": 2794,
+      "ground_clearance_mm": 192,
+      "trunk_liters": 661,
+      "airbags": 7,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 10.25\"",
+        "U-Connect",
+        "Android Auto",
+        "Apple CarPlay"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Estados Unidos"
+    },
+    {
+      "id": 282,
+      "brand": "Jeep",
+      "model": "Compass",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 27890000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "SUV mediana con motor 1.3L turbo de 180 hp, caja automática de 9 marchas y tracción 4x4.",
+      "origin": "Brasil",
+      "versions": [
+        {
+          "version": "1.3L Sport AT 4x4",
+          "price": 27490000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "1.3L Longitude AT 4x4",
+          "price": 29490000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "1.3L Limited AT 4x4",
+          "price": 33490000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 180,
+      "torque_nm": 231,
+      "fuel_consumption_mixed_km_l": 12.8,
+      "fuel_tank_liters": 60,
+      "length_mm": 4404,
+      "width_mm": 1819,
+      "height_mm": 1623,
+      "wheelbase_mm": 2636,
+      "ground_clearance_mm": 209,
+      "trunk_liters": 438,
+      "airbags": 7,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 7\"",
+        "U-Connect",
+        "Android Auto",
+        "Apple CarPlay"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Brasil"
+    },
+    {
+      "id": 283,
+      "brand": "Jeep",
+      "model": "Compass 4xe",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "hibrido_enchufable",
+      "seats": 5,
+      "price": 42990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "SUV híbrida enchufable con motor 1.3L turbo y motor eléctrico, 240 hp combinados.",
+      "origin": "Italia",
+      "versions": [
+        {
+          "version": "1.3L Altitude PHEV 4x4",
+          "price": 42990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 240,
+      "torque_nm": 270,
+      "fuel_consumption_mixed_km_l": 50,
+      "fuel_tank_liters": 50,
+      "length_mm": 4404,
+      "width_mm": 1819,
+      "height_mm": 1633,
+      "wheelbase_mm": 2636,
+      "ground_clearance_mm": 209,
+      "trunk_liters": 438,
+      "airbags": 7,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 8.4\"",
+        "U-Connect",
+        "Android Auto",
+        "Apple CarPlay"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Italia"
+    },
+    {
+      "id": 284,
+      "brand": "Jeep",
+      "model": "Gladiator",
+      "year": 2025,
+      "type": "pickup",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 72578100,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "Pick-up todoterreno con motor V6 3.6L de 284 hp, hermana del Wrangler.",
+      "origin": "Estados Unidos",
+      "versions": [
+        {
+          "version": "3.6L Rubicon 4x4",
+          "price": 72578100,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 284,
+      "torque_nm": 353,
+      "fuel_consumption_mixed_km_l": 8.8,
+      "fuel_tank_liters": 76,
+      "length_mm": 5539,
+      "width_mm": 1894,
+      "height_mm": 1882,
+      "wheelbase_mm": 3488,
+      "ground_clearance_mm": 282,
+      "trunk_liters": 0,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 8.4\"",
+        "U-Connect",
+        "Android Auto",
+        "Apple CarPlay"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Estados Unidos"
+    },
+    {
+      "id": 285,
+      "brand": "Jeep",
+      "model": "Grand Cherokee",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 55990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "SUV premium con motor V6 3.6L de 296 hp, tracción 4x4 y equipamiento lujoso.",
+      "origin": "Estados Unidos",
+      "versions": [
+        {
+          "version": "3.6L Altitude 4x4",
+          "price": 55990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "3.6L Limited 4x4",
+          "price": 60990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 296,
+      "torque_nm": 353,
+      "fuel_consumption_mixed_km_l": 8.8,
+      "fuel_tank_liters": 87,
+      "length_mm": 4914,
+      "width_mm": 1964,
+      "height_mm": 1815,
+      "wheelbase_mm": 2964,
+      "ground_clearance_mm": 277,
+      "trunk_liters": 487,
+      "airbags": 7,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 8.4\"",
+        "U-Connect 5",
+        "Android Auto",
+        "Apple CarPlay"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Estados Unidos"
+    },
+    {
+      "id": 286,
+      "brand": "Jeep",
+      "model": "Renegade",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 22990000,
+      "transmission": "manual",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV compacta con motor 1.3L turbo de 180 hp, disponible en versión 4x4.",
+      "origin": "Brasil",
+      "versions": [
+        {
+          "version": "1.3L Sport MT 4x2",
+          "price": 22990000,
+          "transmission": "manual",
+          "traction": "4x2"
+        },
+        {
+          "version": "1.3L Longitude AT 4x2",
+          "price": 27490000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 180,
+      "torque_nm": 231,
+      "fuel_consumption_mixed_km_l": 13.5,
+      "fuel_tank_liters": 48,
+      "length_mm": 4232,
+      "width_mm": 2019,
+      "height_mm": 1660,
+      "wheelbase_mm": 2571,
+      "ground_clearance_mm": 210,
+      "trunk_liters": 524,
+      "airbags": 7,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 7\"",
+        "U-Connect",
+        "Android Auto",
+        "Apple CarPlay"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Brasil"
+    },
+    {
+      "id": 287,
+      "brand": "Jeep",
+      "model": "Wrangler",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 56990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "Todoterreno icónico con motor V6 3.6L de 284 hp, capacidad off-road extrema.",
+      "origin": "Estados Unidos",
+      "versions": [
+        {
+          "version": "2.0T Sport S 4x4",
+          "price": 56990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "3.6L Rubicon 4x4",
+          "price": 62990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 284,
+      "torque_nm": 353,
+      "fuel_consumption_mixed_km_l": 9.5,
+      "fuel_tank_liters": 71,
+      "length_mm": 4882,
+      "width_mm": 1894,
+      "height_mm": 1842,
+      "wheelbase_mm": 3008,
+      "ground_clearance_mm": 260,
+      "trunk_liters": 513,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 8.4\"",
+        "U-Connect",
+        "Android Auto",
+        "Apple CarPlay"
+      ],
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Estados Unidos"
+    },
+    {
+      "id": 288,
+      "brand": "Jeep",
+      "model": "Wrangler 4xe",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "hibrido_enchufable",
+      "seats": 5,
+      "price": 64990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "Todoterreno híbrido enchufable con autonomía eléctrica y capacidad off-road extrema.",
+      "origin": "Estados Unidos",
+      "hp": 380,
+      "torque_nm": 637,
+      "length_mm": 4882,
+      "width_mm": 1894,
+      "height_mm": 1842,
+      "wheelbase_mm": 3008,
+      "fuel_tank_liters": 65,
+      "ground_clearance_mm": 260,
+      "trunk_liters": 513,
+      "airbags": 6,
+      "isofix": true,
+      "adas": [
+        "Control crucero adaptativo",
+        "Frenado automático",
+        "Cámara de retroceso"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Pantalla 12.3\"",
+        "U-Connect 5",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "fuel_consumption_mixed_km_l": 16,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Estados Unidos",
+      "versions": [
+        {
+          "version": "4xe Sahara",
+          "price": 64990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "4xe Rubicon",
+          "price": 74990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ]
+    }
+  ]
+}

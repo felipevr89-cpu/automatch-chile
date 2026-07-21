@@ -1,0 +1,656 @@
+{
+  "brand": "BYD",
+  "brandUrl": "https://www.bydauto.cl",
+  "models": [
+    {
+      "id": 63,
+      "brand": "BYD",
+      "model": "Atto 8",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "hibrido_enchufable",
+      "seats": 7,
+      "price": 43990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "SUV híbrido enchufable de siete plazas con autonomía combinada cercana a 1000 km.",
+      "origin": "china",
+      "versions": [
+        {
+          "version": "GL DM-i",
+          "price": 43990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "GS DM-p",
+          "price": 48990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ],
+      "hp": 525,
+      "torque_nm": 690,
+      "fuel_consumption_mixed_km_l": 18.5,
+      "length_mm": 4950,
+      "width_mm": 1940,
+      "height_mm": 1750,
+      "wheelbase_mm": 2920,
+      "ground_clearance_mm": 200,
+      "trunk_liters": 425,
+      "airbags": 11,
+      "adas": [
+        "Control crucero adaptativo",
+        "Frenado de emergencia",
+        "Cámara 360°",
+        "Asistente de carril",
+        "Head-Up Display"
+      ],
+      "isofix": true,
+      "infotainment": [
+        "Pantalla táctil 15.6\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Sonido Dynaudio 12 parlantes"
+      ],
+      "warranty_years": 6,
+      "warranty_km": 150000,
+      "origin_country": "China"
+    },
+    {
+      "id": 64,
+      "brand": "BYD",
+      "model": "Dolphin",
+      "year": 2025,
+      "type": "hatchback",
+      "fuel": "electrico",
+      "seats": 5,
+      "price": 21990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Hatchback eléctrico compacto con batería Blade y excelente autonomía urbana.",
+      "origin": "china",
+      "hp": 204,
+      "torque_nm": 310,
+      "length_mm": 4290,
+      "width_mm": 1770,
+      "height_mm": 1570,
+      "wheelbase_mm": 2700,
+      "ground_clearance_mm": 150,
+      "trunk_liters": 345,
+      "airbags": 6,
+      "isofix": true,
+      "adas": [
+        "Control crucero adaptativo",
+        "Frenado automático",
+        "Cámara 360°"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Pantalla táctil 12.8\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 6,
+      "warranty_km": 150000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "Standard",
+          "price": 21990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Comfort",
+          "price": 24990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "brand": "BYD",
+      "model": "Dolphin Mini",
+      "year": 2026,
+      "type": "hatchback",
+      "fuel": "electrico",
+      "seats": 4,
+      "price": 18990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Citycar eléctrico compacto con diseño moderno y tecnología Blade Battery de BYD.",
+      "origin": "china",
+      "versions": [
+        {
+          "version": "Standard",
+          "price": 18990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "Comfort",
+          "price": 19990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 95,
+      "torque_nm": 180,
+      "length_mm": 3780,
+      "width_mm": 1715,
+      "height_mm": 1540,
+      "wheelbase_mm": 2500,
+      "ground_clearance_mm": 150,
+      "trunk_liters": 345,
+      "airbags": 4,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla táctil 10.1\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 6,
+      "warranty_km": 150000,
+      "origin_country": "China"
+    },
+    {
+      "id": 66,
+      "brand": "BYD",
+      "model": "Han",
+      "year": 2025,
+      "type": "sedan",
+      "fuel": "electrico",
+      "seats": 5,
+      "price": 39990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "Sedán eléctrico de lujo con diseño deportivo y batería Blade.",
+      "origin": "china",
+      "hp": 517,
+      "torque_nm": 700,
+      "length_mm": 4995,
+      "width_mm": 1910,
+      "height_mm": 1495,
+      "wheelbase_mm": 2920,
+      "ground_clearance_mm": 140,
+      "trunk_liters": 440,
+      "airbags": 8,
+      "isofix": true,
+      "adas": [
+        "Control crucero adaptativo",
+        "Asistente de carril",
+        "Frenado automático",
+        "Cámara 360°",
+        "Asistente de estacionamiento"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Pantalla táctil 15.6\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Sonido Dirac"
+      ],
+      "warranty_years": 6,
+      "warranty_km": 150000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "AWD",
+          "price": 39990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "AWD Flagship",
+          "price": 44990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "brand": "BYD",
+      "model": "Han EV",
+      "year": 2026,
+      "type": "sedan",
+      "fuel": "electrico",
+      "seats": 5,
+      "price": 62990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "Sedán eléctrico premium con autonomía de hasta 610 km y prestaciones de lujo.",
+      "origin": "china",
+      "versions": [
+        {
+          "version": "Excellence AWD",
+          "price": 62990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ],
+      "hp": 530,
+      "torque_nm": 670,
+      "top_speed_kmh": 185,
+      "length_mm": 4995,
+      "width_mm": 1910,
+      "height_mm": 1495,
+      "wheelbase_mm": 2920,
+      "ground_clearance_mm": 150,
+      "trunk_liters": 425,
+      "airbags": 9,
+      "adas": [
+        "Control crucero adaptativo",
+        "Frenado de emergencia",
+        "Cámara 360°",
+        "Asistente de carril",
+        "Head-Up Display"
+      ],
+      "isofix": true,
+      "infotainment": [
+        "Pantalla táctil 15.6\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Sonido Dynaudio"
+      ],
+      "warranty_years": 6,
+      "warranty_km": 150000,
+      "origin_country": "China"
+    },
+    {
+      "id": 68,
+      "brand": "BYD",
+      "model": "Seal",
+      "year": 2026,
+      "type": "sedan",
+      "fuel": "electrico",
+      "seats": 5,
+      "price": 50990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "Sedán eléctrico deportivo con diseño aerodinámico y tecnología de vanguardia.",
+      "origin": "china",
+      "versions": [
+        {
+          "version": "Excellence AWD",
+          "price": 50990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ],
+      "hp": 530,
+      "torque_nm": 670,
+      "top_speed_kmh": 180,
+      "length_mm": 4800,
+      "width_mm": 1875,
+      "height_mm": 1460,
+      "wheelbase_mm": 2920,
+      "ground_clearance_mm": 145,
+      "trunk_liters": 400,
+      "airbags": 8,
+      "adas": [
+        "Control crucero adaptativo",
+        "Frenado de emergencia",
+        "Cámara 360°",
+        "Asistente de carril"
+      ],
+      "isofix": true,
+      "infotainment": [
+        "Pantalla táctil 15.6\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Sonido Dynaudio"
+      ],
+      "warranty_years": 6,
+      "warranty_km": 150000,
+      "origin_country": "China"
+    },
+    {
+      "id": 69,
+      "brand": "BYD",
+      "model": "Sealion 7",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "electrico",
+      "seats": 5,
+      "price": 36990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "SUV eléctrico deportivo con 0 a 100 km/h en 4,5 segundos y autonomía de hasta 542 km.",
+      "origin": "china",
+      "versions": [
+        {
+          "version": "GL RWD",
+          "price": 36990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "GS AWD",
+          "price": 43990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ],
+      "hp": 525,
+      "torque_nm": 690,
+      "top_speed_kmh": 215,
+      "length_mm": 4830,
+      "width_mm": 1925,
+      "height_mm": 1620,
+      "wheelbase_mm": 2930,
+      "ground_clearance_mm": 180,
+      "trunk_liters": 520,
+      "airbags": 7,
+      "adas": [
+        "Control crucero adaptativo",
+        "Frenado de emergencia",
+        "Cámara 360°",
+        "Asistente de carril"
+      ],
+      "isofix": true,
+      "infotainment": [
+        "Pantalla táctil 15.6\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Sonido Dynaudio 12 parlantes"
+      ],
+      "warranty_years": 6,
+      "warranty_km": 150000,
+      "origin_country": "China"
+    },
+    {
+      "id": 70,
+      "brand": "BYD",
+      "model": "Shark",
+      "year": 2026,
+      "type": "pickup",
+      "fuel": "hibrido_enchufable",
+      "seats": 5,
+      "price": 45990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "Pickup híbrida enchufable con doble motor y tracción total para aventura y trabajo.",
+      "origin": "china",
+      "versions": [
+        {
+          "version": "GLS DM-p",
+          "price": 45990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 430,
+      "torque_nm": 650,
+      "fuel_consumption_mixed_km_l": 12,
+      "length_mm": 5350,
+      "width_mm": 1920,
+      "height_mm": 1870,
+      "wheelbase_mm": 3260,
+      "ground_clearance_mm": 230,
+      "trunk_liters": 0,
+      "airbags": 7,
+      "adas": [
+        "Control crucero adaptativo",
+        "Frenado de emergencia",
+        "Cámara 360°"
+      ],
+      "isofix": true,
+      "infotainment": [
+        "Pantalla táctil 12.8\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 6,
+      "warranty_km": 150000,
+      "origin_country": "China"
+    },
+    {
+      "id": 71,
+      "brand": "BYD",
+      "model": "Song Plus DM-i",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "hibrido_enchufable",
+      "seats": 5,
+      "price": 36990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV híbrido enchufable con autonomía eléctrica de hasta 110 km y más de 1000 km combinados.",
+      "origin": "china",
+      "versions": [
+        {
+          "version": "GL DM-i",
+          "price": 36990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "GS DM-i",
+          "price": 39990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 194,
+      "torque_nm": 325,
+      "fuel_consumption_mixed_km_l": 21.7,
+      "length_mm": 4775,
+      "width_mm": 1890,
+      "height_mm": 1670,
+      "wheelbase_mm": 2765,
+      "ground_clearance_mm": 190,
+      "trunk_liters": 574,
+      "airbags": 7,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla táctil 15.6\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Cargador inalámbrico"
+      ],
+      "warranty_years": 6,
+      "warranty_km": 150000,
+      "origin_country": "China"
+    },
+    {
+      "id": 72,
+      "brand": "BYD",
+      "model": "Song Pro",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "hibrido",
+      "seats": 5,
+      "price": 28990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV familiar híbrido enchufable con tecnología DM-i y gran autonomía combinada.",
+      "origin": "china",
+      "versions": [
+        {
+          "version": "GL DM-i",
+          "price": 28990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "GS DM-i",
+          "price": 30990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 194,
+      "torque_nm": 325,
+      "fuel_consumption_mixed_km_l": 21.7,
+      "length_mm": 4650,
+      "width_mm": 1860,
+      "height_mm": 1700,
+      "wheelbase_mm": 2712,
+      "ground_clearance_mm": 190,
+      "trunk_liters": 520,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla táctil 12.8\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Cargador inalámbrico"
+      ],
+      "warranty_years": 6,
+      "warranty_km": 150000,
+      "origin_country": "China"
+    },
+    {
+      "id": 73,
+      "brand": "BYD",
+      "model": "Tang",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "electrico",
+      "seats": 7,
+      "price": 44990000,
+      "transmission": "automatica",
+      "traction": "awd",
+      "image_url": "",
+      "description": "SUV eléctrico de 7 plazas con doble motor y tracción integral.",
+      "origin": "china",
+      "hp": 517,
+      "torque_nm": 680,
+      "length_mm": 4870,
+      "width_mm": 1950,
+      "height_mm": 1725,
+      "wheelbase_mm": 2820,
+      "ground_clearance_mm": 190,
+      "trunk_liters": 580,
+      "airbags": 7,
+      "isofix": true,
+      "adas": [
+        "Control crucero adaptativo",
+        "Asistente de carril",
+        "Frenado automático",
+        "Cámara 360°"
+      ],
+      "latin_ncap_stars": 5,
+      "infotainment": [
+        "Pantalla táctil 15.6\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Sonido Dirac"
+      ],
+      "warranty_years": 6,
+      "warranty_km": 150000,
+      "origin_country": "China",
+      "versions": [
+        {
+          "version": "AWD",
+          "price": 44990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        },
+        {
+          "version": "AWD Luxury",
+          "price": 49990000,
+          "transmission": "automatica",
+          "traction": "awd"
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "brand": "BYD",
+      "model": "Yuan Plus",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "electrico",
+      "seats": 5,
+      "price": 32990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV eléctrico 100% con plataforma e-Platform 3.0 y autonomía de hasta 420 km.",
+      "origin": "china",
+      "versions": [
+        {
+          "version": "GL",
+          "price": 32990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 204,
+      "torque_nm": 310,
+      "top_speed_kmh": 160,
+      "length_mm": 4455,
+      "width_mm": 1875,
+      "height_mm": 1615,
+      "wheelbase_mm": 2720,
+      "ground_clearance_mm": 175,
+      "trunk_liters": 440,
+      "airbags": 7,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla táctil 12.8\"",
+        "Apple CarPlay",
+        "Android Auto",
+        "Cargador inalámbrico"
+      ],
+      "warranty_years": 6,
+      "warranty_km": 150000,
+      "origin_country": "China"
+    },
+    {
+      "id": 75,
+      "brand": "BYD",
+      "model": "Yuan Pro",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "electrico",
+      "seats": 5,
+      "price": 27990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV compacto eléctrico con autonomía urbana y tecnología Blade Battery.",
+      "origin": "china",
+      "versions": [
+        {
+          "version": "GL",
+          "price": 27990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 95,
+      "torque_nm": 180,
+      "length_mm": 4375,
+      "width_mm": 1785,
+      "height_mm": 1615,
+      "wheelbase_mm": 2610,
+      "ground_clearance_mm": 170,
+      "trunk_liters": 420,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla táctil 12.8\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "warranty_years": 6,
+      "warranty_km": 150000,
+      "origin_country": "China"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "brand": "Bestune",
+  "brandUrl": "https://www.bestune.cl",
+  "models": [
+    {
+      "id": 36,
+      "brand": "Bestune",
+      "model": "T77",
+      "year": 2025,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 17990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV compacto de FAW con diseño futurista, motor turbo y equipamiento tecnológico avanzado.",
+      "origin": "China",
+      "versions": [
+        {
+          "version": "Luxury DCT",
+          "price": 17990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 160,
+      "torque_nm": 258,
+      "top_speed_kmh": 190,
+      "fuel_consumption_city_km_l": 11,
+      "fuel_consumption_highway_km_l": 16,
+      "fuel_consumption_mixed_km_l": 13,
+      "fuel_tank_liters": 55,
+      "length_mm": 4530,
+      "width_mm": 1845,
+      "height_mm": 1650,
+      "wheelbase_mm": 2700,
+      "ground_clearance_mm": 180,
+      "trunk_liters": 450,
+      "airbags": 6,
+      "adas": [
+        "control de crucero adaptativo",
+        "frenado automático de emergencia",
+        "alerta de punto ciego"
+      ],
+      "latin_ncap_stars": 4,
+      "isofix": true,
+      "infotainment": [
+        "pantalla 12.3\"",
+        "cuadro digital",
+        "Apple CarPlay",
+        "Android Auto",
+        "Bluetooth"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 150000,
+      "origin_country": "China"
+    }
+  ]
+}
