@@ -1,6 +1,5 @@
 import { Car } from '../../types';
 import { CarCard } from './CarCard';
-import { getChargingCost } from '../../data/energyCosts';
 
 interface Props {
   cars: Car[];

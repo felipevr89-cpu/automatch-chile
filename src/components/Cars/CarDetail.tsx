@@ -192,116 +192,9 @@ export function CarDetail({ car, onClose, isFavorite, onToggleFavorite, onPrevCa
                 🛡️ {car.airbags} airbags
               </span>
             )}
-            <span className="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm font-medium">
-              {car.transmission === 'automatica' ? '⚡ Automática' : '🔄 Manual'}
-            </span>
           </div>
 
-            <p className="text-gray-600 mb-6">{car.description}</p>
-
-          <div className="mb-6 flex items-center gap-3 p-3 bg-gray-50 rounded-lg">
-            {charging && (
-              <div className="flex items-center gap-4 text-sm">
-                <div className="flex items-center gap-2">
-                  <span className="text-green-600">🟢</span>
-                  <span>Hogar: <strong className="text-green-700">{formatPrice(charging.homeFull)}</strong> por carga completa ({charging.batteryKwh} kWh @ ${HOME_KWH_CLP}/kWh)</span>
-                </div>
-                <div className="flex items-center gap-2">
-                  <span className="text-amber-600">🟠</span>
-                  <span>Rápido: <strong className="text-amber-700">{formatPrice(charging.fastFull)}</strong> por carga completa ({charging.batteryKwh} kWh @ ${FAST_KWH_CLP}/kWh)</span>
-                </div>
-              </div>
-            )}
-          </div>
-
-          {(onPrevCar || onNextCar) && (
-            <div className="flex justify-between items-center -mt-3 mb-4 px-2">
-              <button
-                onClick={onPrevCar}
-                disabled={!onPrevCar}
-                className="px-3 py-1.5 bg-gray-100 text-gray-600 rounded-lg text-sm font-medium hover:bg-gray-200 disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
-              >
-                ← Anterior
-              </button>
-              <button
-                onClick={onNextCar}
-                disabled={!onNextCar}
-                className="px-3 py-1.5 bg-gray-100 text-gray-600 rounded-lg text-sm font-medium hover:bg-gray-200 disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
-              >
-                Siguiente →
-              </button>
-            </div>
-          )}
-
-          <NextSteps car={car} />
-
-          <div className="flex items-center justify-between mb-6 p-4 bg-gray-50 rounded-xl">
-            <div>
-              <p className="text-sm text-gray-500">Precio desde</p>
-              <p className="text-3xl font-bold text-blue-600">{formatPrice(car.price)}</p>
-              <p className="text-[11px] text-gray-400 mt-1">Precio referencial. Confirmar en el sitio oficial.</p>
-            </div>
-            <div className="flex gap-2">
-              <a
-                href={getBrandUrl(car.brand)}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="px-4 py-2 bg-blue-100 text-blue-700 rounded-lg text-sm font-medium hover:bg-blue-200 transition-colors"
-                title={`Sitio oficial ${car.brand}`}
-              >
-                🌐 Sitio oficial {car.brand}
-              </a>
-              <button
-                onClick={() => onToggleFavorite(car.id)}
-                className={`px-4 py-2 rounded-lg font-medium transition-colors ${
-                  isFavorite
-                    ? 'bg-red-100 text-red-600 hover:bg-red-200'
-                    : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
-                }`}
-              >
-                {isFavorite ? '❤️ Guardado' : '🤍 Guardar'}
-              </button>
-            </div>
-          </div>
-            <div className="flex gap-2">
-              <a
-                href={getBrandUrl(car.brand)}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="px-4 py-2 bg-blue-100 text-blue-700 rounded-lg text-sm font-medium hover:bg-blue-200 transition-colors"
-                title={`Sitio oficial ${car.brand}`}
-              >
-                🌐 Sitio oficial {car.brand}
-              </a>
-              <button
-                onClick={() => onToggleFavorite(car.id)}
-                className={`px-4 py-2 rounded-lg font-medium transition-colors ${
-                  isFavorite
-                    ? 'bg-red-100 text-red-600 hover:bg-red-200'
-                    : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
-                }`}
-              >
-                {isFavorite ? '❤️ Guardado' : '🤍 Guardar'}
-              </button>
-            </div>
-          </div>
-
-          {car.versions && car.versions.length > 0 && (
-            <div className="mb-6">
-              <h3 className="text-sm font-semibold text-gray-700 mb-3">Versiones disponibles</h3>
-              <div className="space-y-2">
-                {car.versions.map((v, i) => (
-                  <div key={i} className="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
-                    <div>
-                      <p className="text-sm font-medium text-gray-900">{v.version}</p>
-                      <p className="text-xs text-gray-500">{v.transmission} · {v.traction}</p>
-                    </div>
-                    <p className="text-sm font-bold text-blue-600">{formatPrice(v.price)}</p>
-                  </div>
-                ))}
-              </div>
-            </div>
-          )}
+          <p className="text-gray-600 mb-6">{car.description}</p>
 
           {charging && (
             <div className="mb-6 p-4 bg-green-50 rounded-xl">
@@ -509,73 +402,57 @@ export function CarDetail({ car, onClose, isFavorite, onToggleFavorite, onPrevCa
             </div>
           )}
 
+          {car.versions && car.versions.length > 0 && (
+            <div className="mb-6">
+              <h3 className="text-sm font-semibold text-gray-700 mb-3">Versiones disponibles</h3>
+              <div className="space-y-2">
+                {car.versions.map((v, i) => (
+                  <div key={i} className="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
+                    <div>
+                      <p className="text-sm font-medium text-gray-900">{v.version}</p>
+                      <p className="text-xs text-gray-500">{v.transmission} · {v.traction}</p>
+                    </div>
+                    <p className="text-sm font-bold text-blue-600">{formatPrice(v.price)}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+
+          <div className="flex items-center justify-between mb-6 p-4 bg-gray-50 rounded-xl">
+            <div>
+              <p className="text-sm text-gray-500">Precio desde</p>
+              <p className="text-3xl font-bold text-blue-600">{formatPrice(car.price)}</p>
+              <p className="text-[11px] text-gray-400 mt-1">Precio referencial. Confirmar en el sitio oficial.</p>
+            </div>
+            <div className="flex gap-2">
+              <a
+                href={getBrandUrl(car.brand)}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-4 py-2 bg-blue-100 text-blue-700 rounded-lg text-sm font-medium hover:bg-blue-200 transition-colors"
+                title={`Sitio oficial ${car.brand}`}
+              >
+                🌐 Sitio oficial {car.brand}
+              </a>
+              <button
+                onClick={() => onToggleFavorite(car.id)}
+                className={`px-4 py-2 rounded-lg font-medium transition-colors ${
+                  isFavorite
+                    ? 'bg-red-100 text-red-600 hover:bg-red-200'
+                    : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
+                }`}
+              >
+                {isFavorite ? '❤️ Guardado' : '🤍 Guardar'}
+              </button>
+            </div>
+          </div>
+
           <NextSteps car={car} />
 
           {children}
         </div>
       </div>
     </>
-  );
-}
-
-function NextSteps({ car }: { car: Car }) {
-  const q = encodeURIComponent(`${car.brand} ${car.model} ${car.year} Chile`);
-  const nuevosUrl = `https://www.chileautos.cl/vehiculos/?q=${encodeURIComponent(car.brand + ' ' + car.model)}`;
-  const usadosUrl = `https://www.google.com/search?q=${encodeURIComponent(car.brand + ' ' + car.model + ' usado Chile')}`;
-  const preciosUrl = `https://www.google.com/search?q=${q}+precio`;
-  const shareText = `Mira el ${car.brand} ${car.model} ${car.year} (${formatPrice(car.price)}) en AutoMatch Chile`;
-  const shareUrl = `https://wa.me/?text=${encodeURIComponent(shareText + ' — https://automatchs.pages.dev')}`;
-
-  return (
-    <div className="mt-8 mb-2 p-5 bg-blue-50 rounded-2xl">
-      <h3 className="text-base font-bold text-gray-900 mb-1">¿Te interesa este auto?</h3>
-      <p className="text-sm text-gray-500 mb-4">Estos son tus próximos pasos para comprarlo o cotizarlo.</p>
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-        <a
-          href={getBrandUrl(car.brand)}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex items-center gap-3 p-3 bg-blue-600 text-white rounded-xl font-medium hover:bg-blue-700 transition-colors"
-        >
-          <span className="text-xl">🏢</span>
-          <span className="text-sm">Cotizar en {car.brand} oficial</span>
-        </a>
-        <a
-          href={nuevosUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex items-center gap-3 p-3 bg-white text-gray-800 rounded-xl font-medium hover:bg-gray-100 border border-gray-200 transition-colors"
-        >
-          <span className="text-xl">🔎</span>
-          <span className="text-sm">Ver disponibilidad (Chileautos)</span>
-        </a>
-        <a
-          href={usadosUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex items-center gap-3 p-3 bg-white text-gray-800 rounded-xl font-medium hover:bg-gray-100 border border-gray-200 transition-colors"
-        >
-          <span className="text-xl">🚗</span>
-          <span className="text-sm">Buscar usados</span>
-        </a>
-        <a
-          href={preciosUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex items-center gap-3 p-3 bg-white text-gray-800 rounded-xl font-medium hover:bg-gray-100 border border-gray-200 transition-colors"
-        >
-          <span className="text-xl">💲</span>
-          <span className="text-sm">Comparar precios reales</span>
-        </a>
-      </div>
-      <a
-        href={shareUrl}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="mt-3 flex items-center justify-center gap-2 p-2.5 bg-green-500 text-white rounded-xl font-medium hover:bg-green-600 transition-colors text-sm"
-      >
-        <span>💬</span> Compartir por WhatsApp
-      </a>
-    </div>
   );
 }
