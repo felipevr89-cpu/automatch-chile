@@ -4,6 +4,9 @@ import { formatPrice, getTypeLabel, getFuelLabel, getBrandUrl } from '../../data
 import { getChargingCost, getCombustionCostPer100, HOME_KWH_CLP, FAST_KWH_CLP } from '../../data/energyCosts';
 import { getCarImage } from '../../data/carImages';
 import { CarImage } from './CarImage';
+import { TCOCalculator } from '../TCO/TCOCalculator';
+import { EVHub } from '../EV/EVHub';
+import { BuyingGuide } from '../Guides/BuyingGuide';
 
 interface Props {
   car: Car;
@@ -449,6 +452,12 @@ export function CarDetail({ car, onClose, isFavorite, onToggleFavorite, onPrevCa
           </div>
 
           <NextSteps car={car} />
+
+          <TCOCalculator car={car} />
+
+          <EVHub car={car} />
+
+          <BuyingGuide />
 
           {children}
         </div>
