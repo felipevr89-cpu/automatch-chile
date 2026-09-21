@@ -57,13 +57,13 @@ async function saveFavoritesToCloud(userId: string, carIds: number[]): Promise<v
 export function useCars(user?: User | null) {
   const uid = user?.uid;
   const isConfiguredUser = !!uid && isFirebaseConfigured && !uid.startsWith('demo-');
-  const [filters, setFilters] = useState<Filters>(() => loadFromStorage('automatch_filters', defaultFilters));
-  const [compareList, setCompareList] = useState<Car[]>(() => loadFromStorage('automatch_compare', []));
+  const [filters, setFilters] = useState<Filters>(() => loadFromStorage('autolupa_filters', defaultFilters));
+  const [compareList, setCompareList] = useState<Car[]>(() => loadFromStorage('autolupa_compare', []));
   const [favorites, setFavorites] = useState<number[]>(() => {
-    const local = loadFromStorage<number[]>('automatch_favorites', []);
+    const local = loadFromStorage<number[]>('autolupa_favorites', []);
     return local;
   });
-  const [recentIds, setRecentIds] = useState<number[]>(() => loadFromStorage<number[]>('automatch_recent', []));
+  const [recentIds, setRecentIds] = useState<number[]>(() => loadFromStorage<number[]>('autolupa_recent', []));
   const [searchQuery, setSearchQuery] = useState('');
   const [debouncedSearchQuery, setDebouncedSearchQuery] = useState('');
   const [sortBy, setSortBy] = useState('price-asc');
@@ -80,9 +80,9 @@ export function useCars(user?: User | null) {
     loadFavoritesFromCloud(uid!).then(cloudIds => {
       if (cloudIds && cloudIds.length > 0) {
         setFavorites(cloudIds);
-        localStorage.setItem('automatch_favorites', JSON.stringify(cloudIds));
+        localStorage.setItem('autolupa_favorites', JSON.stringify(cloudIds));
       } else {
-        const local = loadFromStorage<number[]>('automatch_favorites', []);
+        const local = loadFromStorage<number[]>('autolupa_favorites', []);
         if (local.length > 0) {
           saveFavoritesToCloud(uid!, local);
         }
@@ -146,7 +146,7 @@ export function useCars(user?: User | null) {
   const updateFilter = useCallback(<K extends keyof Filters>(key: K, value: Filters[K]) => {
     setFilters((prev) => {
       const next = { ...prev, [key]: value };
-      localStorage.setItem('automatch_filters', JSON.stringify(next));
+      localStorage.setItem('autolupa_filters', JSON.stringify(next));
       return next;
     });
     setCurrentPage(1);
@@ -156,7 +156,7 @@ export function useCars(user?: User | null) {
     setFilters(defaultFilters);
     setSearchQuery('');
     setCurrentPage(1);
-    localStorage.removeItem('automatch_filters');
+    localStorage.removeItem('autolupa_filters');
   }, []);
 
   const addToCompare = useCallback((car: Car) => {
@@ -164,7 +164,7 @@ export function useCars(user?: User | null) {
       if (prev.length >= 3) return prev;
       if (prev.find((c) => c.id === car.id)) return prev;
       const next = [...prev, car];
-      localStorage.setItem('automatch_compare', JSON.stringify(next));
+      localStorage.setItem('autolupa_compare', JSON.stringify(next));
       return next;
     });
   }, []);
@@ -172,20 +172,20 @@ export function useCars(user?: User | null) {
   const removeFromCompare = useCallback((carId: number) => {
     setCompareList((prev) => {
       const next = prev.filter((c) => c.id !== carId);
-      localStorage.setItem('automatch_compare', JSON.stringify(next));
+      localStorage.setItem('autolupa_compare', JSON.stringify(next));
       return next;
     });
   }, []);
 
   const clearCompare = useCallback(() => {
     setCompareList([]);
-    localStorage.removeItem('automatch_compare');
+    localStorage.removeItem('autolupa_compare');
   }, []);
 
   const toggleFavorite = useCallback((carId: number) => {
     setFavorites((prev) => {
       const next = prev.includes(carId) ? prev.filter((id) => id !== carId) : [...prev, carId];
-      localStorage.setItem('automatch_favorites', JSON.stringify(next));
+      localStorage.setItem('autolupa_favorites', JSON.stringify(next));
       if (isConfiguredUser) {
         saveFavoritesToCloud(uid!, next);
       }
@@ -200,7 +200,7 @@ export function useCars(user?: User | null) {
       const next = prev.filter((id) => id !== carId);
       next.unshift(carId);
       const trimmed = next.slice(0, 12);
-      localStorage.setItem('automatch_recent', JSON.stringify(trimmed));
+      localStorage.setItem('autolupa_recent', JSON.stringify(trimmed));
       return trimmed;
     });
   }, []);

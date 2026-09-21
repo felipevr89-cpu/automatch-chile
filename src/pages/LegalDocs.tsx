@@ -16,7 +16,7 @@ export function LegalDocs() {
 
   return (
     <div className="max-w-3xl mx-auto px-4 sm:px-6 py-8">
-      <SEO title={doc.title} description={`${doc.title} de AutoMatch Chile.`} />
+      <SEO title={doc.title} description={`${doc.title} de AutoLupa.`} />
       <Breadcrumbs items={[{ label: doc.title }]} />
       <div className="bg-white dark:bg-gray-800 rounded-2xl card-shadow p-6 sm:p-8">
         <div className="prose prose-sm max-w-none dark:prose-invert">

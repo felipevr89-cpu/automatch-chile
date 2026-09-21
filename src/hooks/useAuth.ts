@@ -49,7 +49,7 @@ export function useAuth() {
       setUser({
         uid: 'demo-user-001',
         displayName: 'Usuario Demo',
-        email: 'demo@automatch.cl',
+        email: 'demo@autolupa.cl',
         photoURL: null,
       });
       return;

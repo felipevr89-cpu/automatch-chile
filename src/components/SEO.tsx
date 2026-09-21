@@ -7,14 +7,14 @@ interface Props {
   description?: string;
 }
 
-const siteUrl = 'https://automatchs.pages.dev';
+const siteUrl = 'https://autolupa.pages.dev';
 
 const carCount = carsData.length;
 const brandCount = brands.length;
 
 export function SEO({ title, description }: Props) {
   const { pathname } = useLocation();
-  const siteName = 'AutoMatch Chile';
+  const siteName = 'AutoLupa';
   const fullTitle = title ? `${title} | ${siteName}` : `${siteName} - Comparador de Autos ${new Date().getFullYear()}`;
   const desc = description || `Compara ${carCount} vehículos de ${brandCount} marcas en el mercado chileno. Precios, especificaciones, versiones y más.`;
   const canonical = `${siteUrl}${pathname === '/' ? '/' : pathname}`;

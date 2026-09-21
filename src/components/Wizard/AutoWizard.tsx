@@ -481,7 +481,7 @@ export function AutoWizard({ onClose, onSelectCar, initialAnswers, initialShowRe
                 <span className="text-white text-xl">🤖</span>
               </div>
               <div>
-                <h2 className="text-lg font-bold text-gray-900 dark:text-white">Asistente AutoMatch</h2>
+                <h2 className="text-lg font-bold text-gray-900 dark:text-white">Asistente AutoLupa</h2>
                 <p className="text-sm text-gray-500 dark:text-gray-400">Paso {currentStep + 1} de {steps.length}</p>
               </div>
             </div>

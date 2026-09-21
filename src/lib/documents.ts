@@ -1,6 +1,6 @@
 // Demo documents content
 export const PRIVACY_POLICY_CONTENT = `# POLÍTICA DE TRATAMIENTO DE DATOS PERSONALES
-## AutoMatch Chile
+## AutoLupa Chile
 
 **Versión:** 1.0
 **Fecha de vigencia:** 18/07/2026
@@ -8,9 +8,9 @@ export const PRIVACY_POLICY_CONTENT = `# POLÍTICA DE TRATAMIENTO DE DATOS PERSO
 ---
 
 ## 1. RESPONSABLE DEL TRATAMIENTO
-- **Nombre/Razón Social:** AutoMatch SpA
+- **Nombre/Razón Social:** AutoLupa SpA
 - **RUT:** XX.XXX.XXX-X
-- **Correo electrónico:** privacidad@automatch.cl
+- **Correo electrónico:** privacidad@autolupa.cl
 
 ## 2. DATOS PERSONALES QUE RECOPILAMOS
 2.1. **Datos de identificación:** Nombre completo, correo electrónico, fotografía de perfil (Google)
@@ -38,7 +38,7 @@ No se ceden datos a terceros salvo por requerimiento judicial.
 Los cambios serán notificados y requerirán nuevo consentimiento.`;
 
 export const RESPONSIBILITY_CONTENT = `# DECLARACIÓN DE RESPONSABILIDAD Y USO DEL SERVICIO
-## AutoMatch Chile
+## AutoLupa Chile
 
 **Versión:** 1.0
 **Fecha de vigencia:** 18/07/2026
@@ -51,7 +51,7 @@ export const RESPONSIBILITY_CONTENT = `# DECLARACIÓN DE RESPONSABILIDAD Y USO D
 1.3. Utilizará el servicio exclusivamente para fines lícitos.
 
 ## 2. NATURALEZA DEL SERVICIO
-2.1. **Servicio Informativo:** AutoMatch NO constituye oferta comercial vinculante, asesoría financiera ni intermediación.
+2.1. **Servicio Informativo:** AutoLupa NO constituye oferta comercial vinculante, asesoría financiera ni intermediación.
 2.2. **Información de Precios:** Los precios son referenciales y pueden variar.
 2.3. **Disponibilidad:** Sujeta a stock real en concesionarios.
 
@@ -69,7 +69,7 @@ export const RESPONSIBILITY_CONTENT = `# DECLARACIÓN DE RESPONSABILIDAD Y USO D
 Se someterán a tribunales competentes de Santiago, Chile.`;
 
 export const TERMS_AND_CONDITIONS = `# TÉRMINOS Y CONDICIONES DE USO
-## AutoMatch Chile
+## AutoLupa Chile
 
 **Versión:** 1.0
 **Fecha de vigencia:** 18/07/2026
@@ -77,19 +77,19 @@ export const TERMS_AND_CONDITIONS = `# TÉRMINOS Y CONDICIONES DE USO
 ---
 
 ## 1. ACEPTACIÓN DE LOS TÉRMINOS
-Al usar AutoMatch Chile usted declara haber leído y aceptado estos términos.
+Al usar AutoLupa Chile usted declara haber leído y aceptado estos términos.
 
 ## 2. NATURALEZA DEL SERVICIO
-2.1. AutoMatch es una plataforma **informativa** para buscar, comparar y guardar vehículos del mercado chileno.
+2.1. AutoLupa es una plataforma **informativa** para buscar, comparar y guardar vehículos del mercado chileno.
 2.2. Los precios y especificaciones son **referenciales** y pueden variar según el concesionario.
-2.3. AutoMatch **no** realiza venta de vehículos, intermediación comercial ni asesoría financiera.
+2.3. AutoLupa **no** realiza venta de vehículos, intermediación comercial ni asesoría financiera.
 
 ## 3. PROPIEDAD INTELECTUAL
 3.1. Las marcas, logos y nombres de vehículos pertenecen a sus respectivos fabricantes.
 3.2. Las fotografías se usan bajo sus respectivas licencias (CC BY-SA, Wikipedia Commons) y se atribuyen en los detalles de cada vehículo.
 
 ## 4. LIMITACIÓN DE RESPONSABILIDAD
-AutoMatch no se responsabiliza por decisiones de compra ni por discrepancias entre los datos publicados y la información oficial de cada marca.
+AutoLupa no se responsabiliza por decisiones de compra ni por discrepancias entre los datos publicados y la información oficial de cada marca.
 
 ## 5. MODIFICACIONES
 Podemos modificar estos términos; los cambios serán publicados en esta página.`;

@@ -1,8 +1,8 @@
-# AutoMatch Chile - Contexto del Proyecto
+# AutoLupa - Contexto del Proyecto
 
 ## Información General
-- **Nombre:** AutoMatch
-- **URL:** https://automatchs.pages.dev
+- **Nombre:** AutoLupa
+- **URL:** https://autolupa.pages.dev
 - **Descripción:** Plataforma para buscar, comparar y guardar vehículos del mercado chileno
 - **Tecnologías:** React 18 + Vite + TypeScript + Tailwind CSS 3
 - **Hosting:** Cloudflare Pages
@@ -23,7 +23,7 @@ npm run lint
 npm run build
 
 # Deploy Cloudflare (token vía GitHub Secret, no en el repo)
-npm run build && CLOUDFLARE_API_TOKEN="${{ secrets.CLOUDFLARE_API_TOKEN }}" npx wrangler pages deploy dist --project-name=automatchs --branch main
+npm run build && CLOUDFLARE_API_TOKEN="${{ secrets.CLOUDFLARE_API_TOKEN }}" npx wrangler pages deploy dist --project-name=autolupa --branch main
 ```
 
 ## Estructura del Proyecto

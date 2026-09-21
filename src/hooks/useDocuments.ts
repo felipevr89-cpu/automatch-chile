@@ -6,7 +6,7 @@ interface DocumentStatus {
   responsibility: { signed: boolean; version: string };
 }
 
-const STORAGE_KEY = 'automatch_signatures';
+const STORAGE_KEY = 'autolupa_signatures';
 
 function getStoredSignatures(userId: string): Set<string> {
   try {

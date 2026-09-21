@@ -1,7 +1,7 @@
-# AutoMatch Chile - Summary
+# AutoLupa - Summary
 
 ## Objective
-Plataforma chilena de comparación/catálogo de autos 0km con datos reales del mercado local. React + TypeScript + Vite. Hosting: Cloudflare Pages (`automatchs.pages.dev`).
+Plataforma chilena de comparación/catálogo de autos 0km con datos reales del mercado local. React + TypeScript + Vite. Hosting: Cloudflare Pages (`autolupa.pages.dev`).
 
 ## Estado Actual
 - **Core**: Home, CarDetail, Favorites, Compare, FilterPanel, CarGrid funcionando
@@ -38,7 +38,7 @@ Plataforma chilena de comparación/catálogo de autos 0km con datos reales del m
 - **Años dinámicos**: filtros de año usan `new Date().getFullYear()` en vez de valores hardcodeados (2010–2026)
 - **Firmas de documentos**: persistidas en `localStorage` (antes solo en memoria)
 - **SEO**: canonical/og:url por ruta; eliminado SearchAction roto (`?q=`); sitemap completo (incluye `/top10` y legales)
-- **Etiquetas**: "AutoMatch IA" renombrado a "Asistente AutoMatch" (es un wizard de reglas, no IA)
+- **Etiquetas**: "AutoMatch IA" renombrado a "Asistente AutoLupa" (es un wizard de reglas, no IA)
 - **Footer**: enlaces legales reales + conteos dinámicos (`brands.length` / `carsData.length`)
 - **Novedades 2026 curado**: el rail de Home ya no es `filter(year>=2026)` (255 autos); ahora muestra 12 lanzamientos notables definidos en `NOVEDADES_2026` (`Home.tsx`)
 - **Marcas no oficiales marcadas**: Acura, Buick, Chrysler, GMC, Infiniti y Lincoln no se venden como nuevas en Chile → badge "no en Chile" en tarjetas y detalle, aviso en el filtro (`BRANDS_NOT_SOLD_NEW_IN_CHILE` en `data/brands/index.ts`)

@@ -59,8 +59,8 @@ function NextSteps({ car }: { car: Car }) {
   const nuevosUrl = `https://www.chileautos.cl/vehiculos/?q=${encodeURIComponent(car.brand + ' ' + car.model)}`;
   const usadosUrl = `https://www.google.com/search?q=${encodeURIComponent(car.brand + ' ' + car.model + ' usado Chile')}`;
   const preciosUrl = `https://www.google.com/search?q=${q}+precio`;
-  const shareText = `Mira el ${car.brand} ${car.model} ${car.year} (${formatPrice(car.price)}) en AutoMatch Chile`;
-  const shareUrl = `https://wa.me/?text=${encodeURIComponent(shareText + ' — https://automatchs.pages.dev')}`;
+  const shareText = `Mira el ${car.brand} ${car.model} ${car.year} (${formatPrice(car.price)}) en AutoLupa`;
+  const shareUrl = `https://wa.me/?text=${encodeURIComponent(shareText + ' — https://autolupa.pages.dev')}`;
 
   return (
     <div className="mt-8 mb-2 p-5 bg-blue-50 dark:bg-blue-900/20 rounded-2xl">

@@ -1,6 +1,6 @@
 {
-  "name": "AutoMatch Chile",
-  "short_name": "AutoMatch",
+  "name": "AutoLupa",
+  "short_name": "AutoLupa",
   "description": "Comparador de autos del mercado chileno",
   "start_url": "/",
   "scope": "/",

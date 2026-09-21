@@ -185,7 +185,7 @@ export function CompareTable({ cars, onRemove }: Props) {
     try {
       const canvas = await html2canvas(tableRef.current, { backgroundColor: '#ffffff', scale: 2 });
       const link = document.createElement('a');
-      link.download = `comparacion-automatch-${Date.now()}.png`;
+      link.download = `comparacion-autolupa-${Date.now()}.png`;
       link.href = canvas.toDataURL('image/png');
       link.click();
     } finally {

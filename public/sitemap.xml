@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://automatchs.pages.dev/</loc>
+    <loc>https://autolupa.pages.dev/</loc>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://automatchs.pages.dev/compare</loc>
+    <loc>https://autolupa.pages.dev/compare</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://automatchs.pages.dev/favorites</loc>
+    <loc>https://autolupa.pages.dev/favorites</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://automatchs.pages.dev/estadisticas</loc>
+    <loc>https://autolupa.pages.dev/estadisticas</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://automatchs.pages.dev/top10</loc>
+    <loc>https://autolupa.pages.dev/top10</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://automatchs.pages.dev/privacidad</loc>
+    <loc>https://autolupa.pages.dev/privacidad</loc>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://automatchs.pages.dev/terminos</loc>
+    <loc>https://autolupa.pages.dev/terminos</loc>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
