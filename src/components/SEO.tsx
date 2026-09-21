@@ -19,6 +19,32 @@ export function SEO({ title, description }: Props) {
   const desc = description || `Compara ${carCount} vehículos de ${brandCount} marcas en el mercado chileno. Precios, especificaciones, versiones y más.`;
   const canonical = `${siteUrl}${pathname === '/' ? '/' : pathname}`;
 
+  const jsonLd = pathname === '/'
+    ? {
+        '@context': 'https://schema.org',
+        '@type': 'WebSite',
+        name: siteName,
+        url: siteUrl,
+        description: desc,
+        potentialAction: {
+          '@type': 'SearchAction',
+          target: `${siteUrl}/?q={search_term_string}`,
+          'query-input': 'required name=search_term_string',
+        },
+      }
+    : {
+        '@context': 'https://schema.org',
+        '@type': 'CollectionPage',
+        name: fullTitle,
+        description: desc,
+        url: canonical,
+        isPartOf: {
+          '@type': 'WebSite',
+          name: siteName,
+          url: siteUrl,
+        },
+      };
+
   return (
     <Helmet>
       <title>{fullTitle}</title>
@@ -29,6 +55,7 @@ export function SEO({ title, description }: Props) {
       <meta name="twitter:title" content={fullTitle} />
       <meta name="twitter:description" content={desc} />
       <link rel="canonical" href={canonical} />
+      <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
     </Helmet>
   );
 }

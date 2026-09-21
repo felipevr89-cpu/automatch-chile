@@ -15,6 +15,7 @@ const Favorites = lazy(() => import('./pages/Favorites').then(m => ({ default: m
 const Estadisticas = lazy(() => import('./pages/Estadisticas').then(m => ({ default: m.Estadisticas })));
 const Top10 = lazy(() => import('./pages/Top10').then(m => ({ default: m.Top10 })));
 const LegalDocs = lazy(() => import('./pages/LegalDocs').then(m => ({ default: m.LegalDocs })));
+const BrandPage = lazy(() => import('./pages/BrandPage').then(m => ({ default: m.BrandPage })));
 
 function PageSkeleton() {
   return (
@@ -173,6 +174,14 @@ function AppContent() {
           element={
             <Suspense fallback={<PageSkeleton />}>
               <LegalDocs />
+            </Suspense>
+          }
+        />
+        <Route
+          path="/marca/:brandSlug"
+          element={
+            <Suspense fallback={<PageSkeleton />}>
+              <BrandPage />
             </Suspense>
           }
         />

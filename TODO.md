@@ -1,47 +1,68 @@
-# AutoMatch Chile - Tareas Pendientes
+# AutoLupa — Tareas Pendientes
 
-## 🔴 Prioridad 1 — Renombrar: AutoLupa ✅ ELEGIDO
+## 🔴 Prioridad 1 — Renombrar: AutoLupa ✅ COMPLETADO
 
-> **Problema resuelto:** AutoMatch choca con [automatchchile.cl](https://www.automatchchile.cl/) (concesionario en Talca).
-> **Nuevo nombre:** **AutoLupa** 🔍 — "examinar cada auto de cerca"
->
-> **Justificación:** Visual, único, explica la plataforma (catálogo + comparador + TCO + fichas técnicas). Los handles @autolupa en Instagram/Twitter están abandonados (1 seguidor, sin actividad). Dominio `autolupa.cl` disponible.
+- [x] Elegir nombre: **AutoLupa** 🔍
+- [x] Cambiar `name` en `package.json`
+- [x] Cambiar `title` y `og:title` en `index.html`
+- [x] Actualizar `manifest.json` (name, short_name)
+- [x] Actualizar `Navbar.tsx` (logo 🔍 + texto AutoLupa)
+- [x] Actualizar `Footer.tsx` (copyright, email)
+- [x] Actualizar `SEO.tsx` (title, description, canonical)
+- [x] Actualizar `sitemap.xml`
+- [x] Actualizar `wrangler.toml`
+- [x] Crear proyecto `autolupa` en Cloudflare Pages
+- [x] Actualizar workflow deploy → `autolupa`
+- [x] Actualizar `AGENTS.md` y `SUMMARY.md`
+- [x] Reemplazar todas las menciones a "AutoMatch" en código
+- [x] Verificar: 0 referencias a "AutoMatch" en código
 
-### Criterios cumplidos
-- [x] Dominio `.cl` disponible (autolupa.cl)
-- [x] Fácil de pronunciar en español chileno
-- [x] No confundir con concesionario/venta directa
-- [x] SEO-friendly (lupa = examinar, comparar, revisar)
-- [x] Nombre único en el rubro automotriz chileno
-
-### Tareas del rename
-- [ ] Comprar dominio `autolupa.cl` (si aplica)
-- [ ] Cambiar `name` en `package.json`
-- [ ] Cambiar `title` y `og:title` en `index.html`
-- [ ] Actualizar `manifest.json` (name, short_name, start_url)
-- [ ] Actualizar `Navbar.tsx` (logo/texto del header)
-- [ ] Actualizar `Footer.tsx` (copyright y nombre)
-- [ ] Actualizar `SEO.tsx` (title, description, canonical por ruta)
-- [ ] Actualizar `sitemap.xml`
-- [ ] Actualizar `wrangler.toml` (name del proyecto Cloudflare)
-- [ ] Renombrar proyecto en Cloudflare Pages (automatchs → autolupa)
-- [ ] Renombrar repo GitHub si aplica
-- [ ] Actualizar `AGENTS.md` y `SUMMARY.md`
-- [ ] Buscar y reemplazar todas las menciones a "AutoMatch" en código
-- [ ] Verificar que no queden referencias al nombre antiguo
+### Pendiente
+- [ ] Comprar dominio `autolupa.cl` (opcional, el `.pages.dev` funciona)
 
 ---
 
-## 🟠 Prioridad 2 — Deploy y estabilidad
+## 🟠 Prioridad 2 — Deploy y estabilidad ✅ COMPLETADO
+
 - [x] Commit de pase de fotos 2026 + funcionalidades
-- [ ] Push a GitHub (⏳ en curso)
-- [ ] Verificar deploy automático en Cloudflare Pages
-- [ ] Confirmar que las 131 fotos nuevas cargan en producción
-- [ ] Verificar Performance (Lighthouse) — el chunk index >950 KB puede afectar carga
+- [x] Push a GitHub
+- [x] Deploy automático a Cloudflare Pages (`autolupa.pages.dev`)
+- [x] Verificar deploy (workflow ejecutado)
+
+### Pendiente
+- [ ] Confirmar que las 131 fotos nuevas cargan en producción (visitar `autolupa.pages.dev`)
+- [ ] Verificar Performance (Lighthouse) — chunk index >950 KB
 
 ---
 
-## 🟡 Prioridad 3 — Sección de Usados (en planeación)
+## 🟡 Prioridad 3 — Auditoría y limpieza de datos ✅ COMPLETADO
+
+- [x] Navbar decía "AutoMatch" → corregido
+- [x] Wizard km/mes irreales → km/año basado en Autofact (15k-27k normal)
+- [x] Hyundai Tucson: fuel → `hibrido` (HEV convencional)
+- [x] Suzuki Across: fuel → `hibrido` (MHEV, mild hybrid)
+- [x] Changan Hunter: fuel → `electrico` (EREV/REEV)
+- [x] Descripciones actualizadas con nomenclatura real
+- [x] Chery PHEV: consumo unidades corregidas (l/100km → km/l)
+- [x] Hyundai Tucson: consumo 50 → 17 km/l
+- [x] Chevrolet Montana: precio base corregido
+- [x] Origen "china" → "China" (100+ autos)
+- [x] Comparador: docs actualizados (límite = 3)
+- [x] Documento AUDITORIA.md creado
+
+### Pendiente (verificado en auditoría)
+- [ ] Deepal G318 (140), S07 (142), Jaecoo J7 SHS (273): sin consumo PHEV → verificar ficha oficial
+- [ ] Toyota C-HR/Corolla/RAV4, Kia Sportage: versiones híbridas bajo tipo base (inconsistente)
+- [ ] Kia Niro (319): 3 tipos en una entrada → considerar separar
+- [ ] Hyundai Porter (254): ¿gasolina o diésel en Chile 2026?
+- [ ] MG Cyberster duplicado (416, 423): diferenciar nombre
+- [ ] Redundancia `origin`/`origin_country` → unificar a uno solo
+- [ ] Favicon: crear logo 🔍 de AutoLupa
+
+---
+
+## 🟢 Prioridad 4 — Sección de Usados (en planeación)
+
 - [ ] Definir modelo de negocio (marketplace, lead gen, directo)
 - [ ] Autenticación (Firebase Auth)
 - [ ] Formulario de publicación de vehículos
@@ -53,16 +74,8 @@
 
 ---
 
-## 🟢 Prioridad 4 — Mejoras de datos
-- [ ] Completar consumo Lynk & Co 09 (MHEV 2.0T)
-- [ ] Completar batería/autonomía DFSK Glory iX5 EV
-- [ ] Verificar marcas nuevas 2026 (anuncios oficiales Chile)
-- [ ] Reducir las 54 siluetas restantes (buscar fotos en Commons)
-- [ ] Auditoría de precios vs sitio oficial (actualización semestral)
-
----
-
 ## 🔵 Prioridad 5 — UX y rendimiento
+
 - [ ] Code-splitting del chunk index (950 KB) → lazy load por ruta
 - [ ] Lazy load de imágenes del catálogo (IntersectionObserver)
 - [ ] Skeleton loading mejorado en todas las páginas
@@ -74,6 +87,7 @@
 ---
 
 ## 🟣 Prioridad 6 — SEO y marketing
+
 - [ ] Structured data (JSON-LD) para autos
 - [ ] Blog / sección de guías de compra
 - [ ] Landing pages por marca (ej: /marca/toyota)
@@ -84,7 +98,26 @@
 ---
 
 ## ⚪ Prioridad 7 — Monetización (futuro)
+
 - [ ] Google AdSense / ads contextuales
 - [ ] Afiliados (seguros, créditos, accesorios)
 - [ ] Featured listings (pago por destacar)
 - [ ] API pública del catálogo (B2B)
+
+---
+
+## 📊 Resumen de lo hecho hoy
+
+| Área | Estado |
+|------|--------|
+| Rename AutoMatch → AutoLupa | ✅ |
+| Deploy a Cloudflare Pages | ✅ |
+| Wizard km → km/año (Autofact) | ✅ |
+| Navbar logo/texto | ✅ |
+| Combustibles: Tucson/Across/Hunter | ✅ |
+| Consumo PHEV Chery | ✅ |
+| Consumo Tucson | ✅ |
+| Precio Montana | ✅ |
+| Orígenes capitalizados | ✅ |
+| Docs comparador | ✅ |
+| 52/52 tests, lint 0, build OK | ✅ |
