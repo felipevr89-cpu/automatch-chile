@@ -16,6 +16,9 @@ const Estadisticas = lazy(() => import('./pages/Estadisticas').then(m => ({ defa
 const Top10 = lazy(() => import('./pages/Top10').then(m => ({ default: m.Top10 })));
 const LegalDocs = lazy(() => import('./pages/LegalDocs').then(m => ({ default: m.LegalDocs })));
 const BrandPage = lazy(() => import('./pages/BrandPage').then(m => ({ default: m.BrandPage })));
+const Usados = lazy(() => import('./pages/Usados').then(m => ({ default: m.Usados })));
+const Blog = lazy(() => import('./pages/Blog').then(m => ({ default: m.Blog })));
+const Analytics = lazy(() => import('./pages/Analytics').then(m => ({ default: m.Analytics })));
 
 function PageSkeleton() {
   return (
@@ -182,6 +185,30 @@ function AppContent() {
           element={
             <Suspense fallback={<PageSkeleton />}>
               <BrandPage />
+            </Suspense>
+          }
+        />
+        <Route
+          path="/usados"
+          element={
+            <Suspense fallback={<PageSkeleton />}>
+              <Usados />
+            </Suspense>
+          }
+        />
+        <Route
+          path="/blog"
+          element={
+            <Suspense fallback={<PageSkeleton />}>
+              <Blog />
+            </Suspense>
+          }
+        />
+        <Route
+          path="/estadisticas-mercado"
+          element={
+            <Suspense fallback={<PageSkeleton />}>
+              <Analytics />
             </Suspense>
           }
         />

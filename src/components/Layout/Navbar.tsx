@@ -46,6 +46,8 @@ export function Navbar() {
     { to: '/', label: 'Inicio' },
     { to: '/compare', label: 'Comparar' },
     { to: '/favorites', label: 'Favoritos' },
+    { to: '/usados', label: 'Usados' },
+    { to: '/blog', label: 'Blog' },
   ];
 
   return (
@@ -212,6 +214,15 @@ export function Navbar() {
                 <span>{cat.label}</span>
               </Link>
             ))}
+            <div className="border-t border-gray-800 dark:border-gray-700 my-1" />
+            <Link
+              to="/estadisticas-mercado"
+              onClick={() => setMobileOpen(false)}
+              className="flex items-center gap-3 px-4 py-2 text-sm text-gray-300 hover:bg-white/10 rounded-lg"
+            >
+              <span>📊</span>
+              <span>Estadísticas</span>
+            </Link>
             <div className="border-t border-gray-800 dark:border-gray-700 my-1" />
             <button
               onClick={toggleDark}

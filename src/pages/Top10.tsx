@@ -61,22 +61,29 @@ const categories = [
   },
 ];
 
+function safetyScore(c: Car): number {
+  const stars = c.latin_ncap_stars ?? c.safety_ratings?.find(r => r.program === 'Latin NCAP')?.stars ?? 0;
+  const adasCount = c.adas?.length ?? 0;
+  return (c.airbags ?? 0) + stars * 3 + adasCount;
+}
+
+function espacioScore(c: Car): number {
+  return (c.seats ?? 0) + (c.trunk_liters ?? 0) / 50 + (c.length_mm ?? 0) / 200;
+}
+
 function getTopCars(category: string): Car[] {
   const data = [...carsData];
 
   switch (category) {
     case 'seguridad': {
-      const with5Stars = data.filter(
-        c => c.latin_ncap_stars === 5 || c.safety_ratings?.some(r => r.stars === 5)
-      );
-      return with5Stars.length >= 10
-        ? with5Stars.slice(0, 10)
-        : [...data].sort((a, b) => (b.airbags ?? 0) - (a.airbags ?? 0)).slice(0, 10);
+      return [...data]
+        .sort((a, b) => safetyScore(b) - safetyScore(a))
+        .slice(0, 10);
     }
     case 'espacio':
       return data
         .filter(c => (c.trunk_liters ?? 0) > 0)
-        .sort((a, b) => (b.trunk_liters ?? 0) - (a.trunk_liters ?? 0))
+        .sort((a, b) => espacioScore(b) - espacioScore(a))
         .slice(0, 10);
     case 'consumo':
       return data

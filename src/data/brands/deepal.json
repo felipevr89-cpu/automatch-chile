@@ -36,6 +36,7 @@
         "Apple CarPlay",
         "Android Auto"
       ],
+      "fuel_consumption_mixed_km_l": 15,
       "warranty_years": 5,
       "warranty_km": 100000,
       "origin_country": "China",
