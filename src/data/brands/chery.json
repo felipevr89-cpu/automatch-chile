@@ -15,7 +15,7 @@
       "traction": "4x2",
       "image_url": "",
       "description": "Sedán compacto con diseño moderno y motor turbo eficiente.",
-      "origin": "china",
+      "origin": "China",
       "hp": 150,
       "torque_nm": 210,
       "length_mm": 4650,
@@ -69,7 +69,7 @@
       "traction": "4x2",
       "image_url": "",
       "description": "Sedán mediano premium con motor 1.5 turbo y diseño elegante.",
-      "origin": "china",
+      "origin": "China",
       "hp": 147,
       "torque_nm": 210,
       "length_mm": 4750,
@@ -124,7 +124,7 @@
       "traction": "4x2",
       "image_url": "",
       "description": "Pickup mediana con motor 2.3 turbo diésel disponible en versiones 4x2 y 4x4.",
-      "origin": "china",
+      "origin": "China",
       "versions": [
         {
           "version": "2.3T MT 4x2",
@@ -181,7 +181,7 @@
       "traction": "4x2",
       "image_url": "",
       "description": "SUV subcompacto accesible con motor 1.5 y equipamiento básico completo.",
-      "origin": "china",
+      "origin": "China",
       "versions": [
         {
           "version": "1.5L GLS",
@@ -232,7 +232,7 @@
       "traction": "4x2",
       "image_url": "",
       "description": "SUV subcompacto con diseño renovado, luces LED y mayor equipamiento.",
-      "origin": "china",
+      "origin": "China",
       "versions": [
         {
           "version": "1.5L GLS",
@@ -283,7 +283,7 @@
       "traction": "4x2",
       "image_url": "",
       "description": "SUV subcompacto con motor 1.5 y diseño renovado.",
-      "origin": "china",
+      "origin": "China",
       "hp": 105,
       "torque_nm": 135,
       "length_mm": 4200,
@@ -334,7 +334,7 @@
       "traction": "4x2",
       "image_url": "",
       "description": "SUV compacto con motor 1.5 turbo y caja CVT de variador continuo.",
-      "origin": "china",
+      "origin": "China",
       "versions": [
         {
           "version": "1.5T GLS CVT",
@@ -385,7 +385,7 @@
       "traction": "4x2",
       "image_url": "",
       "description": "SUV mediano con motor 1.5 turbo de 147 hp y transmisión CVT.",
-      "origin": "china",
+      "origin": "China",
       "versions": [
         {
           "version": "1.5T GLS CVT",
@@ -437,7 +437,7 @@
       "traction": "4x2",
       "image_url": "",
       "description": "SUV híbrido enchufable con autonomía eléctrica de hasta 80 km.",
-      "origin": "china",
+      "origin": "China",
       "versions": [
         {
           "version": "1.5T PHEV GLS",
@@ -448,7 +448,7 @@
       ],
       "hp": 218,
       "torque_nm": 350,
-      "fuel_consumption_mixed_km_l": 1.8,
+      "fuel_consumption_mixed_km_l": 55,
       "fuel_tank_liters": 50,
       "length_mm": 4500,
       "width_mm": 1840,
@@ -485,7 +485,7 @@
       "traction": "4x2",
       "image_url": "",
       "description": "SUV de tres filas con motor 2.0 turbo y pantalla panorámica de 24.6 pulgadas.",
-      "origin": "china",
+      "origin": "China",
       "versions": [
         {
           "version": "2.0T GLS DCT",
@@ -537,7 +537,7 @@
       "traction": "4x2",
       "image_url": "",
       "description": "SUV de tres filas híbrido enchufable con motor 2.0 turbo y gran espacio.",
-      "origin": "china",
+      "origin": "China",
       "versions": [
         {
           "version": "2.0T PHEV DCT",
@@ -548,7 +548,7 @@
       ],
       "hp": 260,
       "torque_nm": 400,
-      "fuel_consumption_mixed_km_l": 2,
+      "fuel_consumption_mixed_km_l": 50,
       "fuel_tank_liters": 55,
       "length_mm": 4720,
       "width_mm": 1860,
@@ -585,7 +585,7 @@
       "traction": "4x4",
       "image_url": "",
       "description": "SUV grande con motor 2.0 turbo y tracción integral con interior premium.",
-      "origin": "china",
+      "origin": "China",
       "hp": 250,
       "torque_nm": 385,
       "length_mm": 4820,
@@ -641,7 +641,7 @@
       "traction": "4x4",
       "image_url": "",
       "description": "SUV híbrido enchufable con gran autonomía eléctrica y eficiencia superior.",
-      "origin": "china",
+      "origin": "China",
       "hp": 340,
       "torque_nm": 450,
       "length_mm": 4820,

@@ -15,7 +15,7 @@
       "traction": "awd",
       "image_url": "",
       "description": "SUV híbrido enchufable de siete plazas con autonomía combinada cercana a 1000 km.",
-      "origin": "china",
+      "origin": "China",
       "versions": [
         {
           "version": "GL DM-i",
@@ -71,7 +71,7 @@
       "traction": "4x2",
       "image_url": "",
       "description": "Hatchback eléctrico compacto con batería Blade y excelente autonomía urbana.",
-      "origin": "china",
+      "origin": "China",
       "hp": 204,
       "torque_nm": 310,
       "length_mm": 4290,
@@ -124,7 +124,7 @@
       "traction": "4x2",
       "image_url": "",
       "description": "Citycar eléctrico compacto con diseño moderno y tecnología Blade Battery de BYD.",
-      "origin": "china",
+      "origin": "China",
       "versions": [
         {
           "version": "Standard",
@@ -171,7 +171,7 @@
       "traction": "awd",
       "image_url": "",
       "description": "Sedán eléctrico de lujo con diseño deportivo y batería Blade.",
-      "origin": "china",
+      "origin": "China",
       "hp": 517,
       "torque_nm": 700,
       "length_mm": 4995,
@@ -227,7 +227,7 @@
       "traction": "awd",
       "image_url": "",
       "description": "Sedán eléctrico premium con autonomía de hasta 610 km y prestaciones de lujo.",
-      "origin": "china",
+      "origin": "China",
       "versions": [
         {
           "version": "Excellence AWD",
@@ -277,7 +277,7 @@
       "traction": "awd",
       "image_url": "",
       "description": "Sedán eléctrico deportivo con diseño aerodinámico y tecnología de vanguardia.",
-      "origin": "china",
+      "origin": "China",
       "versions": [
         {
           "version": "Excellence AWD",
@@ -326,7 +326,7 @@
       "traction": "awd",
       "image_url": "",
       "description": "SUV eléctrico deportivo con 0 a 100 km/h en 4,5 segundos y autonomía de hasta 542 km.",
-      "origin": "china",
+      "origin": "China",
       "versions": [
         {
           "version": "GL RWD",
@@ -381,7 +381,7 @@
       "traction": "4x4",
       "image_url": "",
       "description": "Pickup híbrida enchufable con doble motor y tracción total para aventura y trabajo.",
-      "origin": "china",
+      "origin": "China",
       "versions": [
         {
           "version": "GLS DM-p",
@@ -428,7 +428,7 @@
       "traction": "4x2",
       "image_url": "",
       "description": "SUV híbrido enchufable con autonomía eléctrica de hasta 110 km y más de 1000 km combinados.",
-      "origin": "china",
+      "origin": "China",
       "versions": [
         {
           "version": "GL DM-i",
@@ -477,7 +477,7 @@
       "traction": "4x2",
       "image_url": "",
       "description": "SUV familiar híbrido enchufable con tecnología DM-i y gran autonomía combinada.",
-      "origin": "china",
+      "origin": "China",
       "versions": [
         {
           "version": "GL DM-i",
@@ -526,7 +526,7 @@
       "traction": "awd",
       "image_url": "",
       "description": "SUV eléctrico de 7 plazas con doble motor y tracción integral.",
-      "origin": "china",
+      "origin": "China",
       "hp": 517,
       "torque_nm": 680,
       "length_mm": 4870,
@@ -581,7 +581,7 @@
       "traction": "4x2",
       "image_url": "",
       "description": "SUV eléctrico 100% con plataforma e-Platform 3.0 y autonomía de hasta 420 km.",
-      "origin": "china",
+      "origin": "China",
       "versions": [
         {
           "version": "GL",
@@ -624,7 +624,7 @@
       "traction": "4x2",
       "image_url": "",
       "description": "SUV compacto eléctrico con autonomía urbana y tecnología Blade Battery.",
-      "origin": "china",
+      "origin": "China",
       "versions": [
         {
           "version": "GL",

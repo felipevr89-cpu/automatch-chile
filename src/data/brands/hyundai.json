@@ -985,7 +985,7 @@
       "transmission": "automatica",
       "traction": "awd",
       "image_url": "",
-      "description": "SUV mediano híbrido enchufable con 60 km de autonomía eléctrica",
+      "description": "SUV mediano híbrido convencional con 60 km de autonomía en modo eléctrico a baja velocidad.",
       "origin": "Corea del Sur",
       "origin_country": "Corea del Sur",
       "versions": [
@@ -1004,7 +1004,7 @@
       ],
       "hp": 265,
       "torque_nm": 357,
-      "fuel_consumption_mixed_km_l": 50,
+      "fuel_consumption_mixed_km_l": 17,
       "fuel_tank_liters": 54,
       "length_mm": 4630,
       "width_mm": 1865,

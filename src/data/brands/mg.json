@@ -15,7 +15,7 @@
       "traction": "awd",
       "image_url": "",
       "description": "Deportivo eléctrico convertible con diseño clásico y prestaciones de superdeportivo.",
-      "origin": "china",
+      "origin": "China",
       "hp": 544,
       "torque_nm": 725,
       "length_mm": 4535,
@@ -68,7 +68,7 @@
       "traction": "awd",
       "image_url": "",
       "description": "SUV eléctrico con doble motor, tracción integral y autonomía de hasta 400 km.",
-      "origin": "china",
+      "origin": "China",
       "hp": 288,
       "torque_nm": 665,
       "length_mm": 4674,
@@ -122,7 +122,7 @@
       "traction": "4x2",
       "image_url": "",
       "description": "Hatchback compacto económico con motor 1.5 litros y transmisión CVT.",
-      "origin": "china",
+      "origin": "China",
       "versions": [
         {
           "version": "1.5 STD CVT",
@@ -173,7 +173,7 @@
       "traction": "4x2",
       "image_url": "",
       "description": "Hatchback híbrido autorrecargable con sistema híbrido de nueva generación.",
-      "origin": "china",
+      "origin": "China",
       "versions": [
         {
           "version": "1.5 Hybrid Com",
@@ -218,7 +218,7 @@
       "traction": "4x2",
       "image_url": "",
       "description": "Hatchback eléctrico 100% con plataforma modular de nueva generación.",
-      "origin": "china",
+      "origin": "China",
       "versions": [
         {
           "version": "Standard Range",
@@ -266,7 +266,7 @@
       "traction": "awd",
       "image_url": "",
       "description": "Hatchback eléctrico deportivo con tracción total y 0 a 100 km/h en 3,8 segundos.",
-      "origin": "china",
+      "origin": "China",
       "versions": [
         {
           "version": "XPOWER AWD",
@@ -308,7 +308,7 @@
       "traction": "4x2",
       "image_url": "",
       "description": "Sedán compacto con diseño deportivo y equipamiento generoso.",
-      "origin": "china",
+      "origin": "China",
       "versions": [
         {
           "version": "1.5 STD CVT",
@@ -359,7 +359,7 @@
       "traction": "awd",
       "image_url": "",
       "description": "Deportivo eléctrico convertible con diseño clásico y prestaciones de superdeportivo.",
-      "origin": "china",
+      "origin": "China",
       "versions": [
         {
           "version": "AWD",
@@ -401,7 +401,7 @@
       "traction": "4x2",
       "image_url": "",
       "description": "Sedán deportivo con motor 1.5 turbo y diseño agresivo.",
-      "origin": "china",
+      "origin": "China",
       "versions": [
         {
           "version": "1.5T STD DCT",
@@ -452,7 +452,7 @@
       "traction": "4x2",
       "image_url": "",
       "description": "SUV mediano con motor 1.5 turbo y acabados premium.",
-      "origin": "china",
+      "origin": "China",
       "versions": [
         {
           "version": "1.5T Com DCT",
@@ -515,7 +515,7 @@
       "traction": "4x2",
       "image_url": "",
       "description": "SUV con diseño futurista y tecnología de última generación.",
-      "origin": "china",
+      "origin": "China",
       "versions": [
         {
           "version": "1.5T STD CVT",
@@ -571,7 +571,7 @@
       "traction": "4x2",
       "image_url": "",
       "description": "SUV compacto con motor 1.5 turbo de 168 hp y sistema ADAS MG Pilot.",
-      "origin": "china",
+      "origin": "China",
       "versions": [
         {
           "version": "1.5T STD CVT",
@@ -634,7 +634,7 @@
       "traction": "4x2",
       "image_url": "",
       "description": "SUV eléctrico con autonomía de hasta 440 km y carga rápida.",
-      "origin": "china",
+      "origin": "China",
       "versions": [
         {
           "version": "Standard Range",
@@ -687,7 +687,7 @@
       "traction": "4x2",
       "image_url": "",
       "description": "SUV compacto híbrido autorrecargable con menor consumo y emisiones.",
-      "origin": "china",
+      "origin": "China",
       "versions": [
         {
           "version": "1.5 Hybrid Com",
@@ -744,7 +744,7 @@
       "traction": "4x2",
       "image_url": "",
       "description": "Crossover hatchback con motor 1.3 turbo y diseño deportivo.",
-      "origin": "china",
+      "origin": "China",
       "versions": [
         {
           "version": "1.3T STD CVT",
@@ -801,7 +801,7 @@
       "traction": "4x2",
       "image_url": "",
       "description": "Station wagon compacta con motor 1.5 y amplio espacio de carga.",
-      "origin": "china",
+      "origin": "China",
       "hp": 112,
       "torque_nm": 150,
       "length_mm": 4600,
@@ -854,7 +854,7 @@
       "traction": "4x2",
       "image_url": "",
       "description": "SUV compacto con diseño moderno y buen equipamiento de serie.",
-      "origin": "china",
+      "origin": "China",
       "hp": 173,
       "torque_nm": 275,
       "length_mm": 4655,
@@ -909,7 +909,7 @@
       "traction": "4x4",
       "image_url": "",
       "description": "SUV grande de 7 plazas con motor 2.0 turbo y tracción 4x4.",
-      "origin": "china",
+      "origin": "China",
       "hp": 220,
       "torque_nm": 360,
       "length_mm": 4923,
@@ -964,7 +964,7 @@
       "traction": "4x4",
       "image_url": "",
       "description": "SUV grande de 7 plazas con motor 2.0 turbo y tracción integral.",
-      "origin": "china",
+      "origin": "China",
       "hp": 234,
       "torque_nm": 360,
       "length_mm": 4983,
@@ -1021,7 +1021,7 @@
       "traction": "awd",
       "image_url": "",
       "description": "SUV eléctrico con doble motor y tracción integral para máxima eficiencia.",
-      "origin": "china",
+      "origin": "China",
       "hp": 214,
       "torque_nm": 350,
       "length_mm": 4670,

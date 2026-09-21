@@ -15,7 +15,7 @@
       "traction": "4x4",
       "image_url": "",
       "description": "SUV todoterreno con diseño robusto y motor 2.0 turbo potente.",
-      "origin": "china",
+      "origin": "China",
       "hp": 211,
       "torque_nm": 330,
       "length_mm": 4620,
@@ -71,7 +71,7 @@
       "traction": "4x2",
       "image_url": "",
       "description": "SUV mediano con motor 2.0 turbo de 235 hp y equipamiento premium.",
-      "origin": "china",
+      "origin": "China",
       "versions": [
         {
           "version": "2.0T Elite 4x2",
@@ -136,7 +136,7 @@
       "traction": "4x2",
       "image_url": "",
       "description": "SUV mediano híbrido con sistema DHT y consumo reducido.",
-      "origin": "china",
+      "origin": "China",
       "versions": [
         {
           "version": "2.0T DHT Deluxe 4x2",
@@ -193,7 +193,7 @@
       "traction": "4x4",
       "image_url": "",
       "description": "SUV híbrido enchufable con más de 1000 km de autonomía total y 100 km en modo eléctrico.",
-      "origin": "china",
+      "origin": "China",
       "versions": [
         {
           "version": "2.0T DHT Deluxe 4x2",
@@ -249,7 +249,7 @@
       "traction": "4x2",
       "image_url": "",
       "description": "SUV de diseño moderno con motor 1.5 turbo y tecnología de asistencia avanzada.",
-      "origin": "china",
+      "origin": "China",
       "versions": [
         {
           "version": "1.5T Elite 4x2",
@@ -305,7 +305,7 @@
       "traction": "4x2",
       "image_url": "",
       "description": "SUV mediano híbrido con sistema DHT y bajo consumo de combustible.",
-      "origin": "china",
+      "origin": "China",
       "hp": 243,
       "torque_nm": 375,
       "length_mm": 4653,
@@ -361,7 +361,7 @@
       "traction": "4x2",
       "image_url": "",
       "description": "SUV compacto con motor 1.5 turbo y excelente relación precio-equipamiento.",
-      "origin": "china",
+      "origin": "China",
       "hp": 147,
       "torque_nm": 220,
       "length_mm": 4465,
@@ -416,7 +416,7 @@
       "traction": "4x2",
       "image_url": "",
       "description": "SUV compacto best-seller de GWM con motor 1.5 turbo y excelente relación precio-equipamiento.",
-      "origin": "china",
+      "origin": "China",
       "versions": [
         {
           "version": "4x2 ACTIVE MT",
@@ -479,7 +479,7 @@
       "traction": "4x2",
       "image_url": "",
       "description": "SUV compacto premium con diseño renovado y mayor equipamiento tecnológico.",
-      "origin": "china",
+      "origin": "China",
       "versions": [
         {
           "version": "4x2 DELUXE AT",
@@ -529,7 +529,7 @@
       "traction": "4x2",
       "image_url": "",
       "description": "SUV compacto híbrido con tecnología HEV para menor consumo de combustible.",
-      "origin": "china",
+      "origin": "China",
       "versions": [
         {
           "version": "4x2 DELUXE HEV",
@@ -580,7 +580,7 @@
       "traction": "4x2",
       "image_url": "",
       "description": "Auto eléctrico compacto con diseño retro-futurista y autonomía de hasta 401 km.",
-      "origin": "china",
+      "origin": "China",
       "versions": [
         {
           "version": "Comfort",
@@ -622,7 +622,7 @@
       "traction": "4x4",
       "image_url": "",
       "description": "Pickup mediana diésel con motor 2.0 turbo y tracción total.",
-      "origin": "china",
+      "origin": "China",
       "versions": [
         {
           "version": "2.0T 4x2 AT",
@@ -673,7 +673,7 @@
       "traction": "4x4",
       "image_url": "",
       "description": "Pickup premium híbrida con motor 2.0 turbo y sistema DHT.",
-      "origin": "china",
+      "origin": "China",
       "versions": [
         {
           "version": "2.0T DHT 4x4",
@@ -723,7 +723,7 @@
       "traction": "4x4",
       "image_url": "",
       "description": "Pickup premium con acabados de lujo y tecnología de punta.",
-      "origin": "china",
+      "origin": "China",
       "versions": [
         {
           "version": "2.0T Premium 4x4 AT",
@@ -773,7 +773,7 @@
       "traction": "4x4",
       "image_url": "",
       "description": "Todoterreno robusto con tracción total y diferencial trasero bloqueable.",
-      "origin": "china",
+      "origin": "China",
       "versions": [
         {
           "version": "2.0T 4x4 AT",
@@ -822,7 +822,7 @@
       "traction": "4x4",
       "image_url": "",
       "description": "SUV de lujo todoterreno con imponente presencia y motor V6 turbo.",
-      "origin": "china",
+      "origin": "China",
       "hp": 354,
       "torque_nm": 500,
       "length_mm": 4880,
@@ -880,7 +880,7 @@
       "traction": "4x4",
       "image_url": "",
       "description": "Pickup compacta diésel con doble cabina y tracción 4x4.",
-      "origin": "china",
+      "origin": "China",
       "hp": 143,
       "torque_nm": 330,
       "length_mm": 5300,
@@ -931,7 +931,7 @@
       "traction": "4x4",
       "image_url": "",
       "description": "Pickup mediana de doble cabina con motor diésel 2.0 turbo y caja manual.",
-      "origin": "china",
+      "origin": "China",
       "versions": [
         {
           "version": "2.0T 4x2 MT",

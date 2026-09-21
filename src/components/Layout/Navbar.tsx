@@ -54,10 +54,10 @@ export function Navbar() {
         <div className="flex items-center justify-between h-16">
           <Link to="/" className="flex items-center gap-3">
             <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-purple-600 rounded-xl flex items-center justify-center font-bold text-lg shadow-lg">
-              AM
+              🔍
             </div>
             <span className="text-xl font-bold hidden sm:block">
-              Auto<span className="text-blue-400">Match</span>
+              Auto<span className="text-blue-400">Lupa</span>
             </span>
           </Link>
 

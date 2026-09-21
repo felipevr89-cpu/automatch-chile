@@ -15,7 +15,7 @@
       "traction": "4x2",
       "image_url": "",
       "description": "SUV mediano con motor 1.5 turbo y diseño elegante.",
-      "origin": "china",
+      "origin": "China",
       "hp": 175,
       "torque_nm": 255,
       "length_mm": 4544,
@@ -70,7 +70,7 @@
       "traction": "4x2",
       "image_url": "",
       "description": "SUV compacto de 4.5 metros con motor 1.5 turbo de tres cilindros y caja DCT.",
-      "origin": "china",
+      "origin": "China",
       "versions": [
         {
           "version": "1.5T Comfort DCT",
@@ -132,7 +132,7 @@
       "traction": "4x2",
       "image_url": "",
       "description": "SUV subcompacto accesible con motor 1.5 turbo y caja manual.",
-      "origin": "china",
+      "origin": "China",
       "versions": [
         {
           "version": "1.5T Comfort MT",
@@ -183,7 +183,7 @@
       "traction": "4x2",
       "image_url": "",
       "description": "Citycar eléctrico urbano con autonomía de hasta 320 km.",
-      "origin": "china",
+      "origin": "China",
       "versions": [
         {
           "version": "Comfort",
@@ -225,7 +225,7 @@
       "traction": "4x2",
       "image_url": "",
       "description": "SUV híbrido enchufable con autonomía eléctrica de hasta 100 km.",
-      "origin": "china",
+      "origin": "China",
       "versions": [
         {
           "version": "1.5T EM-i Deluxe",
@@ -273,7 +273,7 @@
       "traction": "4x2",
       "image_url": "",
       "description": "Sedán eléctrico compacto con batería NMC y autonomía de hasta 450 km.",
-      "origin": "china",
+      "origin": "China",
       "hp": 204,
       "torque_nm": 310,
       "length_mm": 4752,
@@ -326,7 +326,7 @@
       "traction": "4x4",
       "image_url": "",
       "description": "SUV premium con motor 2.0 turbo y tracción integral.",
-      "origin": "china",
+      "origin": "China",
       "hp": 235,
       "torque_nm": 380,
       "length_mm": 4770,
@@ -383,7 +383,7 @@
       "traction": "4x2",
       "image_url": "",
       "description": "SUV compacto con motor 1.5 turbo de 174 hp y transmisión DCT de 7 velocidades.",
-      "origin": "china",
+      "origin": "China",
       "versions": [
         {
           "version": "1.5T Comfort DCT",
@@ -440,7 +440,7 @@
       "traction": "4x2",
       "image_url": "",
       "description": "Minivan familiar con motor 1.5 turbo y espacio para siete pasajeros.",
-      "origin": "china",
+      "origin": "China",
       "versions": [
         {
           "version": "1.5T Comfort DCT",
@@ -491,7 +491,7 @@
       "traction": "4x2",
       "image_url": "",
       "description": "SUV mediano con motor 2.0 turbo y acabados premium.",
-      "origin": "china",
+      "origin": "China",
       "versions": [
         {
           "version": "2.0T Comfort DCT",

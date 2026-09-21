@@ -67,13 +67,13 @@ const steps: StepDef[] = [
   },
   {
     id: 'distance',
-    question: '¿Cuántos km conduces al mes?',
-    subtitle: 'Estima tu uso mensual para recomendar el combustible más económico',
+    question: '¿Cuántos km recorres al año?',
+    subtitle: 'Según Autofact, lo normal es 15.000–27.000 km/año',
     options: [
-      { value: 'low', label: 'Menos de 600 km', icon: '🚶', description: 'Uso ocasional' },
-      { value: 'medium', label: '600 - 1.500 km', icon: '🚗', description: 'Uso promedio' },
-      { value: 'high', label: '1.500 - 2.500 km', icon: '🌄', description: 'Uso intenso' },
-      { value: 'very_high', label: 'Más de 2.500 km', icon: '🏃', description: 'Ruteo constante' },
+      { value: 'low', label: 'Menos de 12.000 km', icon: '🚶', description: 'Uso esporádico, cerca de casa' },
+      { value: 'medium', label: '12.000 – 20.000 km', icon: '🚗', description: 'Uso urbano normal (promedio Chile)' },
+      { value: 'high', label: '20.000 – 30.000 km', icon: '🌄', description: 'Uso intenso, viajes frecuentes' },
+      { value: 'very_high', label: 'Más de 30.000 km', icon: '🏃', description: 'Ruteo, transporte o trabajo sobre ruedas' },
     ],
   },
   {
@@ -113,7 +113,7 @@ const stepLabels: Record<string, string> = {
   usage: 'Uso',
   fuel: 'Combustible',
   priority: 'Prioridad',
-  distance: 'Cobertura',
+  distance: 'Kilometraje',
   transmission: 'Transmisión',
   seats: 'Plazas',
   traction: 'Tracción',

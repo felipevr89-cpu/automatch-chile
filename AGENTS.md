@@ -70,7 +70,7 @@ src/
 ### Core
 - **Catálogo**: 626 vehículos, 100+ marcas en `src/data/brands/*.json`
 - **Búsqueda y filtros**: Marca, modelo, tipo, combustible, precio, años (rango dinámico), tracción, asientos
-- **Comparación**: Hasta 4 vehículos lado a lado (CompareTable)
+- **Comparación**: Hasta 3 vehículos lado a lado (CompareTable)
 - **Favoritos**: Sync con Firestore (firebase lazy, sin token) + localStorage demo
 - **Detalle completo**: Modal con specs, versiones, seguridad, `?cat=` directo
 
