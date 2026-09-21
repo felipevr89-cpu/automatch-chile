@@ -6,15 +6,117 @@
 - **Descripción:** Plataforma para buscar, comparar y guardar vehículos del mercado chileno
 - **Tecnologías:** React 18 + Vite + TypeScript + Tailwind CSS 3
 - **Hosting:** Cloudflare Pages
+- **API Token Cloudflare:** NO almacenado en el repo. Usar GitHub Secret `CLOUDFLARE_API_TOKEN` (ver `.github/workflows/deploy.yml`).
 
 ## Comandos Útiles
 ```bash
 # Desarrollo local
 npm run dev
 
-# Build
+# Test (vitest)
+npm test
+
+# Lint
+npm run lint
+
+# Build (tsc -b + vite, verifica tipos)
 npm run build
 
-# Deploy Cloudflare
-npm run build && CLOUDFLARE_API_TOKEN="<TOKEN>" npx wrangler@3.114.5 pages deploy dist --project-name=automatchs
+# Deploy Cloudflare (token vía GitHub Secret, no en el repo)
+npm run build && CLOUDFLARE_API_TOKEN="${{ secrets.CLOUDFLARE_API_TOKEN }}" npx wrangler pages deploy dist --project-name=automatchs --branch main
 ```
+
+## Estructura del Proyecto
+```
+src/
+├── components/
+│   ├── Calculator/
+│   │   └── CreditCalc.tsx       # Calculadora de crédito (CAE 12%)
+│   ├── Cars/
+│   │   ├── CarDetail.tsx        # Modal de detalle + TCOCalculator + aviso "no en Chile"
+│   │   ├── CarImage.tsx         # Imagen del carro con fallback a silueta
+│   │   ├── CarGrid.tsx / CarCard.tsx / CarRail.tsx
+│   │   └── carSilhouettes.tsx   # Siluetas SVG por tipo de vehículo
+│   ├── Compare/                 # Barra + tabla comparativa
+│   ├── EV/EVHub.tsx             # Hub de eléctricos (marca EV > 2021; 25% permiso)
+│   ├── Filters/FilterPanel.tsx  # Filtros con años dinámicos
+│   ├── Guides/BuyingGuide.tsx
+│   ├── Layout/Navbar.tsx
+│   ├── TCO/TCOCalculator.tsx    # UI del TCO (plazo 48, km/mes 1000)
+│   └── Wizard/AutoWizard.tsx    # 8 pasos + afinidad absoluta + fotos
+│   └── Wizard/SmartAsk.tsx      # Buscador por lenguaje natural (recomendador semántico)
+├── data/
+│   ├── brands/                  # Un JSON por marca (allBrands vía import.meta.glob)
+│   │   └── index.ts             # carsData, brandUrls, BRANDS_NOT_SOLD_NEW_IN_CHILE
+│   ├── carImages.json           # Mapeo id → { file, source, license } o null (616 claves)
+│   ├── energyCosts.ts           # HOME_KWH 150 / FAST_KWH 350 / gasolina 1300 / diesel 1150
+│   ├── enrichment.ts            # Completa rango/batería/seguridad por marca|modelo
+│   ├── recommender.ts           # Motor semántico local: parseQuery + scoreRecommendation + recommend
+│   └── tco.ts                   # calculateTCO + getPermisoCirculación (fórmula SII)
+├── hooks/
+│   └── useCars.ts               # Filtros con persistencia, favoritos (firebase+lazy), defaultYearRange
+├── pages/
+│   ├── Home.tsx                 # NOVEDADES_2026 curadas, Recientes, isFiltering dinámico
+│   ├── Top10.tsx                # 7 categorías con ?cat=
+│   ├── Favorites.tsx / Compare.tsx / Estadisticas.tsx / NotFound.tsx
+├── test/                        # vitest: brands, tco, energyCosts, CompareTable
+├── types/index.ts               # Car, Filters (yearRange), User
+├── App.tsx                      # Rutas, PageSkeleton, useCars
+└── main.tsx                     # Registro service worker PWA
+```
+
+## Funcionalidades Implementadas
+
+### Core
+- **Catálogo**: 626 vehículos, 100+ marcas en `src/data/brands/*.json`
+- **Búsqueda y filtros**: Marca, modelo, tipo, combustible, precio, años (rango dinámico), tracción, asientos
+- **Comparación**: Hasta 4 vehículos lado a lado (CompareTable)
+- **Favoritos**: Sync con Firestore (firebase lazy, sin token) + localStorage demo
+- **Detalle completo**: Modal con specs, versiones, seguridad, `?cat=` directo
+
+### Marca y catálogo
+- **Marca no vendida nueva en Chile** (`BRANDS_NOT_SOLD_NEW_IN_CHILE`): Acura, Buick, Chrysler, GMC, Infiniti, Lincoln → badge en card, aviso en detalle, sufijo en filtros. Decisión del usuario: no eliminar, marcar.
+- **Novedades curadas**: `NOVEDADES_2026` (12 lanzamientos) por brand+model, priorizando año 2026.
+
+### TCO (`src/data/tco.ts`) + `TCOCalculator`
+- Crédito francés 11% anual, plazo 48 (default), SOAP por tramo, seguro 1,5%, mantención por combustible.
+- **Permiso de circulación SII** (FAQ 001.170.5079.007): escala progresiva 1–4,5%, mín. 0,5 UTM ($34.876); UTM 2026 = $69.751; EV/PHEV año ≥2021 → 25% (Ley 21.505); tasación ≈ precio × 0,9^antiguedad.
+- **Depreciación** anual según antigüedad (18/12/9/7%).
+- **Carga mixta** EV/PHEV: 80% hogar ($150) + 20% rápida ($350) ≈ $190/kWh; híbrido 50/50; aviso UI si falta batería/autonomía.
+
+### Wizard (`AutoWizard.tsx`)
+- 8 pasos: presupuesto, uso, combustible, prioridad, km/mes, transmisión, asientos, tracción.
+- Afinidad **absoluta**: `scoreCar` → `{score, max}`; el gate exige todas las respuestas.
+- Resultados con fotos reales (CarImage), no gradientes de marca.
+
+### Recomendador semántico local (`SmartAsk.tsx` + `data/recommender.ts`)
+- **Motor 100% local/offline, sin API**: `parseQuery` interpreta lenguaje natural en español (presupuesto en CLP "millones/palos/$ con puntos", uso, combustible con sinónimos, transmisión, plazas, tracción, formato, prioridades, marca del catálogo, año) y `recommend` puntúa los 626 autos con pesos por dimensión (presupuesto 20, uso 20, combustible 15, prioridad 15, plazas 10, transmisión 8, tracción 7, formato 5).
+- **Filtros duros** solo para lo explícito: marca, formato, año mínimo y ≥6 plazas; el resto es scoring suave (nunca vacía resultados sin motivo).
+- **Explicaciones**: cada recomendación incluye `reasons` en español ("Precio $16.490.000 bajo tu tope de $25.000.000", "Motor híbrido", "Calificación 5 estrellas Euro NCAP"…); chips "Entendí:" muestran la intención detectada.
+- UI en Home (botón "Pregunta con tus palabras"): modal con input libre, ejemplos clicables, top 10 con afinidad y motivos, comparar y ver detalle; Escape vuelve al modal tras abrir un resultado.
+- Tests: `recommender.test.ts` (21 tests: parser, scoring, límites y edge cases).
+
+### Visual / PWA
+- Dark mode real, modal y tags con contraste mejorado, skeleton loading, debounce 300 ms, PWA (manifest+sw).
+
+## Imágenes (`src/data/carImages.json` + `public/car-images/`)
+- Mapeo id → `{ file, source, license, attribution }` o `null` (silueta).
+- Estado auditado: 572 con foto (todas con source + license), 0 huérfanas, 0 archivos faltantes en disco, 0 archivos huérfanos. 54 modelos en silueta (sin foto encontrada en Commons; ver SUMMARY.md).
+- Regla: no duplicar fuente entre modelos distintos; verificar con el escaneo de `source` compartido.
+- Pase 2026: 131 fotos añadidas desde Commons (API, ancho 1000px, metadata real). ~15 son de la misma generación de plataforma comercial (best-effort documentado en SUMMARY.md); curaduría por modelo.
+
+## Pendiente / Próxima Funcionalidad
+
+### Datos del catálogo
+- **Lynk & Co 09** sin consumo mixto (MHEV 2.0T, dato no verificado).
+- **DFSK Glory iX5 EV** sin batería/autonomía en ficha chilena.
+- **FAW**: en Chile solo comercializa camiones (FAW Trucks / Forcenter), no autos livianos → NO añadir al catálogo como marca liviana (decisión documentada).
+- Regla: no inventar specs; los EV/PHEV se completan vía `enrichment.ts` con fichas oficiales (Chile) o EV-Database.
+
+### 🔜 Sección de Usados (en planeación)
+- Marketplace de usados: autenticación, moderación, fotos, chat, ubicación, modelos de negocio (sin decidir).
+
+## Notas Técnicas
+- Firebase sin env vars → modo demo (solo localStorage).
+- `npm run build`, `npm run lint` y `npm test` deben pasar (verificados al finalizar cambios).
+- No agregar comentarios al código; documentar cambios de datos en SUMMARY.md.

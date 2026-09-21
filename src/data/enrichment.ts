@@ -216,6 +216,30 @@ export const enrichment: Record<string, Enrichment> = {
   'Leapmotor|C10': { electric_range_km: 420, battery_kwh: 70 },
   'Peugeot|e-2008': { electric_range_km: 406, battery_kwh: 51 },
 
+  // --- EV/PHEV completados con fichas oficiales Chile (2026) ---
+  'BYD|Atto 8': { electric_range_km: 132, battery_kwh: 35.6 },
+  'Changan|Hunter REEV': { electric_range_km: 131, battery_kwh: 31.18 },
+  'Changan|Lumin': { electric_range_km: 301, battery_kwh: 28.08 },
+  'Chery|Tiggo 7 Pro Max PHEV': { electric_range_km: 90, battery_kwh: 18.3 },
+  'Chery|Tiggo 9 PHEV': { electric_range_km: 90, battery_kwh: 19.25 },
+  'Chevrolet|Captiva EV': { electric_range_km: 415, battery_kwh: 60 },
+  'Chevrolet|Captiva PHEV': { electric_range_km: 90, battery_kwh: 20.5 },
+  'Deepal|G318': { electric_range_km: 143, battery_kwh: 35.1 },
+  'Deepal|S07': { electric_range_km: 170, battery_kwh: 31.74 },
+  'GAC|Aion UT': { electric_range_km: 400, battery_kwh: 44.12 },
+  'Geely|EX2': { electric_range_km: 325, battery_kwh: 39.4 },
+  'Geely|EX5 EM-i': { electric_range_km: 170, battery_kwh: 29.8 },
+  'Geely|Geometry C': { electric_range_km: 460, battery_kwh: 70 },
+  'Jetour|T1 PHEV': { electric_range_km: 117, battery_kwh: 26.7 },
+  'Jetour|T2 PHEV': { electric_range_km: 100, battery_kwh: 26.7 },
+  'JMC|Vigus EV': { electric_range_km: 332, battery_kwh: 60 },
+  'Neta|S': { electric_range_km: 715, battery_kwh: 84.5 },
+  'Neta|U': { electric_range_km: 500, battery_kwh: 68.2 },
+  'Neta|V': { electric_range_km: 384, battery_kwh: 40.7 },
+  'Neta|X': { electric_range_km: 410, battery_kwh: 62 },
+  'Soueast|S06 PHEV': { electric_range_km: 114, battery_kwh: 19.43 },
+  'Soueast|S08 PHEV': { electric_range_km: 85, battery_kwh: 18.4 },
+
   // Combustion / hybrid popular models — safety ratings only
   'Toyota|Corolla': {
     safety_ratings: [

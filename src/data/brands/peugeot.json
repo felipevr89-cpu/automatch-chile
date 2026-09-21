@@ -709,6 +709,56 @@
           "traction": "4x2"
         }
       ]
+    },
+    {
+      "id": 646,
+      "brand": "Peugeot",
+      "model": "New 3008 Hybrid",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "hibrido",
+      "seats": 5,
+      "price": 24990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV coupé híbrido (MHEV) con eficiencia superior y diseño renovado.",
+      "origin": "Francia",
+      "versions": [
+        {
+          "version": "1.2T MHEV AT",
+          "price": 24990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "1.2T MHEV GT AT",
+          "price": 28990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 136,
+      "torque_nm": 230,
+      "length_mm": 4542,
+      "width_mm": 1895,
+      "height_mm": 1641,
+      "wheelbase_mm": 2739,
+      "fuel_tank_liters": 52,
+      "ground_clearance_mm": 185,
+      "trunk_liters": 520,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 10\"",
+        "i-Cockpit",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "fuel_consumption_mixed_km_l": 18,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Francia"
     }
   ]
 }

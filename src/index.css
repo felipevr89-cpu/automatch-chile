@@ -85,6 +85,10 @@ input[type="range"]::-webkit-slider-thumb:hover {
   box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
 }
 
+.dark .modal-content {
+  background: #1f2937;
+}
+
 .scrollbar-thin::-webkit-scrollbar {
   width: 6px;
 }
@@ -94,9 +98,17 @@ input[type="range"]::-webkit-slider-thumb:hover {
   border-radius: 3px;
 }
 
+.dark .scrollbar-thin::-webkit-scrollbar-track {
+  background: #374151;
+}
+
 .scrollbar-thin::-webkit-scrollbar-thumb {
   background: #cbd5e1;
   border-radius: 3px;
+}
+
+.dark .scrollbar-thin::-webkit-scrollbar-thumb {
+  background: #4b5563;
 }
 
 .scrollbar-thin::-webkit-scrollbar-thumb:hover {

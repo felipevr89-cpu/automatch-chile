@@ -3,106 +3,101 @@
   "brandUrl": "https://www.soueast.cl",
   "models": [
     {
-      "id": 532,
+      "id": 629,
       "brand": "Soueast",
-      "model": "A5",
+      "model": "S06",
       "year": 2026,
-      "type": "sedan",
+      "type": "suv",
       "fuel": "gasolina",
       "seats": 5,
-      "price": 8990000,
+      "price": 12990000,
       "transmission": "manual",
       "traction": "4x2",
       "image_url": "",
-      "description": "Sedán compacto accesible con diseño moderno, representado por SKBergé / Astara.",
+      "description": "SUV compacto con diseño moderno, ideal para la ciudad.",
       "origin": "China",
-      "hp": 100,
-      "torque_nm": 134,
-      "length_mm": 4500,
-      "width_mm": 1760,
-      "height_mm": 1490,
+      "versions": [
+        {
+          "version": "1.5L MT",
+          "price": 12990000,
+          "transmission": "manual",
+          "traction": "4x2"
+        },
+        {
+          "version": "1.5L AT",
+          "price": 14990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 116,
+      "torque_nm": 145,
+      "length_mm": 4520,
+      "width_mm": 1830,
+      "height_mm": 1680,
       "wheelbase_mm": 2620,
-      "fuel_tank_liters": 45,
-      "ground_clearance_mm": 150,
-      "trunk_liters": 360,
-      "airbags": 2,
-      "isofix": false,
-      "adas": [],
-      "latin_ncap_stars": 3,
+      "fuel_tank_liters": 50,
+      "ground_clearance_mm": 185,
+      "trunk_liters": 410,
+      "airbags": 4,
+      "isofix": true,
       "infotainment": [
-        "Radio",
+        "Pantalla 10\"",
         "Bluetooth",
         "USB"
       ],
       "fuel_consumption_mixed_km_l": 14,
       "warranty_years": 3,
       "warranty_km": 100000,
-      "origin_country": "China",
-      "versions": [
-        {
-          "version": "1.5L MT",
-          "price": 8990000,
-          "transmission": "manual",
-          "traction": "4x2"
-        }
-      ]
+      "origin_country": "China"
     },
     {
-      "id": 533,
+      "id": 630,
       "brand": "Soueast",
-      "model": "DX3",
+      "model": "S06 PHEV",
       "year": 2026,
       "type": "suv",
-      "fuel": "gasolina",
+      "fuel": "hibrido_enchufable",
       "seats": 5,
-      "price": 10990000,
-      "transmission": "manual",
+      "price": 21990000,
+      "transmission": "automatica",
       "traction": "4x2",
       "image_url": "",
-      "description": "SUV subcompacto con diseño juvenil y buen equipamiento de serie.",
+      "description": "SUV híbrido enchufable con eficiencia superior y etiqueta ecológica.",
       "origin": "China",
-      "hp": 118,
-      "torque_nm": 145,
-      "length_mm": 4354,
-      "width_mm": 1840,
-      "height_mm": 1664,
-      "wheelbase_mm": 2610,
-      "fuel_tank_liters": 45,
-      "ground_clearance_mm": 180,
-      "trunk_liters": 380,
-      "airbags": 4,
-      "isofix": true,
-      "adas": [
-        "Cámara de retroceso"
-      ],
-      "latin_ncap_stars": 4,
-      "infotainment": [
-        "Pantalla 9\"",
-        "Bluetooth"
-      ],
-      "fuel_consumption_mixed_km_l": 13,
-      "warranty_years": 3,
-      "warranty_km": 100000,
-      "origin_country": "China",
       "versions": [
         {
-          "version": "1.5L MT",
-          "price": 10990000,
-          "transmission": "manual",
-          "traction": "4x2"
-        },
-        {
-          "version": "1.5L AT",
-          "price": 12990000,
-          "transmission": "automática",
+          "version": "1.5L PHEV AT",
+          "price": 21990000,
+          "transmission": "automatica",
           "traction": "4x2"
         }
-      ]
+      ],
+      "hp": 176,
+      "torque_nm": 250,
+      "length_mm": 4520,
+      "width_mm": 1830,
+      "height_mm": 1680,
+      "wheelbase_mm": 2620,
+      "fuel_tank_liters": 35,
+      "ground_clearance_mm": 185,
+      "trunk_liters": 350,
+      "airbags": 4,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 10\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "fuel_consumption_mixed_km_l": 20,
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "China"
     },
     {
-      "id": 534,
+      "id": 631,
       "brand": "Soueast",
-      "model": "DX7",
+      "model": "S07",
       "year": 2026,
       "type": "suv",
       "fuel": "gasolina",
@@ -111,47 +106,134 @@
       "transmission": "automatica",
       "traction": "4x2",
       "image_url": "",
-      "description": "SUV compacto con buena relación precio-equipamiento.",
+      "description": "SUV mediano con amplio espacio interior y buen equipamiento.",
       "origin": "China",
+      "versions": [
+        {
+          "version": "1.5T AT",
+          "price": 13990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "1.5T Luxury AT",
+          "price": 15990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
       "hp": 156,
       "torque_nm": 215,
-      "length_mm": 4530,
-      "width_mm": 1835,
+      "length_mm": 4650,
+      "width_mm": 1840,
       "height_mm": 1700,
-      "wheelbase_mm": 2685,
-      "fuel_tank_liters": 50,
+      "wheelbase_mm": 2700,
+      "fuel_tank_liters": 55,
       "ground_clearance_mm": 190,
-      "trunk_liters": 440,
+      "trunk_liters": 450,
       "airbags": 4,
       "isofix": true,
-      "adas": [
-        "Cámara de retroceso",
-        "Control crucero"
-      ],
-      "latin_ncap_stars": 4,
       "infotainment": [
         "Pantalla 10\"",
         "Apple CarPlay",
         "Android Auto"
       ],
-      "fuel_consumption_mixed_km_l": 12.5,
+      "fuel_consumption_mixed_km_l": 13,
       "warranty_years": 3,
       "warranty_km": 100000,
-      "origin_country": "China",
+      "origin_country": "China"
+    },
+    {
+      "id": 632,
+      "brand": "Soueast",
+      "model": "S08 PHEV",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "hibrido_enchufable",
+      "seats": 5,
+      "price": 23990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV híbrido enchufable de mayor tamaño con eficiencia y confort.",
+      "origin": "China",
       "versions": [
         {
-          "version": "1.5T AT",
-          "price": 13990000,
-          "transmission": "automática",
+          "version": "1.5T PHEV AT",
+          "price": 23990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 180,
+      "torque_nm": 280,
+      "length_mm": 4700,
+      "width_mm": 1850,
+      "height_mm": 1720,
+      "wheelbase_mm": 2750,
+      "fuel_tank_liters": 40,
+      "ground_clearance_mm": 190,
+      "trunk_liters": 400,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 12.3\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "fuel_consumption_mixed_km_l": 18,
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "China"
+    },
+    {
+      "id": 633,
+      "brand": "Soueast",
+      "model": "S09",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 20990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV grande con capacidad para 7 plazas y motor turbo.",
+      "origin": "China",
+      "versions": [
+        {
+          "version": "1.5T AT 7 plazas",
+          "price": 20990000,
+          "transmission": "automatica",
           "traction": "4x2"
         },
         {
-          "version": "1.5T Luxury",
-          "price": 15990000,
-          "transmission": "automática",
+          "version": "1.5T Luxury AT 7 plazas",
+          "price": 23990000,
+          "transmission": "automatica",
           "traction": "4x2"
         }
-      ]
+      ],
+      "hp": 156,
+      "torque_nm": 215,
+      "length_mm": 4800,
+      "width_mm": 1860,
+      "height_mm": 1750,
+      "wheelbase_mm": 2780,
+      "fuel_tank_liters": 55,
+      "ground_clearance_mm": 195,
+      "trunk_liters": 280,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 12.3\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "fuel_consumption_mixed_km_l": 12,
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "China"
     }
   ]
 }

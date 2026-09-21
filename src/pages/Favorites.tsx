@@ -1,3 +1,4 @@
+import { HeartIcon } from '@heroicons/react/24/solid';
 import { Link } from 'react-router-dom';
 import { Car } from '../types';
 import { CarCard } from '../components/Cars/CarCard';
@@ -24,20 +25,20 @@ export function Favorites({
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
       <div className="mb-8">
-        <h1 className="text-3xl font-bold text-gray-900">Mis Favoritos</h1>
-        <p className="text-gray-600 mt-1">
+        <h1 className="text-3xl font-bold text-gray-900 dark:text-white">Mis Favoritos</h1>
+        <p className="text-gray-600 dark:text-gray-300 mt-1">
           {favoriteCars.length} vehículo{favoriteCars.length !== 1 ? 's' : ''} guardado{favoriteCars.length !== 1 ? 's' : ''}
         </p>
       </div>
 
       {favoriteCars.length === 0 ? (
         <div className="text-center py-16">
-          <div className="text-6xl mb-4">💝</div>
-          <h3 className="text-xl font-bold text-gray-900 mb-2">Sin favoritos aún</h3>
-          <p className="text-gray-500 mb-6">Guarda vehículos que te gusten haciendo clic en el corazón</p>
+          <HeartIcon className="w-16 h-16 mx-auto text-red-400" />
+          <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Sin favoritos aún</h3>
+          <p className="text-gray-500 dark:text-gray-400 mb-6">Guarda vehículos que te gusten haciendo clic en el corazón</p>
           <Link
             to="/"
-            className="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 text-white rounded-xl font-medium hover:bg-blue-700 transition-colors"
+            className="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 dark:bg-blue-500 text-white rounded-xl font-medium hover:bg-blue-700 dark:hover:bg-blue-600 transition-colors"
           >
             Explorar vehículos
           </Link>

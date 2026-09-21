@@ -223,12 +223,12 @@
     {
       "id": 132,
       "brand": "Citroën",
-      "model": "C4",
+      "model": "Nuevo C4",
       "year": 2025,
       "type": "hatchback",
       "fuel": "gasolina",
       "seats": 5,
-      "price": 18990000,
+      "price": 21190000,
       "transmission": "automatica",
       "traction": "4x2",
       "image_url": "",
@@ -397,6 +397,136 @@
           "traction": "4x2"
         }
       ]
+    },
+    {
+      "id": 643,
+      "brand": "Citroën",
+      "model": "Basalt",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 13990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV coupé con diseño audaz y motor turbo eficiente.",
+      "origin": "Brasil",
+      "versions": [
+        {
+          "version": "1.0T AT",
+          "price": 13990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "1.0T AT First Edition",
+          "price": 15990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 130,
+      "torque_nm": 200,
+      "length_mm": 4200,
+      "width_mm": 1750,
+      "height_mm": 1570,
+      "wheelbase_mm": 2550,
+      "fuel_tank_liters": 45,
+      "ground_clearance_mm": 180,
+      "trunk_liters": 410,
+      "airbags": 4,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 10\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "fuel_consumption_mixed_km_l": 14,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Brasil"
+    },
+    {
+      "id": 644,
+      "brand": "Citroën",
+      "model": "Spacetourer",
+      "year": 2026,
+      "type": "minivan",
+      "fuel": "diesel",
+      "seats": 9,
+      "price": 26090000,
+      "transmission": "manual",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Furgón grande de pasajeros con capacidad para 9 plazas.",
+      "origin": "Francia",
+      "versions": [
+        {
+          "version": "BlueHDi 2.0 MT 9 plazas",
+          "price": 26090000,
+          "transmission": "manual",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 150,
+      "torque_nm": 370,
+      "length_mm": 5300,
+      "width_mm": 1920,
+      "height_mm": 1940,
+      "wheelbase_mm": 3275,
+      "fuel_tank_liters": 80,
+      "ground_clearance_mm": 165,
+      "trunk_liters": 0,
+      "airbags": 4,
+      "isofix": true,
+      "infotainment": [
+        "Radio",
+        "Bluetooth"
+      ],
+      "fuel_consumption_mixed_km_l": 11,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Francia"
+    },
+    {
+      "id": 645,
+      "brand": "Citroën",
+      "model": "Jumper",
+      "year": 2026,
+      "type": "minivan",
+      "fuel": "diesel",
+      "seats": 3,
+      "price": 25590000,
+      "transmission": "manual",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Furgón grande de carga con máxima capacidad y motor diésel.",
+      "origin": "Francia",
+      "versions": [
+        {
+          "version": "BlueHDi 2.0 MT",
+          "price": 25590000,
+          "transmission": "manual",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 110,
+      "torque_nm": 220,
+      "length_mm": 5400,
+      "width_mm": 2050,
+      "height_mm": 2250,
+      "wheelbase_mm": 3450,
+      "fuel_tank_liters": 90,
+      "ground_clearance_mm": 160,
+      "trunk_liters": 0,
+      "airbags": 2,
+      "isofix": false,
+      "infotainment": [],
+      "fuel_consumption_mixed_km_l": 10,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Francia"
     }
   ]
 }

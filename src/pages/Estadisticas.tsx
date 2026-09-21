@@ -10,14 +10,14 @@ function BarChart({ data, color }: { data: { label: string; count: number }[]; c
     <div className="space-y-2">
       {data.map((d) => (
         <div key={d.label} className="flex items-center gap-3">
-          <span className="w-24 text-sm text-gray-600 text-right flex-shrink-0 truncate" title={d.label}>{d.label}</span>
-          <div className="flex-1 bg-gray-100 rounded-full h-6 overflow-hidden">
+          <span className="w-24 text-sm text-gray-600 dark:text-gray-300 text-right flex-shrink-0 truncate" title={d.label}>{d.label}</span>
+          <div className="flex-1 bg-gray-100 dark:bg-gray-700 rounded-full h-6 overflow-hidden">
             <div
               className={`h-full rounded-full transition-all duration-500 ${color}`}
               style={{ width: `${(d.count / max) * 100}%` }}
             />
           </div>
-          <span className="w-16 text-sm font-medium text-gray-700 flex-shrink-0 text-right">{d.count}</span>
+          <span className="w-16 text-sm font-medium text-gray-700 dark:text-gray-300 flex-shrink-0 text-right">{d.count}</span>
         </div>
       ))}
     </div>
@@ -68,46 +68,46 @@ export function Estadisticas() {
       <SEO title="Estadísticas" description="Estadísticas del mercado automotriz chileno: vehículos, marcas, precios promedio y más." />
       <Breadcrumbs items={[{ label: 'Estadísticas' }]} />
 
-      <h1 className="text-3xl font-bold text-gray-900 mb-8">Estadísticas del Mercado</h1>
+      <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-8">Estadísticas del Mercado</h1>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
-        <div className="bg-white rounded-xl p-6 card-shadow">
-          <p className="text-sm text-gray-500 mb-1">Total Vehículos</p>
-          <p className="text-3xl font-bold text-gray-900">{stats.total}</p>
+        <div className="bg-white dark:bg-gray-800 rounded-xl p-6 card-shadow">
+          <p className="text-sm text-gray-500 dark:text-gray-400 mb-1">Total Vehículos</p>
+          <p className="text-3xl font-bold text-gray-900 dark:text-white">{stats.total}</p>
         </div>
-        <div className="bg-white rounded-xl p-6 card-shadow">
-          <p className="text-sm text-gray-500 mb-1">Total Marcas</p>
-          <p className="text-3xl font-bold text-gray-900">{brands.length}</p>
+        <div className="bg-white dark:bg-gray-800 rounded-xl p-6 card-shadow">
+          <p className="text-sm text-gray-500 dark:text-gray-400 mb-1">Total Marcas</p>
+          <p className="text-3xl font-bold text-gray-900 dark:text-white">{brands.length}</p>
         </div>
-        <div className="bg-white rounded-xl p-6 card-shadow">
-          <p className="text-sm text-gray-500 mb-1">Precio Promedio</p>
-          <p className="text-3xl font-bold text-blue-600">{formatPrice(stats.avgPrice)}</p>
+        <div className="bg-white dark:bg-gray-800 rounded-xl p-6 card-shadow">
+          <p className="text-sm text-gray-500 dark:text-gray-400 mb-1">Precio Promedio</p>
+          <p className="text-3xl font-bold text-blue-600 dark:text-blue-400">{formatPrice(stats.avgPrice)}</p>
         </div>
-        <div className="bg-white rounded-xl p-6 card-shadow">
-          <p className="text-sm text-gray-500 mb-1">Rango de Precios</p>
-          <p className="text-lg font-bold text-gray-900">{formatPrice(stats.cheapest.price)} – {formatPrice(stats.mostExpensive.price)}</p>
-          <p className="text-xs text-gray-400 mt-1">{stats.cheapest.brand} {stats.cheapest.model} – {stats.mostExpensive.brand} {stats.mostExpensive.model}</p>
+        <div className="bg-white dark:bg-gray-800 rounded-xl p-6 card-shadow">
+          <p className="text-sm text-gray-500 dark:text-gray-400 mb-1">Rango de Precios</p>
+          <p className="text-lg font-bold text-gray-900 dark:text-white">{formatPrice(stats.cheapest.price)} – {formatPrice(stats.mostExpensive.price)}</p>
+          <p className="text-xs text-gray-400 dark:text-gray-500 mt-1">{stats.cheapest.brand} {stats.cheapest.model} – {stats.mostExpensive.brand} {stats.mostExpensive.model}</p>
         </div>
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8">
-        <div className="bg-white rounded-xl p-6 card-shadow">
-          <h2 className="text-lg font-bold text-gray-900 mb-4">Vehículos por Tipo</h2>
+        <div className="bg-white dark:bg-gray-800 rounded-xl p-6 card-shadow">
+          <h2 className="text-lg font-bold text-gray-900 dark:text-white mb-4">Vehículos por Tipo</h2>
           <BarChart data={stats.typeData} color="bg-blue-500" />
         </div>
-        <div className="bg-white rounded-xl p-6 card-shadow">
-          <h2 className="text-lg font-bold text-gray-900 mb-4">Vehículos por Combustible</h2>
+        <div className="bg-white dark:bg-gray-800 rounded-xl p-6 card-shadow">
+          <h2 className="text-lg font-bold text-gray-900 dark:text-white mb-4">Vehículos por Combustible</h2>
           <BarChart data={stats.fuelData} color="bg-green-500" />
         </div>
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8">
-        <div className="bg-white rounded-xl p-6 card-shadow">
-          <h2 className="text-lg font-bold text-gray-900 mb-4">Vehículos por País de Origen</h2>
+        <div className="bg-white dark:bg-gray-800 rounded-xl p-6 card-shadow">
+          <h2 className="text-lg font-bold text-gray-900 dark:text-white mb-4">Vehículos por País de Origen</h2>
           <BarChart data={stats.originData} color="bg-purple-500" />
         </div>
-        <div className="bg-white rounded-xl p-6 card-shadow">
-          <h2 className="text-lg font-bold text-gray-900 mb-4">Top 10 Marcas</h2>
+        <div className="bg-white dark:bg-gray-800 rounded-xl p-6 card-shadow">
+          <h2 className="text-lg font-bold text-gray-900 dark:text-white mb-4">Top 10 Marcas</h2>
           <BarChart data={stats.brandData} color="bg-orange-500" />
         </div>
       </div>
@@ -115,7 +115,7 @@ export function Estadisticas() {
       <div className="text-center mt-8">
         <Link
           to="/"
-          className="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 text-white rounded-xl font-medium hover:bg-blue-700 transition-colors"
+          className="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 dark:bg-blue-500 text-white rounded-xl font-medium hover:bg-blue-700 dark:hover:bg-blue-600 transition-colors"
         >
           ← Volver al inicio
         </Link>

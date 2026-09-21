@@ -1,4 +1,3 @@
-/* eslint-disable */
 // Resuelve la mejor imagen de Wikipedia para cada auto, la descarga a
 // public/car-images/<id>.<ext> y genera src/data/carImages.json con atribución.
 // Uso: node scripts/fetch-images.cjs [--force]

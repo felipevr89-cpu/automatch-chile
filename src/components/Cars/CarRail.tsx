@@ -1,9 +1,10 @@
+import { ReactNode } from 'react';
 import { Car } from '../../types';
 import { CarCard } from './CarCard';
 
 interface Props {
   title: string;
-  icon: string;
+  icon: ReactNode;
   subtitle?: string;
   cars: Car[];
   favorites: number[];
@@ -34,15 +35,15 @@ export function CarRail({
     <section className="mb-10">
       <div className="flex items-end justify-between mb-4">
         <div>
-          <h2 className="text-xl sm:text-2xl font-bold text-gray-900 flex items-center gap-2">
+          <h2 className="text-xl sm:text-2xl font-bold text-gray-900 dark:text-gray-100 flex items-center gap-2">
             <span aria-hidden="true">{icon}</span> {title}
           </h2>
-          {subtitle && <p className="text-sm text-gray-500 mt-0.5">{subtitle}</p>}
+          {subtitle && <p className="text-sm text-gray-500 dark:text-gray-400 mt-0.5">{subtitle}</p>}
         </div>
         {onSeeAll && (
           <button
             onClick={onSeeAll}
-            className="text-sm font-medium text-blue-600 hover:text-blue-800 whitespace-nowrap"
+            className="text-sm font-medium text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 whitespace-nowrap"
           >
             Ver todos →
           </button>

@@ -1,12 +1,8 @@
-import { initializeApp, FirebaseApp } from 'firebase/app';
-import { getAuth, GoogleAuthProvider, Auth } from 'firebase/auth';
-
-let app: FirebaseApp | null = null;
-let authInstance: Auth | null = null;
-const googleProvider = new GoogleAuthProvider();
-
-try {
-  const firebaseConfig = {
+// Configuración de Firebase. No se importa firebase aquí para no inflar el
+// bundle inicial: los módulos de firebase se cargan dinámicamente cuando hay
+// credenciales configuradas (ver hooks/useAuth.ts y hooks/useCars.ts).
+function getFirebaseConfig() {
+  const config = {
     apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
     authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
     projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
@@ -15,14 +11,8 @@ try {
     appId: import.meta.env.VITE_FIREBASE_APP_ID,
   };
 
-  if (firebaseConfig.apiKey && firebaseConfig.apiKey !== 'demo-api-key') {
-    app = initializeApp(firebaseConfig);
-    authInstance = getAuth(app);
-  }
-} catch {
-  console.warn('Firebase no configurado. Modo demo activo.');
+  return config.apiKey && config.apiKey !== 'demo-api-key' ? config : null;
 }
 
-export const isFirebaseConfigured = !!authInstance;
-export const auth = authInstance;
-export { googleProvider };
+export const firebaseConfig = getFirebaseConfig();
+export const isFirebaseConfigured = !!firebaseConfig;

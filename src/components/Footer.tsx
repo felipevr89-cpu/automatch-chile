@@ -1,6 +1,11 @@
+import { Link } from 'react-router-dom';
+import { carsData, brands } from '../data/brands';
+
 export function Footer() {
+  const year = new Date().getFullYear();
+
   return (
-    <footer className="bg-gray-900 text-gray-400 mt-16">
+    <footer className="bg-gray-900 dark:bg-gray-950 text-gray-400 mt-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
@@ -12,28 +17,29 @@ export function Footer() {
           <div>
             <h4 className="text-white font-semibold mb-4">Herramientas</h4>
             <ul className="space-y-2 text-sm">
-              <li><a href="/" className="hover:text-white transition-colors">Comparador de autos</a></li>
-              <li><a href="/compare" className="hover:text-white transition-colors">Comparar seleccionados</a></li>
-              <li><a href="/favorites" className="hover:text-white transition-colors">Mis favoritos</a></li>
+              <li><Link to="/" className="hover:text-white transition-colors">Comparador de autos</Link></li>
+              <li><Link to="/compare" className="hover:text-white transition-colors">Comparar seleccionados</Link></li>
+              <li><Link to="/favorites" className="hover:text-white transition-colors">Mis favoritos</Link></li>
+              <li><Link to="/top10" className="hover:text-white transition-colors">Top 10</Link></li>
             </ul>
           </div>
           <div>
             <h4 className="text-white font-semibold mb-4">Legal</h4>
             <ul className="space-y-2 text-sm">
-              <li><span className="hover:text-white transition-colors cursor-default">Términos y condiciones</span></li>
-              <li><span className="hover:text-white transition-colors cursor-default">Política de privacidad</span></li>
-              <li><span className="hover:text-white transition-colors cursor-default">Contacto: info@automatch.cl</span></li>
+              <li><Link to="/terminos" className="hover:text-white transition-colors">Términos y condiciones</Link></li>
+              <li><Link to="/privacidad" className="hover:text-white transition-colors">Política de privacidad</Link></li>
+              <li><a href="mailto:info@automatch.cl" className="hover:text-white transition-colors">Contacto: info@automatch.cl</a></li>
             </ul>
           </div>
           <div>
-            <h4 className="text-white font-semibold mb-4">Marcas 2026</h4>
+            <h4 className="text-white font-semibold mb-4">Marcas {year}</h4>
             <p className="text-sm leading-relaxed">
-              Más de 80 marcas y 400+ modelos disponibles en el mercado chileno. Actualizado constantemente.
+              Más de {brands.length} marcas y {carsData.length} modelos disponibles en el mercado chileno. Actualizado constantemente.
             </p>
           </div>
         </div>
-        <div className="border-t border-gray-800 mt-8 pt-8 text-center text-sm">
-          <p>© {new Date().getFullYear()} AutoMatch Chile. Todos los derechos reservados.</p>
+        <div className="border-t border-gray-800 dark:border-gray-700 mt-8 pt-8 text-center text-sm">
+          <p>© {year} AutoMatch Chile. Todos los derechos reservados.</p>
           <p className="mt-1 text-xs">Los precios son referenciales y pueden variar según concesionario.</p>
         </div>
       </div>

@@ -91,6 +91,7 @@ export interface Filters {
   minAirbags: number;
   origin_country: string[];
   model: string[];
+  yearRange: [number, number];
 }
 
 export interface User {

@@ -6,14 +6,29 @@ interface DocumentStatus {
   responsibility: { signed: boolean; version: string };
 }
 
-// Demo storage for signatures
-const demoSignatures: Record<string, Set<string>> = {};
+const STORAGE_KEY = 'automatch_signatures';
 
-function getDemoSignatures(userId: string): Set<string> {
-  if (!demoSignatures[userId]) {
-    demoSignatures[userId] = new Set();
+function getStoredSignatures(userId: string): Set<string> {
+  try {
+    const raw = localStorage.getItem(STORAGE_KEY);
+    if (!raw) return new Set();
+    const parsed = JSON.parse(raw) as Record<string, string[]>;
+    return new Set(parsed[userId] ?? []);
+  } catch {
+    return new Set();
   }
-  return demoSignatures[userId];
+}
+
+function persistSignature(userId: string, signature: string) {
+  try {
+    const raw = localStorage.getItem(STORAGE_KEY);
+    const parsed: Record<string, string[]> = raw ? JSON.parse(raw) : {};
+    if (!parsed[userId]) parsed[userId] = [];
+    if (!parsed[userId].includes(signature)) parsed[userId].push(signature);
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(parsed));
+  } catch {
+    // almacenamiento no disponible: la firma vive solo en memoria
+  }
 }
 
 export function useDocuments(userId: string | null) {
@@ -23,11 +38,12 @@ export function useDocuments(userId: string | null) {
 
   useEffect(() => {
     if (!userId) {
+      setShowModal(null);
       setLoading(false);
       return;
     }
 
-    const signatures = getDemoSignatures(userId);
+    const signatures = getStoredSignatures(userId);
     const privacySigned = signatures.has('privacy_policy_v1.0');
     const responsibilitySigned = signatures.has('responsibility_declaration_v1.0');
 
@@ -52,10 +68,9 @@ export function useDocuments(userId: string | null) {
     const docType = type === 'privacy' ? 'privacy_policy' : 'responsibility_declaration';
     const version = type === 'privacy' ? status.privacyPolicy.version : status.responsibility.version;
 
-    // Demo mode: store signature locally
-    const signatures = getDemoSignatures(userId);
-    signatures.add(`${docType}_v${version}`);
+    persistSignature(userId, `${docType}_v${version}`);
 
+    const signatures = getStoredSignatures(userId);
     const newStatus: DocumentStatus = {
       privacyPolicy: {
         signed: signatures.has('privacy_policy_v1.0'),

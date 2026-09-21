@@ -1,51 +1,50 @@
 import { useState, useEffect } from 'react';
-import { auth, googleProvider, isFirebaseConfigured } from '../lib/firebase';
+import { isFirebaseConfigured } from '../lib/firebase';
 import { User } from '../types';
-
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-let onAuthStateChanged: ((...args: any[]) => any) | null = null;
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-let signInWithPopup: ((...args: any[]) => any) | null = null;
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-let signOutFirebase: ((...args: any[]) => any) | null = null;
-
-if (isFirebaseConfigured && auth) {
-  import('firebase/auth').then((mod) => {
-    onAuthStateChanged = mod.onAuthStateChanged;
-    signInWithPopup = mod.signInWithPopup;
-    signOutFirebase = mod.signOut;
-  });
-}
 
 export function useAuth() {
   const [user, setUser] = useState<User | null>(null);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    if (!isFirebaseConfigured || !auth || !onAuthStateChanged) {
+    if (!isFirebaseConfigured) {
       setLoading(false);
       return;
     }
 
-    const unsubscribe = onAuthStateChanged(auth, (firebaseUser: { uid: string; displayName: string | null; email: string | null; photoURL: string | null }) => {
-      if (firebaseUser) {
-        setUser({
-          uid: firebaseUser.uid,
-          displayName: firebaseUser.displayName,
-          email: firebaseUser.email,
-          photoURL: firebaseUser.photoURL,
-        });
-      } else {
-        setUser(null);
-      }
-      setLoading(false);
+    let unsubscribe: (() => void) | null = null;
+    let cancelled = false;
+
+    import('firebase/auth').then((mod) => {
+      if (cancelled) return;
+      const { getAuth, onAuthStateChanged } = mod;
+      const authInstance = getAuth();
+
+      unsubscribe = onAuthStateChanged(authInstance, (firebaseUser) => {
+        if (firebaseUser) {
+          setUser({
+            uid: firebaseUser.uid,
+            displayName: firebaseUser.displayName,
+            email: firebaseUser.email,
+            photoURL: firebaseUser.photoURL,
+          });
+        } else {
+          setUser(null);
+        }
+        setLoading(false);
+      });
+    }).catch(() => {
+      if (!cancelled) setLoading(false);
     });
 
-    return () => unsubscribe();
+    return () => {
+      cancelled = true;
+      unsubscribe?.();
+    };
   }, []);
 
   const signInWithGoogle = async () => {
-    if (!isFirebaseConfigured || !auth || !signInWithPopup) {
+    if (!isFirebaseConfigured) {
       // Demo mode: create fake user
       setUser({
         uid: 'demo-user-001',
@@ -56,19 +55,21 @@ export function useAuth() {
       return;
     }
     try {
-      await signInWithPopup(auth, googleProvider);
+      const { getAuth, signInWithPopup, GoogleAuthProvider } = await import('firebase/auth');
+      await signInWithPopup(getAuth(), new GoogleAuthProvider());
     } catch (error) {
       console.error('Error signing in:', error);
     }
   };
 
   const signOut = async () => {
-    if (!isFirebaseConfigured || !auth || !signOutFirebase) {
+    if (!isFirebaseConfigured) {
       setUser(null);
       return;
     }
     try {
-      await signOutFirebase(auth);
+      const { getAuth, signOut: signOutFirebase } = await import('firebase/auth');
+      await signOutFirebase(getAuth());
     } catch (error) {
       console.error('Error signing out:', error);
     }

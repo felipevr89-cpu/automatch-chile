@@ -63,7 +63,7 @@
     {
       "id": 471,
       "brand": "Opel",
-      "model": "Crossland",
+      "model": "New Crossland",
       "year": 2025,
       "type": "suv",
       "fuel": "gasolina",
@@ -176,6 +176,152 @@
         "Android Auto",
         "Bluetooth"
       ],
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Francia"
+    },
+    {
+      "id": 640,
+      "brand": "Opel",
+      "model": "Mokka",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 16590000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV subcompacto con diseño vanguardista y motor eficiente.",
+      "origin": "Francia",
+      "versions": [
+        {
+          "version": "1.2T AT",
+          "price": 16590000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "1.2T GS AT",
+          "price": 19590000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 130,
+      "torque_nm": 230,
+      "length_mm": 4151,
+      "width_mm": 1790,
+      "height_mm": 1532,
+      "wheelbase_mm": 2557,
+      "fuel_tank_liters": 44,
+      "ground_clearance_mm": 175,
+      "trunk_liters": 350,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 10\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "fuel_consumption_mixed_km_l": 16,
+      "warranty_years": 3,
+      "warranty_km": 100000,
+      "origin_country": "Francia"
+    },
+    {
+      "id": 641,
+      "brand": "Opel",
+      "model": "New Grandland",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 26990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV mediano de nueva generación con tecnología híbrida ligera.",
+      "origin": "Francia",
+      "versions": [
+        {
+          "version": "1.2T MHEV AT",
+          "price": 26990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "1.2T MHEV GS AT",
+          "price": 30990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 136,
+      "torque_nm": 230,
+      "length_mm": 4650,
+      "width_mm": 1855,
+      "height_mm": 1635,
+      "wheelbase_mm": 2675,
+      "fuel_tank_liters": 55,
+      "ground_clearance_mm": 190,
+      "trunk_liters": 510,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 12\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "fuel_consumption_mixed_km_l": 18,
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "origin_country": "Francia"
+    },
+    {
+      "id": 642,
+      "brand": "Opel",
+      "model": "Combo",
+      "year": 2026,
+      "type": "minivan",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 15790000,
+      "transmission": "manual",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "Furgón compacto versátil para carga y pasajeros.",
+      "origin": "Francia",
+      "versions": [
+        {
+          "version": "1.2T MT",
+          "price": 15790000,
+          "transmission": "manual",
+          "traction": "4x2"
+        },
+        {
+          "version": "1.2T MT Largo",
+          "price": 17790000,
+          "transmission": "manual",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 110,
+      "torque_nm": 150,
+      "length_mm": 4400,
+      "width_mm": 1840,
+      "height_mm": 1820,
+      "wheelbase_mm": 2780,
+      "fuel_tank_liters": 50,
+      "ground_clearance_mm": 155,
+      "trunk_liters": 800,
+      "airbags": 4,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 8\"",
+        "Bluetooth"
+      ],
+      "fuel_consumption_mixed_km_l": 15,
       "warranty_years": 3,
       "warranty_km": 100000,
       "origin_country": "Francia"

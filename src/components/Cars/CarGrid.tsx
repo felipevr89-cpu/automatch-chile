@@ -1,5 +1,6 @@
 import { Car } from '../../types';
 import { CarCard } from './CarCard';
+import { MagnifyingGlassIcon } from '@heroicons/react/24/outline';
 
 interface Props {
   cars: Car[];
@@ -23,9 +24,9 @@ export function CarGrid({
   if (cars.length === 0) {
     return (
       <div className="text-center py-16">
-        <div className="text-6xl mb-4">🔍</div>
-        <h3 className="text-xl font-bold text-gray-900 mb-2">No se encontraron resultados</h3>
-        <p className="text-gray-500">Intenta ajustar los filtros para ver más opciones</p>
+        <MagnifyingGlassIcon className="w-16 h-16 mx-auto mb-4 text-gray-400 dark:text-gray-500" />
+        <h3 className="text-xl font-bold text-gray-900 dark:text-gray-100 mb-2">No se encontraron resultados</h3>
+        <p className="text-gray-500 dark:text-gray-400">Intenta ajustar los filtros para ver más opciones</p>
       </div>
     );
   }

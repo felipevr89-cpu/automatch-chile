@@ -60,16 +60,24 @@ describe('calculateTCO', () => {
     const result = calculateTCO(mockCar, 48, 1000);
     expect(result.monthlyLoan).toBeGreaterThan(0);
     expect(result.loanMonths).toBe(48);
-    expect(result.loanRate).toBeCloseTo(0.065, 2);
+    expect(result.loanRate).toBeCloseTo(0.11, 2);
   });
 
   it('includes all cost components', () => {
     const result = calculateTCO(mockCar, 48, 1000);
-    expect(result.breakdown).toHaveLength(6);
+    expect(result.breakdown).toHaveLength(7);
     expect(result.breakdown.map(b => b.label)).toContain('Cuota crédito');
     expect(result.breakdown.map(b => b.label)).toContain('SOAP');
     expect(result.breakdown.map(b => b.label)).toContain('Seguro');
     expect(result.breakdown.map(b => b.label)).toContain('Combustible');
+    expect(result.breakdown.map(b => b.label)).toContain('Depreciación');
+  });
+
+  it('calculates depreciation and blended charging', () => {
+    const result = calculateTCO(mockCar, 48, 1000);
+    expect(result.depreciacionAnual).toBeGreaterThan(0);
+    const ev = calculateTCO(mockEV, 48, 1000);
+    expect(ev.fuelOrChargeMonthly).toBe(Math.round((1000 * (60 / 510)) * 190));
   });
 
   it('has higher total monthly with shorter loan term', () => {
@@ -110,5 +118,28 @@ describe('calculateTCO', () => {
     const low = calculateTCO(mockCar, 48, 500);
     const high = calculateTCO(mockCar, 48, 2000);
     expect(high.fuelOrChargeMonthly).toBeGreaterThan(low.fuelOrChargeMonthly);
+  });
+
+  describe('permiso de circulación (fórmula SII)', () => {
+    it('aplica la escala progresiva acumulativa de la FAQ 001.170.5079.007', () => {
+      const result = calculateTCO(mockCar, 48, 1000);
+      expect(result.permisoCirculacion).toBe(420_071);
+    });
+
+    it('EV y PHEV (año >= 2021) pagan 25% del permiso (Ley 21.505)', () => {
+      expect(calculateTCO(mockEV, 48, 1000).permisoCirculacion).toBe(105_018);
+      expect(calculateTCO(mockPHEV, 48, 1000).permisoCirculacion).toBe(105_018);
+    });
+
+    it('respeta el mínimo de media UTM (0,5 UTM)', () => {
+      const cheap = calculateTCO({ ...mockCar, price: 3_000_000 }, 48, 1000);
+      expect(cheap.permisoCirculacion).toBe(34_876);
+    });
+
+    it('usados pagan menos por depreciación de la tasación', () => {
+      const used = calculateTCO({ ...mockCar, year: 2022 }, 48, 1000);
+      expect(used.permisoCirculacion).toBe(228_742);
+      expect(used.permisoCirculacion).toBeLessThan(calculateTCO(mockCar, 48, 1000).permisoCirculacion);
+    });
   });
 });

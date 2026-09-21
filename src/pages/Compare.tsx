@@ -16,15 +16,15 @@ export function Compare({ compareList, onRemoveFromCompare, onClearCompare }: Pr
       <SEO title="Comparar Vehículos" description="Compara hasta 3 vehículos lado a lado con todas sus especificaciones." />
       <div className="flex items-center justify-between mb-8">
         <div>
-          <h1 className="text-3xl font-bold text-gray-900">Comparar Vehículos</h1>
-          <p className="text-gray-600 mt-1">
+          <h1 className="text-3xl font-bold text-gray-900 dark:text-gray-100">Comparar Vehículos</h1>
+          <p className="text-gray-600 dark:text-gray-400 mt-1">
             {compareList.length} de 3 vehículos seleccionados
           </p>
         </div>
         {compareList.length > 0 && (
           <button
             onClick={onClearCompare}
-            className="px-4 py-2 text-red-600 hover:bg-red-50 rounded-lg text-sm font-medium transition-colors"
+            className="px-4 py-2 text-red-600 dark:text-red-400 hover:bg-red-50 dark:hover:bg-red-900/30 rounded-lg text-sm font-medium transition-colors"
           >
             Limpiar comparación
           </button>

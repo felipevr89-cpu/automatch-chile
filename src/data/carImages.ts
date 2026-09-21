@@ -7,7 +7,7 @@ export interface CarImageEntry {
   source?: string | null;
 }
 
-const map = manifest as Record<string, CarImageEntry>;
+const map = manifest as Record<string, CarImageEntry | null>;
 
 export function getCarImage(id: number): CarImageEntry | null {
   return map[String(id)] ?? null;

@@ -1,18 +1,23 @@
-import { useState, useMemo, useCallback } from 'react';
+import { useState, useMemo, useCallback, useEffect } from 'react';
 import { carsData } from '../data/brands';
-import { Car, Filters } from '../types';
+import { Car, Filters, User } from '../types';
+import { isFirebaseConfigured } from '../lib/firebase';
+
+const currentYear = new Date().getFullYear();
+export const defaultYearRange: [number, number] = [currentYear - 6, currentYear];
 
 const defaultFilters: Filters = {
   brand: [],
   type: [],
   fuel: [],
   seats: [],
-  priceRange: [0, 80000000],
+  priceRange: [0, 500000000],
   transmission: [],
   traction: [],
   minAirbags: 0,
   origin_country: [],
   model: [],
+  yearRange: defaultYearRange,
 };
 
 function loadFromStorage<T>(key: string, fallback: T): T {
@@ -24,17 +29,69 @@ function loadFromStorage<T>(key: string, fallback: T): T {
   }
 }
 
-export function useCars() {
+async function loadFavoritesFromCloud(userId: string): Promise<number[] | null> {
+  try {
+    const { getFirestore, doc, getDoc } = await import('firebase/firestore');
+    const db = getFirestore();
+    const snap = await getDoc(doc(db, 'users', userId, 'preferences', 'favorites'));
+    if (snap.exists()) {
+      const data = snap.data();
+      return data?.carIds ?? null;
+    }
+    return null;
+  } catch {
+    return null;
+  }
+}
+
+async function saveFavoritesToCloud(userId: string, carIds: number[]): Promise<void> {
+  try {
+    const { getFirestore, doc, setDoc } = await import('firebase/firestore');
+    const db = getFirestore();
+    await setDoc(doc(db, 'users', userId, 'preferences', 'favorites'), { carIds, updatedAt: new Date().toISOString() });
+  } catch {
+    // silently fail
+  }
+}
+
+export function useCars(user?: User | null) {
+  const uid = user?.uid;
+  const isConfiguredUser = !!uid && isFirebaseConfigured && !uid.startsWith('demo-');
   const [filters, setFilters] = useState<Filters>(() => loadFromStorage('automatch_filters', defaultFilters));
   const [compareList, setCompareList] = useState<Car[]>(() => loadFromStorage('automatch_compare', []));
-  const [favorites, setFavorites] = useState<number[]>(() => loadFromStorage('automatch_favorites', []));
+  const [favorites, setFavorites] = useState<number[]>(() => {
+    const local = loadFromStorage<number[]>('automatch_favorites', []);
+    return local;
+  });
+  const [recentIds, setRecentIds] = useState<number[]>(() => loadFromStorage<number[]>('automatch_recent', []));
   const [searchQuery, setSearchQuery] = useState('');
+  const [debouncedSearchQuery, setDebouncedSearchQuery] = useState('');
   const [sortBy, setSortBy] = useState('price-asc');
   const [currentPage, setCurrentPage] = useState(1);
   const perPage = 15;
 
+  useEffect(() => {
+    const timer = setTimeout(() => setDebouncedSearchQuery(searchQuery), 300);
+    return () => clearTimeout(timer);
+  }, [searchQuery]);
+
+  useEffect(() => {
+    if (!isConfiguredUser) return;
+    loadFavoritesFromCloud(uid!).then(cloudIds => {
+      if (cloudIds && cloudIds.length > 0) {
+        setFavorites(cloudIds);
+        localStorage.setItem('automatch_favorites', JSON.stringify(cloudIds));
+      } else {
+        const local = loadFromStorage<number[]>('automatch_favorites', []);
+        if (local.length > 0) {
+          saveFavoritesToCloud(uid!, local);
+        }
+      }
+    });
+  }, [uid, isConfiguredUser]);
+
   const filteredCars = useMemo(() => {
-    let result = carsData.filter((car) => {
+    const result = carsData.filter((car) => {
       if (filters.brand.length > 0 && !filters.brand.includes(car.brand)) return false;
       if (filters.model.length > 0 && !filters.model.includes(car.model)) return false;
       if (filters.type.length > 0 && !filters.type.includes(car.type)) return false;
@@ -46,12 +103,16 @@ export function useCars() {
       if (filters.minAirbags > 0 && (car.airbags ?? 0) < filters.minAirbags) return false;
       if (filters.origin_country.length > 0 && !filters.origin_country.includes(car.origin_country || '')) return false;
 
-      if (searchQuery) {
-        const q = searchQuery.toLowerCase();
+      if (debouncedSearchQuery) {
+        const q = debouncedSearchQuery.toLowerCase();
         const match = car.brand.toLowerCase().includes(q) ||
           car.model.toLowerCase().includes(q) ||
           car.description.toLowerCase().includes(q);
         if (!match) return false;
+      }
+
+      if (filters.yearRange[0] > defaultYearRange[0] || filters.yearRange[1] < defaultYearRange[1]) {
+        if (car.year < filters.yearRange[0] || car.year > filters.yearRange[1]) return false;
       }
 
       return true;
@@ -73,7 +134,7 @@ export function useCars() {
     }
 
     return result;
-  }, [filters, searchQuery, sortBy]);
+  }, [filters, debouncedSearchQuery, sortBy]);
 
   const totalPages = Math.max(1, Math.ceil(filteredCars.length / perPage));
   const safePage = Math.min(currentPage, totalPages);
@@ -125,11 +186,29 @@ export function useCars() {
     setFavorites((prev) => {
       const next = prev.includes(carId) ? prev.filter((id) => id !== carId) : [...prev, carId];
       localStorage.setItem('automatch_favorites', JSON.stringify(next));
+      if (isConfiguredUser) {
+        saveFavoritesToCloud(uid!, next);
+      }
       return next;
+    });
+  }, [uid, isConfiguredUser]);
+
+  const isFavorite = useCallback((carId: number) => favorites.includes(carId), [favorites]);
+
+  const addRecent = useCallback((carId: number) => {
+    setRecentIds((prev) => {
+      const next = prev.filter((id) => id !== carId);
+      next.unshift(carId);
+      const trimmed = next.slice(0, 12);
+      localStorage.setItem('automatch_recent', JSON.stringify(trimmed));
+      return trimmed;
     });
   }, []);
 
-  const isFavorite = useCallback((carId: number) => favorites.includes(carId), [favorites]);
+  const recentCars = useMemo(() => {
+    const map = new Map(carsData.map((c) => [c.id, c]));
+    return recentIds.map((id) => map.get(id)).filter((c): c is Car => !!c);
+  }, [recentIds]);
 
   return {
     cars: paginatedCars,
@@ -152,5 +231,7 @@ export function useCars() {
     favorites,
     toggleFavorite,
     isFavorite,
+    recentCars,
+    addRecent,
   };
 }

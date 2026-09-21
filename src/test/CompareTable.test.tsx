@@ -1,5 +1,5 @@
 import { describe, it, expect, vi } from 'vitest';
-import { render, screen, within } from '@testing-library/react';
+import { render, screen } from '@testing-library/react';
 import { CompareTable } from '../components/Compare/CompareTable';
 import { carsData } from '../data/brands';
 

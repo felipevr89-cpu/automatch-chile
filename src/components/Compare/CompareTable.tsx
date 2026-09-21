@@ -19,7 +19,7 @@ type SpecRow = {
 
 const SectionHeader = ({ title, icon }: { title: string; icon: string }) => (
   <tr>
-    <td colSpan={4} className="px-4 pt-6 pb-2 text-sm font-bold text-gray-800 bg-gray-50/80">
+    <td colSpan={4} className="px-4 pt-6 pb-2 text-sm font-bold text-gray-800 dark:text-gray-200 bg-gray-50/80 dark:bg-gray-800/80">
       <span className="mr-2">{icon}</span>{title}
     </td>
   </tr>
@@ -38,12 +38,16 @@ const isRowEmpty = (cars: Car[], spec: SpecRow) => {
 };
 
 export function CompareTable({ cars, onRemove }: Props) {
+  const tableRef = useRef<HTMLDivElement>(null);
+  const [diffMode, setDiffMode] = useState(false);
+  const [exporting, setExporting] = useState(false);
+
   if (cars.length === 0) {
     return (
       <div className="text-center py-16">
         <div className="text-6xl mb-4">⚖️</div>
-        <h3 className="text-xl font-bold text-gray-900 mb-2">Sin vehículos para comparar</h3>
-        <p className="text-gray-500">Selecciona hasta 3 vehículos desde la página principal</p>
+        <h3 className="text-xl font-bold text-gray-900 dark:text-gray-100 mb-2">Sin vehículos para comparar</h3>
+        <p className="text-gray-500 dark:text-gray-400">Selecciona hasta 3 vehículos desde la página principal</p>
       </div>
     );
   }
@@ -75,7 +79,7 @@ export function CompareTable({ cars, onRemove }: Props) {
   };
 
   const getWinnerClass = (car: Car, field: string) => {
-    return isWinner(car, field) ? 'winner-cell bg-green-50 font-semibold' : '';
+    return isWinner(car, field) ? 'winner-cell bg-green-50 dark:bg-green-900/20 font-semibold' : '';
   };
 
   const scores = cars.map((car) => {
@@ -157,14 +161,14 @@ export function CompareTable({ cars, onRemove }: Props) {
         });
         const differs = diffMode && new Set(displays).size > 1;
         return (
-          <tr key={`${groupKey}-${i}`} className="border-b border-gray-50 hover:bg-gray-50/50">
-            <td className="p-3 text-sm font-medium text-gray-600">{spec.label}</td>
+          <tr key={`${groupKey}-${i}`} className="border-b border-gray-50 dark:border-gray-700 hover:bg-gray-50/50 dark:hover:bg-gray-800/50">
+            <td className="p-3 text-sm font-medium text-gray-600 dark:text-gray-400">{spec.label}</td>
             {cars.map((car, idx) => {
-              let display = displays[idx];
+              const display = displays[idx];
               const highlightField = spec.highlight === 'low' ? 'price' :
                 spec.highlight === 'high' ? (spec.key || groupKey) : '';
               const winnerClass = getWinnerClass(car, highlightField);
-              const diffClass = differs ? 'bg-amber-100/70' : '';
+              const diffClass = differs ? 'bg-amber-100/70 dark:bg-amber-900/20' : '';
               return (
                 <td key={car.id} className={`p-3 text-center text-sm ${winnerClass} ${diffClass}`}>
                   {display}
@@ -174,10 +178,6 @@ export function CompareTable({ cars, onRemove }: Props) {
           </tr>
         );
       });
-
-  const tableRef = useRef<HTMLDivElement>(null);
-  const [diffMode, setDiffMode] = useState(false);
-  const [exporting, setExporting] = useState(false);
 
   const exportImage = async () => {
     if (!tableRef.current) return;
@@ -199,7 +199,7 @@ export function CompareTable({ cars, onRemove }: Props) {
         <button
           type="button"
           onClick={() => window.print()}
-          className="px-4 py-2 rounded-lg text-sm font-medium bg-white text-gray-700 border border-gray-200 hover:bg-gray-50 transition-colors"
+          className="px-4 py-2 rounded-lg text-sm font-medium bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 border border-gray-200 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors"
         >
           🖨️ Guardar PDF
         </button>
@@ -207,7 +207,7 @@ export function CompareTable({ cars, onRemove }: Props) {
           type="button"
           onClick={exportImage}
           disabled={exporting}
-          className="px-4 py-2 rounded-lg text-sm font-medium bg-white text-gray-700 border border-gray-200 hover:bg-gray-50 transition-colors disabled:opacity-50"
+          className="px-4 py-2 rounded-lg text-sm font-medium bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 border border-gray-200 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors disabled:opacity-50"
         >
           {exporting ? 'Generando…' : '🖼️ Exportar imagen'}
         </button>
@@ -218,43 +218,43 @@ export function CompareTable({ cars, onRemove }: Props) {
           className={`px-4 py-2 rounded-lg text-sm font-medium border transition-colors ${
             diffMode
               ? 'bg-amber-500 text-white border-amber-500'
-              : 'bg-white text-gray-700 border-gray-200 hover:bg-gray-50'
+              : 'bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 border-gray-200 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700'
           }`}
         >
           {diffMode ? '✓ Resaltando diferencias' : 'Resaltar diferencias'}
         </button>
       </div>
       <div ref={tableRef} id="compare-table" className="overflow-x-auto">
-      <table className="w-full bg-white rounded-2xl overflow-hidden card-shadow">
+      <table className="w-full bg-white dark:bg-gray-800 rounded-2xl overflow-hidden card-shadow">
         <thead>
-          <tr className="border-b border-gray-100">
-            <th className="text-left p-4 bg-gray-50 text-sm font-semibold text-gray-600 w-44">
+          <tr className="border-b border-gray-100 dark:border-gray-700">
+            <th className="text-left p-4 bg-gray-50 dark:bg-gray-900 text-sm font-semibold text-gray-600 dark:text-gray-400 w-44">
               Característica
             </th>
             {cars.map((car) => (
-              <th key={car.id} className="p-4 bg-gray-50 text-center relative min-w-[200px]">
+              <th key={car.id} className="p-4 bg-gray-50 dark:bg-gray-900 text-center relative min-w-[200px]">
                 <button
                   type="button"
                   onClick={() => onRemove(car.id)}
                   aria-label={`Quitar ${car.brand} ${car.model} de la comparación`}
-                  className="absolute top-2 right-2 w-6 h-6 rounded-full bg-gray-200 hover:bg-red-100 hover:text-red-600 flex items-center justify-center text-xs transition-colors"
+                  className="absolute top-2 right-2 w-6 h-6 rounded-full bg-gray-200 dark:bg-gray-700 hover:bg-red-100 dark:hover:bg-red-900/50 hover:text-red-600 flex items-center justify-center text-xs transition-colors"
                 >
                   ×
                 </button>
-                <div className="text-lg font-bold text-gray-900">{car.brand}</div>
-                <div className="text-sm text-gray-600">{car.model}</div>
+                <div className="text-lg font-bold text-gray-900 dark:text-gray-100">{car.brand}</div>
+                <div className="text-sm text-gray-600 dark:text-gray-400">{car.model}</div>
               </th>
             ))}
           </tr>
         </thead>
         <tbody>
-          <tr className="bg-yellow-50/50 border-b border-yellow-100">
-            <td className="p-3 text-sm font-bold text-gray-700">🏆 Puntaje</td>
+          <tr className="bg-yellow-50/50 dark:bg-yellow-900/20 border-b border-yellow-100 dark:border-yellow-800">
+            <td className="p-3 text-sm font-bold text-gray-700 dark:text-gray-300">🏆 Puntaje</td>
             {cars.map((car, idx) => {
               const score = scores[idx];
               const stars = '⭐'.repeat(score) + '☆'.repeat(7 - score);
               return (
-                <td key={car.id} className={`p-3 text-center text-sm font-bold ${score === maxScore ? 'text-yellow-700' : 'text-gray-500'}`}>
+                <td key={car.id} className={`p-3 text-center text-sm font-bold ${score === maxScore ? 'text-yellow-700 dark:text-yellow-400' : 'text-gray-500 dark:text-gray-400'}`}>
                   <span className="text-base">{stars}</span>
                   <br />
                   <span>{score}/7</span>
@@ -263,18 +263,18 @@ export function CompareTable({ cars, onRemove }: Props) {
             })}
           </tr>
 
-          <tr className="border-b border-gray-100 bg-gray-50/50">
-            <td className="p-3 text-sm font-medium text-gray-600">Versiones</td>
+          <tr className="border-b border-gray-100 dark:border-gray-700 bg-gray-50/50 dark:bg-gray-800/50">
+            <td className="p-3 text-sm font-medium text-gray-600 dark:text-gray-400">Versiones</td>
             {cars.map((car) => (
-              <td key={car.id} className="p-3 text-center text-xs text-gray-600">
+              <td key={car.id} className="p-3 text-center text-xs text-gray-600 dark:text-gray-400">
                 {(car.versions ?? []).slice(0, 2).map((v, i) => (
                   <div key={i} className="mb-1">
                     <span className="font-medium">{v.version}</span>
-                    <span className="text-gray-400"> — {formatPrice(v.price)}</span>
+                    <span className="text-gray-400 dark:text-gray-500"> — {formatPrice(v.price)}</span>
                   </div>
                 ))}
                 {(car.versions ?? []).length > 2 && (
-                  <div className="text-gray-400 text-[10px] mt-1">+{(car.versions ?? []).length - 2} más</div>
+                  <div className="text-gray-400 dark:text-gray-500 text-[10px] mt-1">+{(car.versions ?? []).length - 2} más</div>
                 )}
               </td>
             ))}
@@ -295,10 +295,10 @@ export function CompareTable({ cars, onRemove }: Props) {
           <SectionHeader title="Tecnología" icon="📱" />
           {renderSpecGroup(techSpecs, 'tech')}
 
-          <tr className="border-b border-gray-50">
-            <td className="p-4 text-sm font-medium text-gray-600">Descripción</td>
+          <tr className="border-b border-gray-50 dark:border-gray-700">
+            <td className="p-4 text-sm font-medium text-gray-600 dark:text-gray-400">Descripción</td>
             {cars.map((car) => (
-              <td key={car.id} className="p-4 text-xs text-gray-500 text-center">
+              <td key={car.id} className="p-4 text-xs text-gray-500 dark:text-gray-400 text-center">
                 {car.description}
               </td>
             ))}

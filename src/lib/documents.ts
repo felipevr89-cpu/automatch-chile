@@ -67,3 +67,29 @@ export const RESPONSIBILITY_CONTENT = `# DECLARACIÓN DE RESPONSABILIDAD Y USO D
 
 ## 5. RESOLUCIÓN DE CONTROVERSIAS
 Se someterán a tribunales competentes de Santiago, Chile.`;
+
+export const TERMS_AND_CONDITIONS = `# TÉRMINOS Y CONDICIONES DE USO
+## AutoMatch Chile
+
+**Versión:** 1.0
+**Fecha de vigencia:** 18/07/2026
+
+---
+
+## 1. ACEPTACIÓN DE LOS TÉRMINOS
+Al usar AutoMatch Chile usted declara haber leído y aceptado estos términos.
+
+## 2. NATURALEZA DEL SERVICIO
+2.1. AutoMatch es una plataforma **informativa** para buscar, comparar y guardar vehículos del mercado chileno.
+2.2. Los precios y especificaciones son **referenciales** y pueden variar según el concesionario.
+2.3. AutoMatch **no** realiza venta de vehículos, intermediación comercial ni asesoría financiera.
+
+## 3. PROPIEDAD INTELECTUAL
+3.1. Las marcas, logos y nombres de vehículos pertenecen a sus respectivos fabricantes.
+3.2. Las fotografías se usan bajo sus respectivas licencias (CC BY-SA, Wikipedia Commons) y se atribuyen en los detalles de cada vehículo.
+
+## 4. LIMITACIÓN DE RESPONSABILIDAD
+AutoMatch no se responsabiliza por decisiones de compra ni por discrepancias entre los datos publicados y la información oficial de cada marca.
+
+## 5. MODIFICACIONES
+Podemos modificar estos términos; los cambios serán publicados en esta página.`;

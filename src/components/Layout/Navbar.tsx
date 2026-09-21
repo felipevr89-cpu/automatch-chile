@@ -1,6 +1,15 @@
 import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { useAuth } from '../../hooks/useAuth';
+import {
+  ShieldCheckIcon,
+  CubeIcon,
+  FireIcon,
+  BoltIcon,
+  BanknotesIcon,
+  Battery100Icon,
+  SparklesIcon,
+} from '@heroicons/react/24/outline';
 
 export function Navbar() {
   const { user, signInWithGoogle, signOut } = useAuth();
@@ -21,6 +30,18 @@ export function Navbar() {
 
   const isActive = (path: string) => location.pathname === path;
 
+  const [top10Open, setTop10Open] = useState(false);
+
+  const top10Categories = [
+    { id: 'seguridad', label: 'Seguridad', icon: ShieldCheckIcon },
+    { id: 'espacio', label: 'Más Espaciosos', icon: CubeIcon },
+    { id: 'consumo', label: 'Mejor Consumo', icon: FireIcon },
+    { id: 'potencia', label: 'Mayor Potencia', icon: BoltIcon },
+    { id: 'economico', label: 'Más Económicos', icon: BanknotesIcon },
+    { id: 'autonomia', label: 'Mayor Autonomía EV', icon: Battery100Icon },
+    { id: 'nuevos', label: 'Los Más Nuevos', icon: SparklesIcon },
+  ];
+
   const navLinks = [
     { to: '/', label: 'Inicio' },
     { to: '/compare', label: 'Comparar' },
@@ -28,7 +49,7 @@ export function Navbar() {
   ];
 
   return (
-    <nav className="bg-gray-900 text-white sticky top-0 z-40 shadow-lg">
+    <nav className="bg-gray-900 dark:bg-gray-950 text-white sticky top-0 z-40 shadow-lg">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <Link to="/" className="flex items-center gap-3">
@@ -56,6 +77,39 @@ export function Navbar() {
               </Link>
             ))}
 
+            {/* Top 10 dropdown */}
+            <div
+              className="relative"
+              onMouseEnter={() => setTop10Open(true)}
+              onMouseLeave={() => setTop10Open(false)}
+            >
+              <Link
+                to="/top10"
+                className={`px-4 py-2 rounded-lg text-sm font-medium transition-all ${
+                  location.pathname === '/top10'
+                    ? 'bg-white/15 text-white'
+                    : 'text-gray-300 hover:bg-white/10 hover:text-white'
+                }`}
+              >
+                Top 10 ▾
+              </Link>
+              {top10Open && (
+                <div className="absolute top-full left-0 mt-1 w-56 bg-gray-800 dark:bg-gray-900 rounded-xl shadow-2xl border border-gray-700 dark:border-gray-600 py-2 z-50">
+                  {top10Categories.map(cat => (
+                    <Link
+                      key={cat.id}
+                      to={`/top10?cat=${cat.id}`}
+                      onClick={() => setTop10Open(false)}
+                      className="flex items-center gap-3 px-4 py-2.5 text-sm text-gray-300 hover:bg-white/10 hover:text-white transition-colors"
+                    >
+                      <cat.icon className="w-5 h-5" />
+                      <span>{cat.label}</span>
+                    </Link>
+                  ))}
+                </div>
+              )}
+            </div>
+
             <button
               onClick={toggleDark}
               className="w-10 h-10 flex items-center justify-center rounded-lg hover:bg-white/10 transition-colors"
@@ -72,7 +126,7 @@ export function Navbar() {
               )}
             </button>
 
-            <div className="w-px h-6 bg-gray-700 mx-2" />
+            <div className="w-px h-6 bg-gray-700 dark:bg-gray-600 mx-2" />
 
             {user ? (
               <div className="flex items-center gap-3">
@@ -88,7 +142,7 @@ export function Navbar() {
                 </div>
                 <button
                   onClick={signOut}
-                  className="px-4 py-2 bg-gray-800 hover:bg-gray-700 rounded-lg text-sm font-medium transition-colors"
+                  className="px-4 py-2 bg-gray-800 dark:bg-gray-700 hover:bg-gray-700 dark:hover:bg-gray-600 rounded-lg text-sm font-medium transition-colors"
                 >
                   Salir
                 </button>
@@ -127,7 +181,7 @@ export function Navbar() {
 
       {/* Mobile menu */}
       {mobileOpen && (
-        <div className="md:hidden border-t border-gray-800">
+        <div className="md:hidden border-t border-gray-800 dark:border-gray-700">
           <div className="px-4 py-3 space-y-1">
             {navLinks.map((link) => (
               <Link
@@ -143,6 +197,22 @@ export function Navbar() {
                 {link.label}
               </Link>
             ))}
+            <div className="border-t border-gray-800 dark:border-gray-700 my-1" />
+            <div className="px-4 py-1.5 text-xs font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wider">
+              Top 10
+            </div>
+            {top10Categories.map(cat => (
+              <Link
+                key={cat.id}
+                to={`/top10?cat=${cat.id}`}
+                onClick={() => setMobileOpen(false)}
+                className="flex items-center gap-3 px-4 py-2 text-sm text-gray-300 hover:bg-white/10 rounded-lg"
+              >
+                <cat.icon className="w-5 h-5" />
+                <span>{cat.label}</span>
+              </Link>
+            ))}
+            <div className="border-t border-gray-800 dark:border-gray-700 my-1" />
             <button
               onClick={toggleDark}
               className="w-full flex items-center gap-3 px-4 py-2 text-sm text-gray-300 hover:bg-white/10 rounded-lg"
@@ -158,7 +228,7 @@ export function Navbar() {
               )}
               <span>{darkMode ? 'Modo Claro' : 'Modo Oscuro'}</span>
             </button>
-            <div className="border-t border-gray-800 my-2" />
+            <div className="border-t border-gray-800 dark:border-gray-700 my-2" />
             {user ? (
               <div className="space-y-2">
                 <div className="flex items-center gap-2 px-4 py-2">

@@ -3,7 +3,56 @@
   "brandUrl": "https://www.jetour.cl",
   "models": [
     {
-      "id": 289,
+      "id": 634,
+      "brand": "Jetour",
+      "model": "X50",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 9490000,
+      "transmission": "manual",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV compacto de entrada con excelente relación precio-equipamiento.",
+      "origin": "China",
+      "versions": [
+        {
+          "version": "1.5L MT",
+          "price": 9490000,
+          "transmission": "manual",
+          "traction": "4x2"
+        },
+        {
+          "version": "1.5L AT",
+          "price": 11490000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 116,
+      "torque_nm": 145,
+      "length_mm": 4350,
+      "width_mm": 1800,
+      "height_mm": 1660,
+      "wheelbase_mm": 2580,
+      "fuel_tank_liters": 48,
+      "ground_clearance_mm": 180,
+      "trunk_liters": 380,
+      "airbags": 4,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 10\"",
+        "Bluetooth",
+        "USB"
+      ],
+      "fuel_consumption_mixed_km_l": 14,
+      "warranty_years": 5,
+      "warranty_km": 150000,
+      "origin_country": "China"
+    },
+    {
+      "id": 635,
       "brand": "Jetour",
       "model": "Dashing",
       "year": 2026,
@@ -170,12 +219,12 @@
     {
       "id": 292,
       "brand": "Jetour",
-      "model": "X90",
+      "model": "X90 Plus",
       "year": 2026,
       "type": "suv",
       "fuel": "gasolina",
       "seats": 7,
-      "price": 23990000,
+      "price": 23490000,
       "transmission": "automatica",
       "traction": "4x2",
       "image_url": "",
@@ -212,7 +261,7 @@
       "versions": [
         {
           "version": "1.6T 7 plazas",
-          "price": 23990000,
+          "price": 23490000,
           "transmission": "automática",
           "traction": "4x2"
         },
@@ -223,6 +272,190 @@
           "traction": "4x2"
         }
       ]
+    },
+    {
+      "id": 636,
+      "brand": "Jetour",
+      "model": "T1",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 18490000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV compacto con diseño robusto y capacidad off-road ligera.",
+      "origin": "China",
+      "versions": [
+        {
+          "version": "1.5T AT",
+          "price": 18490000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        },
+        {
+          "version": "1.5T Luxury AT",
+          "price": 20990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 156,
+      "torque_nm": 230,
+      "length_mm": 4500,
+      "width_mm": 1850,
+      "height_mm": 1720,
+      "wheelbase_mm": 2650,
+      "fuel_tank_liters": 50,
+      "ground_clearance_mm": 195,
+      "trunk_liters": 450,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 10\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "fuel_consumption_mixed_km_l": 13,
+      "warranty_years": 5,
+      "warranty_km": 150000,
+      "origin_country": "China"
+    },
+    {
+      "id": 637,
+      "brand": "Jetour",
+      "model": "T1 PHEV",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "hibrido_enchufable",
+      "seats": 5,
+      "price": 27990000,
+      "transmission": "automatica",
+      "traction": "4x2",
+      "image_url": "",
+      "description": "SUV híbrido enchufable con etiqueta ecológica y eficiencia superior.",
+      "origin": "China",
+      "versions": [
+        {
+          "version": "1.5T PHEV AT",
+          "price": 27990000,
+          "transmission": "automatica",
+          "traction": "4x2"
+        }
+      ],
+      "hp": 180,
+      "torque_nm": 280,
+      "length_mm": 4500,
+      "width_mm": 1850,
+      "height_mm": 1720,
+      "wheelbase_mm": 2650,
+      "fuel_tank_liters": 35,
+      "ground_clearance_mm": 195,
+      "trunk_liters": 380,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 10\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "fuel_consumption_mixed_km_l": 20,
+      "warranty_years": 5,
+      "warranty_km": 150000,
+      "origin_country": "China"
+    },
+    {
+      "id": 638,
+      "brand": "Jetour",
+      "model": "T2",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "gasolina",
+      "seats": 5,
+      "price": 26990000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "SUV off-road mediano con tracción 4x4 y diseño robusto.",
+      "origin": "China",
+      "versions": [
+        {
+          "version": "1.6T 4x4 AT",
+          "price": 26990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        },
+        {
+          "version": "1.6T Luxury 4x4 AT",
+          "price": 29990000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 197,
+      "torque_nm": 290,
+      "length_mm": 4780,
+      "width_mm": 1930,
+      "height_mm": 1830,
+      "wheelbase_mm": 2800,
+      "fuel_tank_liters": 60,
+      "ground_clearance_mm": 230,
+      "trunk_liters": 480,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 12.3\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "fuel_consumption_mixed_km_l": 11,
+      "warranty_years": 5,
+      "warranty_km": 150000,
+      "origin_country": "China"
+    },
+    {
+      "id": 639,
+      "brand": "Jetour",
+      "model": "T2 PHEV",
+      "year": 2026,
+      "type": "suv",
+      "fuel": "hibrido_enchufable",
+      "seats": 5,
+      "price": 33490000,
+      "transmission": "automatica",
+      "traction": "4x4",
+      "image_url": "",
+      "description": "SUV híbrido enchufable 4x4 con gran potencia y eficiencia.",
+      "origin": "China",
+      "versions": [
+        {
+          "version": "1.6T PHEV 4x4 AT",
+          "price": 33490000,
+          "transmission": "automatica",
+          "traction": "4x4"
+        }
+      ],
+      "hp": 280,
+      "torque_nm": 400,
+      "length_mm": 4780,
+      "width_mm": 1930,
+      "height_mm": 1830,
+      "wheelbase_mm": 2800,
+      "fuel_tank_liters": 40,
+      "ground_clearance_mm": 230,
+      "trunk_liters": 410,
+      "airbags": 6,
+      "isofix": true,
+      "infotainment": [
+        "Pantalla 12.3\"",
+        "Apple CarPlay",
+        "Android Auto"
+      ],
+      "fuel_consumption_mixed_km_l": 18,
+      "warranty_years": 5,
+      "warranty_km": 150000,
+      "origin_country": "China"
     }
   ]
 }

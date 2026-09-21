@@ -71,15 +71,11 @@ export function CarImage({
     <div
       className={`relative overflow-hidden bg-gradient-to-br ${gradient} ${className}`}
     >
-      <div className="absolute inset-0 flex flex-col items-center justify-center text-white/90 select-none">
-        <CarSilhouette type={type} className="w-2/5 max-w-[140px] opacity-90 drop-shadow" />
-        {showLabel && (
-          <div className="mt-3 text-center px-2">
-            <div className="text-sm font-bold tracking-wide">{brand}</div>
-            <div className="text-xs text-white/70">{model}</div>
-          </div>
-        )}
-      </div>
+      {!imageUrl || failed ? (
+        <div className="absolute inset-0 flex flex-col items-center justify-center text-white/90 select-none">
+          <CarSilhouette type={type} className="w-2/5 max-w-[140px] opacity-90 drop-shadow" />
+        </div>
+      ) : null}
 
       {imageUrl && !failed && (
         <img
@@ -92,6 +88,13 @@ export function CarImage({
             loaded ? 'opacity-100' : 'opacity-0'
           }`}
         />
+      )}
+
+      {showLabel && (
+        <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent px-3 pt-8 pb-3">
+          <div className="text-sm font-bold text-white drop-shadow-md leading-tight">{brand}</div>
+          <div className="text-xs text-white/80 drop-shadow-md leading-tight">{model}</div>
+        </div>
       )}
     </div>
   );

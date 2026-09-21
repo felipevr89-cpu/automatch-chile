@@ -1,5 +1,5 @@
 import { lazy, Suspense } from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import { useAuth } from './hooks/useAuth';
 import { useCars } from './hooks/useCars';
 import { useDocuments } from './hooks/useDocuments';
@@ -8,15 +8,23 @@ import { Footer } from './components/Footer';
 import { SEO } from './components/SEO';
 import { SignatureModal } from './components/Documents/SignatureModal';
 import { Home } from './pages/Home';
+import { CarGridSkeleton } from './components/Cars/CarSkeleton';
 
 const Compare = lazy(() => import('./pages/Compare').then(m => ({ default: m.Compare })));
 const Favorites = lazy(() => import('./pages/Favorites').then(m => ({ default: m.Favorites })));
 const Estadisticas = lazy(() => import('./pages/Estadisticas').then(m => ({ default: m.Estadisticas })));
+const Top10 = lazy(() => import('./pages/Top10').then(m => ({ default: m.Top10 })));
+const LegalDocs = lazy(() => import('./pages/LegalDocs').then(m => ({ default: m.LegalDocs })));
 
-function LoadingSpinner() {
+function PageSkeleton() {
   return (
-    <div className="min-h-[50vh] flex items-center justify-center">
-      <div className="w-8 h-8 border-4 border-blue-600 border-t-transparent rounded-full animate-spin" />
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <div className="animate-pulse mb-8">
+        <div className="h-4 w-48 bg-gray-200 dark:bg-gray-700 rounded mb-4" />
+        <div className="h-8 w-64 bg-gray-200 dark:bg-gray-700 rounded mb-2" />
+        <div className="h-4 w-96 bg-gray-200 dark:bg-gray-700 rounded" />
+      </div>
+      <CarGridSkeleton count={6} />
     </div>
   );
 }
@@ -43,7 +51,9 @@ function AppContent() {
     clearCompare,
     favorites,
     toggleFavorite,
-  } = useCars();
+    recentCars,
+    addRecent,
+  } = useCars(user);
 
   const {
     showModal,
@@ -60,14 +70,14 @@ function AppContent() {
       <div className="min-h-screen flex items-center justify-center">
         <div className="text-center">
           <div className="w-12 h-12 border-4 border-blue-600 border-t-transparent rounded-full animate-spin mx-auto mb-4" />
-          <p className="text-gray-500">Cargando...</p>
+          <p className="text-gray-500 dark:text-gray-400">Cargando...</p>
         </div>
       </div>
     );
   }
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
       <a href="#main" className="skip-link">Saltar al contenido</a>
       <Navbar />
 
@@ -106,6 +116,8 @@ function AppContent() {
               onToggleFavorite={toggleFavorite}
               onAddToCompare={addToCompare}
               onRemoveFromCompare={removeFromCompare}
+              recentCars={recentCars}
+              onAddRecent={addRecent}
             />
             </>
           }
@@ -113,7 +125,7 @@ function AppContent() {
         <Route
           path="/compare"
           element={
-            <Suspense fallback={<LoadingSpinner />}>
+            <Suspense fallback={<PageSkeleton />}>
               <SEO title="Comparar" description="Compara hasta 3 vehículos lado a lado en el mercado chileno." />
               <Compare
                 compareList={compareList}
@@ -126,7 +138,7 @@ function AppContent() {
         <Route
           path="/favorites"
           element={
-            <Suspense fallback={<LoadingSpinner />}>
+            <Suspense fallback={<PageSkeleton />}>
               <SEO title="Favoritos" description="Tus vehículos favoritos guardados en un solo lugar." />
               <Favorites
                 allCars={allCars}
@@ -142,9 +154,41 @@ function AppContent() {
         <Route
           path="/estadisticas"
           element={
-            <Suspense fallback={<LoadingSpinner />}>
+            <Suspense fallback={<PageSkeleton />}>
               <SEO title="Estadísticas" description="Estadísticas del mercado automotriz chileno." />
               <Estadisticas />
+            </Suspense>
+          }
+        />
+        <Route
+          path="/top10"
+          element={
+            <Suspense fallback={<PageSkeleton />}>
+              <Top10 />
+            </Suspense>
+          }
+        />
+        <Route
+          path="/:docType(privacidad|responsabilidad|terminos)"
+          element={
+            <Suspense fallback={<PageSkeleton />}>
+              <LegalDocs />
+            </Suspense>
+          }
+        />
+        <Route
+          path="*"
+          element={
+            <Suspense fallback={<PageSkeleton />}>
+              <SEO title="Página no encontrada" description="La página que buscas no existe." />
+              <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 text-center">
+                <p className="text-7xl mb-4">🚗</p>
+                <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-2">Página no encontrada</h1>
+                <p className="text-gray-500 dark:text-gray-400 mb-6">La ruta a la que intentaste acceder no existe.</p>
+                <Link to="/" className="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 dark:bg-blue-500 text-white rounded-xl font-medium hover:bg-blue-700 dark:hover:bg-blue-600 transition-colors">
+                  ← Volver al inicio
+                </Link>
+              </div>
             </Suspense>
           }
         />

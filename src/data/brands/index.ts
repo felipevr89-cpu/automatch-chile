@@ -44,6 +44,13 @@ export const transmissions = [...new Set(carsData.map(c => c.transmission))];
 export const tractions = [...new Set(carsData.map(c => c.traction))];
 export const originCountries = [...new Set(carsData.map(c => c.origin_country).filter((c): c is string => !!c))].sort((a, b) => a.localeCompare(b, 'es'));
 
+/** Marcas presentes en el catálogo que no se comercializan como nuevas en Chile */
+export const BRANDS_NOT_SOLD_NEW_IN_CHILE = ['Acura', 'Buick', 'Chrysler', 'GMC', 'Infiniti', 'Lincoln'];
+
+export function isBrandSoldNewInChile(brand: string): boolean {
+  return !BRANDS_NOT_SOLD_NEW_IN_CHILE.includes(brand);
+}
+
 const modelsByBrandMap = new Map<string, string[]>();
 for (const c of carsData) {
   if (!modelsByBrandMap.has(c.brand)) modelsByBrandMap.set(c.brand, []);
